@@ -71,5 +71,9 @@ Se sim, 🔴. Se não, 🟢 ou 🟡 conforme a complexidade.
 🟡 GPT-4 Pro (sem busca)
 🔴 Buscar na web?
 
-→ Minha pergunta:
+```
+
+---
+
+## → Minha pergunta:
 ```
