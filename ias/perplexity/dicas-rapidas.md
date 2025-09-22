@@ -9,21 +9,24 @@
 3. Envie sua pergunta normalmente.
 4. Se ainda aparecer “Fontes: …”, troque de novo para **💡** e **reenvie** (às vezes a primeira mensagem herda o estado anterior).
 
+---
 
 **Dica prática para lembrar:**
 
-> 🟢 = **💡 Laboratórios**
-> 🟡 = **🔍 Buscar** (sem links, peça “sem fontes”)
-> 🔴 = **🔀 Pesquisa** (com busca web)
+- 🟢 = **💡 Laboratórios**
+- 🟡 = **🔍 Buscar** (sem links, peça “sem fontes”)
+- 🔴 = **🔀 Pesquisa** (com busca web)
 
 ---
 
 ## 🎛 Seleção de modo (chips abaixo da caixa)
-- 🟢 **Sem web** → selecione **💡 Laboratórios**
-- 🟡 **Explicar/comparar** → selecione **🔍 Buscar** e peça “sem fontes”
-- 🔴 **Dados atuais (preço/benchmark/BR)** → selecione **🔀 Pesquisa**
+- 🟢 **Sem web** → selecione **Laboratórios** (💡)
+- 🟡 **Explicar/comparar** → selecione **Buscar** (🔍) peça “sem fontes”)
+- 🔴 **Dados atuais (preço/benchmark/BR)** → selecione **Pesquisa** (🔀)
 
-> Se aparecer “Fontes: …” quando você queria 🟢, troque o chip para **💡** e **reenvie**.
+---
+
+- Se aparecer “Fontes: …” quando você queria 🟢, verifique se **Laboratórios (💡)** está ativo e reenvie.
 
 ---
 
