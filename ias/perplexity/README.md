@@ -1,5 +1,5 @@
 # Perplexity — Templates
-# Prompts e utilitários para usar no Perplexity Pro.**
+## Prompts e utilitários para usar no Perplexity Pro.
 
 ---
 
@@ -18,6 +18,8 @@
 
 ## **Dica prática para lembrar:**
 
-> 🟢 = **💡 Laboratórios**
-> 🟡 = **🔍 Buscar** (sem links, peça “sem fontes”)
-> 🔴 = **🔀 Pesquisa** (com busca web)
+- 🟢 = **💡 Laboratórios**
+- 🟡 = **🔍 Buscar** (sem links, peça “sem fontes”)
+- 🔴 = **🔀 Pesquisa** (com busca web)
+
+---
