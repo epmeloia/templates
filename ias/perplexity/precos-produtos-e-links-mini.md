@@ -1,4 +1,4 @@
-# 🛒 Preços de Produtos e Links — Perplexity (Brasil) - Mini
+# 🛒 Preços de Produtos e Links — Perplexity (Brasil) [Mini]
 
 ---
 
