@@ -9,7 +9,7 @@
   [ias/perplexity/classificador-de-complexidade.md](ias/perplexity/classificador-de-complexidade.md)
 
 - **Classificador (Texto Puro – Raw):**  
-  https://raw.githubusercontent.com/epmeloia/templates-perplexity/main/ias/perplexity/classificador-de-complexidade.md
+  https://raw.githubusercontent.com/epmeloia/templates/main/ias/perplexity/classificador-de-complexidade.md
 
 - **Pasta Perplexity:**  
   [ias/perplexity/](ias/perplexity/)
