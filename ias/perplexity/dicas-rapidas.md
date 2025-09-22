@@ -73,9 +73,8 @@ Pergunta: …
 ---
 
 ## 🔗 Atalhos úteis (seu repo)
-- Classificador: `ias/perplexity/classificador-de-complexidade.md`  
-- Raw do classificador:  
-  https://raw.githubusercontent.com/epmeloia/templates/main/ias/perplexity/classificador-de-complexidade.md
+- Classificador: `ias/perplexity/classificador-de-complexidade.md`
+- Raw do classificador: https://raw.githubusercontent.com/epmeloia/templates/main/ias/perplexity/classificador-de-complexidade.md
 - Esta página (dicas): `ias/perplexity/dicas-rapidas.md`
 
 ---
