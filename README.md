@@ -23,8 +23,17 @@
 
 ---
 
-## 🗂 Estrutura atual
+## 🗂 Estrutura Atual:
 
 ![print Perplexity](assets/print-perplexity.png)
 
 ---
+
+## 🗂 Links Rápidos:
+
+- **Dicas Rápidas (página):** [ias/perplexity/dicas-rapidas.md](ias/perplexity/dicas-rapidas.md)
+- **Dicas Rápidas (Raw):** https://raw.githubusercontent.com/epmeloia/templates-perplexity/main/ias/perplexity/dicas-rapidas.md
+- **Preços (mini):** [ias/perplexity/precos-produtos-e-links-mini.md](ias/perplexity/precos-produtos-e-links-mini.md)
+- **Preços (mini – Raw):** https://raw.githubusercontent.com/epmeloia/templates-perplexity/main/ias/perplexity/precos-produtos-e-links-mini.md
+- **Preços (completo):** [ias/perplexity/precos-produtos-e-links-completo.md](ias/perplexity/precos-produtos-e-links-completo.md)
+- **Preços (completo – Raw):** https://raw.githubusercontent.com/epmeloia/templates-perplexity/main/ias/perplexity/precos-produtos-e-links-completo.md
