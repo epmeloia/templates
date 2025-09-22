@@ -1,4 +1,4 @@
-# 🛒 Preços de Produtos e Links — Perplexity (Brasil)
+# 🛒 Preços de Produtos e Links — Perplexity (Brasil) [Completo]
 
 - Use este template quando precisar **pesquisar preços atuais**, **comparar ofertas** e **trazer links**.  
 - Modo recomendado: **🔴 Pesquisa (com web)**.
