@@ -1,6 +1,6 @@
-# 🔍 Show Diff (Preview changes) — o que é e como usar
+# 🔍 Botão Show Diff (Preview changes) — o que é e como usar
 
-O **Show Diff** (ou **Preview changes**) mostra **as diferenças** entre o que você editou e a última versão salva no repositório.
+O **Botão Show Diff** (ou **Preview changes**) mostra **as diferenças** entre o que você editou e a última versão salva no repositório.
 
 - 🟩 **Verde** = linhas **adicionadas**
 - 🟥 **Vermelho** = linhas **removidas**
@@ -18,7 +18,7 @@ O **Show Diff** (ou **Preview changes**) mostra **as diferenças** entre o que v
 ## 🪜 Como acessar no editor do GitHub (arquivo único)
 1. Abra o arquivo → **Edit**  
 2. Faça suas alterações  
-3. Clique em **Preview changes** / **Show Diff**  
+3. Clique em **Preview changes** / **Botão Show Diff**  
 4. Revise as diferenças (verde/vermelho)  
 5. Clique em **Commit changes**
 
@@ -63,4 +63,4 @@ O **Show Diff** (ou **Preview changes**) mostra **as diferenças** entre o que v
 
 ---
 
-> **Resumo:** o **Show Diff** é sua última conferência de segurança. Se o que aparece em **verde/vermelho** está correto, o commit está pronto. 
+> **Resumo:** o **Botão Show Diff** é sua última conferência de segurança. Se o que aparece em **verde/vermelho** está correto, o commit está pronto. 
