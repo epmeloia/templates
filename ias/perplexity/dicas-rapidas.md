@@ -56,7 +56,7 @@ Pergunta: …
 ---
 
 ## ✅ Checklist rápido
-- Precisa de dado novo / preço / benchmark? → 🔴  §
+- Precisa de dado novo / preço / benchmark? → 🔴
 - Não precisa e é direto? → 🟢  
 - Não precisa, mas exige explicação/comparação? → 🟡
 
