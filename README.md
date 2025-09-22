@@ -16,3 +16,5 @@ Repositório para organizar templates de IA.
 3. Cole **antes da sua pergunta** e classifique 🟢/🟡/🔴.
 
 ## 🗂 Estrutura atual
+
+![print Perplexity](assets/print-perplexity.png)
