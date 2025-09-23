@@ -1,9 +1,3 @@
-```
-# ------------------------------------------ #
-#  IA - Conceitos - Preplexity - INSTRUCOES  #
-# ------------------------------------------ #
-```
-
 # Local: **templates/mini-instrucoes/README.md**
 
 
