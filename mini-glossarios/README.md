@@ -11,11 +11,12 @@
 # 📚 Mini-Glossários:
 
 * **Mini-Glossários** = “o que é | para que serve”, todos os conceitos e peças da UI.
-* Pedaços curtos para lembrar **o que é** e **para que serve** (Ex: UI | conceitos | links).
+* **Pedaços curtos** para lembrar **o que é** e **para que serve** (Ex: UI | conceitos | links).
 * **O que entra aqui:** definições rápidas e peças da interface (conceito/“o que é/para que serve”).
 * **Sem espaços, acentos ou maiúsculas** em nomes de pastas/arquivos.
 * **Prefira `kebab-case`** (`perplexity`, `classificador-de-complexidade.md`).
 * **Use uma pasta única para imagens**
+
 * **Ex:**
   ```
   ![print Perplexity](assets/print-perplexity.png)
