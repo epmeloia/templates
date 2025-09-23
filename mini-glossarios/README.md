@@ -6,6 +6,7 @@
 
 # Local: **templates/mini-glossarios/README.md**
 
+
 ---
 
 # 📚 Mini-Glossários:
@@ -37,6 +38,7 @@
 * `info-util-0-i-0-itens-diff.md` — o que é *diff*
 * `info-util-0-p-0-pastas-links-relativos.md` — como funcionam links relativos
 * `info-util-0-l-0-links-raw-githubusercontent.md` — link Raw: quando usar
+
 
 ---
 
@@ -90,6 +92,7 @@
 
 > Dica: pode linkar para arquivos ainda não criados (placeholders) usando o **mesmo padrão de nome** — você cria depois.
 
+
 ---
 
 ## Procurar e Revisar Rápido
@@ -104,48 +107,48 @@
 ## Previa de Arquivos:
 
 - Botões
- * `info-util-0-b-0-botao-add-file.md` *("Upload files")*
- * `info-util-0-b-0-botao-commit-changes.md`
- * `info-util-0-b-0-botao-create-new-file.md`
- * `info-util-0-b-0-botao-delete-this-file.md`
- * `info-util-0-b-0-botao-edit-lapis.md`
- * `info-util-0-b-0-botao-raw.md`
- * `info-util-0-b-0-botao-show-diff.md` *("Preview changes")*
- * `info-util-0-b-0-botao-upload-files.md`
+  *`info-util-0-b-0-botao-add-file.md` *("Upload files")*
+  *`info-util-0-b-0-botao-commit-changes.md`
+  *`info-util-0-b-0-botao-create-new-file.md`
+  *`info-util-0-b-0-botao-delete-this-file.md`
+  *`info-util-0-b-0-botao-edit-lapis.md`
+  *`info-util-0-b-0-botao-raw.md`
+  *`info-util-0-b-0-botao-show-diff.md` *("Preview changes")*
+  *`info-util-0-b-0-botao-upload-files.md`
 
 - Itens / Conceitos
- * `info-util-0-i-0-itens-branch.md`
- * `info-util-0-i-0-itens-commit.md` *("changes")*
- * `info-util-0-i-0-itens-dco-sign-off.md`
- * `info-util-0-i-0-itens-diff.md`
- * `info-util-0-i-0-itens-fork.md`
- * `info-util-0-i-0-itens-in-main`
- * `info-util-0-i-0-itens-pull-request.md`
- * `info-util-0-i-0-itens-redirect-apos-renomear.md` *(redirecionos após renomear repo)*
- * `info-util-0-i-0-itens-repo-about.md` *(“About/Description/Website/Topics”)*
- * `info-util-0-i-0-itens-template-repository.md`
+  * `info-util-0-i-0-itens-branch.md`
+  * `info-util-0-i-0-itens-commit.md` *("changes")*
+  * `info-util-0-i-0-itens-dco-sign-off.md`
+  * `info-util-0-i-0-itens-diff.md`
+  * `info-util-0-i-0-itens-fork.md`
+  * `info-util-0-i-0-itens-in-main`
+  * `info-util-0-i-0-itens-pull-request.md`
+  * `info-util-0-i-0-itens-redirect-apos-renomear.md` *(redirecionos após renomear repo)*
+  * `info-util-0-i-0-itens-repo-about.md` *(“About/Description/Website/Topics”)*
+  * `info-util-0-i-0-itens-template-repository.md`
 
 - Links
- * `info-util-0-l-0-links-atualizar-apos-renomear.md` *(estratégia e impactos)*
- * `info-util-0-l-0-links-blob-main-significado.md` *(o que é `/blob/main/`)*
- * `info-util-0-l-0-links-bookmarklet-converter-raw.md`
- * `info-util-0-l-0-links-busca-no-repositorio.md` *(`repo:<user>/<repo>` | “In this repository”)*
- * `info-util-0-l-0-links-plain-param.md` *(uso do `?plain=1` | texto puro no GitHub)*
- * `info-util-0-l-0-links-raw-githubusercontent.md` *("quando usar")*
- * `info-util-0-l-0-links-raw-vs-blob.md`
- * `info-util-0-l-0-links-relativos.md` *("Links relativos entre pastas")*
+  * `info-util-0-l-0-links-atualizar-apos-renomear.md` *(estratégia e impactos)*
+  * `info-util-0-l-0-links-blob-main-significado.md` *(o que é `/blob/main/`)*
+  * `info-util-0-l-0-links-bookmarklet-converter-raw.md`
+  * `info-util-0-l-0-links-busca-no-repositorio.md` *(`repo:<user>/<repo>` | “In this repository”)*
+  * `info-util-0-l-0-links-plain-param.md` *(uso do `?plain=1` | texto puro no GitHub)*
+  * `info-util-0-l-0-links-raw-githubusercontent.md` *("quando usar")*
+  * `info-util-0-l-0-links-raw-vs-blob.md`
+  * `info-util-0-l-0-links-relativos.md` *("Links relativos entre pastas")*
 
 - Meta
- * `info-util-0-m-0-meta-checklist-commit-diff.md`
- * `info-util-0-m-0-meta-convencoes-nomeacao.md` *(kebab-case, números, sem acentos)*
- * `info-util-0-m-0-meta-estrutura-repositorio-templates.md` *(pastas/índices)*
- * `info-util-0-m-0-meta-links-rapidos-readme.md` *(seção de “Links rápidos”)*
+  * `info-util-0-m-0-meta-checklist-commit-diff.md`
+  * `info-util-0-m-0-meta-convencoes-nomeacao.md` *(kebab-case, números, sem acentos)*
+  * `info-util-0-m-0-meta-estrutura-repositorio-templates.md` *(pastas/índices)*
+  * `info-util-0-m-0-meta-links-rapidos-readme.md` *(seção de “Links rápidos”)*
 
 - Pastas / Estrutura
- * `info-util-0-p-0-pastas-criar.md` *(conceito/organização de pastas)*
- * `info-util-0-p-0-pastas-criar-assets-e-upload.md` *(conceito e porquês)*
- * `info-util-0-p-0-pastas-criar-subpasta-e-readme-indice.md` *(conceito do índice por pasta)*
- * `info-util-0-p-0-pastas-mover-arquivo.md` *(conceito de mover via editar caminho)*
- * `info-util-0-p-0-pastas-renomear-arquivo.md`
+  * `info-util-0-p-0-pastas-criar.md` *(conceito/organização de pastas)*
+  * `info-util-0-p-0-pastas-criar-assets-e-upload.md` *(conceito e porquês)*
+  * `info-util-0-p-0-pastas-criar-subpasta-e-readme-indice.md` *(conceito do índice por pasta)*
+  * `info-util-0-p-0-pastas-mover-arquivo.md` *(conceito de mover via editar caminho)*
+  * `info-util-0-p-0-pastas-renomear-arquivo.md`
 
 ---
