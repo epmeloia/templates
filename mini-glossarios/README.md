@@ -106,7 +106,7 @@
 
 ## Previa de Arquivos:
 
-- Botões
+- Botões:
   *`info-util-0-b-0-botao-add-file.md` *("Upload files")*
   *`info-util-0-b-0-botao-commit-changes.md`
   *`info-util-0-b-0-botao-create-new-file.md`
@@ -116,7 +116,7 @@
   *`info-util-0-b-0-botao-show-diff.md` *("Preview changes")*
   *`info-util-0-b-0-botao-upload-files.md`
 
-- Itens / Conceitos
+- Itens / Conceitos:
   * `info-util-0-i-0-itens-branch.md`
   * `info-util-0-i-0-itens-commit.md` *("changes")*
   * `info-util-0-i-0-itens-dco-sign-off.md`
@@ -128,7 +128,7 @@
   * `info-util-0-i-0-itens-repo-about.md` *(“About/Description/Website/Topics”)*
   * `info-util-0-i-0-itens-template-repository.md`
 
-- Links
+- Links:
   * `info-util-0-l-0-links-atualizar-apos-renomear.md` *(estratégia e impactos)*
   * `info-util-0-l-0-links-blob-main-significado.md` *(o que é `/blob/main/`)*
   * `info-util-0-l-0-links-bookmarklet-converter-raw.md`
@@ -138,13 +138,13 @@
   * `info-util-0-l-0-links-raw-vs-blob.md`
   * `info-util-0-l-0-links-relativos.md` *("Links relativos entre pastas")*
 
-- Meta
+- Meta:
   * `info-util-0-m-0-meta-checklist-commit-diff.md`
   * `info-util-0-m-0-meta-convencoes-nomeacao.md` *(kebab-case, números, sem acentos)*
   * `info-util-0-m-0-meta-estrutura-repositorio-templates.md` *(pastas/índices)*
   * `info-util-0-m-0-meta-links-rapidos-readme.md` *(seção de “Links rápidos”)*
 
-- Pastas / Estrutura
+- Pastas / Estrutura:
   * `info-util-0-p-0-pastas-criar.md` *(conceito/organização de pastas)*
   * `info-util-0-p-0-pastas-criar-assets-e-upload.md` *(conceito e porquês)*
   * `info-util-0-p-0-pastas-criar-subpasta-e-readme-indice.md` *(conceito do índice por pasta)*
