@@ -1,9 +1,3 @@
-```
-# ------------------------------------------ #
-#  IA - Conceitos - Preplexity - GLOSSARIOS  #
-# ------------------------------------------ #
-```
-
 # Local: **templates/mini-glossarios/README.md**
 
 
