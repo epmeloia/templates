@@ -1,11 +1,4 @@
-```
-# ------------------------------------------ #
-#  IA - Conceitos - Preplexity - INSTRUCOES  #
-# ------------------------------------------ #
-```
-
 # Local: **templates/mini-instrucoes/README.md**
-
 
 ---
 
@@ -32,11 +25,11 @@
 
 ### **Exemplos de nomes prontos:**
 
-* `info-util-0-b-0-botao-como-usar-show-diff.md` — usar o botão Show Diff num PR/commit
-* `info-util-0-p-0-pastas-criar-mover-arquivo.md` — criar pasta e mover arquivo no GitHub Web
-* `info-util-0-p-0-pastas-renomear-arquivos.md` — renomear arquivos/paths no GitHub Web
-* `info-util-0-l-0-links-criar-raw-e-permalink.md` — gerar links Raw e “permalink”
-* `info-util-0-l-0-links-cruzar-docs-relativos.md` — cruzar docs via links relativos
+* `botao-como-usar-show-diff.md` — usar o botão Show Diff num PR/commit
+* `pastas-criar-mover-arquivo.md` — criar pasta e mover arquivo no GitHub Web
+* `pastas-renomear-arquivos.md` — renomear arquivos/paths no GitHub Web
+* `links-criar-raw-e-permalink.md` — gerar links Raw e “permalink”
+* `links-cruzar-docs-relativos.md` — cruzar docs via links relativos
 
 
 ---
@@ -52,34 +45,34 @@
 
 ## Previa de Arquivos:
 
-* `info-util-0-b-0-botao-add-file.md`
-* `info-util-0-b-0-botao-commit-changes.md`
-* `info-util-0-b-0-botao-create-new-file.md`
-* `info-util-0-b-0-botao-delete-this-file.md`
-* `info-util-0-b-0-botao-edit-lapis.md`
-* `info-util-0-b-0-botao-raw.md`
-* `info-util-0-b-0-botao-show-diff.md`
-* `info-util-0-b-0-botao-upload-files.md`
-* `info-util-0-i-0-itens-branch-e-abrir-pr.md`
-* `info-util-0-i-0-itens-dco-sign-off.md`
-* `info-util-0-i-0-itens-excluir-repositorio.md` *(Danger Zone)*
-* `info-util-0-i-0-itens-fixar-repo-no-perfil.md` *(Pinned repos)*
-* `info-util-0-i-0-itens-preencher-about-topics.md` *(Description/Website/Topics)*
-* `info-util-0-i-0-itens-renomear-repositorio.md`
-* `info-util-0-i-0-itens-template-repository.md`
-* `info-util-0-l-0-links-atualizar-apos-renomear.md`
-* `info-util-0-l-0-links-bookmarklet-raw.md`
-* `info-util-0-l-0-links-buscar-no-repo-e-filtrar.md`
-* `info-util-0-l-0-links-cruzar-docs-relativos.md` *(cruzar docs via links relativos)*
-* `info-util-0-l-0-links-inks-relativos.md`
-* `info-util-0-l-0-links-plain-param.md`
-* `info-util-0-l-0-links-raw-e-permalink.md`
-* `info-util-0-m-0-meta-checklist-commit-mensagem.md`
-* `info-util-0-m-0-meta-checklist-pr-antes-do-merge.md`
-* `info-util-0-p-0-pastas-assets-e-inserir-imagem-readme.md`
-* `info-util-0-p-0-pastas-mover-arquivo.md`
-* `info-util-0-p-0-pastas-renomear-arquivos.md`
-* `info-util-0-p-0-pastas-subpasta-e-readme-indice.md`
+* `botao-add-file.md`
+* `botao-commit-changes.md`
+* `botao-create-new-file.md`
+* `botao-delete-this-file.md`
+* `botao-edit-lapis.md`
+* `botao-raw.md`
+* `botao-show-diff.md`
+* `botao-upload-files.md`
+* `itens-branch-e-abrir-pr.md`
+* `itens-dco-sign-off.md`
+* `itens-excluir-repositorio.md` *(Danger Zone)*
+* `itens-fixar-repo-no-perfil.md` *(Pinned repos)*
+* `itens-preencher-about-topics.md` *(Description/Website/Topics)*
+* `itens-renomear-repositorio.md`
+* `itens-template-repository.md`
+* `links-atualizar-apos-renomear.md`
+* `links-bookmarklet-raw.md`
+* `links-buscar-no-repo-e-filtrar.md`
+* `links-cruzar-docs-relativos.md` *(cruzar docs via links relativos)*
+* `links-inks-relativos.md`
+* `links-plain-param.md`
+* `links-raw-e-permalink.md`
+* `meta-checklist-commit-mensagem.md`
+* `meta-checklist-pr-antes-do-merge.md`
+* `pastas-assets-e-inserir-imagem-readme.md`
+* `pastas-mover-arquivo.md`
+* `pastas-renomear-arquivos.md`
+* `pastas-subpasta-e-readme-indice.md`
 
 
 ---
