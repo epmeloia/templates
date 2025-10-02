@@ -1,6 +1,13 @@
 # Flashcards para Perplexity.md
 
-## Exemplos de flashcards baseados nos termos e conceitos anteriores, prontos para você estudar ou implementar no seu app:
+***
+
+## **"flashcards", como usar:**
+- Flashcards são cartões de estudo com perguntas de um lado e respostas do outro. Podem ser usados para revisão rápida: o app mostra a pergunta e, ao clicar, revela a resposta, ajudando a fixar conteúdos.
+
+***
+
+### Exemplos de flashcards baseados nos termos e conceitos anteriores, prontos para você estudar ou implementar no seu app:
 
 ***
 
