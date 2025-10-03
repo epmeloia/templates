@@ -1,26 +1,31 @@
 # Breve Descrição do APP:
-  - APP: Sua Função é de Registro de Textos e Imagens
-  - APP: Será uma aplicação WEB.
-  - APP: SEMPRE que é aerto, o Banco de Dados está em sem dados, neste momento as configuraçòes são sempre a PADRÃO.
 
-  - Banco de Dados: Guardado em  Drive Virtual, para ser disponibilizado em qualquer plataforma.
-  - Banco de Dados: Botão para Abrir Banco de Dados, ao ser carregado, são atualizados todos as informaçãoes de Pastas (janela da Esquerda) e Descricão (Janela da Esquerda), e tambem todos os padrões: Fonte, Tamanho da Fonte, Tema.
-  - Banco de Dados: Botão para Salvar Banco de Dados, guarda todos os dados digitados no APP até o momento, como tambem o Padrão que está em uso no APP, de Fonte/Tamanho/Tema.
+## APP:
+- Sua Função é de Registro de Textos e Imagens
+- Será uma aplicação WEB.
+- Quando o APP é aberto, seu Banco de Dados está em sem dados em branco, neste momento o sistema está em estado de inicio, todas as suas configurações são as do PADRÃO.
 
-  - Configurações Padrão:
-    > Abertura do APP o Banco de Dados não tem dados, está em branco;
-	> Fonte Lucida Console;
-	> Tamanho da Fonte 14px;
-	> Cor da Fonte Preta;
-	> Alinhamento Esquerdo;
-	> Fundo do local do texto em Branco;
-	> Tema Claro;
-	> Tecla "ENTER" é usada sempre que se quer "Confirmar" a Ação no ComboBox;
-	> Tecla "ENTER" do Teclado Numérico é usada sempre que se quer "Confirmar" a Ação no ComboBox;
-	> Tecla "ESC" é usada Sempre para "Cancelar" a Ação no ComboBox;
-	> No Popup de Criação de Pasta Tipo "Raiz" o cursor do teclado deve estar na primeira posição do Campo;
-	> No Popup de Criação de Pasta Tipo "SubPasta" o cursor do teclado deve estar na primeira posição do Campo;
-	> 
+## Banco de Dados:
+- Será Armazenado em  Drive Virtual, para compartilhamento entre Plataformas.
+- Banco de Dados: Botão para Abrir Banco de Dados, ao ser carregado, são atualizados todos as informaçãoes de Pastas (janela da Esquerda) e Descricão (Janela da Esquerda), e tambem todos os padrões: Fonte, Tamanho da Fonte, Tema.
+- Banco de Dados: Botão para Salvar Banco de Dados, guarda todos os dados digitados no APP até o momento, como tambem o Padrão que está em uso no APP, de Fonte/Tamanho/Tema.
+
+## Configurações PADRÃO:
+- Abertura do APP o Banco de Dados não tem dados, está em branco;
+- Fonte da Área de Descrição é Lucida Console;
+- Tamanho da Fonte da Área de Descrição 14px;
+- Cor da Fonte da Área de Descrição Preta (para Tema Claro);
+- Cor da Fonte da Área de Descrição Preta (para Tema Escuro);
+- Alinhamento da Área de Descrição Esquerdo;
+- Fundo da Área de Descrição em Branco (para Tema Claro);
+- Fundo da Área de Descrição em Preto (para Tema Escuro);
+- Tema Claro do Sistema;
+- Tecla "ENTER" é usada sempre que se quer "Confirmar" a Ação no ComboBox;
+- Tecla "ENTER" do Teclado Numérico é usada sempre que se quer "Confirmar" a Ação no ComboBox;
+- Tecla "ESC" é usada Sempre para "Cancelar" a Ação no ComboBox;
+- No Popup de Criação de Pasta Tipo "Raiz" o cursor do teclado deve estar na primeira posição do Campo;
+- No Popup de Criação de Pasta Tipo "SubPasta" o cursor do teclado deve estar na primeira posição do Campo;
+- 
 	
 
   - Texto > Fonte: Padrao Inicial "Lucida Consele".
@@ -70,4 +75,3 @@ vou desenvolver um app web, para controle de XXXXXXXXXXXXXXX, ele utiliza de um 
 ##----------####----------##
 ##----------####----------##
 ##----------####----------##
-
