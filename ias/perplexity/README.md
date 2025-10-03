@@ -16,7 +16,7 @@ https://www.perplexity.ai
 ---
 ## **Barra da Página Inicial:**
 
-![Estrutura Inicial Prevista para a Pasta IA](../../assets/pagina-inicial-grok.png)
+![Barra da Página Inicial](../../assets/pagina-inicial-perplexity.png)
 
 ---
 ## Como usar
