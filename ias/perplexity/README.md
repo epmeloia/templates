@@ -14,10 +14,7 @@ https://www.perplexity.ai
 
 ---
 
-![Estrutura Inicial Prevista para a Pasta IA](../../assets/grok-pagina-inicial.png)
-
-
-
+![Estrutura Inicial Prevista para a Pasta IA](../../assets/pagina-inicial-perplexity.png)
 
 ---
 
