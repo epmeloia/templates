@@ -16,6 +16,6 @@ https://www.chatgpt.com
 ---
 ## **Barra da Página Inicial:**
 
-![Barra da Página Inicial](../../assets/pagina-inicial-grok.png)
+![Barra da Página Inicial](../../assets/pagina-inicial-chatgpt.png)
 
 ---
