@@ -14,7 +14,7 @@
 
 * **Ex:**
   ```
-  ![print Perplexity](assets/print-perplexity.png)
+  ![print Perplexity](assets/ia-estrutura-prevista.png)
   
   Explicando Linha de Comando:
   * "!" = Sempre no Inicio.
