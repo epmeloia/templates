@@ -3,6 +3,24 @@
 
 ---
 
+# Barra da Página Inicial
+
+---
+
+## Site
+'''
+https://grok.com/
+'''
+
+---
+
+![Estrutura Inicial Prevista para a Pasta IA](../../assets/grok-pagina-inicial.png)
+
+
+
+
+---
+
 ## Como usar
 1) Abra o template desejado.
 2) Clique em **Raw** para copiar o texto puro.
