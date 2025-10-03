@@ -1,23 +1,24 @@
-# Perplexity — Templates
-## Prompts e utilitários para usar no Perplexity Pro.
+# **PERPLEXITY — Prompts e Utilitários**
 
 ---
 
-# Barra da Página Inicial
-
----
-
-## Site
+## **Site:**
 '''
 https://www.perplexity.ai
 '''
 
 ---
-
-![Pagina Inicial do Perplexity AI](../../assets/pagina-inicial-perplexity.png)
+## **Como Usar:**
+1) Abra o template desejado.
+2) Clique em **Raw** para copiar o texto puro.
+3) Cole na IA na **Barra da Página Inicial**.
 
 ---
+## **Barra da Página Inicial:**
 
+![Estrutura Inicial Prevista para a Pasta IA](../../assets/pagina-inicial-grok.png)
+
+---
 ## Como usar
 1) Abra o template desejado.
 2) Clique em **Raw** para copiar o texto puro.
