@@ -2,27 +2,37 @@
 
 ## Como Implementar no Seu Prompt
 
-Para implementar as otimizações que mencionei, você pode adicionar estas instruções específicas ao seu prompt:
+- Para implementar as otimizações que mencionei, você pode adicionar estas instruções específicas ao seu prompt:
+
+---
 
 ### **Para Limitar Requisições e Usar Debounce:**
+---
 ```
 "Implemente debounce de 500ms em buscas, aguarde o usuário parar de digitar antes de executar. Use throttle de 2 segundos entre execuções de workflows. Limite sugestões de IA a 1 por minuto por usuário."
 ```
+---
 
 ### **Para Priorizar Operações Locais:**
+---
 ```
 "Sempre verificar cache local primeiro antes de fazer requisições externas. Processar dados simples no frontend quando possível. Usar indexação local para buscas rápidas em dados já carregados."
 ```
+---
 
 ### **Para Avisar sobre Consumo de Créditos:**
+---
 ```
 "Exibir notificação 'Esta ação consumirá X créditos' antes de executar operações pagas. Mostrar saldo atual de créditos na interface. Bloquear ações quando saldo insuficiente."
 ```
+---
 
 ### **Para Implementar Feedback de Carregamento:**
+---
 ```
 "Mostrar spinner e mensagem 'Processando...' imediatamente ao clicar. Exibir barra de progresso para operações longas. Permitir cancelamento de operações em andamento. Nunca deixar interface sem resposta."
 ```
+---
 
 ## Detalhes Técnicos de Otimização
 
