@@ -1,4 +1,4 @@
-# Barra Inicial
+# Barra da Página Inicial
 
 ---
 
