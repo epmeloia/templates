@@ -1,6 +1,5 @@
-# Prompt para Otimização de Recursos, Créditos e Recomendações Dinâmicas de Ícones - V2a
-
-## Como Implementar no Seu Prompt
+# Como Usar - Otimizar Recursos - Créditos - Recomendação Dinâmica do Ícones - V1:
+"como-usar-otimizar-recursos-creditos-recomendacao-dinamica-icone-v1.md"
 
 - Para implementar as otimizações que mencionei, você pode adicionar estas instruções específicas ao seu prompt:
 
