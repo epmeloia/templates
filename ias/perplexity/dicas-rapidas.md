@@ -1,5 +1,5 @@
-# 📓 Dicas Rápidas — Perplexity (🟢/🟡/🔴)
-
+# 📓 Dicas Rápidas — (🟢/🟡/🔴)
+"dicas-rapidas-farol.md"
 ---
 
 ## **Passos Rápidos (toda vez que quiser 🟢):**
