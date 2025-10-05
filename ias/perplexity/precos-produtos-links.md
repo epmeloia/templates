@@ -1,4 +1,5 @@
-# 🛒 Preços de Produtos e Links — Perplexity (Brasil) [Mini]
+# 🛒 Preços de Produtos e Links:
+"precos-produtos-links.md"
 
 ---
 
