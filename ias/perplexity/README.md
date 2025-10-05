@@ -1,4 +1,6 @@
 # **PERPLEXITY — Prompts e Utilitários**
+"README.md"
+
 
 ---
 
