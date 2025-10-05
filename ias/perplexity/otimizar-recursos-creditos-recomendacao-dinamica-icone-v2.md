@@ -1,4 +1,5 @@
-# Prompt para Otimização de Recursos, Créditos e Recomendações Dinâmicas de Ícones - V2
+# Otimizar Recursos - Créditos - Recomendação Dinâmica do Ícones - V2
+"otimizar-recursos-creditos-recomendacao-dinamica-icone-v2.md"
 
 **Como utilizar:**  
   - Edite seu sistema/conversa para incluir o bloco do **"Prompt"** após as demais regras do prompt. Ao longo da interação, o assistente sempre sugerirá o ícone que mais economiza recursos, justificando cada escolha e dando transparência para o uso racional dos créditos em tempo real.
