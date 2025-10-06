@@ -1,5 +1,5 @@
-# **Pasta de Polimento e Tipo de Roloaplicador Indicado - v1:**
-"pasta-polimento-tipo-roloaplicador-indicado-v1.md"
+# **Pasta de Polimento e Tipo de Roloaplicador Indicado - Parte 01:**
+"pasta-polimento-tipo-roloaplicador-indicado-parte-01.md"
 
 ***
 ## **1. Escolha do rolo/disco aplicador:**
