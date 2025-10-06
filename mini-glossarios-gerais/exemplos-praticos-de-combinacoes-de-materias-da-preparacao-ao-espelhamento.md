@@ -13,4 +13,10 @@
 - Acrílico/Resina/Vidro: Branca (Feltro) → Azul (Flanela) → Verde Cromo (Feltro/Pele Carneiro)
 - Pintura Automotiva: Lustro Líquido ou Pasta Azul (Pele Carneiro ou Flanela)
 
- ### Exemplos Práticos de Combinações de Materiais da Preparação ao Espelhamento ([Exemplos Práticos de Combinações de Materiais da Preparação ao Espelhamento](https://github.com/epmeloia/templates/new/main/mini-glossarios#exemplos-praticos-de-combinacoes-de-material-da-preparacao-ao-espelhamento.md))
+***
+
+### Guia Rápido de Polimento – Consulta por Material
+
+Consulte todas as sequências, tipos de massa, escovas e exemplos práticos neste guia:
+
+[Guia Rápido de Polimento – Consulta por Material](https://github.com/epmeloia/templates/blob/main/mini-glossarios-gerais/guia-rapido-polimento-consulta-por-material.md)
