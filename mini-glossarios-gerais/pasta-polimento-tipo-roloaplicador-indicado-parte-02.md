@@ -1,6 +1,9 @@
-# Exemplos Práticos de Combinações de Materiais da Preparação ao Espelhamento:
+# **Pasta de Polimento e Tipo de Roloaplicador Indicado - Parte 02:**
+"pasta-polimento-tipo-roloaplicador-indicado-parte-02.md"
 
-"exemplos-praticos-de-combinacoes-de-materias-da-preparacao-ao-espelhamento.md"
+***
+
+## Exemplos Práticos de Combinações de Materiais da Preparação ao Espelhamento:
 
 ***
 
