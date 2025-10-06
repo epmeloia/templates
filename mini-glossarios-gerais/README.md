@@ -25,61 +25,13 @@
 
 ## **Exemplos de nomes prontos:**
 
-* `info-util-0-p-0-pastas-links-relativos.md` — como funcionam links relativos
-
-
----
-
-## **Categorias**
-
-### 👁️ Botão (b)
-- `b` = **botao** (UI do GitHub)
-- [botao-show-diff.md](./botao-show-diff.md) — Show Diff / Preview changes
-- *(adicione aqui novos botões seguindo o padrão acima)*
-
-### 🧩 Itens (i)
-- `i` = **itens** (conceitos: commit, diff, etc.)
-- *(placeholder — crie quando precisar, ex.: `itens-diff.md`)*
-
-### 🗂️ Pastas (p)
-- `p` = **pastas** (estrutura e caminhos)
-- *(placeholder — ex.: `pastas-links-relativos.md`)*
-
-### 🔗 Links (l)
-- `l` = **links** (Raw, permalink, anchors…)
-- *(placeholder — ex.: `links-raw-githubusercontent.md`)*
-
-### 🧭 Meta (m)
-- `m` = **meta** (índices, convenções)
-- *(placeholder — ex.: `info-util-0-m-0-meta-convencoes.md`)*
-
+* `guia-rapido-polimento.md` — como escolher entre os vários tivos de polimento massa e discos de polimento
 
 ---
 
-## Como adicionar um novo item (ultrarrápido)
-
-1. **Nomeie**: `<categoria>-<assunto>.md`  
-   ex.: `links-raw-githubusercontent.md`
-2. **Crie o arquivo** nesta pasta e preencha com o cabeçalho:
-
-   # 🟩 <Categoria> — <Assunto> 〔Glossário〕
-   **Categoria:** <categoria> • **Código:** <n>
-
-   ## O que é
-   (2–3 linhas)
-
-   ## Para que serve
-   - ponto 1
-   - ponto 2
-
-   ## Ver também
-   - ➡️ *Instrução:* ../mini-instrucoes/<arquivo-relacionado>.md
-
-
-3. **Linke aqui** no índice, na seção da categoria.
+**Linke aqui** no índice, na seção da categoria.
 
 > Dica: pode linkar para arquivos ainda não criados (placeholders) usando o **mesmo padrão de nome** — você cria depois.
-
 
 ---
 
