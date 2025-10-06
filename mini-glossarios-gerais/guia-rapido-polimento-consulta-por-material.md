@@ -33,7 +33,8 @@
 
 ***
 
-### Exemplos Práticos de Combinações de Materiais da Preparação ao Espelhamento ([Exemplos Práticos de Combinações de Materiais da Preparação ao Espelhamento](https://github.com/epmeloia/templates/new/main/mini-glossarios#exemplos-praticos-de-combinacoes-de-material-da-preparacao-ao-espelhamento.md))
+### Exemplos Práticos de Combinações de Materiais da Preparação ao Espelhamento:
+ ([Exemplos Práticos de Combinações de Materiais da Preparação ao Espelhamento](https://github.com/epmeloia/templates/new/main/mini-glossarios-gerais#exemplos-praticos-de-combinacoes-de-materias-da-preparacao-ao-espelhamento.md))
 
 ***
 
