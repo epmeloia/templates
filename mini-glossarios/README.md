@@ -1,5 +1,6 @@
 # Local: **templates/mini-glossarios/README.md**
 
+"README.md"
 
 ---
 
