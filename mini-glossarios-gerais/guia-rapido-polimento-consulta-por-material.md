@@ -1,6 +1,8 @@
 # Guia Rápido de Polimento – Consulta por Material:
 "guia-rapido-polimento-consulta-por-material.md"
 
+***
+
 | Materiais Indicados | Massa de Polir     | Tipo de Escova/Disco          | Indicação de Uso                   | Etapa/Recomendação                        |
 |--------------------|--------------------|-------------------------------|-------------------------------------|-------------------------------------------|
 | **Acrílico/Resina/Vidro**   | Branca             | Algodão costurado, feltro      | Polimento fino/intermediário        | Remove marcas, prepara para brilho        |
@@ -31,14 +33,7 @@
 
 ***
 
-## Exemplos práticos de combinações ([Exemplos práticos de combinações](https://github.com/epmeloia/templates/new/main/mini-glossarios#exemplos-pr%C3%A1ticos-de-combina%C3%A7%C3%B5es))
-
-- Inox/Alumínio: Marrom (Sisal) → Branca (Algodão) → Azul (Flanela) → Verde Cromo (Feltro)
-- Latão/Cobre: Marrom (Sisal) → Branca (Algodão) → Azul (Flanela) → Verde Cromo (Feltro)
-- Ouro/Prata/Bijuteria: Branca (Algodão) → Verde Cromo (Flanela) → Rouge (Strop Couro)
-- Fio de Lâmina: Branca (Algodão) → Verde Cromo (Strop Couro)
-- Acrílico/Resina/Vidro: Branca (Feltro) → Azul (Flanela) → Verde Cromo (Feltro/Pele Carneiro)
-- Pintura Automotiva: Lustro Líquido ou Pasta Azul (Pele Carneiro ou Flanela)
+### Exemplos Práticos de Combinações de Materiais da Preparação ao Espelhamento ([Exemplos Práticos de Combinações de Materiais da Preparação ao Espelhamento](https://github.com/epmeloia/templates/new/main/mini-glossarios#exemplos-praticos-de-combinacoes-de-material-da-preparacao-ao-espelhamento.md))
 
 ***
 
