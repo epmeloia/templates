@@ -58,7 +58,7 @@ Quando eu enviar links ou imagens de anúncios Shopee, analise e responda seguin
 
 ***
 
-## **Orientações para envio:**
+## **Orientações rápidas para envio:**
 - **Ícone recomendado sempre: 🔍 (Busca Local), para máxima economia!**
 - Envie os links dos anúncios Shopee desejados (pode ser mais de um).
 - Inclua imagens quando quiser validar informações visuais ou aproximar por detalhes técnicos.
@@ -66,8 +66,84 @@ Quando eu enviar links ou imagens de anúncios Shopee, analise e responda seguin
 
 ***
 
-## **Quando quiser melhorar o prompt com análise de comentários**, apenas avise, e será incluído o resumo dos principais comentários com data/hora.
+## Por quê essa forma é a mais **Eficiente** e utiliza as **Melhor prática:**  
+- **Links todos juntos + prompt claro + filtro específico se necessário + tudo em uma única mensagem.**
+- Isso faz com que o fluxo seja direto, rápido e comparativo, sem dispersão nem repetição.
+- Permite processamento em lote, com análise paralela dos campos de cada produto.
+- Evita necessidade de voltar em etapas ou refazer pedidos.
+- Mantém as respostas organizadas, facilitando para você comparar os resultados rapidamente.
+- Qualquer ajuste basta responder em seguida (“filtre só as Couro” ou “exclua avaliações abaixo de 4.5”).
 
 ***
 
+## **2 Exemplos de **Passo a Passo** para envio de múltiplos produtos para análise rápida e comparativa**
 
+***
+
+### **Exemplo 1**
+
+1. **Liste os links dos produtos**
+   - Copie e cole todos os links dos anúncios Shopee (ex: pulseiras para relógio Watch) em sequência, cada um na sua linha.
+   - Exemplos:
+     ```
+     https://shopee.com.br/produto1
+     https://shopee.com.br/produto2
+     https://shopee.com.br/produto3
+     ...
+     ```
+   - Se preferir, pode preceder cada link com nome resumido ou característica (“Pulseira Nylon”, “Pulseira Couro”, etc.), mas não é obrigatório.
+
+2. **Logo após os links, envie o prompt modelo**
+   - Cole ou digite o prompt sugerido anteriormente.
+   - Isso ativa o fluxo para eu seguir exatamente cada campo de análise e comparar os itens.
+
+3. **Precisa priorizar características específicas?**
+   - Informe no pedido se quer filtrar por cor, material, localidade do vendedor, disponibilidade de frete grátis, ou qualquer outra característica (ex: “só de São Paulo”).
+   - Isso pode ser incluído junto à lista dos links ou como instrução adicional logo após.
+
+4. **(Opcional) Anexe imagens/telas dos produtos**
+   - Se a página ou produto tem uma característica visual importante, envie imagem de tela.
+   - Ajuda a identificar padrões, etiquetas (“Indicado”, “Oficial”) e detalhes que às vezes não aparecem só pelo texto.
+
+5. **Envie tudo em uma única mensagem**
+   - Links na sequência
+   - Prompt logo após
+   - (Opcional) imagens e instruções específicas
+
+***
+
+**Exemplo:**
+```
+https://shopee.com.br/pulseira1
+https://shopee.com.br/pulseira2
+https://shopee.com.br/pulseira3
+
+[Prompt conforme modelo sugerido]
+
+Quero comparar apenas os que enviam de São Paulo e que sejam pulseira original Watch.
+```
+
+***
+
+### **Exemplo 2**
+
+1. **Liste os links dos produtos**
+
+```
+https://shopee.com.br/produto1
+https://shopee.com.br/produto2
+https://shopee.com.br/produto3
+https://shopee.com.br/produto4
+https://shopee.com.br/produto5
+
+[Prompt conforme modelo ou comandos adicionais]
+
+Quero que compare apenas pulseiras originais e que estejam com frete grátis para São Paulo.
+```
+
+***
+***
+
+## **Quando quiser melhorar o prompt com análise de comentários**, apenas avise, e será incluído o resumo dos principais comentários com data/hora.
+
+***
