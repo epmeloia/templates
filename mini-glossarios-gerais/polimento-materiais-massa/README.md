@@ -65,3 +65,16 @@
 
 [Pasta de Polimento e Tipo de Roloaplicador Indicado - Parte 11: Consulta por Material](https://github.com/epmeloia/templates/blob/main/mini-glossarios-gerais/polimento-materiais-massa/pasta-polimento-tipo-roloaplicador-indicado-parte-11.md)
 
+
+[Pasta de Polimento e Tipo de Roloaplicador Indicado - Parte 11: Consulta por Material](https://github.com/epmeloia/templates/blob/main/mini-glossarios-gerais/polimento-materiais-massa/pasta-polimento-tipo-roloaplicador-indicado-parte-11.md#pasta-de-polimento-e-tipo-de-roloaplicador-indicado---parte-11)
+
+
+
+[Pasta de Polimento e Tipo de Roloaplicador Indicado - Parte 11: Consulta por Material](https://github.com/epmeloia/templates/blob/main/mini-glossarios-gerais/polimento-materiais-massa/pasta-polimento-tipo-roloaplicador-indicado-parte-11.md#exemplos-de-sequ%C3%AAncia-de-polimento-do-mais-agressivo-ao-espelhamento)
+
+
+
+[Pasta de Polimento e Tipo de Roloaplicador Indicado - Parte 11: Consulta por Material](https://github.com/epmeloia/templates/blob/main/mini-glossarios-gerais/polimento-materiais-massa/pasta-polimento-tipo-roloaplicador-indicado-parte-11.md#dicas-r%C3%A1pidas---aplica%C3%A7%C3%A3o)
+
+
+
