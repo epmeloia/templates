@@ -61,7 +61,7 @@
 
 ### Exemplos Práticos de Combinações de Materiais da Preparação ao Espelhamento:
 
-Consulte todas as tabelas e sequências práticas neste link:
-[Exemplos Práticos de Combinações de Materiais da Preparação ao Espelhamento](https://github.com/epmeloia/templates/blob/main/mini-glossarios-gerais/exemplos-praticos-de-combinacoes-de-materias-da-preparacao-ao-espelhamento.md)
+[Pasta de Polimento e Tipo de Roloaplicador Indicado - Parte 01:](https://github.com/epmeloia/templates/blob/main/mini-glossarios-gerais/polimento-materiais-massa/pasta-polimento-tipo-roloaplicador-indicado-parte-01.md)
 
-[Exemplos Práticos de Combinações de Materiais da Preparação ao Espelhamento 2](https://github.com/epmeloia/templates/blob/main/mini-glossarios-gerais/polimento-materiais-massa/pasta-polimento-tipo-roloaplicador-indicado-parte-01.md)
+[Pasta de Polimento e Tipo de Roloaplicador Indicado - Parte 11:](https://github.com/epmeloia/templates/blob/main/mini-glossarios-gerais/polimento-materiais-massa/pasta-polimento-tipo-roloaplicador-indicado-parte-11.md)
+
