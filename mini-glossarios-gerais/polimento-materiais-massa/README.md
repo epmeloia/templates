@@ -32,6 +32,32 @@
 | **Pintura Automotiva/Verniz** | (Após polimento abrasivo) Lustro Líquido/Pasta Azul | Pele carneiro, flanela, boina | Espelhamento final                  | Brilho profundo, efeito espelho           |
 
 ***
+## Exemplos de Sequência de Polimento (Do Mais Agressivo ao Espelhamento):
+
+   - **Inox/Alumínio:** Marrom (Sisal) → Branca (Algodão) → Azul (Flanela) → Verde Cromo (Feltro)
+   - **Latão/Cobre:** Marrom (Sisal) → Branca (Algodão) → Azul (Flanela) → Verde Cromo (Feltro)
+   - **Ouro/Prata/Bijuteria:** Branca (Algodão) → Verde Cromo (Flanela) → Rouge (Strop Couro)
+   - **Fio de Lâmina:** Branca (Algodão) → Verde Cromo (Strop Couro)
+   - **Acrílico/Resina/Vidro:** Branca (Feltro) → Azul (Flanela) → Verde Cromo (Feltro/Pele Carneiro)
+   - **Pintura Automotiva:** Massa líquida de lustro ou Pasta Azul (Pele de Carneiro [boina/disco] ou Flanela)
+
+***
+
+## **Dicas Rápidas - Aplicação:**
+> - **Pintura automotiva:**  
+  Pele de carneiro aplicada com massa líquida para espelhar trincos, capô e superfícies já polidas e enceradas.
+> - **Polimento de joias/talheres:**  
+  Pele de carneiro + pasta azul/rouge, leve pressão, última etapa para alto brilho sem risco.
+> - **Vidros/acrílicos:**  
+  Usada em micro retífica ou politriz, limpa e elimina micro riscos, trazendo transparência máxima.
+> - **Madeira:**  
+  Lustro com pele de carneiro após verniz, realça brilho e suavidade.
+> - **Siga sempre a ordem:** abrasivo mais forte → mais fino.
+> - **Sempre comece do abrasivo mais forte (preta/marrom) para o mais fino (verde/rouge/carneiro).**
+> - **Escovas/rodas de sisal e brim:** desbaste inicial. Algodão costurado/feltro: polimento intermediário. Algodão macio/flanela/carneiro: etapas finais/lustro.
+> - **Ajuste pressão e velocidade para cada material e tipo de disco.**
+
+***
 
 ### Exemplos Práticos de Combinações de Materiais da Preparação ao Espelhamento:
 
@@ -39,10 +65,4 @@ Consulte todas as tabelas e sequências práticas neste link:
 
 [Exemplos Práticos de Combinações de Materiais da Preparação ao Espelhamento](https://github.com/epmeloia/templates/blob/main/mini-glossarios-gerais/exemplos-praticos-de-combinacoes-de-materias-da-preparacao-ao-espelhamento.md)
 
-
 ***
-
-> **Dicas rápidas:**
-> - Siga sempre a ordem: abrasivo mais forte → mais fino.
-> - Escovas de sisal/brim: desbaste inicial. Algodão costurado/feltro: polimento intermediário.
-> - Flanela, algodão macio e pele de carneiro: etapas finais.
