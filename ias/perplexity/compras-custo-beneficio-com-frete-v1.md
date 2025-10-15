@@ -1,5 +1,18 @@
-# **Prompt: Sistema de Compra com Análise de Custo-Benefício – Perplexity**
-"compras-custo-beneficio-com-frete-v1.md"
+# 🧠 Compras com Análise de Custo Benefício Incluindo Frete
+"compras-analise-custo-beneficio-incluindo-frete-v1.md"
+
+---
+````
+Classifique esta pergunta entre três níveis de complexidade:
+[complexidade=baixa] [complexidade=média] [complexidade=alta]
+Baseie-se em: necessidade de dados atualizados, presença de nomes específicos, benchmarking ou comparação de produtos.
+```
+
+---
+# 🧠 Classificador de Complexidade:
+
+
+
 
 ***
 
@@ -77,6 +90,4 @@
 > “Com base na sua solicitação, o sistema recomenda ativar o ícone 🔍 (Busca Local), por ser possível atender sem consumo externo de créditos. Caso não resolva, ative 🔗 (Workflow) e considere 💡 (IA) apenas se necessário.”
 
 ***
-
-**Resumo**:  
-Este prompt adaptado para uso no Perplexity viabiliza controle rigoroso de recursos, priorização local, monitoramento transparente de créditos, UX responsiva e decisões contextuais de custo-benefício, sempre guiando o usuário para a solução de menor custo e maior eficiência.
+````
