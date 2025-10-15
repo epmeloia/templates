@@ -1,4 +1,5 @@
-## Prompt para Análise Inteligente de Compras no Perplexity
+# **🛒 Análise de Preços com Custo Beneficio Automática**
+"analise-precos-com-custo-beneficio-automatica-v3.md"
 
 **Título:**  
 Análise Automática de Custo-Benefício para Compras Online (Shopee, Mercado Livre, Amazon, etc.)
