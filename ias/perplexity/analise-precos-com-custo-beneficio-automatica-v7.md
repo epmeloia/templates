@@ -1,9 +1,7 @@
-# **Análise Avançada de Preços e Frete**
-"compras-custo-beneficio-com-frete-v7.md"
+# **🛒 Análise de Preços com Custo Beneficio Automática**
+"analise-precos-com-custo-beneficio-automatica-v7.md"
 
 ***
-
-
 
 **Objetivo:**  
 Sistema automático para análise de custo-benefício em compras online, com análise de preços, frete, quantidades, governança e economia de recursos IA, modelo prático e didático para uso no Brasil.
