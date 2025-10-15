@@ -1,5 +1,5 @@
-# 🛒 Preços de Produtos e Links:
-"precos-produtos-links.md"
+# **🛒 Análise de Preços com Custo Beneficio Automática**
+"analise-precos-com-custo-beneficio-automatica-v2.md"
 
 ---
 
