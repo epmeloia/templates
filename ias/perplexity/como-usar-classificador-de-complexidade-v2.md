@@ -1,5 +1,5 @@
-# 🧠 Compras com Análise de Custo Benefício Incluindo Frete
-"compras-analise-custo-beneficio-incluindo-frete-v1.md"
+# 💡 Como Usar o Classificador de Complexidade:
+"como-usar-classificador-de-complexidade-v2.md"
 
 ---
 ````
