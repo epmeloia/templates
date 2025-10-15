@@ -1,5 +1,5 @@
-# Como Usar - Otimizar Recursos - Créditos - Recomendação Dinâmica do Ícones - V1:
-"como-usar-otimizar-recursos-creditos-recomendacao-dinamica-icone-v1.md"
+# **🛒 Análise de Preços com Custo Beneficio Automática**
+"analise-precos-com-custo-beneficio-automatica-v4.md"
 
 - Para implementar as otimizações que mencionei, você pode adicionar estas instruções específicas ao seu prompt:
 
