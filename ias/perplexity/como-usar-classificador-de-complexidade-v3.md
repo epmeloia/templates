@@ -1,5 +1,5 @@
 # 💡 Como Usar o Classificador de Complexidade:
-"como-usar-classificador-de-complexidade-v2.md"
+"como-usar-classificador-de-complexidade-v3.md"
 
    * 📌 Colar esse template no topo de qualquer nova sessão ou aba no Perplexity Pro.
    * 📎 Fixar o **modelo condensado** como referência rápida.
@@ -194,6 +194,7 @@ Colar a dúvida abaixo!
 ```
 
 ---
+
 
 
 
