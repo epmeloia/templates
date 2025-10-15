@@ -1,6 +1,10 @@
 # 🛒 Preços de Produtos e Links — Perplexity (Brasil) [Completo]
 precos-produtos-e-links-v1.md
 
+# 🛒 **Análise Avançada de Preços e Frete**
+"compras-custo-beneficio-com-frete-v7.md"
+
+
 
 - Use este template quando precisar **pesquisar preços atuais**, **comparar ofertas** e **trazer links**.  
 - Modo recomendado: **🔴 Pesquisa (com web)**.
