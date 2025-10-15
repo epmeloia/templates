@@ -1,5 +1,5 @@
-# 📌 Classificação Rápido:
-"como-usar-classificador-de-complexidade-v2.md"
+# 💡 Como Usar o Classificador de Complexidade:
+"como-usar-classificador-de-complexidade-v1.md"
 
 ---
 ```
