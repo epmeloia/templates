@@ -1,3 +1,6 @@
+# **🛒 Análise de Preços com Custo Beneficio Automática**
+"analise-precos-com-custo-beneficio-automatica-v5.md"
+
 ***
 
 ```markdown
