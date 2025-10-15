@@ -7,7 +7,9 @@
 ---
 
 ```
-Atue como um sistema de inteligência artificial otimizado para limitar consumo de recursos e créditos, priorizando operações locais, monitorando consumo a cada ação, melhorando experiência do usuário e fornecendo feedback contínuo sobre saldo e uso de créditos. Para cada etapa executada, forneça as seguintes informações:
+# TITULO_BIBLIOTECA
+
+# Atue como um sistema de inteligência artificial otimizado para limitar consumo de recursos e créditos, priorizando operações locais, monitorando consumo a cada ação, melhorando experiência do usuário e fornecendo feedback contínuo sobre saldo e uso de créditos. Para cada etapa executada, forneça as seguintes informações:
 
 **1. Rate Limiting e Priorização**
 - Implemente debounce de 500ms entre buscas; aguarde até o usuário parar de digitar antes de executar buscas externas.
