@@ -2,11 +2,11 @@
 "analise-produtos-shopee.md"
 
 
-**Ícone ativado: 🔍 (Busca Local/Cache)**  
-
-***
+---
 ````
-Quando eu enviar links ou imagens de anúncios Shopee, analise e responda seguindo o roteiro abaixo. Separe cada produto, mostrando os tópicos e destaque qualquer ponto importante:
+# Análise de Produto Shopee
+
+# Quando eu enviar links ou imagens de anúncios Shopee, analise e responda seguindo o roteiro abaixo. Separe cada produto, mostrando os tópicos e destaque qualquer ponto importante:
 
 ***
 
@@ -54,7 +54,6 @@ Quando eu enviar links ou imagens de anúncios Shopee, analise e responda seguin
   - Descrição resumida: [...]
   - Avaliações: [nota] de 5.0 | [5 estrelas: xx], [4 estrelas: xx], etc.
 ```
-````
 
 ***
 
@@ -140,10 +139,5 @@ https://shopee.com.br/produto5
 
 Quero que compare apenas pulseiras originais e que estejam com frete grátis para São Paulo.
 ```
-
 ***
-***
-
-## **Quando quiser melhorar o prompt com análise de comentários**, apenas avise, e será incluído o resumo dos principais comentários com data/hora.
-
-***
+````
