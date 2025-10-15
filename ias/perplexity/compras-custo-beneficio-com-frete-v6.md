@@ -1,8 +1,9 @@
-Aqui está o **Prompt v7 aprimorado** para Perplexity, agora incorporando todas as suas sugestões avançadas confirmadas. O texto está formatado para ser armazenado no GitHub, já pronto para uso, com cada nova funcionalidade integrada explicitamente no fluxo e na estrutura do modelo.
+# **Análise Avançada de Preços e Frete**
+"compras-custo-beneficio-com-frete-v6.md"
 
 ***
 
-## Prompt v7 — "Análise Avançada de Preços e Frete – Perplexity (Brasil)"
+
 
 **Objetivo:**  
 Sistema automático para análise de custo-benefício em compras online, com análise de preços, frete, quantidades, governança e economia de recursos IA, modelo prático e didático para uso no Brasil.
