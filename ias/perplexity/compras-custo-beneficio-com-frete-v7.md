@@ -1,5 +1,5 @@
 # **Análise Avançada de Preços e Frete**
-"compras-custo-beneficio-com-frete-v6.md"
+"compras-custo-beneficio-com-frete-v7.md"
 
 ***
 
