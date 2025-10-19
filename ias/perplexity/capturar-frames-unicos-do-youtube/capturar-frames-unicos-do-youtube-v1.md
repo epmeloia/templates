@@ -1,6 +1,5 @@
-# 🧠 Prompt para o Perplexity PRO
-
-capturar-frames-unicos-do-youtube-v1.md
+# 🧩 Capturar Frames Únicos do YouTube
+"capturar-frames-unicos-do-youtube-v1.md"
 
 - 🎯 Objetivo:** Capturar automaticamente imagens únicas (frames distintos) de um vídeo do YouTube, com análise a cada 5 segundos, pulando frames que sejam pelo menos 75% semelhantes.
 
