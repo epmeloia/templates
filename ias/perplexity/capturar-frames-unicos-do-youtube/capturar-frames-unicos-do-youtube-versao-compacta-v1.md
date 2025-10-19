@@ -1,3 +1,5 @@
+# 🧩 Capturar Frames Únicos do YouTube - Versao Compacta
+"capturar-frames-unicos-do-youtube-versao-compacta-v1.md"
 
 # 1) versão **compacta** (comando único)
 
