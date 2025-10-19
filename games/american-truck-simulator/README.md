@@ -1,4 +1,4 @@
-# GAME Cities Skylines:
+# American Truck Simulator:
 
 - Links
 - Tutoriais
