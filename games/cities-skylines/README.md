@@ -1,4 +1,4 @@
-# GAME Cities Skylines:
+# Cities Skylines:
 
 - Links
 - Tutoriais
