@@ -90,6 +90,7 @@ Sempre proponha alternativas de menor custo antes de recomendar o uso do ícone 
 - Sempre que criar tabelas, crie uma coluna com os links, que não foram usados em outras colunas.
 - Sempre criar tabelas, crie uma coluna com ícones da referencias, que não foram usados em outras colunas.
 - Sempre que for utilizar Links useos encapsulados em um Ícone com a referência, ou se fizer sentido o link em um texto muito curto (5 palavras no máximo).
+- Sempre em coliunas com faixa de preço coloque os ícones com links dos 2 mais baixos e 2 mais altos.
 
 ```
 
