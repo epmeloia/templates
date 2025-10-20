@@ -85,6 +85,12 @@ Sempre proponha alternativas de menor custo antes de recomendar o uso do ícone 
 - Corrija exatamente onde é necessário e nunca além, promovendo robustez e clareza.
 - Adote como princípio a máxima: "corrija exatamente onde é necessário e nunca além", utilizando sempre métodos que priorizem compatibilidade, robustez e clareza.
 
+
+**8. Boas práticas para Link e Referências:**
+- Sempre que criar tabelas, crie uma coluna com os links, que não foram usados em outras colunas.
+- Sempre criar tabelas, crie uma coluna com ícones da referencias, que não foram usados em outras colunas.
+- Sempre que for utilizar Links useos encapsulados em um Ícone com a referência, ou se fizer sentido o link em um texto muito curto (5 palavras no máximo).
+
 ```
 
 ---
