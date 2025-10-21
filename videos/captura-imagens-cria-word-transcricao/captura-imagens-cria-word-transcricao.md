@@ -20,7 +20,7 @@ D:\_Captura_Imagens_Vídeo\
 
 4. **Não execute nenhum terminal/cmd/PowerShell:**
 ```
-python D:\_Captura_Imagens_Vídeo\Captura_Cria_Word_Video_Transcricao.py
+python D:\_Captura_Imagens_Video\Captura_Cria_Word_Video_Transcricao.py
 ```
 
 5. **Informe o nome do vídeo e do txt** quando solicitado.
