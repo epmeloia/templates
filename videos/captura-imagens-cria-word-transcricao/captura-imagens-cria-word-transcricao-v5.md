@@ -6,25 +6,17 @@
 
 
 ***
-## 1. **SCRIPT** (Captura_Cria_Word_Video_Transcricao.py) **COMENTÁRIO LINHA A LINHA:**
-
-- As **funções são explicadas** antes de cada bloco.
-- **Cada passo do fluxo** (ler transcrição, capturar frames, montar Word) está comentado.
-- O SCRIPT é para uso direto: **só preencher os arquivos na pasta BASE, rodar, responder nomes, e o Word sairá pronto**.
-
-
-***
-## 2. **PREPARAÇÃO:**
-- **Salve o Arquivo com a transcrição (.txt) deve estar no formato timestamp + linha na Pasta: ** `D:\_Captura_Imagens_Video\`
-- **Salve o Arquivo de Video (.mp4) na Pasta: ** `D:\_Captura_Imagens_Video\`
-- **Salve o Codigo Python** em um arquivo, por exemplo: `Captura_Cria_Word_Video_Transcricao.py`.
-- **O Word será gerado junto da pasta com as imagens em `D:\_Captura_Imagens_Video\` ** (nome Resumo_SeuVideo)` \ `(nome Resumo_SeuVideo.docx), com texto e frames sincronizados.
+### 1. PREPARAÇÃO do AMBIENTE:
+- Salve o Arquivo com a transcrição (.txt) deve estar no formato timestamp + linha na Pasta: `D:\_Captura_Imagens_Video\`
+- Salve o Arquivo de Video (.mp4) na Pasta: `D:\_Captura_Imagens_Video\`
+- Salve o Codigo Python** em um arquivo, por exemplo: `Captura_Cria_Word_Video_Transcricao.py`.
+- O Word será gerado junto da pasta com as imagens em `D:\_Captura_Imagens_Video\` (nome Resumo_SeuVideo)` \ `(nome Resumo_SeuVideo.docx), com texto e frames sincronizados.
 
 
 ***
-## 3. **AMBIENTE para INSTALAÇÃO PYTHON e EXECUÇÃO do SCRIPT:**
+### 2. AMBIENTE para INSTALAÇÃO PYTHON e EXECUÇÃO do SCRIPT:
 
-- Abra o Terminal/Prompt de Comando
+- ABRA o Terminal/Prompt de Comando
 - PRESSIONE `Win + R`
 - DIGITE `cmd`
 - PRESSIONE ENTER
@@ -36,18 +28,21 @@ ou
 
 
 ***
-## 4. **INSTALE as DEPENDÊNCIAS (se necessário):**
+### 3. INSTALE as DEPENDÊNCIAS (Apenas na Primeira Vez se Necessário):
 ```
 pip install python-docx pillow numpy opencv-python scikit-image
 ```
 
 
 ***
-## 5. **OS ARQUIVOS de VÍDEO ".mp4" e o TRASNCRIÇÃO/LEGENDA ".txt" (formato timestamp + linha) em: `D:\_Captura_Imagens_Video\`
+### 4. OS ARQUIVOS de VÍDEO ".mp4" e o TRASNCRIÇÃO/LEGENDA ".txt" (formato timestamp + linha) em:
+```
+D:\_Captura_Imagens_Video\
+```
 
 
 ***
-## 6. **LINHA de COMANDO para EXECUÇÃO do SCRIPT:**
+### 5. LINHA de COMANDO para EXECUÇÃO do SCRIPT:
 
 - NAVEGUE para o no DRIVE: `d:`
 - NAVEGUE para a PASTA: `cd D:\_Captura_Imagens_Video\`
@@ -55,25 +50,32 @@ pip install python-docx pillow numpy opencv-python scikit-image
 
 
 ***
-## 7. **INFORMAR quando SOLICIDADO:**
+### 6. INFORMAR quando SOLICIDADO (DIGITE a INFORMAÇÃO e PRESSIONE ENTER Após CADA UM:
 
-- DIGITE e PRESSIONE ENTER ApÖS CADA UM:
-    . NOME BASE dos ARQUIVOS (sem extensão, ex: Tutorial-Cities_Skyline-01)
-    . EXTENSÃO do VÍDEO (ex: mp4)
-    . EXTENSÃO da TRASCRIÇÃO/LEGENDA (ex: txt)
-    . QUANTOS SEGUNDOS ANTES de CAPTURAR (ex: 5)
-    . QUANTOS SEGUNDOS DEPOIS de CAPTURAR (ex: 5)
+- NOME BASE dos ARQUIVOS (sem extensão, ex: Tutorial-Cities_Skyline-01)
+- EXTENSÃO do VÍDEO (ex: mp4)
+- EXTENSÃO da TRASCRIÇÃO/LEGENDA (ex: txt)
+- QUANTOS SEGUNDOS ANTES de CAPTURAR (ex: 5)
+- QUANTOS SEGUNDOS DEPOIS de CAPTURAR (ex: 5)
 
 
 ***
-## 8. **APÓS RODAR O SCRIPT:**
+### 7. APÓS RODAR O SCRIPT:
 
 - O Word gerado estará na mesma pasta, com nome resumido e pronto para uso.
 - As imagens estarão organizadas em subpastas, junto com o tutorial automático.
 
 
 ***
-## 9. **SCRIPT PYTHON:**
+### 8. SCRIPT (Captura_Cria_Word_Video_Transcricao.py) COMENTÁRIO LINHA A LINHA (Criado em Perplexity):
+
+- As funções são explicadas antes de cada bloco.
+- Cada passo do fluxo (ler transcrição, capturar frames, montar Word) está comentado.
+- O SCRIPT é para uso direto: **só preencher os arquivos na pasta BASE, rodar, responder nomes, e o Word sairá pronto**.
+
+
+***
+### 9. EDITE e COLE no ARQUIVO SCRIPT PYTHON (Captura_Cria_Word_Video_Transcricao.py):
 
 ```python
 import os
