@@ -16,10 +16,6 @@
 ***
 2. **Instale como dependências** (se necessário):
 ```
- pip instalar python-docx travesseiro numpy opencv-python scikit-image
-```
-***
-```
 pip install python-docx pillow numpy opencv-python scikit-image
 ```
 
@@ -100,9 +96,6 @@ python Captura_Cria_Word_Video_Transcricao.py
 
 ***
 8. **Codificação Python:
-
-```python
-Segue o código completo atualizado com comentários detalhados, suporte ao seu formato (linha timestamp, linha texto):
 
 ```python
 import os
