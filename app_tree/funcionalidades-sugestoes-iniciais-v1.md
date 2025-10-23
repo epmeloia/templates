@@ -1,5 +1,5 @@
-# Funcionalidades Iniciais do APP_TREE:
-"funcionalidades-iniciais-app_tree-v1.md"
+# Funcionalidades e Sugestões - Iniciais:
+"funcionalidades-sugestoes-iniciais-v1.md"
 
 ***
 
