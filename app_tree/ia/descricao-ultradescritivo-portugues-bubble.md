@@ -3,10 +3,6 @@
 
 ---
 
-Aqui está a tradução completa e fiel do prompt do **Bubble AI** para o português do Brasil, mantendo toda a estrutura e terminologia técnica:
-
----
-
 # **Prompt do Bubble AI — Criar “APP_TREE” (Interface em Português, persistência local em JSON, aplicativo completo)**
 
 **Função:**
