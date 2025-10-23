@@ -1,3 +1,8 @@
+# Descrição Ultradescritivo em Portugues para IA BUBBLE
+"descricao-ultradescritivo-portugues-bubble.md"
+
+---
+
 Aqui está a tradução completa e fiel do prompt do **Bubble AI** para o português do Brasil, mantendo toda a estrutura e terminologia técnica:
 
 ---
