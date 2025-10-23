@@ -1,4 +1,8 @@
 # 7 Prompts Prontos para Facilitar Sua Vida com o ChatGPT 🚀
+"7-prompts-prontos-para-facilitar-sua-vida-com-chatgpt.md"
+
+---
+
 - https://www.instagram.com/reel/DMjGx1rxXle/?utm_source=ig_web_copy_link
 
 
