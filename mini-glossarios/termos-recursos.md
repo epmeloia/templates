@@ -56,3 +56,8 @@ Diferente do debounce, throttle limita uma função para rodar no máximo uma ve
 Flashcards são cartões de estudo com perguntas de um lado e respostas do outro. Podem ser usados para revisão rápida: o app mostra a pergunta e, ao clicar, revela a resposta, ajudando a fixar conteúdos.
 
 ***
+
+### **"Breadcrumbs" ou "Navegação**
+Mostra o caminho completo do ponto de partida, mostrando deu caminho completo da origem até aonde se encontra no momento (passando por todas as pastas / sub-pastas / diretórios / sub-itens / até o ponto Atual).
+
+***
