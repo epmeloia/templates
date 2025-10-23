@@ -1,5 +1,5 @@
-# PERPLEXITY - Descricao - v.2025-09-16 14h45
-perplexity-descricao-v.2025-09-16-14h45.md
+# PERPLEXITY - Descricao - 2025-09-16 14h45
+perplexity-descricao-2025-09-16-14h45.md
 
 
 <think>
