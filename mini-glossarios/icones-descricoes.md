@@ -1,6 +1,6 @@
 
 # Ícones e Descrições:
-"icones-descricoes-2025-10-23.md"
+"icones-descricoes.md"
 
 ---
 
