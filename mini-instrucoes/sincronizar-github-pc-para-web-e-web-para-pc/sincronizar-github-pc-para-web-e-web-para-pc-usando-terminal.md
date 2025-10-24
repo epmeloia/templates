@@ -5,7 +5,7 @@
 
 ***
 
-## 1. **Checklist: Sincronizar do PC para o GitHub Web**
+## 🖥️→🌐 **Checklist: Sincronizar do PC para o GitHub Web**
 
 1. Abra o terminal no repositório:
    ```bash
@@ -30,7 +30,7 @@
 
 ***
 
-## 2. **Checklist: Sincronizar do GitHub Web para o PC**
+## 🌐→🖥️ **Checklist: Sincronizar do GitHub Web para o PC**
 
 1. Abra o terminal no repositório:
    ```bash

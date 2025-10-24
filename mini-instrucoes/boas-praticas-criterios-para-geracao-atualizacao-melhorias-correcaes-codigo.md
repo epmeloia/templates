@@ -1,6 +1,7 @@
 # 📌 BOAS PRATICAS - POLÍTICA DE SUGESTÃO DE CÓDIGO: GERAÇÃO / ATUALIZAÇÃO / MELHORIA / CORREÇAO DO CÓDIGO:
 "boas-praticas-politica-sugestao-codigo-geracao-atualizacao-melhoria-correcao-do-codigo.md"
 
+
 ---
 
 ```
