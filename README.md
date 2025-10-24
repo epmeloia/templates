@@ -29,7 +29,6 @@ Este repositório serve como um hub de **documentação, templates, glossários 
 - Disponibilizar mini-glossários e instruções rápidas fáceis de consultar e personalizar
 - Servir como documentação geral, exemplos, dicas e tutoriais rápidos para qualquer tipo de demanda técnica
 
-
 #### - [Índice](#Índice)
 
 ---
@@ -49,6 +48,8 @@ Organização das principais pastas:
 ├── LICENSE                 # Arquivo de licença MIT
 ```
 
+#### - [Índice](#Índice)
+
 ---
 
 ## Como Utilizar
@@ -57,6 +58,8 @@ Organização das principais pastas:
 - Utilize os templates como base para criar, testar e adaptar em projetos próprios.
 - Glosse buzinas, tutoriais e listas rápidas para consultas instantâneas.
 - Para incluir ou modificar imagens, utilize a pasta `assets/` e adote nomes descritivos sem acentos ou espaços (padrão kebab-case).
+
+#### - [Índice](#Índice)
 
 ---
 
@@ -69,6 +72,8 @@ Colabore via Pull Request ou Issues!
 - Adicione README.md em novas subpastas explicando o conteúdo, objetivo e exemplos de uso.
 - Sugestões, correções e perguntas são muito bem-vindas!
 
+#### - [Índice](#Índice)
+
 ---
 
 ## Padrão de Organização
@@ -79,11 +84,15 @@ Colabore via Pull Request ou Issues!
 - Centralização de recursos estáticos em `/assets/`
 - Padronização para facilitar navegação e colaboração
 
+#### - [Índice](#Índice)
+
 ---
 
 ## Licença
 
 Este projeto está licenciado sob os termos da licença [MIT](LICENSE).
+
+#### - [Índice](#Índice)
 
 ---
 
@@ -94,6 +103,8 @@ Este projeto está licenciado sob os termos da licença [MIT](LICENSE).
 
 Sugestões, dúvidas ou feedbacks são sempre bem-vindos!
 
+
+#### - [Índice](#Índice)
 
 ***
 
