@@ -1,5 +1,5 @@
-# Interface do MEMEX
-"interface-memex.md"
+# Ícones da Interface
+"icones-interface.md"
 
 ---
 
