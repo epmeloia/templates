@@ -1,4 +1,4 @@
-# Otimizar Recursos - Créditos - Recomendação Dinâmica do Ícones - V2
+# Otimizar Recursos - Créditos - Recomendação Dinâmica do Ícones - V3
 "otimizar-recursos-creditos-recomendacao-dinamica-icone-v2.1.md"
 
 **Como utilizar:**  
