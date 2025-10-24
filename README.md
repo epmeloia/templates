@@ -5,7 +5,7 @@
 
 # epmeloia/templates
 
-Templates prontos para Perplexity (BR) — classificador, preços e dicas rápidas
+Templates prontos IAs (BR) — classificador, preços e dicas rápidas
 
 Este repositório serve como um hub de **documentação, templates, glossários e instruções rápidas** para diversos usos, principalmente relacionados ao universo Perplexity, inteligência artificial, operacional, tutoriais, games e muito mais.
 
@@ -25,7 +25,7 @@ Este repositório serve como um hub de **documentação, templates, glossários 
 
 ## Propósito
 
-- Centralizar templates prontos para uso em Perplexity e outros contextos de IA
+- Centralizar templates prontos para uso em IA e outros contextos de IA
 - Disponibilizar mini-glossários e instruções rápidas fáceis de consultar e personalizar
 - Servir como documentação geral, exemplos, dicas e tutoriais rápidos para qualquer tipo de demanda técnica
 
