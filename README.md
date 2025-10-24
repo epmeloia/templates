@@ -29,8 +29,10 @@ Este repositório serve como um hub de **documentação, templates, glossários 
 - Disponibilizar mini-glossários e instruções rápidas fáceis de consultar e personalizar
 - Servir como documentação geral, exemplos, dicas e tutoriais rápidos para qualquer tipo de demanda técnica
 
+````
+````
+.[Índice](#Índice)
 
-- [Índice](#Índice)
 ---
 
 ## Estrutura do Repositório
