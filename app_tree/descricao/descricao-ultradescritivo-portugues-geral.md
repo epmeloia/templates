@@ -1,5 +1,5 @@
-# Descrição Ultradescritivo em Portugues Geral
-"descricao-ultradescritivo-portugues-geral.md"
+# Descrição Ultradescritivo em Portugues IA
+"descricao-ultradescritivo-portugues-ia.md"
 
 ---
 
