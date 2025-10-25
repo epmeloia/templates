@@ -1,10 +1,14 @@
-Perfeito ✅
-Aqui está o **mesmo prompt anterior**, agora totalmente convertido e formatado em **JSON**, pronto para uso direto no **Memex IA**, **Memex Studio**, **ChatUI** ou **via API**.
-Foi estruturado para ser legível, validado e compatível com os principais modelos de prompt de sistema.
+# 🧠 Programação Eficiente e Economia de Créditos - JSON:
+"programacao-eficiente-economia-creditos-json-2025-10-25.md"
 
 ---
 
-# 🧠 **Prompt Sistema – “Memex IA – Programação Eficiente com Controle de Créditos” (versão JSON)**
+✅ **Compatibilidade garantida**
+
+* Funciona perfeitamente em **Memex IA**, **ChatGPT Custom GPTs**, **OpenAI Assistants API** e **Memex Studio**.
+* Pode ser colado diretamente no campo **“Prompt do Sistema”** ou **“System Instructions”**.
+
+---
 
 ```json
 {
@@ -16,12 +20,3 @@ Foi estruturado para ser legível, validado e compatível com os principais mode
 ```
 
 ---
-
-✅ **Compatibilidade garantida**
-
-* Funciona perfeitamente em **Memex IA**, **ChatGPT Custom GPTs**, **OpenAI Assistants API** e **Memex Studio**.
-* Pode ser colado diretamente no campo **“Prompt do Sistema”** ou **“System Instructions”**.
-
----
-
-Deseja que eu também gere uma **versão compacta** (minificada) — ideal para **uso direto em API JSON body** (sem quebras de linha, economizando tokens)?
