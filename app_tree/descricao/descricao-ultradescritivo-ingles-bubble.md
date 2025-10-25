@@ -1,5 +1,5 @@
-# Descrição Ultradescritivo em Ingles para IA
-"descricao-ultradescritivo-ingles-bubble.md"
+# Descrição Ultradescritivo em Inglês IA BUBBLE
+"descricao-ultradescritivo-ingles-ia-bubble.md"
 
 
 Aqui está um prompt único e ultradescritivo (em inglês) que você pode colar no construtor de IA do Bubble. Ele instrui o Bubble a gerar automaticamente o aplicativo completo — frontend, lógica e persistência JSON local —, garantindo que a interface (rótulos, texto, notificações) esteja em português (pt-BR).
