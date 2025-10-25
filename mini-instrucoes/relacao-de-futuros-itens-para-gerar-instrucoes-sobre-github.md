@@ -1,4 +1,5 @@
-# Com base na neste chat, pegue todas e quaisquer perguntas ou duvidas que tive até agora e gere uma lista os nomes dos possíveis arquivos a serem criados, utilizando o padrão já estabelecido, crie em ordem alfabética, dentro das devidas pastas, como por exemplo:
+# Relação de Futuros Itens para Gerar Instruções sobre o GitHub:
+"relacao-de-futuros-itens-para-gerar-instrucoes-sobre-github.md"
 
 ---
 
