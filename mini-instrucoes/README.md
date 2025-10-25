@@ -1,4 +1,5 @@
-# Local: **templates/mini-instrucoes/README.md**
+# README:
+"README.md"
 
 ---
 
