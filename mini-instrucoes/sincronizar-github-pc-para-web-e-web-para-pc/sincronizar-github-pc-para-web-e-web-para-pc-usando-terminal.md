@@ -11,19 +11,23 @@
    ```bash
    cd /d/_GITHUB/templates
    ```
-2. Veja o status das alterações:
+2. Veja se esta na pasta correta:
+   ```bash
+   pwd
+   ```
+3. Veja o status das alterações:
    ```bash
    git status
    ```
-3. Adicione arquivos novos/modificados:
+4. Adicione arquivos novos/modificados:
    ```bash
    git add .
    ```
-4. Faça o commit (registre a alteração):
+5. Faça o commit (registre a alteração):
    ```bash
    git commit -m "Descrição da alteração"
    ```
-5. Envie para o repositório remoto (GitHub Web):
+6. Envie para o repositório remoto (GitHub Web):
    ```bash
    git push
    ```
