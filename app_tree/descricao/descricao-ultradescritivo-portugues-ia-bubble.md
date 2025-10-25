@@ -1,5 +1,5 @@
-# Descrição Ultradescritivo em Portugues para IA BUBBLE
-"descricao-ultradescritivo-portugues-bubble.md"
+# Descrição Ultradescritivo em Portugues IA BUBBLE
+"descricao-ultradescritivo-portugues-ia-bubble.md"
 
 ---
 
