@@ -1,5 +1,5 @@
-# Descrição Completa:
-"descricao-completa-v1.md"
+# Descrição Simples em Portugues IA
+"descricao-simples-portugues-ia.md"
 
 ---
 ## APP:
