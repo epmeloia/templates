@@ -3,11 +3,17 @@
 
 ## Aqui estão os **procedimentos passo a passo** para sincronizar seu repositório entre seu PC e o GitHub Web, de ambos os sentidos:
 
+## Comandos Básicos do Terminal:
+- Colar = Shift + INS
+- Copia = Ctrl + INS
+- Setas Cima / Baixo = Navega nos comandos já executados
+- Setas Direita / Esquerda = Navega pelo Texto na Linha
+
 ***
 
 ## 🖥️→🌐 **Checklist: Sincronizar do PC para o GitHub Web**
 
-1. Abra o terminal no repositório:
+1. Abra o terminal no repositório (usar SHIFT + ins):
    ```bash
    cd /d/_GITHUB/templates
    ```
