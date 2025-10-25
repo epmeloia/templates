@@ -1,5 +1,5 @@
-# 🧠 Inicial - Programação Eficiente e Economia de Créditos:
-"inicial-programacao-eficiente-economia-creditos-2025-10-24.md"
+# 🧠 Programação Eficiente e Economia de Créditos:
+"programacao-eficiente-economia-creditos-2025-10-24.md"
 
 ---
 
