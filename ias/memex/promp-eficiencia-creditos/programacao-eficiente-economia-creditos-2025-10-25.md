@@ -1,4 +1,5 @@
-# 🧠 Prompt Sistema – “Programação Eficiente com Controle de Créditos”
+# 🧠 Programação Eficiente e Economia de Créditos:
+"programacao-eficiente-economia-creditos-2025-10-25.md"
 
 ````yaml
 name: "Memex IA – Programação Eficiente"
