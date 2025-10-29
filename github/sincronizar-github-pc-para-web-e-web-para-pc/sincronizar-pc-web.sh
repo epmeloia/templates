@@ -17,6 +17,7 @@
 ## Versão com Commit Fixo
 ##
 clear
+echo 'INICIO DO SINCRONISMO PC-WEB'
 echo
 echo 'cd /d/_GITHUB/templates'
 cd /d/_GITHUB/templates
@@ -51,4 +52,8 @@ echo
 
 echo 'git pull'
 git pull
+echo
+echo
+echo 'FIM DO SINCRONISMO PC-WEB'
+echo
 echo
