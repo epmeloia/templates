@@ -17,6 +17,28 @@
 
 ## 🖥️→🌐 **Checklist: Sincronizar do PC para o GitHub Web**
 
+   ```bash
+   cd /d/_GITHUB/templates
+   ```
+   ```bash
+   pwd
+   ```
+   ```bash
+   git status
+   ```
+   ```bash
+   git add .
+   ```
+   ```bash
+   git commit -m "Descrição da alteração"
+   ```
+   ```bash
+   git push
+   ```
+
+
+### **Explicando cada Comando**
+
 1. Abra o terminal no repositório:
    ```bash
    cd /d/_GITHUB/templates
