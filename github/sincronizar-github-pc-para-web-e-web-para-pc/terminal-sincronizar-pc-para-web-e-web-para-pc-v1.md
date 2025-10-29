@@ -17,24 +17,23 @@
 
 ## 🖥️→🌐 **Checklist: Sincronizar do PC para o GitHub Web**
 
-   ```bash
-   cd /d/_GITHUB/templates
-   ```
-   ```bash
-   pwd
-   ```
-   ```bash
-   
-   ```
-   ```bash
-   git add .
-   ```
-   ```bash
-   git commit -m "Descr"
-   ```
-   ```bash
-   git push
-   ```
+```bash
+cd /d/_GITHUB/templates
+```
+```bash
+pwd
+```
+```bash
+git add .
+```
+```bash
+git commit -m "Descr"
+```
+```bash
+git push
+```
+
+
    ```bash
    git push
    ```
