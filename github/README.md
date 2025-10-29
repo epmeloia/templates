@@ -3,7 +3,7 @@
 
 ---
 
-# 📚 Mini-Instrucoes do GITHUB:
+# 📚 Mini-Instrucoes:
 
 * **Mini-Instruçoes** = “como fazer …" - com passo-a-passo prático.
 

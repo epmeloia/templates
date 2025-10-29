@@ -3,9 +3,7 @@
 
 ---
 
-## 1) `templates/mini-instrucoes/`
-
-### *(“como fazer” — passo-a-passo prático)*
+## 1) Mini Instruções - Como Fazer — Passo-a-Passo e Prático
 
 * `botao-como-usar-add-file.md`
 * `botao-como-usar-commit-changes.md`
