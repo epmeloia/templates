@@ -21,22 +21,34 @@ echo
 echo 'cd /d/_GITHUB/templates'
 cd /d/_GITHUB/templates
 echo
+
 echo 'pwd'
 pwd
 echo
 read -p "Pressione ENTER para continuar..."
+echo
+
 echo 'git status'
 git status
 echo
+read -p "Pressione ENTER para continuar..."
+echo
+
 echo 'git add .'
 git add .
 echo
+read -p "Pressione ENTER para continuar..."
+echo
+
 echo 'git commit -m "Descr."'
 git commit -m "Descr"
 echo
 echo 'git push'
 git push
 echo
+read -p "Pressione ENTER para continuar..."
+echo
+
 echo 'git pull'
 git pull
 echo
