@@ -22,10 +22,7 @@ a. 'cd /d/_GITHUB/templates'
 b. "pwd"
 
 
-c.
-```bash
-git add .
-```
+c. ```bash git add . ```
 
 d.
 ```bash
@@ -39,7 +36,7 @@ git push
 
 f.
 ```bash
-git push
+git pull
 ```
 
 
