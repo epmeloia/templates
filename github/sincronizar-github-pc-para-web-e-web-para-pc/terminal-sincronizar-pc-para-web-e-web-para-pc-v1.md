@@ -24,7 +24,7 @@
    pwd
    ```
    ```bash
-   git status
+   
    ```
    ```bash
    git add .
@@ -94,15 +94,9 @@
    Changes not staged for commit:
      (use "git add <file>..." to update what will be committed)
      (use "git restore <file>..." to discard changes in working directory)
-           modified:   github/README.md
-           modified:   github/futuros-itens-para-gerar-instrucoes-v1.md
-   Untracked files:
-     (use "git add <file>..." to include in what will be committed)
-           app_tree/.gitkeep
-           app_tree/descricao/.gitkeep
+           modified:   github/sincronizar-github-pc-para-web-e-web-para-pc/terminal-sincronizar-pc-para-web-e-web-para-pc-v1.md
    no changes added to commit (use "git add" and/or "git commit -a")
    eucli@LapTopJR MINGW64 /d/_GITHUB/templates (main)
-   $
    ```
 
 
@@ -121,16 +115,15 @@
 
 5. Faça o commit (registre a alteração):
    ```bash
-   git commit -m "Descrição da alteração"
+   git commit -m "Descr"
    ```
 
    Msg: 
    ```bash
    eucli@LapTopJR MINGW64 /d/_GITHUB/templates (main)
-   $ git commit -m "Descrição da alteração"
-   [main 7385f89] Descrição da alteração
-   29 files changed, 29 insertions(+), 4 deletions(-)
-   create mode 100644 app_tree/.gitkeep
+   $ git commit -m "Descr"
+   [main 2261ff3] Descr
+    1 file changed, 33 insertions(+), 16 deletions(-)
    eucli@LapTopJR MINGW64 /d/_GITHUB/templates (main)
    ```
 
@@ -144,15 +137,15 @@
    ```bash
    eucli@LapTopJR MINGW64 /d/_GITHUB/templates (main)
    $ git push
-   Enumerating objects: 63, done.
-   Counting objects: 100% (63/63), done.
+   Enumerating objects: 9, done.
+   Counting objects: 100% (9/9), done.
    Delta compression using up to 32 threads
-   Compressing objects: 100% (32/32), done.
-   Writing objects: 100% (32/32), 3.77 KiB | 1.88 MiB/s, done.
-   Total 32 (delta 18), reused 0 (delta 0), pack-reused 0 (from 0)
-   remote: Resolving deltas: 100% (18/18), completed with 18 local objects.
+   Compressing objects: 100% (5/5), done.
+   Writing objects: 100% (5/5), 1.04 KiB | 1.04 MiB/s, done.
+   Total 5 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+   remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
    To https://github.com/epmeloia/templates.git
-      911f54e..7385f89  main -> main
+      7385f89..2261ff3  main -> main
    eucli@LapTopJR MINGW64 /d/_GITHUB/templates (main)
    ```
 
