@@ -24,13 +24,11 @@ echo '# ------------------------------ #'
 echo
 echo '# -> cd /d/_GITHUB/templates <- #'
 echo
-echo
 cd /d/_GITHUB/templates
 echo
-echo
 echo '# -> pwd <- #'
-echo
 pwd
+echo
 echo
 read -p "Pressione ENTER para continuar..."
 echo
