@@ -9,7 +9,7 @@ cd "/d/_GITHUB/templates/github/sincronizar-github-pc-para-web-e-web-para-pc/"
 ```
 
 ```bash
-sincronizar-pc-web.sh
+sh sincronizar-pc-web.sh
 ```
 
 ---
