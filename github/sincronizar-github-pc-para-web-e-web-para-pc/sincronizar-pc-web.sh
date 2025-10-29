@@ -16,7 +16,7 @@
 ##
 ## Versão com Commit Fixo
 ##
-cls
+clear
 echo
 echo 'cd /d/_GITHUB/templates'
 cd /d/_GITHUB/templates
