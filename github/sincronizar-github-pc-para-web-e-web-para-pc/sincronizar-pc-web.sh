@@ -24,6 +24,7 @@ echo
 echo 'pwd'
 pwd
 echo
+read -p "Pressione ENTER para continuar..."
 echo 'git status'
 git status
 echo
