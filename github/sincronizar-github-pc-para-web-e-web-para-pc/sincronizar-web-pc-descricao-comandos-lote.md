@@ -24,6 +24,11 @@ Segue um exemplo de script para sincronizar **da Web para o PC** (ou seja, baixa
 
 
 ```bash
+##
+## Comando em Lote para Syncrinizar WEB PC
+##
+## Versão com Commit Fixo
+##
 clear
 echo
 echo '# ------------------------------- #'
@@ -31,9 +36,9 @@ echo '# INICIO DO SINCRONISMO WEB-PC    #'
 echo '# ------------------------------- #'
 echo
 
-echo '# -> cd /d/_GITHUB/templates/github/sincronizar-github-pc-para-web-e-web-para-pc/ <- #'
+echo '# -> cd /d/_GITHUB/templates <- #'
 echo
-cd /d/_GITHUB/templates/github/sincronizar-github-pc-para-web-e-web-para-pc/
+cd /d/_GITHUB/templates
 echo
 
 echo '# -> pwd <- #'
