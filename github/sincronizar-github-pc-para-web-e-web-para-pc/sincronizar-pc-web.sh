@@ -27,10 +27,12 @@ echo
 cd /d/_GITHUB/templates
 echo
 echo '# -> pwd <- #'
+echo
 pwd
 echo
 echo
 read -p "Pressione ENTER para continuar..."
+clear
 echo
 echo
 echo '# -> git status <- #'
@@ -44,11 +46,10 @@ echo '# -> git add .'
 echo
 git add .
 echo
-echo
-echo
 echo '# -> git commit -m "Descr."'
 echo
 git commit -m "Descr"
+echo
 echo
 read -p "Pressione ENTER para continuar..."
 echo
