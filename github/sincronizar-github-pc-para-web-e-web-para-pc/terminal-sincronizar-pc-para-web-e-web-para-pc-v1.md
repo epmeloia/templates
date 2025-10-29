@@ -35,6 +35,9 @@
    ```bash
    git push
    ```
+   ```bash
+   git push
+   ```
 
 
 ### **Explicando cada Comando**
@@ -45,7 +48,7 @@
    ```
 
    Msg: 
-   ```
+   ```bash
    eucli@LapTopJR MINGW64 /d
    $ cd /d/_GITHUB/templates
    eucli@LapTopJR MINGW64 /d/_GITHUB/templates (main)
@@ -58,7 +61,7 @@
    ```
 
    Msg: 
-   ```
+   ```bash
    eucli@LapTopJR MINGW64 /d/_GITHUB/templates (main)
    $ pwd
    /d/_GITHUB/templates
@@ -73,7 +76,7 @@
    ```
 
    Msg:
-   ```
+   ```bash
    eucli@LapTopJR MINGW64 /d/_GITHUB/templates (main)
    $ git status
    On branch main
@@ -84,7 +87,7 @@
    ```
 
    Msg: Tradução
-   ```
+   ```bash
    ```
 
 4. Adicione arquivos novos/modificados:
@@ -93,7 +96,7 @@
    ```
 
    Msg: 
-   ```
+   ```bash
    eucli@LapTopJR MINGW64 /d/_GITHUB/templates (main)
    $ git add .
    
@@ -107,7 +110,7 @@
    ```
 
    Msg: 
-   ```
+   ```bash
    eucli@LapTopJR MINGW64 /d/_GITHUB/templates (main)
    $ git commit -m "Descrição da alteração"
    On branch main
@@ -126,13 +129,28 @@
    ```
 
    Msg: 
-   ```
+   ```bash
    eucli@LapTopJR MINGW64 /d/_GITHUB/templates (main)
    $ git push
    Everything up-to-date
    
    eucli@LapTopJR MINGW64 /d/_GITHUB/templates (main)
    $
+   ```
+
+
+2. Valida se Existe Algo para Baixas da WEB (remoto):
+   ```bash
+   git pull
+   ```
+
+   Msg: 
+   ```bash
+   eucli@LapTopJR MINGW64 /d/_GITHUB/templates (main)
+   $ git pull
+   Already up to date.
+   
+   eucli@LapTopJR MINGW64 /d/_GITHUB/templates (main)
    ```
 
 
@@ -146,7 +164,7 @@
    ```
 
    Msg: 
-   ```
+   ```bash
    ```
 
 
@@ -156,7 +174,7 @@
    ```
 
    Msg: 
-   ```
+   ```bash
    eucli@LapTopJR MINGW64 /d/_GITHUB/templates (main)
    $ git pull
    remote: Enumerating objects: 15, done.
@@ -183,7 +201,7 @@
 
 
    Msg: 
-   ```
+   ```bash
    ```
 
 
