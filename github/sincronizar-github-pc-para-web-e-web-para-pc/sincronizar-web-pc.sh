@@ -10,9 +10,9 @@ echo '# INICIO DO SINCRONISMO WEB-PC    #'
 echo '# ------------------------------- #'
 echo
 
-echo '# -> cd /d/_GITHUB/templates/github/sincronizar-github-pc-para-web-e-web-para-pc/ <- #'
+echo '# -> cd /d/_GITHUB/templates <- #'
 echo
-cd /d/_GITHUB/templates/github/sincronizar-github-pc-para-web-e-web-para-pc/
+cd /d/_GITHUB/templates
 echo
 
 echo '# -> pwd <- #'
