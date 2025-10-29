@@ -139,7 +139,7 @@
    ```
 
 
-2. Valida se Existe Algo para Baixas da WEB (remoto):
+7. Valida se Existe Algo para Baixas da WEB (remoto):
    ```bash
    git pull
    ```
@@ -165,10 +165,28 @@
 
    Msg: 
    ```bash
+   eucli@LapTopJR MINGW64 /d
+   $ cd /d/_GITHUB/templates
+   eucli@LapTopJR MINGW64 /d/_GITHUB/templates (main)
+   $
    ```
 
+2. Veja se esta na pasta correta:
+   ```bash
+   pwd
+   ```
 
-2. Baixe as modificações da web (remoto):
+   Msg: 
+   ```bash
+   eucli@LapTopJR MINGW64 /d/_GITHUB/templates (main)
+   $ pwd
+   /d/_GITHUB/templates
+   
+   eucli@LapTopJR MINGW64 /d/_GITHUB/templates (main)
+
+   ```
+
+3. Baixe as modificações da web (remoto):
    ```bash
    git pull
    ```
@@ -195,15 +213,15 @@
    ```
 
 
-3. Pronto! Agora sua cópia local está atualizada com o que está online.
-
-***
+4. Pronto! Agora sua cópia local está atualizada com o que está online.
 
 
    Msg: 
    ```bash
    ```
 
+
+***
 
 ### DICAS EXTRAS
 - Sempre resolva conflitos apontados pelo Git antes do próximo push/pull.
