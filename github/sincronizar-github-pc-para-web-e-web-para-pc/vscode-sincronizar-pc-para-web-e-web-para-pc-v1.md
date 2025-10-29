@@ -1,5 +1,7 @@
-# Sincronizar GitHub: PC para WEB e WEB para PC, usando o VSCode:
-"sincronizar-github-pc-para-web-e-web-para-pc-usando-vscode.md"
+# VSCode - Sincronizar - PC para WEB e WEB para PC:
+"vscode-sincronizar-pc-para-web-e-web-para-pc-v1.md"
+
+---
 
 ## Aqui estão os **procedimentos passo a passo** para sincronizar seu repositório entre seu PC e o GitHub Web, de ambos os sentidos:
 

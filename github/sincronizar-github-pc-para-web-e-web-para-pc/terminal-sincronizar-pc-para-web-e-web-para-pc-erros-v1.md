@@ -1,5 +1,15 @@
-# Sincronizar GitHub: PC para WEB e WEB para PC, usando o Terminal - Erros Comuns:
-"sincronizar-github-pc-para-web-e-web-para-pc-usando-terminal-erros-comuns.md"
+# TERMINAL - Sincronizar - PC para WEB e WEB para PC - ERROS:
+"terminal-sincronizar-pc-para-web-e-web-para-pc-erros-v1.md"
+
+---
+
+## Comandos Básicos do Terminal:
+- Colar = Shift + INS
+- Copia = Ctrl + INS
+- Setas Cima / Baixo = Navega nos comandos já executados
+- Setas Direita / Esquerda = Navega pelo Texto na Linha
+
+---
 
 ## Aqui estão os **procedimentos passo a passo** para sincronizar seu repositório entre seu PC e o GitHub Web, de ambos os sentidos:
 
