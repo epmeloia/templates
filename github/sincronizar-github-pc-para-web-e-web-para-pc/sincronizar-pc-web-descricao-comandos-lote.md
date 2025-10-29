@@ -1,6 +1,7 @@
 # Sincronizar - PC para WEB - Descricao dos Comando de Lote:
 "sincronizar-pc-web-descricao-comandos-lote.md"
 
+
 ---
 
 ## **Execução Rápida - Instrução:**
