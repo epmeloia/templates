@@ -4,6 +4,9 @@
 ---
 
 ## **Execução Rápida - Instrução:**
+
+### Copiar e Colar (Shift + INS)
+
 ```bash
 sh /d/_GITHUB/templates/github/sincronizar-github-pc-para-web-e-web-para-pc/sincronizar-web-pc.sh
 ```
