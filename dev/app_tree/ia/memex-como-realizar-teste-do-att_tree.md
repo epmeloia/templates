@@ -1,5 +1,5 @@
-# 🧠 Como Realizar o Teste do ATT_TREE em MEMEX:
-"como-realizar-teste-do-att_tree-em-memex.md"
+# 🧠 MEMEX - Como Realizar o Teste do ATT_TREE:
+"memex-como-realizar-teste-do-att_tree.md"
 
 
 ---
