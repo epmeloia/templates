@@ -2,6 +2,6 @@
 "README.md"
 
 
-# Pasta de Imagens:
+# Repositório de Imagens
 
 ##----------####----------####----------####----------##
