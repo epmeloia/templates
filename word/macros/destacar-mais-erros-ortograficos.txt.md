@@ -1,9 +1,7 @@
-# 🧠 Conversa Completa com ChatGPT - Destacar Erros Ortográficos no Word com VBA
+# 🧠 Destacar Mais o Erros Ortográficos no Word com VBA:
+"destacar-mais-erros-ortograficos-word-vba-v1.md"
 
-**Data:** 2025-11-13  
 **Objetivo:** Explorar formas de destacar erros ortográficos no Microsoft Word com maior visibilidade usando macros em VBA.
-
-
 
 ##----------####----------##
 
