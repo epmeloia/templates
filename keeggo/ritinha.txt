@@ -1,0 +1,684 @@
+
+# SIWIC_RTC24363182.txt #
+
+Item de Backlog 24363182
+
+>#----------#---><> L6 >---#----------#<>
+
+>Resumo:< Ajuste carregamento imagens da Home - 2
+
+Ajuste_Carregamento_Imagens_Home_2
+
+
+
+=-> Contratação:< >14 de nov de 2025 23:00:00<
+
+>Descrição:<
+
+Eu como gestor do site solicito que se coloque loading="lazy" nas imagens da home dos módulos Destaques, Loterias e Soluções do conglomerado. Atribuir também código para que os leitores de deficientes visuais ignorem as imagens.
+
+A logo da caixa deve ser carregada de forma async com fetch priority high.
+
+
+
+>Critérios de Aceitação:<
+
+Verificação do código em produção.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>#----------#---><> L55 >---#----------#<>
+
+=-> HTML de TESTE <-=
+
+>Portal CAIXA:< https://portalcaixa.des.caixa/Paginas/home-caixa.aspx
+
+
+
+>Agenda Pública de Dirigentes:< "https://admportalcaixa.des.caixa/agendadirigentes/Paginas/gestaoagenda.aspx".
+
+>Conteudo do Site:< | https://admportalcaixa.des.caixa/agendadirigentes/_layouts/15/viewlsts.aspx
+
+>Grupode Administradores:< | https://admportalcaixa.des.caixa/agendadirigentes/_layouts/15/people.aspx?MembershipGroupId=6050
+
+>Lista de Areas:< | https://admportalcaixa.des.caixa/agendadirigentes/Lists/area/AllItems.aspx
+
+>Lista de Ausência:< | https://admportalcaixa.des.caixa/agendadirigentes/Lists/ausencias/AllItems.aspx#InplviewHashf2577165-665e-480e-82e6-efc5f7408c4c=SortField%3DID-SortDir%3DDesc
+
+
+
+
+
+
+
+
+
+
+
+
+
+>#----------#---><> L85 >---#----------#<>
+
+>Item de Backlog< 24363182
+https://gid.caixa:9443/ccm/web/projects/Comunidade%20Clientes#action=com.ibm.team.workitem.viewWorkItem&id=24363182
+
+>Estruturar Testes< 24398591
+https://gid.caixa:9443/ccm/web/projects/Comunidade%20Clientes#action=com.ibm.team.workitem.viewWorkItem&id=24398591
+
+>Executar Testes< 24398595
+https://gid.caixa:9443/ccm/web/projects/Comunidade%20Clientes#action=com.ibm.team.workitem.viewWorkItem&id=24398595
+
+
+
+
+
+>#----------#---><> L100 >---#----------#<>
+
+>RTC24363182<
+
+SIWIC_ENTREGA_001_RTC24363182 - Estruturar.xlsx
+SIWIC_ENTREGA_001_RTC24363182 - Executar.xlsx
+
+SIWIC_RTC24363182_Evidencias_Teste_Ajuste_Carregamento_Imagens_Home_2.docx
+SIWIC_RTC24363182_Lista_Situacao_Ajuste_Carregamento_Imagens_Home_2.xlsx
+SIWIC_RTC24363182_Roteiro_Teste_Ajuste_Carregamento_Imagens_Home_2.xlsx
+
+
+
+
+
+>#----------#---><> L115 >---#----------#<>
+
+># ENTREGA DO IB: RTC24363182
+># ARQUIVO = SIWIC_ENTREGA_001_RTC24363182 - Executar.xlsx
+># ----------------------------------------------------------
+
+
+=-> SITE = https://caixa.sharepoint.com/sites/DOC_SIWIC/SitePages/Home.aspx
+      
+
+> SUBIR ARQUIVO PARA SHAREPOINT => EVIDENCIAS
+
+-> Pasta | 04-Teste | DES | Site_Caixa | Evidencias | 2025
+
+-> Carregar > Arquivos > Localizar Arquivo = SIWIC_RTC24363182_Evidencias_Teste_Ajuste_Carregamento_Imagens_Home_2.docx
+
+-> Como Pegar o Link
+ - Clicar com o Botão da Direita Sobre o ARQUIVO
+ - Selecionar o Item Detalhes
+ - Descer e Localizar o Item Caminho:
+ - Clicar com o Botão Direito Sobre o Nome
+ - Clicar Detalhes
+ - Localizar Item "Caminho"
+ - Clicar no Ícone "Copiar link direto"
+
+-> LINK COPIADO:
+https://caixa.sharepoint.com/sites/DOC_SIWIC/Documentos%20Compartilhados/04-Testes/DES/Site_Caixa/Evidencias/2025/SIWIC_RTC24363182_Evidencias_Teste_Ajuste_Carregamento_Imagens_Home_2.docx
+
+
+
+
+#=-> COPIAR LINKS PARA A PLANILHA - SIWIC_ENTREGA_001_RTC24363182 - Executar.xlsx <-=<
+
+[A2] = >[A3] DATA< = DATA NA QUAL O ARQUIVO FOI INSERIDO NO FONTES CAIXA.
+[B2] = >[B3] HORA< = DATA NA QUAL O ARQUIVO FOI INSERIDO NO FONTES CAIXA.
+[C2] = >[C3] CEDESBR< = 505 =->SEMPRE O MESMO PARA TODAS AS SISTEMA<-=
+[D2] = >[D3] SISTEMA< = Sistema = >SIWIC<
+[F2] = >[F3] VERSÃO< = >main<
+[G2] = >[G3] RTC< = >RTC24363182<
+[H2] = >[H3] OBSERVAÇÃO< = >Inclusão<
+
+
+>[E2] LOCALIZAÇÃO NO FONTES CAIXA = LISTA SITUACAO = 
+
+https://caixa.sharepoint.com/sites/DOC_SIWIC/Documentos%20Compartilhados/04-Testes/DES/Site_Caixa/Evidencias/2025/SIWIC_RTC24363182_Evidencias_Teste_Ajuste_Carregamento_Imagens_Home_2.docx
+
+
+
+
+
+>#----------#---><> L165 >---#----------#<>
+
+># ENTREGA DO IB: RTC24363182
+># ARQUIVO = SIWIC_ENTREGA_001_RTC24363182 - Estruturar.xlsx
+># ----------------------------------------------------------
+
+
+=-> SITE = https://caixa.sharepoint.com/sites/DOC_SIWIC/SitePages/Home.aspx
+      
+> SUBIR ARQUIVO PARA SHAREPOINT => LISTA DE SITUACAO
+
+-> Pasta | 04-Teste | DES | Site_Caixa | Lista_Situacoes | 2025
+
+-> Carregar > Arquivos > Localizar Arquivo = SIWIC_RTC24363182_Lista_Situacao_Ajuste_Carregamento_Imagens_Home_2.xlsx
+
+-> Como Pegar o Link
+ - Clicar com o Botão da Direita Sobre o ARQUIVO
+ - Selecionar o Item Detalhes
+ - Descer e Localizar o Item Caminho:
+ - Clicar com o Botão Direito Sobre o Nome
+ - Clicar Detalhes
+ - Localizar Item "Caminho"
+ - Clicar no Ícone "Copiar link direto"
+
+-> LINK COPIADO:
+https://caixa.sharepoint.com/sites/DOC_SIWIC/Documentos%20Compartilhados/04-Testes/DES/Site_Caixa/Lista_Situaoes/2025/SIWIC_RTC24363182_Lista_Situacao_Ajuste_Carregamento_Imagens_Home_2.xlsx
+
+
+
+
+
+> SUBIR ARQUIVO PARA SHAREPOINT => ROTEIRO DE TESTE
+
+-> Pasta | 04-Teste | DES | Site_Caixa | Roteiro_Teste | 2025
+
+-> Carregar > Arquivos > Localizar Arquivo = SIWIC_RTC24363182_Roteiro_Teste_Ajuste_Carregamento_Imagens_Home_2.xlsx
+
+-> Como Pegar o Link
+ - Clicar com o Botão da Direita Sobre o ARQUIVO
+ - Selecionar o Item Detalhes
+ - Descer e Localizar o Item Caminho:
+ - Clicar com o Botão Direito Sobre o Nome
+ - Clicar Detalhes
+ - Localizar Item "Caminho"
+ - Clicar no Ícone "Copiar link direto"
+
+-> LINK COPIADO:
+https://caixa.sharepoint.com/sites/DOC_SIWIC/Documentos%20Compartilhados/04-Testes/DES/Site_Caixa/Roteiro/2025/SIWIC_RTC24363182_Roteiro_Teste_Ajuste_Carregamento_Imagens_Home_2.xlsx
+
+
+
+
+
+#=-> COPIAR LINKS PARA A PLANILHA - SIWIC_ENTREGA_001_RTC24363182 - Estruturar.xlsx <-=<
+
+[A2] = >[A3] DATA< = DATA NA QUAL O ARQUIVO FOI INSERIDO NO FONTES CAIXA.
+[B2] = >[B3] HORA< = DATA NA QUAL O ARQUIVO FOI INSERIDO NO FONTES CAIXA.
+[C2] = >[C3] CEDESBR< = 505 =->SEMPRE O MESMO PARA TODAS AS SISTEMA<-=
+[D2] = >[D3] SISTEMA< = Sistema = >SIWIC<
+[F2] = >[F3] VERSÃO< = >main<
+[G2] = >[G3] RTC< = >RTC24363182<
+[H2] = >[H3] OBSERVAÇÃO< = >Inclusão<
+
+
+>[E2] LOCALIZAÇÃO NO FONTES CAIXA = LISTA SITUACAO = 
+
+https://caixa.sharepoint.com/sites/DOC_SIWIC/Documentos%20Compartilhados/04-Testes/DES/Site_Caixa/Lista_Situaoes/2025/SIWIC_RTC24363182_Lista_Situacao_Ajuste_Carregamento_Imagens_Home_2.xlsx
+
+
+
+>[E3] LOCALIZAÇÃO NO FONTES CAIXA = ROTEIRO TESTE = 
+
+https://caixa.sharepoint.com/sites/DOC_SIWIC/Documentos%20Compartilhados/04-Testes/DES/Site_Caixa/Roteiro/2025/SIWIC_RTC24363182_Roteiro_Teste_Ajuste_Carregamento_Imagens_Home_2.xlsx
+
+
+
+
+
+
+
+>#----------#---><> L245 >---#----------#<>
+
+#=-> SIWIC_RTC24363182_Evidencias_Teste_Ajuste_Carregamento_Imagens_Home_2.docx <-=<
+
+
+
+>### OBS: COLAR AS EVIDÊNCIAS NESTE DOCUMENTO ###<
+
+
+
+>- CAMEÇALHO:<
+>Sistema:< SIWIC
+>>Módulo:< >3155: SIWIC - SIWIC - MA - Manutencao< > # # # Item de Portifólio no IB # # #<
+>Requisido / Caso de Uso:< SIWIC_RTC24363182_Evidencias_Teste_Ajuste_Carregamento_Imagens_Home_2
+>Elemento sob Teste:< SIWIC_RTC24363182_Evidencias_Teste_Ajuste_Carregamento_Imagens_Home_2
+
+
+>- RODAPÉ:<
+>Arquivo:< SIWIC_RTC24363182_Evidencias_Teste_Ajuste_Carregamento_Imagens_Home_2.docx
+
+>- CORPO DO DOCUMENTO:<
+
+>1- Finalidade< ># # # SEMPRE ATUALIZAR # # #<
+
+
+>Descrição:<>***<> USAR Descrição + Critérios de Aceite para Gerar Texto <>***<
+
+Validar que no Portal Caixa nos Cars dos módulos Destaques - Loterias - Soluções do Conglomerado. com Imagem, tenham fixados no div class="imagem=destaque" o atribulo loading="lazy", o que impede o Leitor de Tela - NVDA de Ler a Imagem, o logo da caixa deve ser carregada de forma async com fetch priority high, o logo da Caixa deve ser carregado de forma async com fetch priority high.
+
+
+
+>Descrição:<>Critérios de Aceitação:<
+
+>Descrição:<
+
+Eu como gestor do site solicito que se coloque loading="lazy" nas imagens da home dos módulos Destaques, Loterias e Soluções do conglomerado. Atribuir também código para que os leitores de deficientes visuais ignorem as imagens.
+
+A logo da caixa deve ser carregada de forma async com fetch priority high.
+
+
+
+>Critérios de Aceitação:<
+
+Verificação do código em produção.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>#----------#---><> L310 >---#----------#<>
+
+#=-> SIWIC_RTC24363182_Lista_Situacao_Ajuste_Carregamento_Imagens_Home_2.xlsx <-=<
+
+
+
+-> [ABA SIWIC} <- ># # # VERIFICAR O NOME DA ABA # # #<
+[A3] >Sistema< = >SIWIC<
+[H3] >Módulo:< >3155: SIWIC - SIWIC - MA - Manutencao< > # # # Item de Portifólio no IB # # #<
+[H4] >Nº SISOL WEB< = >RTC24363182<
+[I1] >Data da Emissão:< = >"DATA DO INICIO DOS PROCEDIMENTOS"<
+
+
+-> [ABA Histórico de Revisões} <-
+[A7] >Data< = =SIWIC!I1
+[C7] >Descrição da alteração< = "Elaboração do artefato conforme " & SIWIC!H4
+[D7] >Autor< = Spassu
+
+
+-> [ABA SIWIC} <- ># # # VERIFICAR O NOME DA ABA # # #<
+[B] >Descrição< = TEXTO APÓS O >"Objetivo:"<
+[C] >Resultado Esperado< = TEXTO APÓS O >"RESUL. ESPERADO:"<
+
+
+[D] >Alvo< = > =ESQUERDA(I6;17) & "_Analise_Impacto" <
+[I] >Implantação< = >SIWIC_RTC24363182_Roteiro_Teste_Ajuste_Carregamento_Imagens_Home_2<
+
+
+[A6] >="CT" & TEXTO(LIN(A6)-5;"000")<
+
+
+
+
+
+
+>#----------#---><> L345 >---#----------#<>>
+
+#=-> SIWIC_RTC24363182_Roteiro_Teste_Ajuste_Carregamento_Imagens_Home_2.xlsx <-=<
+
+
+
+-> [CASOS DE TESTE] <-
+[A4] >Sistema:< >SIWIC<
+[W2] >Data de Emissão:< >"DATA DO INICIO DOS PROCEDIMENTOS"<
+[W4] =>"Caso de Uso / Requisito: " & DIREITA(A4;5) & "_" & DIREITA(W5;11) & "_Analise_Impacto"<
+[W5] >Nº SISOL WEB:< >RTC24363182<
+[W6] =>"Elemento sob teste: " & DIREITA(A4;5) & "_" & DIREITA(W5;11) & "_Analise_Impacto"<
+[W**] >Arquivo:< >SIWIC_RTC24363182_Roteiro_Teste_Ajuste_Carregamento_Imagens_Home_2.xlsx<
+
+2- [L4] >Módulo:< >3155: SIWIC - SIWIC - MA - Manutencao< > # # # Item de Portifólio no IB # # #<
+1-
+
+[A6] >="CT" & TEXTO(LIN(A6)-5;"000")<
+
+
+
+
+
+
+
+>#----------#---><> L370 >---#----------#<>
+
+>PRÉ-CONDIÇÕES GERAIS:<
+
+>1< - Acessar a Página >"Portal Caixa"< >"https://portalcaixa.des.caixa/Paginas/home-caixa.aspx"<.
+
+
+
+
+
+>#---#
+RTC24363182_CT001
+1. Página do Portal Caixa - Logo Caixa - Alta Priorizada = img fetchpriority="high"
+
+
+
+>PRÉ-CONDIÇÕES:<
+
+>1< - Acessar a Página >"Portal Caixa"< >"https://portalcaixa.des.caixa/Paginas/home-caixa.aspx"<.
+
+
+
+>Objetivo:<
+Validar que no >"Portal Caixa"< o >Logo da CAIXA< tem >"Alta Prioridade no Carregamento"< usando na >tag img"< o atribulo >img fetchpriority="high"<.
+
+>Passos:<
+>1< - Acessar a Página >"Portal Caixa"< >"https://portalcaixa.des.caixa/Paginas/home-caixa.aspx"<.
+>2< - Clicar com o >"Botão da Direita"< no >"Topo da Página"< sobre o >"Logo da Caixa"<.
+>3< - Selecionar o Item >"Inspecionar"<.
+>4< - Verificar que é exibida a Aba >"Inspecionar"<.
+>5< - Verificar que é exibida na >tag img"< o atribulo >img fetchpriority="high"<.
+>6< - Validar que no >"Portal Caixa"< o >Logo da CAIXA< tem >"Alta Prioridade no Carregamento"< usando na >tag img"< o atribulo >img fetchpriority="high"<.
+
+
+
+>RESUL. ESPERADO:<
+No >"Portal Caixa"< o >Logo da CAIXA< tem >"Alta Prioridade no Carregamento"< usando na >tag img"< o atribulo >img fetchpriority="high"<.
+
+
+
+
+
+>#---#
+RTC24363182_CT002
+2. Página do Portal Caixa - Cards Acesso Rápido com Imagens = img loading="lazy"
+
+
+
+>PRÉ-CONDIÇÕES:<
+
+>1< - Acessar a Página >"Portal Caixa"< >"https://portalcaixa.des.caixa/Paginas/home-caixa.aspx"<.
+
+
+
+>Objetivo:<
+Validar que no >"Portal Caixa"< os >Cards de Acesso Rápido com Imagem< tem fixado na >tag img"< o atribulo >loading="lazy"<.
+
+>Passos:<
+>1< - Acessar a Página >"Portal Caixa"< >"https://portalcaixa.des.caixa/Paginas/home-caixa.aspx"<.
+>2< - Navegar até o >"Primeiro"< >"Card com Imagem"<.
+>3< - Clicar com o >"Botão da Direita"< sobre a >"Área Azul"< acima >"Habitação"<.
+>4< - Selecionar o Item >"Inspecionar"<.
+>5< - Verificar que é exibida a Aba >"Inspecionar"<.
+>6< - Verificar que é exibida na >tag img"< o atribulo >"img loading="lazy"<.
+>7< - Clicar com o >"Botão da Direita"< sobre a >"Área Azul"< acima >"Cartões"<.
+>8< - Verificar que é exibida a Aba >"Inspecionar"<.
+>9< - Selecionar o Item >"Inspecionar"<.
+>10< - Verificar que é exibida na >tag img"< o atribulo >"img loading="lazy"<.
+>11< - Clicar com o >"Botão da Direita"< sobre a >"Área Azul"< acima >"Crédito"<.
+>12< - Verificar que é exibida a Aba >"Inspecionar"<.
+>13< - Selecionar o Item >"Inspecionar"<.
+>14< - Verificar que é exibida na >tag img"< o atribulo >"img loading="lazy"<.
+>15< - Clicar com o >"Botão da Direita"< sobre a >"Área Azul"< acima >"Investimentos"<.
+>16< - Verificar que é exibida a Aba >"Inspecionar"<.
+>17< - Selecionar o Item >"Inspecionar"<.
+>18< - Verificar que é exibida na >tag img"< o atribulo >"img loading="lazy"<.
+>19< - Clicar com o >"Botão da Direita"< sobre a >"Área Azul"< acima >"Open Finance"<.
+>20< - Verificar que é exibida a Aba >"Inspecionar"<.
+>21< - Selecionar o Item >"Inspecionar"<.
+>22< - Verificar que é exibida na >tag img"< o atribulo >"img loading="lazy"<.
+>23< - Clicar com o >"Botão da Direita"< sobre a >"Área Azul"< acima >"Sustentabilidade"<.
+>24< - Verificar que é exibida a Aba >"Inspecionar"<.
+>25< - Selecionar o Item >"Inspecionar"<.
+>26< - Verificar que é exibida na >tag img"< o atribulo >"img loading="lazy"<.
+>27< - Validar que no >"Portal Caixa"< os >Cards de Acesso Rápido com Imagem< tem fixado na >tag img"< o atribulo >loading="lazy"<.
+
+
+
+>RESUL. ESPERADO:<
+No >"Portal Caixa"< os >Cards de Acesso Rápido com Imagem< tem fixado na >tag img"< o atribulo >loading="lazy"<.
+
+
+
+
+
+>#---#
+RTC24363182_CT003
+3. Página do Portal Caixa - Card Loterias com Imagens = img loading="lazy"
+
+
+
+>PRÉ-CONDIÇÕES:<
+
+>1< - Acessar a Página >"Portal Caixa"< >"https://portalcaixa.des.caixa/Paginas/home-caixa.aspx"<.
+
+
+
+>Objetivo:<
+Validar que no >"Portal Caixa"< o >Card "Aposte e mude sua história" em sua Imagem"< tem fixado na >tag img"< o atribulo >loading="lazy"<.
+
+>Passos:<
+>1< - Acessar a Página >"Portal Caixa"< >"https://portalcaixa.des.caixa/Paginas/home-caixa.aspx"<.
+>2< - Navegar em >"Direção"< ao >"Rodapé"<.
+>3< - Localizar o >Card "Aposte e mude sua história" em sua Imagem"<.
+>4< - Clicar com o >"Botão da Direita"< sobre a >"Imagem"< do >Card "Aposte e mude sua história"<.
+>5< - Selecionar o Item >"Inspecionar"<.
+>6< - Verificar que é exibida a Aba >"Inspecionar"<.
+>7< - Verificar que é exibida na >tag img"< o atribulo >"img loading="lazy"<.
+>8< - Validar que no >"Portal Caixa"< o >Card "Aposte e mude sua história" em sua Imagem"< tem fixado na >tag img"< o atribulo >loading="lazy"<.
+
+
+
+>RESUL. ESPERADO:<
+No >"Portal Caixa"< o >Card "Aposte e mude sua história" em sua Imagem"< tem fixado na >tag img"< o atribulo >loading="lazy"<.
+
+
+
+
+
+>#---#
+RTC24363182_CT004
+4. Página do Portal Caixa - Cards Conglomerado com Imagens = img loading="lazy"
+
+
+
+>PRÉ-CONDIÇÕES:<
+
+>1< - Acessar a Página >"Portal Caixa"< >"https://portalcaixa.des.caixa/Paginas/home-caixa.aspx"<.
+
+
+
+>Objetivo:<
+Validar que no >"Portal Caixa"< o >Cards "Conglomerados" em sua Imagem"< tem fixado na >tag img"< o atribulo >loading="lazy"<.
+
+>Passos:<
+>1< - Acessar a Página >"Portal Caixa"< >"https://portalcaixa.des.caixa/Paginas/home-caixa.aspx"<.
+>2< - Navegar em >"Direção"< ao >"Rodapé"<.
+>3< - Localizar o >Cards "Conglomerados" em sua Imagem"<.
+>4< - Navegar até o >"Primeiro"< >"Card com Imagem"<.
+>5< - Clicar com o >"Botão da Direita"< sobre a >"Imagem"< no >Card "Cartão de crédito na hora!"<.
+>6< - Acessar a Página >"Portal Caixa"< >"https://portalcaixa.des.caixa/Paginas/home-caixa.aspx"<.
+>7< - Selecionar o Item >"Inspecionar"<.
+>8< - Verificar que é exibida a Aba >"Inspecionar"<.
+>9< - Verificar que é exibida na >tag img"< o atribulo >"img loading="lazy"<.
+>10< - Clicar com o >"Botão da Direita"< sobre a >"Imagem"< no >Card "Clube CAIXA"<.
+>11< - Selecionar o Item >"Inspecionar"<.
+>12< - Verificar que é exibida a Aba >"Inspecionar"<.
+>13< - Verificar que é exibida na >tag img"< o atribulo >"img loading="lazy"<.
+>14< - Clicar com o >"Botão da Direita"< sobre a >"Imagem"< no >Card "Apple Pay"<.
+>15< - Selecionar o Item >"Inspecionar"<.
+>16< - Verificar que é exibida a Aba >"Inspecionar"<.
+>17< - Verificar que é exibida na >tag img"< o atribulo >"img loading="lazy"<.
+>18< - Clicar com o >"Botão da Direita"< sobre a >"Imagem"< no >Card "Com a azulzinha você pode muito mais!"<.
+>19< - Selecionar o Item >"Inspecionar"<.
+>20< - Verificar que é exibida a Aba >"Inspecionar"<.
+>21< - Verificar que é exibida na >tag img"< o atribulo >"img loading="lazy"<.
+>22< - Clicar no >"Botão Próximo"< Slide do >"Carrossel"<.
+>23< - Clicar com o >"Botão da Direita"< sobre a >"Imagem"< no >Card "Seguro Bem-Estar"<.
+>24< - Selecionar o Item >"Inspecionar"<.
+>25< - Verificar que é exibida a Aba >"Inspecionar"<.
+>26< - Verificar que é exibida na >tag img"< o atribulo >"img loading="lazy"<.
+>27< - Clicar no >"Botão Próximo"< Slide do >"Carrossel"<.
+>28< - Clicar com o >"Botão da Direita"< sobre a >"Imagem"< no >Card "Seguro Residencial"<.
+>29< - Selecionar o Item >"Inspecionar"<.
+>30< - Verificar que é exibida a Aba >"Inspecionar"<.
+>31< - Verificar que é exibida na >tag img"< o atribulo >"img loading="lazy"<.
+>32< - Clicar no >"Botão Próximo"< Slide do >"Carrossel"<.
+>33< - Clicar com o >"Botão da Direita"< sobre a >"Imagem"< no >Card "Tem uma tagCAIXA esperando por você!"<.
+>34< - Selecionar o Item >"Inspecionar"<.
+>35< - Verificar que é exibida a Aba >"Inspecionar"<.
+>36< - Verificar que é exibida na >tag img"< o atribulo >"img loading="lazy"<.
+>37< - Clicar no >"Botão Próximo"< Slide do >"Carrossel"<.
+>38< - Clicar com o >"Botão da Direita"< sobre a >"Imagem"< no >Card "Consórcio da Gente"<.
+>39< - Selecionar o Item >"Inspecionar"<.0
+>40< - Verificar que é exibida a Aba >"Inspecionar"<.
+>41< - Verificar que é exibida na >tag img"< o atribulo >"img loading="lazy"<.
+>42< - Clicar no >"Botão Próximo"< Slide do >"Carrossel"<.
+>43< - Clicar com o >"Botão da Direita"< sobre a >"Imagem"< no >Card "Cartão CAIXA Mulher"<.
+>44< - Selecionar o Item >"Inspecionar"<.
+>45< - Verificar que é exibida a Aba >"Inspecionar"<.
+>46< - Verificar que é exibida na >tag img"< o atribulo >"img loading="lazy"<.
+>47< - Clicar no >"Botão Próximo"< Slide do >"Carrossel"<.
+>48< - Clicar com o >"Botão da Direita"< sobre a >"Imagem"< no >Card "CAP Ganhador"<.
+>49< - Selecionar o Item >"Inspecionar"<0.
+>50< - Verificar que é exibida a Aba >"Inspecionar"<.
+>51< - Verificar que é exibida na >tag img"< o atribulo >"img loading="lazy"<.
+>52< - Clicar no >"Botão Próximo"< Slide do >"Carrossel"<.
+>53< - Clicar com o >"Botão da Direita"< sobre a >"Imagem"< no >Card "Prev Mulher"<.
+>54< - Selecionar o Item >"Inspecionar"<.
+>55< - Verificar que é exibida a Aba >"Inspecionar"<.
+>56< - Verificar que é exibida na >tag img"< o atribulo >"img loading="lazy"<.
+>57< - Clicar no >"Botão Próximo"< Slide do >"Carrossel"<.
+>58< - Clicar com o >"Botão da Direita"< sobre a >"Imagem"< no >Card "vtCAIXA"<.
+>59< - Selecionar o Item >"Inspecionar"0<.
+>60< - Verificar que é exibida a Aba >"Inspecionar"<.
+>61< - Verificar que é exibida na >tag img"< o atribulo >"img loading="lazy"<.
+>62< - Clicar no >"Botão Próximo"< Slide do >"Carrossel"<.
+>63< - Clicar com o >"Botão da Direita"< sobre a >"Imagem"< no >Card "CAIXA Alimentação, Refeição e Multi"<.
+>64< - Selecionar o Item >"Inspecionar"<.
+>65< - Verificar que é exibida a Aba >"Inspecionar"<.
+>66< - Verificar que é exibida na >tag img"< o atribulo >"img loading="lazy"<.
+>67< - Clicar no >"Botão Próximo"< Slide do >"Carrossel"<.
+>68< - Clicar com o >"Botão da Direita"< sobre a >"Imagem"< no >Card "tagCAIXA Empresas"<.
+>69< - Selecionar o Item >"Inspecionar0"<.
+>70< - Verificar que é exibida a Aba >"Inspecionar"<.
+>71< - Verificar que é exibida na >tag img"< o atribulo >"img loading="lazy"<.
+>72< - Clicar no >"Botão Próximo"< Slide do >"Carrossel"<.
+>73< - Clicar com o >"Botão da Direita"< sobre a >"Imagem"< no >Card "azulzinha pay"<.
+>74< - Selecionar o Item >"Inspecionar"<.5
+>75< - Verificar que é exibida a Aba >"Inspecionar"<.6
+>76< - Verificar que é exibida na >tag img"< o atribulo >"img loading="lazy"<.7
+>77< - Clicar no >"Botão Próximo"< Slide do >"Carrossel"<.8
+>78< - Clicar com o >"Botão da Direita"< sobre a >"Imagem"< no >Card "azulzinha pay"<.
+>79< - Selecionar o Item >"Inspeciona9r"<.
+>80< - Verificar que é exibida a Aba >"Inspecionar"<.
+>81< - Verificar que é exibida na >tag img"< o atribulo >"img loading="lazy"<.
+>82< - Validar que no >"Portal Caixa"< o >Cards "Conglomerados" em sua Imagem"< tem fixado na >tag img"< o atribulo >loading="lazy"<.
+
+
+
+>RESUL. ESPERADO:<
+No >"Portal Caixa"< o >Cards "Conglomerados" em sua Imagem"< tem fixado na >tag img"< o atribulo >loading="lazy"<.
+
+
+
+
+
+>#---#
+RTC24363182_CT005
+5. Página do Portal Caixa - Rodapé Imagens Programas e Acesso à Informação = img loading="lazy"
+
+
+
+>PRÉ-CONDIÇÕES:<
+
+>1< - Acessar a Página >"Portal Caixa"< >"https://portalcaixa.des.caixa/Paginas/home-caixa.aspx"<.
+
+
+
+>Objetivo:<
+Validar que no >"Portal Caixa"< os >ícones dos Itens "Programa Integridade" e "Acesso à Informação"< tem fixado na >tag img"< o atribulo >loading="lazy"<.
+
+>Passos:<
+>1< - Acessar a Página >"Portal Caixa"< >"https://portalcaixa.des.caixa/Paginas/home-caixa.aspx"<.
+>2< - Navegar até >"Direção"< ao >"Rodapé"<.
+>3< - Localizar o >"Ícone"< do Item >"Programa Integridade"<.
+>4< - Clicar com o >"Botão da Direita"< sobre o >"Ícone"< do Item >"Programa Integridade"<.
+>5< - Selecionar o Item >"Inspecionar"<.
+>6< - Verificar que é exibida a Aba >"Inspecionar"<.
+>7< - Verificar que é exibida na >tag img"< o atribulo >"img loading="lazy"<.
+>8< - Localizar o >"Ícone"< do Item >"Acesso à Informação"<.
+>9< - Clicar com o >"Botão da Direita"< sobre o >"Ícone"< do Item >"Acesso à Informação"<.
+>10< - Selecionar o Item >"Inspecionar"<.
+>11< - Verificar que é exibida a Aba >"Inspecionar"<.
+>12< - Verificar que é exibida na >tag img"< o atribulo >"img loading="lazy"<.
+>13< - Validar que no >"Portal Caixa"< os >ícones dos Itens "Programa Integridade" e "Acesso à Informação"< tem fixado na >tag img"< o atribulo >loading="lazy"<.
+
+
+
+>RESUL. ESPERADO:<
+No >"Portal Caixa"< os >ícones dos Itens "Programa Integridade" e "Acesso à Informação"< tem fixado na >tag img"< o atribulo >loading="lazy"<.
+
+
+
+
+
+>#---#
+>#---#
+>#---#
+
+1. Página do Portal Caixa - Logo Caixa - Alta Priorizada = img fetchpriority="high"
+2. Página do Portal Caixa - Cards Acesso Rápido com Imagens = img loading="lazy"
+3. Página do Portal Caixa - Card Loterias com Imagens = img loading="lazy"
+4. Página do Portal Caixa - Cards Conglomerado com Imagens = img loading="lazy"
+5. Página do Portal Caixa - Rodapé Imagens Programas e Acesso à Informação = img loading="lazy"
+
+
+
+>#---#
+
+>Descrição:<>***<> USAR Descrição + Critérios de Aceite para Gerar Texto <>***<
+
+Validar que no Portal Caixa nos Cars dos módulos Destaques - Loterias - Soluções do Conglomerado. com Imagem, tenham fixados no div class="imagem=destaque" o atribulo loading="lazy", o que impede o Leitor de Tela - NVDA de Ler a Imagem, o logo da caixa deve ser carregada de forma async com fetch priority high, o logo da Caixa deve ser carregado de forma async com fetch priority high.
+
+
+
+>Descrição:<>Critérios de Aceitação:<
+
+>Descrição:<
+
+Eu como gestor do site solicito que se coloque loading="lazy" nas imagens da home dos módulos Destaques, Loterias e Soluções do conglomerado. Atribuir também código para que os leitores de deficientes visuais ignorem as imagens.
+
+A logo da caixa deve ser carregada de forma async com fetch priority high.
+
+
+
+>Critérios de Aceitação:<
+
+Verificação do código em produção.
+
+
+
+
+
+>#---#
