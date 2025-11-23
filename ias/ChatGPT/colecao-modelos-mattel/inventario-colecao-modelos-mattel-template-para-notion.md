@@ -5,6 +5,8 @@
 
 # 📦 🔍 Inventário de Coleções 🚗 🏁
 
+# 📦 🔍 Inventário de Coleções da MATEEL 🚗 🏁
+
 ---
 
 ## Link NOTION:
@@ -17,7 +19,7 @@
 ### (Copiar e colar diretamente em uma página do Notion)
 
 ```markdown
-# 🗂️ Registro de Miniatura — Modelo
+# 📦 🔍 Inventário de Coleções da MATEEL 🚗 🏁
 
 ---
 
