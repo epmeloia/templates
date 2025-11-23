@@ -1,17 +1,24 @@
 # README
 "README.md"
 
+---
 
-# Breve Descrição do APP:
+# 📚 Mini-Instrucoes:
 
-## APP:
-- Sua Função é de Registro de Textos e Imagens
-- Será uma aplicação WEB.
-- Quando o APP é aberto, seu Banco de Dados está em sem dados em branco, neste momento o sistema está em estado de inicio, todas as suas configurações são as do PADRÃO.
-
-
+* **Mini-Instruções** = “como fazer …" - com passo-a-passo prático.
+* **O que entra aqui:** passo-a-passo de tarefas (como fazer).
+* **Instruções** relativas a processos Internos ou Externos
 
 
 
+---
 
+##----------####----------####----------####----------##
+```
+         .' '.    .' '.         ,-.
+.        .   .    .   .         \ /
+ .         .        .       . -{|||)<
+   ' .  . ' ' .  . ' ' . . '    / \
+                                `-^
+```
 ##----------####----------####----------####----------##
