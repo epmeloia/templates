@@ -1,5 +1,5 @@
-# Coleção de Modelos da Mattel
-"colecao-modelos-mattel.md"
+# Inventário Coleção de Modelos da Mattel - Versão para GPTs
+"inventario-colecao-modelos-mattel-versao-para-gpts.md"
 
 # 📦 🔍 Coleções 🚗 🏁
 
