@@ -1,3 +1,9 @@
+##
+## Comando em Lote para Syncrinizar WEB PC
+##
+## Versão com Commit Fixo
+##
+
 #!/bin/bash
 
 # Gera data e hora

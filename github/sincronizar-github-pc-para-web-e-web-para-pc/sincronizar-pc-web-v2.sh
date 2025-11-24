@@ -1,58 +1,62 @@
 ##
-## Comando em Lote para Syncrinizar WEB PC
+## Comando em Lote para Syncrinizar PC WEB
 ##
-## Versão com Commit Fixo
+## Versão com Commit Variavel
 ##
-clear
+#!/bin/bash
+
+# Gera data e hora
+DATA=$(date +%Y-%m-%d)
+HORA=$(date +%Hh%Mm%Ss)
+LOG="LOG-PC-WEB-$DATA-$HORA.txt"
+
+# Cria pasta de logs se não existir
+mkdir -p /d/_GITHUB/logs
+
+# Redireciona toda a execução para o log
+exec > "/d/_GITHUB/logs/$LOG" 2>&1
+
 echo
-echo '# ------------------------------- #'
-echo '# INICIO DO SINCRONISMO WEB-PC    #'
-echo '# ------------------------------- #'
+echo '# ------------------------------ #'
+echo '#  INICIO DO SINCRONISMO PC-WEB  #'
+echo '# ------------------------------ #'
 echo
 
 echo '# -> cd /d/_GITHUB/templates <- #'
-echo
-cd /d/_GITHUB/templates
+cd /d/_GITHUB/templates || exit
 echo
 
 echo '# -> pwd <- #'
-echo
 pwd
 echo
-read -p "Pressione ENTER para continuar..."
-echo
-clear
 
 echo '# -> git status <- #'
-echo
 git status
 echo
-read -p "Pressione ENTER para continuar..."
+
+echo '# -> git add .'
+git add .
 echo
 
-echo '# -> git fetch <- #'
+echo '# -> git commit -m "Descr."'
+git commit -m "Descr"
 echo
-git fetch
-echo
-read -p "Pressione ENTER para continuar..."
+
+echo '# -> git push'
+git push
 echo
 
 echo '# -> git pull <- #'
-echo
 git pull
-echo
-read -p "Pressione ENTER para continuar..."
 echo
 
 echo '# -> git log -3 <- #'
-echo
 git log -3
 echo
-read -p "Pressione ENTER para continuar..."
-echo
 
-echo '# ------------------------------- #'
-echo '# FIM DO SINCRONISMO WEB-PC       #'
-echo '# ------------------------------- #'
+echo
+echo '# --------------------------- #'
+echo '#  FIM DO SINCRONISMO PC-WEB  #'
+echo '# --------------------------- #'
 echo
 echo
