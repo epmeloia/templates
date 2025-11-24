@@ -1,17 +1,31 @@
-# 🌐 Yahoo Mail + Thunderbird Docs (GitHub Pages)
+# 📘 Templates — Central de Instruções e Ideias
 
-Este site foi gerado a partir do conteúdo Markdown deste repositório e serve como referência para configurar contas Yahoo com Thunderbird de forma segura, com ou sem autenticação em duas etapas (2FA).
+Este repositório é dedicado à organização e compartilhamento de:
 
-## 📘 Checklists disponíveis
-
-- [Checklist em Português (PT-BR)](../Checklist_Yahoo_Thunderbird_2025.md)
-- [Checklist in English (EN)](../Checklist_Yahoo_Thunderbird_2025_EN.md)
-
-## 🖼 Exemplo visual
-
-![Exemplo Thunderbird](./assets/example-config.png)
+- 🛠️ Automação e scripts
+- 🤖 IA: prompts, boas práticas e ferramentas
+- 🧩 Ideias para desenvolvimento e produtividade
+- 📚 Documentação técnica prática
+- 🎮 Jogos e modificações
+- 📝 Utilitários no Word, VBS, etc
 
 ---
 
-> Gerado com ❤️ em novembro de 2025.  
-> Atualizações futuras: [github.com/epmeloia/templates](https://github.com/epmeloia/templates)
+## Estrutura principal
+
+| Pasta            | Conteúdo                                                  |
+|------------------|-----------------------------------------------------------|
+| `/docs`          | Site público via GitHub Pages                             |
+| `/ias`           | Boas práticas e instruções com IA                         |
+| `/github`        | Sincronização GitHub (PC↔Web)                             |
+| `/dev`           | Protótipos e descrições de apps                           |
+| `/games`         | Mods, interseções, imagens de jogos                       |
+| `/mini-glossarios` | Termos técnicos explicados                               |
+| `/word`, `/vbsript`, `/videos` | Automação de tarefas locais                  |
+| `/yahoo/thunderbird` | Manual para configurar Yahoo Mail no Thunderbird      |
+
+---
+
+🧠 Acompanhe, contribua ou se inspire!
+
+> **Atualizado automaticamente por scripts.**
