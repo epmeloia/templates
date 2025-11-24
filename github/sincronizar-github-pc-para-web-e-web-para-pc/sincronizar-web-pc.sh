@@ -53,6 +53,8 @@ git log -3
 echo
 echo
 
+start "" "D:\_GITHUB\logs\$LOG"
+
 echo
 echo '# ------------------------------- #'
 echo '# FIM DO SINCRONISMO WEB-PC       #'
