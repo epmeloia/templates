@@ -5,9 +5,9 @@
 ##
 clear
 echo
-echo '# ------------------------------- #'
-echo '# INICIO DO SINCRONISMO WEB-PC    #'
-echo '# ------------------------------- #'
+echo '# ------------------------------ #'
+echo '#  INICIO DO SINCRONISMO WEB-PC  #'
+echo '# ------------------------------ #'
 echo
 
 echo '# -> cd /d/_GITHUB/templates <- #'
@@ -19,15 +19,24 @@ echo '# -> pwd <- #'
 echo
 pwd
 echo
+
+echo
 read -p "Pressione ENTER para continuar..."
 echo
+
 clear
+
+echo
+echo
 
 echo '# -> git status <- #'
 echo
 git status
 echo
+
+echo
 read -p "Pressione ENTER para continuar..."
+echo
 echo
 
 echo '# -> git fetch <- #'
@@ -43,12 +52,18 @@ git pull
 echo
 read -p "Pressione ENTER para continuar..."
 echo
+echo
 
 echo '# -> git log -3 <- #'
 echo
+echo
+
 git log -3
 echo
+echo
+
 read -p "Pressione ENTER para continuar..."
+echo
 echo
 
 echo '# ------------------------------- #'
