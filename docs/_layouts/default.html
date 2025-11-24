@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    {{ site.title }} - {{ site.description }}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ content | strip_html | truncate: 160 }}
+  </head>
+  <body>
+    <header style="background:#eee;padding:1em;text-align:center;">
+      <h1>{{ site.title }}</h1>
+      <p>{{ site.description }}</p>
+    </header>
+    <main style="margin:2em;">
+      {{ content }}
+    </main>
+    <footer style="background:#eee;padding:1em;text-align:center;">
+      <small>Atualizado em {{ site.time | date: "%d/%m/%Y" }} • © epmeloia</small>
+    </footer>
+  </body>
+</html>

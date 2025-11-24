@@ -1,0 +1,8 @@
+title: Templates Hub
+description: Central de manuais, ideias, prompts e utilitários
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+show_downloads: true
