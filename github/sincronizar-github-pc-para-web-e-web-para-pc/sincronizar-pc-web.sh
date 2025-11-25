@@ -1,73 +1,46 @@
-##
-## Comando em Lote para Syncrinizar PC WEB
-##
-## Versão com Commit Variavel
-##
 #!/bin/bash
 
-# Gera data e hora
-DATA=$(date +%Y-%m-%d)
-HORA=$(date +%Hh%Mm%Ss)
-LOG="LOG-PC-WEB-$DATA-$HORA.txt"
+clear
+LOG="D:/_GITHUB/logs/LOG-PC-WEB-2025-11-25-00h29m11s.txt"
 
-# Cria pasta de logs se não existir
-mkdir -p /d/_GITHUB/logs
-
-# Redireciona toda a execução para o log
-exec > "/d/_GITHUB/logs/$LOG" 2>&1
-
-echo
-echo '# ------------------------------ #'
-echo '#  INICIO DO SINCRONISMO PC-WEB  #'
-echo '# ------------------------------ #'
-echo
-echo
-
-echo '# -> cd /d/_GITHUB/templates <- #'
-cd /d/_GITHUB/templates || exit
-echo
-echo
-
-echo '# -> pwd <- #'
+{
+echo ""
+echo "# ------------------------------ #"
+echo "#  INICIO DO SINCRONISMO PC-WEB  #"
+echo "# ------------------------------ #"
+echo ""
+echo "# -> cd /d/_GITHUB/templates <- #"
+cd /d/_GITHUB/templates
+echo ""
+echo "# -> pwd <- #"
 pwd
-echo
-echo
-
-echo '# -> git status <- #'
+echo ""
+echo ""
+echo "# -> git status <- #"
 git status
-echo
-echo
-
-echo '# -> git add .'
+echo ""
+echo "# -> git add ."
 git add .
-echo
-echo
-
-echo '# -> git commit -m "Descr."'
-git commit -m "Descr"
-echo
-echo
-
-echo '# -> git push'
+echo ""
+echo "# -> git commit -m \"Descr.\""
+git commit -m "Descr."
+echo ""
+echo "# -> git push"
 git push
-echo
-echo
-
-echo '# -> git pull <- #'
+echo ""
+echo "# -> git pull"
 git pull
-echo
-echo
+echo ""
+echo ""
+echo "# --------------------------- #"
+echo "#  FIM DO SINCRONISMO PC-WEB  #"
+echo "# --------------------------- #"
+} | tee "$LOG"
 
-echo '# -> git log -3 <- #'
-git log -3
-echo
-echo
+# Aguarda leitura e exibe o log no final sem travar o terminal
+echo ""
+echo "Log salvo em: $LOG"
+read -p "Pressione ENTER para visualizar o log..."
 
-cmd.exe /C "start notepad.exe $LOG"
-
-echo
-echo '# --------------------------- #'
-echo '#  FIM DO SINCRONISMO PC-WEB  #'
-echo '# --------------------------- #'
-echo
-echo
+# Abre com notepad de forma isolada
+powershell.exe Start-Process notepad.exe "$LOG"
