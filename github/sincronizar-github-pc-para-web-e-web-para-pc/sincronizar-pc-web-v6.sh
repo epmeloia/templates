@@ -76,6 +76,15 @@ git pull
 
 
 echo
+echo '# ---------------- #'
+echo '# -> git log -3 <- #'
+echo '# ---------------- #'
+echo
+
+git log -3
+
+
+echo
 echo '# --------------------------- #'
 echo '#  FIM DO SINCRONISMO PC-WEB  #'
 echo '# --------------------------- #'
