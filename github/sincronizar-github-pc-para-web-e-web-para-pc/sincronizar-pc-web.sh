@@ -5,7 +5,7 @@ DATA=$(date +%Y-%m-%d)
 HORA=$(date +%Hh%Mm%Ss)
 
 clear
-LOG="D:/_GITHUB/logs/LOG-PC-WEB-2025-11-25-00h29m11s.txt"
+LOG="LOG-PC-WEB-$DATA-$HORA.txt"
 
 {
 echo ""
