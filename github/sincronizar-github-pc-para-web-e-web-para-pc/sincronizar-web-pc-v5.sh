@@ -2,16 +2,12 @@
 clear
 echo
 echo '# ------------------------------ #'
-echo '#  INICIO DO SINCRONISMO PC-WEB  #'
+echo '#  INICIO DO SINCRONISMO WEB-PC  #'
 echo '# ------------------------------ #'
 echo
 
 echo '# -> cd /d/_GITHUB/templates <- #'
 cd /d/_GITHUB/templates
-
-echo '# -> pwd <- #'
-pwd
-
 echo
 
 echo '# -> pwd <- #'
@@ -21,28 +17,26 @@ echo
 # Gera nome do log com data e hora
 DATA=$(date +"%Y-%m-%d")
 HORA=$(date +"%Hh%Mm%Ss")
-LOG="D:/_GITHUB/logs/LOG-PC-WEB-$DATA-$HORA.txt"
+LOG="D:/_GITHUB/logs/LOG-WEB-PC-$DATA-$HORA.txt"
 
 {
 echo '# -> git status <- #'
 git status
 
-echo '# -> git add .'
-git add .
+echo '# -> git fetch <- #'
+git fetch
 
-echo '# -> git commit -m "Descr."'
-git commit -m "Descr"
-
-echo '# -> git push'
-git push
-
-echo '# -> git pull'
+echo '# -> git pull <- #'
 git pull
 
+echo '# -> git log -3 <- #'
+git log -3
+
+
 echo '# --------------------------- #'
-echo '#  FIM DO SINCRONISMO PC-WEB  #'
+echo '#  FIM DO SINCRONISMO WEB-PC  #'
 echo '# --------------------------- #'
 } | tee "$LOG"
 
 # Abre o arquivo de log no Notepad
-powershell.exe Start-Process notepad.exe "$LOG"
+powershell.exe Start-Process notepad++.exe "$LOG"
