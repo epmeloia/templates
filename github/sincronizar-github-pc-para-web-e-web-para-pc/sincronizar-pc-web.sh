@@ -1,50 +1,41 @@
 #!/bin/bash
-
-# Gera data e hora
-DATA=$(date +%Y-%m-%d)
-HORA=$(date +%Hh%Mm%Ss)
-
 clear
-LOG="LOG-PC-WEB-$DATA-$HORA.txt"
+echo
+echo '# ------------------------------ #'
+echo '#  INICIO DO SINCRONISMO PC-WEB  #'
+echo '# ------------------------------ #'
+echo
+
+cd /d/_GITHUB/templates
+echo
+pwd
+echo
+
+# Gera nome do log com data e hora
+DATA=$(date +"%Y-%m-%d")
+HORA=$(date +"%Hh%Mm%Ss")
+LOG="D:/_GITHUB/logs/LOG-PC-WEB-$DATA-$HORA.txt"
 
 {
-echo ""
-echo "# ------------------------------ #"
-echo "#  INICIO DO SINCRONISMO PC-WEB  #"
-echo "# ------------------------------ #"
-echo ""
-echo "# -> cd /d/_GITHUB/templates <- #"
-cd /d/_GITHUB/templates
-echo ""
-echo "# -> pwd <- #"
-pwd
-echo ""
-echo ""
-echo "# -> git status <- #"
+echo '# -> git status <- #'
 git status
-echo ""
-echo "# -> git add ."
+
+echo '# -> git add .'
 git add .
-echo ""
-echo "# -> git commit -m \"Descr.\""
-git commit -m "Descr."
-echo ""
-echo "# -> git push"
+
+echo '# -> git commit -m "Descr."'
+git commit -m "Descr"
+
+echo '# -> git push'
 git push
-echo ""
-echo "# -> git pull"
+
+echo '# -> git pull'
 git pull
-echo ""
-echo ""
-echo "# --------------------------- #"
-echo "#  FIM DO SINCRONISMO PC-WEB  #"
-echo "# --------------------------- #"
+
+echo '# --------------------------- #'
+echo '#  FIM DO SINCRONISMO PC-WEB  #'
+echo '# --------------------------- #'
 } | tee "$LOG"
 
-# Aguarda leitura e exibe o log no final sem travar o terminal
-echo ""
-echo "Log salvo em: $LOG"
-read -p "Pressione ENTER para visualizar o log..."
-
-# Abre com notepad de forma isolada
+# Abre o arquivo de log no Notepad
 powershell.exe Start-Process notepad.exe "$LOG"
