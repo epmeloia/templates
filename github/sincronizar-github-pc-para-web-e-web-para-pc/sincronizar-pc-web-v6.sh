@@ -13,13 +13,21 @@ echo '#  INICIO DO SINCRONISMO PC-WEB  #'
 echo '# ------------------------------ #'
 echo
 
-echo '# -> cd /d/_GITHUB/templates <- #'
+echo
+echo '# ------------------------- #'
+echo '#  cd /d/_GITHUB/templates  #'
+echo '# ------------------------- #'
+echo
 cd /d/_GITHUB/templates
+echo
 
-echo '# -> pwd <- #'
+echo
+echo '# ----- #'
+echo '#  pwd  #'
+echo '# ----- #'
+echo
 pwd
-
-echo .
+echo
 
 echo '# -> git status <- #'
 git status
@@ -42,4 +50,4 @@ echo '# --------------------------- #'
 } | tee "$LOG"
 
 # Abre o arquivo de log no Notepad
-powershell.exe Start-Process notepad.exe "$LOG"
+powershell.exe Start-Process notepad++.exe "$LOG"
