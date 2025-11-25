@@ -2,7 +2,7 @@
 
 Este repositório é um hub central com coleções de manuais, testes, glossários, códigos, prompts e soluções para uso prático.
 
-**Gerado automaticamente em:** 2025-11-25 15:03:07
+**Gerado automaticamente em:** 2025-11-25 17:18:28
 
 ## Seções Disponíveis
 

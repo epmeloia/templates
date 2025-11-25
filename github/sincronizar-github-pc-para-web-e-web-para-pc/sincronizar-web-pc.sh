@@ -1,63 +1,78 @@
-##
-## Comando em Lote para Syncrinizar WEB PC
-##
-## Versão com Commit Fixo
-##
-
 #!/bin/bash
+# Gera nome do log com data e hora
+DATA=$(date +"%Y-%m-%d")
+HORA=$(date +"%Hh%Mm%Ss")
+LOG="D:/_GITHUB/logs/LOG-WEB-PC-$DATA-$HORA.txt"
 
-# Gera data e hora
-DATA=$(date +%Y-%m-%d)
-HORA=$(date +%Hh%Mm%Ss)
-LOG="LOG-WEB-PC-$DATA-$HORA.txt"
+clear
 
-# Cria pasta de logs se não existir
-mkdir -p /d/_GITHUB/logs
-
-# Redireciona toda a execução para o log
-exec > "/d/_GITHUB/logs/$LOG" 2>&1
-
+{
 echo
-echo '# ------------------------------- #'
-echo '# INICIO DO SINCRONISMO WEB-PC    #'
-echo '# ------------------------------- #'
-echo
-
-echo '# -> cd /d/_GITHUB/templates <- #'
-cd /d/_GITHUB/templates || exit
+echo '# ------------------------------ #'
+echo '#  INICIO DO SINCRONISMO WEB-PC  #'
+echo '# ------------------------------ #'
 echo
 echo
 
+echo
+echo '# ------------------------------ #'
+echo '# ->  cd /d/_GITHUB/templates <- #'
+echo '# ------------------------------ #'
+echo
+
+cd /d/_GITHUB/templates
+
+echo
+echo '# --------- #'
 echo '# -> pwd <- #'
+echo '# --------- #'
+echo
+
 pwd
-echo
-echo
 
+
+echo
+echo '# ---------------- #'
 echo '# -> git status <- #'
+echo '# ---------------- #'
+echo
+
 git status
-echo
-echo
 
+
+echo
+echo '# --------------- #'
 echo '# -> git fetch <- #'
+echo '# --------------- #'
+echo
+
 git fetch
-echo
-echo
 
+
+echo
+echo '# -------------- #'
 echo '# -> git pull <- #'
+echo '# -------------- #'
+echo
+
 git pull
-echo
-echo
 
+
+echo
+echo '# ---------------- #'
 echo '# -> git log -3 <- #'
+echo '# ---------------- #'
+echo
+
 git log -3
-echo
-echo
 
-start "" "D:\_GITHUB\logs\$LOG"
 
 echo
-echo '# ------------------------------- #'
-echo '# FIM DO SINCRONISMO WEB-PC       #'
-echo '# ------------------------------- #'
+echo '# --------------------------- #'
+echo '#  FIM DO SINCRONISMO WEB-PC  #'
+echo '# --------------------------- #'
 echo
-echo
+} | tee "$LOG"
+
+# Abre o arquivo de log no Notepad
+powershell.exe Start-Process notepad++.exe "$LOG"
