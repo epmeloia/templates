@@ -12,14 +12,15 @@ echo '# ------------------------------ #'
 echo '#  INICIO DO SINCRONISMO PC-WEB  #'
 echo '# ------------------------------ #'
 echo
+echo
 
 echo
 echo '# ------------------------------ #'
 echo '# ->  cd /d/_GITHUB/templates <- #'
 echo '# ------------------------------ #'
 echo
+
 cd /d/_GITHUB/templates
-echo
 
 echo
 echo '# --------- #'
@@ -30,16 +31,12 @@ echo
 pwd
 
 echo
-
-echo
 echo '# ---------------- #'
 echo '# -> git status <- #'
 echo '# ---------------- #'
 echo
 
 git status
-
-echo
 
 
 echo
@@ -50,7 +47,6 @@ echo
 
 git add .
 
-echo
 
 echo
 echo '# ---------------------------- #'
@@ -62,8 +58,6 @@ git commit -m "Descr"
 
 
 echo
-
-echo
 echo '# -------------- #'
 echo '# -> git push <- #'
 echo '# -------------- #'
@@ -71,7 +65,6 @@ echo
 
 git push
 
-echo
 
 echo
 echo '# -------------- #'
@@ -81,7 +74,6 @@ echo
 
 git pull
 
-echo
 
 echo
 echo '# --------------------------- #'
