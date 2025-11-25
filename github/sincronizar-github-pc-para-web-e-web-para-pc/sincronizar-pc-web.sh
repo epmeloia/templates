@@ -63,7 +63,7 @@ git log -3
 echo
 echo
 
-cmd.exe /C "start \"\" \"D:\_GITHUB\logs/$LOG\""
+cmd.exe /C "start notepad.exe $LOG"
 
 echo
 echo '# --------------------------- #'
