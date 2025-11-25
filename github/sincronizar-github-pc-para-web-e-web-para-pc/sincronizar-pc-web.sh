@@ -71,5 +71,3 @@ echo '#  FIM DO SINCRONISMO PC-WEB  #'
 echo '# --------------------------- #'
 echo
 echo
-
-explorer "D:/_GITHUB/logs/$LOG"
