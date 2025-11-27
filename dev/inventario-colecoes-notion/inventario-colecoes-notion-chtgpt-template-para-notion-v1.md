@@ -1,11 +1,11 @@
-# Inventário da Coleção de Modelos da Mattel - TEMPLATE PARA NOTION
-"inventario-colecao-modelos-mattel-template-para-notion.md"
+# Inventário de Coleções em Notion - ChatGPT - Template para Notion v1
+"inventario-colecoes-notion-chtgpt-template-para-notion-v1.md"
 
 # 📦 🔍 Coleções 🚗 🏁
 
 # 📦 🔍 Inventário de Coleções 🚗 🏁
 
-# 📦 🔍 Inventário de Coleções da MATEEL 🚗 🏁
+# 📦 🔍 Inventário de Coleções em Notion 🚗 🏁
 
 ---
 
@@ -19,7 +19,7 @@
 ### (Copiar e colar diretamente em uma página do Notion)
 
 ```markdown
-# 📦 🔍 Inventário de Coleções da MATEEL 🚗 🏁
+# 📦 🔍 Inventário de Coleções em Notion 🚗 🏁
 
 ---
 

@@ -2,7 +2,7 @@
 
 Este repositório é um hub central com coleções de manuais, testes, glossários, códigos, prompts e soluções para uso prático.
 
-**Gerado automaticamente em:** 2025-11-25 17:18:28
+**Gerado automaticamente em:** 2025-11-27 02:46:20
 
 ## Seções Disponíveis
 
@@ -12,7 +12,6 @@ Este repositório é um hub central com coleções de manuais, testes, glossári
 - 📂 Boas praticas mini instrucoes: [ias/boas-praticas-mini-instrucoes](../ias/boas-praticas-mini-instrucoes/README.md)
 - 📂 Chatgpt: [ias/chatgpt](../ias/chatgpt/README.md)
 - 📂 Cities skylines: [games/cities-skylines](../games/cities-skylines/README.md)
-- 📂 Colecao modelos mattel: [ias/chatgpt/colecao-modelos-mattel](../ias/chatgpt/colecao-modelos-mattel/README.md)
 - 📂 Descricao: [dev/app_tree/descricao](../dev/app_tree/descricao/README.md)
 - 📂 Dev: [dev](../dev/README.md)
 - 📂 Docs: [docs](../docs/README.md)
@@ -21,7 +20,7 @@ Este repositório é um hub central com coleções de manuais, testes, glossári
 - 📂 Grok: [ias/grok](../ias/grok/README.md)
 - 📂 Ia: [dev/app_tree/ia](../dev/app_tree/ia/README.md)
 - 📂 Ias: [ias](../ias/README.md)
-- 📂 Inventario colecoes: [dev/inventario-colecoes](../dev/inventario-colecoes/README.md)
+- 📂 Inventario colecoes notion: [dev/inventario-colecoes-notion](../dev/inventario-colecoes-notion/README.md)
 - 📂 Macros: [word/macros](../word/macros/README.md)
 - 📂 Memex: [ias/memex](../ias/memex/README.md)
 - 📂 Mini glossarios gerais: [mini-glossarios-gerais](../mini-glossarios-gerais/README.md)
