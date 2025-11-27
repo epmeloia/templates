@@ -5,9 +5,9 @@ LOG="D:/_GITHUB/logs/LOG-PC-WEB-2025-11-25-00h29m11s.txt"
 
 {
 echo ""
-echo "# ------------------------------ #"
-echo "#  INICIO DO SINCRONISMO PC-WEB  #"
-echo "# ------------------------------ #"
+echo "# --------------------------------- #"
+echo "#  INICIO DO SINCRONISMO PC-WEB v4  #"
+echo "# --------------------------------- #"
 echo ""
 echo "# -> cd /d/_GITHUB/templates <- #"
 cd /d/_GITHUB/templates
@@ -32,9 +32,9 @@ echo "# -> git pull"
 git pull
 echo ""
 echo ""
-echo "# --------------------------- #"
-echo "#  FIM DO SINCRONISMO PC-WEB  #"
-echo "# --------------------------- #"
+echo "# ------------------------------ #"
+echo "#  FIM DO SINCRONISMO PC-WEB v4  #"
+echo "# ------------------------------ #"
 } | tee "$LOG"
 
 # Aguarda leitura e exibe o log no final sem travar o terminal

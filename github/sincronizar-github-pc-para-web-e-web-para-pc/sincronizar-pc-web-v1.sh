@@ -5,9 +5,9 @@
 ##
 clear
 echo
-echo '# ------------------------------ #'
-echo '#  INICIO DO SINCRONISMO PC-WEB  #'
-echo '# ------------------------------ #'
+echo '# --------------------------------- #'
+echo '#  INICIO DO SINCRONISMO PC-WEB v1  #'
+echo '# --------------------------------- #'
 echo
 
 echo '# -> cd /d/_GITHUB/templates <- #'
@@ -71,8 +71,8 @@ echo
 echo
 
 echo
-echo '# --------------------------- #'
-echo '#  FIM DO SINCRONISMO PC-WEB  #'
-echo '# --------------------------- #'
+echo '# ------------------------------ #'
+echo '#  FIM DO SINCRONISMO PC-WEB v1  #'
+echo '# ------------------------------ #'
 echo
 echo

@@ -1,9 +1,9 @@
 #!/bin/bash
 clear
 echo
-echo '# ------------------------------ #'
-echo '#  INICIO DO SINCRONISMO PC-WEB  #'
-echo '# ------------------------------ #'
+echo '# --------------------------------- #'
+echo '#  INICIO DO SINCRONISMO PC-WEB v5  #'
+echo '# --------------------------------- #'
 echo
 
 echo '# -> cd /d/_GITHUB/templates <- #'
@@ -39,9 +39,9 @@ git push
 echo '# -> git pull'
 git pull
 
-echo '# --------------------------- #'
-echo '#  FIM DO SINCRONISMO PC-WEB  #'
-echo '# --------------------------- #'
+echo '# ------------------------------ #'
+echo '#  FIM DO SINCRONISMO PC-WEB v5  #'
+echo '# ------------------------------ #'
 } | tee "$LOG"
 
 # Abre o arquivo de log no Notepad

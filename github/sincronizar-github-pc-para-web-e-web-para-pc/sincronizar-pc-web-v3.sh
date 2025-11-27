@@ -17,9 +17,9 @@ mkdir -p /d/_GITHUB/logs
 exec > "/d/_GITHUB/logs/$LOG" 2>&1
 
 echo
-echo '# ------------------------------ #'
-echo '#  INICIO DO SINCRONISMO PC-WEB  #'
-echo '# ------------------------------ #'
+echo '# --------------------------------- #'
+echo '#  INICIO DO SINCRONISMO PC-WEB v3  #'
+echo '# --------------------------------- #'
 echo
 echo
 
@@ -64,8 +64,8 @@ echo
 echo
 
 echo
-echo '# --------------------------- #'
-echo '#  FIM DO SINCRONISMO PC-WEB  #'
-echo '# --------------------------- #'
+echo '# ------------------------------ #'
+echo '#  FIM DO SINCRONISMO PC-WEB v3  #'
+echo '# ------------------------------ #'
 echo
 echo

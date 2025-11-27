@@ -8,9 +8,9 @@ clear
 
 {
 echo
-echo '# ------------------------------ #'
-echo '#  INICIO DO SINCRONISMO WEB-PC  #'
-echo '# ------------------------------ #'
+echo '# --------------------------------- #'
+echo '#  INICIO DO SINCRONISMO WEB-PC v6  #'
+echo '# --------------------------------- #'
 echo
 echo
 
@@ -68,9 +68,9 @@ git log -3
 
 
 echo
-echo '# --------------------------- #'
-echo '#  FIM DO SINCRONISMO WEB-PC  #'
-echo '# --------------------------- #'
+echo '# ------------------------------ #'
+echo '#  FIM DO SINCRONISMO WEB-PC v6  #'
+echo '# ------------------------------ #'
 echo
 } | tee "$LOG"
 
