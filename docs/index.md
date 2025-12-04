@@ -2,7 +2,7 @@
 
 Este repositório é um hub central com coleções de manuais, testes, glossários, códigos, prompts e soluções para uso prático.
 
-**Gerado automaticamente em:** 2025-11-27 03:12:01
+**Gerado automaticamente em:** 2025-12-04 18:40:53
 
 ## Seções Disponíveis
 
@@ -33,5 +33,6 @@ Este repositório é um hub central com coleções de manuais, testes, glossári
 - 📂 Thunderbird: [yahoo/thunderbird](../yahoo/thunderbird/README.md)
 - 📂 Vbsript: [vbsript](../vbsript/README.md)
 - 📂 Videos: [videos](../videos/README.md)
+- 📂 Windows: [windows](../windows/README.md)
 - 📂 Word: [word](../word/README.md)
 - 📂 Yahoo: [yahoo](../yahoo/README.md)
