@@ -10,10 +10,8 @@
 * **Instruções** relativas a processos internos (ex.: criar pastas | renomear arquivo/pastas ...)
 * **O que entra aqui:** passo-a-passo de tarefas (como fazer).
 * **Sem espaços, acentos ou maiúsculas** em nomes de pastas/arquivos.
-* **Prefira `kebab-case`** (`perplexity`, `classificador-de-complexidade.md`).
 * **Use uma pasta única para imagens**
-
-* **Ex:**
+* **Ex: de como colocar links internos**
   ```
   ![print Perplexity](assets/print-perplexity.png)
   
@@ -24,3 +22,21 @@
   ```
 
 ---
+
+# 📚 Mini-Instrucoes:
+
+* **Mini-Instruções** = “como fazer …" - com passo-a-passo prático.
+* **O que entra aqui:** passo-a-passo de tarefas (como fazer).
+* **Instruções** relativas a processos Internos ou Externos
+
+
+
+##----------####----------####----------####----------##
+```
+         .' '.    .' '.         ,-.
+.        .   .    .   .         \ /
+ .         .        .       . -{|||)<
+   ' .  . ' ' .  . ' ' . . '    / \
+                                `-
+```
+##----------####----------####----------####----------##

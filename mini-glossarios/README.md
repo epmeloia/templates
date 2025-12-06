@@ -1,6 +1,15 @@
-# Local: **templates/mini-glossarios/README.md**
-
+# README:
 "README.md"
+
+---
+
+# 📚 Mini-Instrucoes:
+
+* **Mini-Instruções** = “como fazer …" - com passo-a-passo prático.
+* **O que entra aqui:** passo-a-passo de tarefas (como fazer).
+* **Instruções** relativas a processos Internos ou Externos
+
+# Local: **templates/mini-glossarios/README.md**
 
 ---
 
@@ -147,3 +156,14 @@
   * `info-util-0-p-0-pastas-renomear-arquivo.md`
 
 ---
+
+
+##----------####----------####----------####----------##
+```
+         .' '.    .' '.         ,-.
+.        .   .    .   .         \ /
+ .         .        .       . -{|||)<
+   ' .  . ' ' .  . ' ' . . '    / \
+                                `-
+```
+##----------####----------####----------####----------##

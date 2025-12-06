@@ -1,11 +1,17 @@
+# README:
+"README.md"
 
-# README
+---
+
+# 📚 Mini-Instrucoes:
+
+* **Mini-Instruções** = “como fazer …" - com passo-a-passo prático.
+* **O que entra aqui:** passo-a-passo de tarefas (como fazer).
+* **Instruções** relativas a processos Internos ou Externos
 
 ***
 
 # epmeloia/templates
-
-Templates prontos IAs (BR) — classificador, preços e dicas rápidas
 
 Este repositório serve como um hub de **documentação, templates, glossários e instruções rápidas** para diversos usos, principalmente relacionados ao universo Perplexity, inteligência artificial, operacional, tutoriais, games e muito mais.
 
@@ -109,3 +115,15 @@ Sugestões, dúvidas ou feedbacks são sempre bem-vindos!
 ***
 
 [1](https://github.com/epmeloia/templates)
+
+
+
+##----------####----------####----------####----------##
+```
+         .' '.    .' '.         ,-.
+.        .   .    .   .         \ /
+ .         .        .       . -{|||)<
+   ' .  . ' ' .  . ' ' . . '    / \
+                                `-
+```
+##----------####----------####----------####----------##
