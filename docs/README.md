@@ -2,21 +2,33 @@
 
 Este repositório é um hub central com coleções de manuais, testes, glossários, códigos, prompts e soluções para uso prático.
 
-**Gerado automaticamente em:** 2025-12-04 18:40:53
+**Gerado automaticamente em:** 2025-12-05 21:15:59
 
 ## Seções Disponíveis
 
+- 📂  .padrao pastas: [-.padrao-pastas](../-.padrao-pastas/README.md)
 - 📂 American truck simulator: [games/american-truck-simulator](../games/american-truck-simulator/README.md)
+- 📂 Analise precos com custo beneficio automatica: [ias/perplexity/analise-precos-com-custo-beneficio-automatica](../ias/perplexity/analise-precos-com-custo-beneficio-automatica/README.md)
 - 📂 App_tree: [dev/app_tree](../dev/app_tree/README.md)
 - 📂 Assets: [assets](../assets/README.md)
-- 📂 Boas praticas mini instrucoes: [ias/boas-praticas-mini-instrucoes](../ias/boas-praticas-mini-instrucoes/README.md)
+- 📂 Boas praticas: [ias/boas-praticas](../ias/boas-praticas/README.md)
+- 📂 Boas praticas: [ias/perplexity/boas-praticas](../ias/perplexity/boas-praticas/README.md)
+- 📂 Boas praticas: [mini-glossarios/boas-praticas](../mini-glossarios/boas-praticas/README.md)
+- 📂 Captura imagens cria word transcricao: [videos/captura-imagens-cria-word-transcricao](../videos/captura-imagens-cria-word-transcricao/README.md)
+- 📂 Capturar frames unicos do youtube: [ias/perplexity/capturar-frames-unicos-do-youtube](../ias/perplexity/capturar-frames-unicos-do-youtube/README.md)
 - 📂 Chatgpt: [ias/chatgpt](../ias/chatgpt/README.md)
 - 📂 Cities skylines: [games/cities-skylines](../games/cities-skylines/README.md)
+- 📂 Como usar classificador de complexidade: [ias/perplexity/como-usar-classificador-de-complexidade](../ias/perplexity/como-usar-classificador-de-complexidade/README.md)
+- 📂 Configuracoes: [notepad++/configuracoes](../notepad++/configuracoes/README.md)
+- 📂 Criacao roteiro teste perplexity: [ias/perplexity/criacao-roteiro-teste-Perplexity](../ias/perplexity/criacao-roteiro-teste-Perplexity/README.md)
+- 📂 Cruzamentos interceccoes: [games/cities-skylines/youtube/cruzamentos-interceccoes](../games/cities-skylines/youtube/cruzamentos-interceccoes/README.md)
 - 📂 Descricao: [dev/app_tree/descricao](../dev/app_tree/descricao/README.md)
 - 📂 Dev: [dev](../dev/README.md)
 - 📂 Docs: [docs](../docs/README.md)
 - 📂 Funcionalidades sugestoes: [dev/app_tree/funcionalidades-sugestoes](../dev/app_tree/funcionalidades-sugestoes/README.md)
+- 📂 Games: [games](../games/README.md)
 - 📂 Github: [github](../github/README.md)
+- 📂 Glossario botoes: [github/glossario-botoes](../github/glossario-botoes/README.md)
 - 📂 Grok: [ias/grok](../ias/grok/README.md)
 - 📂 Ia: [dev/app_tree/ia](../dev/app_tree/ia/README.md)
 - 📂 Ias: [ias](../ias/README.md)
@@ -26,9 +38,17 @@ Este repositório é um hub central com coleções de manuais, testes, glossári
 - 📂 Mini glossarios gerais: [mini-glossarios-gerais](../mini-glossarios-gerais/README.md)
 - 📂 Mini glossarios: [mini-glossarios](../mini-glossarios/README.md)
 - 📂 Mini instrucoes: [mini-instrucoes](../mini-instrucoes/README.md)
+- 📂 Notepad++: [notepad++](../notepad++/README.md)
+- 📂 Otimizar recursos creditos recomendacao dinamica icone: [ias/perplexity/otimizar-recursos-creditos-recomendacao-dinamica-icone](../ias/perplexity/otimizar-recursos-creditos-recomendacao-dinamica-icone/README.md)
 - 📂 Perplexity: [ias/perplexity](../ias/perplexity/README.md)
 - 📂 Polimento materiais massa: [mini-glossarios-gerais/polimento-materiais-massa](../mini-glossarios-gerais/polimento-materiais-massa/README.md)
+- 📂 Promp eficiencia creditos: [ias/memex/promp-eficiencia-creditos](../ias/memex/promp-eficiencia-creditos/README.md)
+- 📂 Python: [python](../python/README.md)
+- 📂 Pyton: [videos/captura-imagens-cria-word-transcricao/pyton](../videos/captura-imagens-cria-word-transcricao/pyton/README.md)
+- 📂 Re gerar index readme: [python/re-gerar-index-readme](../python/re-gerar-index-readme/README.md)
+- 📂 Relogio timer alarme: [dev/relogio-timer-alarme](../dev/relogio-timer-alarme/README.md)
 - 📂 Sincronizar github pc para web e web para pc: [github/sincronizar-github-pc-para-web-e-web-para-pc](../github/sincronizar-github-pc-para-web-e-web-para-pc/README.md)
+- 📂 Teste automatizado app web perplexity trocar localhost para html: [ias/perplexity/teste-automatizado-app-web-perplexity-trocar-localHost-para-html](../ias/perplexity/teste-automatizado-app-web-perplexity-trocar-localHost-para-html/README.md)
 - 📂 Teste manuais: [dev/app_tree/teste-manuais](../dev/app_tree/teste-manuais/README.md)
 - 📂 Thunderbird: [yahoo/thunderbird](../yahoo/thunderbird/README.md)
 - 📂 Vbsript: [vbsript](../vbsript/README.md)
@@ -36,3 +56,4 @@ Este repositório é um hub central com coleções de manuais, testes, glossári
 - 📂 Windows: [windows](../windows/README.md)
 - 📂 Word: [word](../word/README.md)
 - 📂 Yahoo: [yahoo](../yahoo/README.md)
+- 📂 Youtube: [games/cities-skylines/youtube](../games/cities-skylines/youtube/README.md)
