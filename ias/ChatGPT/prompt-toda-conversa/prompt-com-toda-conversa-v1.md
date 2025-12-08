@@ -1,5 +1,5 @@
-# 🧩 Criar Arquivo .md com Toda a Conversa
-"criar-arquivo-.md-com-toda-conversa-v1.md"
+# 🧩 Prompt com Toda a Conversa
+"prompt-com-toda-conversa-v1.md"
 
 ---
 
