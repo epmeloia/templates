@@ -2,13 +2,14 @@
 
 Este repositório é um hub central com coleções de manuais, testes, glossários, códigos, prompts e soluções para uso prático.
 
-**Gerado automaticamente em:** 2025-12-05 21:15:59
+**Gerado automaticamente em:** 2025-12-09 13:46:42
 
 ## Seções Disponíveis
 
 - 📂  .padrao pastas: [-.padrao-pastas](../-.padrao-pastas/README.md)
 - 📂 American truck simulator: [games/american-truck-simulator](../games/american-truck-simulator/README.md)
 - 📂 Analise precos com custo beneficio automatica: [ias/perplexity/analise-precos-com-custo-beneficio-automatica](../ias/perplexity/analise-precos-com-custo-beneficio-automatica/README.md)
+- 📂 App deinstalar sem restricoes: [windows/app-deinstalar-sem-restricoes](../windows/app-deinstalar-sem-restricoes/README.md)
 - 📂 App_tree: [dev/app_tree](../dev/app_tree/README.md)
 - 📂 Assets: [assets](../assets/README.md)
 - 📂 Boas praticas: [ias/boas-praticas](../ias/boas-praticas/README.md)
@@ -35,6 +36,7 @@ Este repositório é um hub central com coleções de manuais, testes, glossári
 - 📂 Inventario colecoes notion: [dev/inventario-colecoes-notion](../dev/inventario-colecoes-notion/README.md)
 - 📂 Macros: [word/macros](../word/macros/README.md)
 - 📂 Memex: [ias/memex](../ias/memex/README.md)
+- 📂 Mensagem dia moldura: [ias/chatgpt/mensagem-dia-moldura](../ias/chatgpt/mensagem-dia-moldura/README.md)
 - 📂 Mini glossarios gerais: [mini-glossarios-gerais](../mini-glossarios-gerais/README.md)
 - 📂 Mini glossarios: [mini-glossarios](../mini-glossarios/README.md)
 - 📂 Mini instrucoes: [mini-instrucoes](../mini-instrucoes/README.md)
