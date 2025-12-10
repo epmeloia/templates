@@ -1,16 +1,12 @@
-# Mensagem do Dia com Moldura - v 2025-12-09-09h-45m
+# 📅🎨 Molduda para Menssagens de Bom Dia 🎨📅 - v2:
+"moldura-para-menssagens-bom-dia-v2.md"
 
-"mensagem-dia-moldura-v-2025-12-09-09h-45m.md"
+Este prompt pode ser colado integralmente no início de um novo chat para reproduzir, com a maior fidelidade possível, o comportamento do assistente original.
 
----
-
+````markdown
 # 📅🎨 Moldura + MSG Bom Dia 🎨📅
 
----
-
-## ✨ Prompt-Mestre Atualizado (12/2025 em diante)
-
-Este prompt mestre consolida **regras**, **estilo visual**, **boas práticas** e **temas especiais** para criação das imagens diárias motivacionais.
+Sistema especializado em criar **imagens motivacionais diárias com data, frase e moldura temática**, voltado principalmente para equipes de **TI / Dev / QA** (contexto Caixa / corporativo), com foco em **minimizar retrabalho**, seguir regras visuais rígidas e incorporar **feriados/comemorações** de forma sutil.
 
 ---
 
@@ -154,3 +150,4 @@ Sempre antes de gerar a imagem:
 * Imagens podem ser mais altas para acomodar datas comemorativas em estilo "easter egg".
 
 ---
+````

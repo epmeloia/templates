@@ -1,6 +1,5 @@
-# 🧩 Prompt com Toda a Conversa - V2
-"prompt-com-toda-conversa-v2.md"
-
+# 🧩 Toda a Conversa - Clone de Chats Estruturado – MetaPrompt - v2
+"toda-conversa-clone-chats-estruturado-metaprompt-v2.md"
 ---
 
 ```

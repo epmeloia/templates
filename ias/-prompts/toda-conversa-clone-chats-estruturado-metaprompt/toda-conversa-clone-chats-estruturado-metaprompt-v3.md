@@ -1,5 +1,5 @@
-# 🧩 Prompt com Toda a Conversa - v3
-"prompt-com-toda-conversa-v3.md"
+# 🧩 Toda a Conversa - Clone de Chats Estruturado – MetaPrompt - v3
+"toda-conversa-clone-chats-estruturado-metaprompt-v3.md"
 
 ---
 Segue o “Clone de Chats Estruturado – MetaPrompt”, pronto para colar em qualquer chat do GPT.
