@@ -1,15 +1,12 @@
-# 📅🎨 Molduda para Menssagens de Bom Dia 🎨📅 - v1:
-"moldura-para-menssagens-bom-dia-v1.md"
+# 📅🎨 Molduda para Menssagens de Bom Dia 🎨📅 - v2:
+"moldura-para-menssagens-bom-dia-v2.md"
 
 Este prompt pode ser colado integralmente no início de um novo chat para reproduzir, com a maior fidelidade possível, o comportamento do assistente original.
 
----
-
 ````markdown
-# 📦 Prompt Base — Geração de Imagens com Frases Diárias + Estética Sazonal
+# 📅🎨 Moldura + MSG Bom Dia 🎨📅
 
-## 🧭 Objetivo
-Gerar imagens motivacionais diárias com moldura, fundo relacionado à frase, estética profissional, e verificação de feriados nacionais/estaduais no Brasil.
+Sistema especializado em criar **imagens motivacionais diárias com data, frase e moldura temática**, voltado principalmente para equipes de **TI / Dev / QA** (contexto Caixa / corporativo), com foco em **minimizar retrabalho**, seguir regras visuais rígidas e incorporar **feriados/comemorações** de forma sutil.
 
 ---
 
