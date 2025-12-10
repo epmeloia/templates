@@ -2,20 +2,24 @@
 
 Este repositório é um hub central com coleções de manuais, testes, glossários, códigos, prompts e soluções para uso prático.
 
-**Gerado automaticamente em:** 2025-12-09 13:48:03
+**Gerado automaticamente em:** 2025-12-10 14:05:45
 
 ## Seções Disponíveis
 
-- 📂  .padrao pastas: [-.padrao-pastas](../-.padrao-pastas/README.md)
+- 📂  boas praticas: [-padrao-pastas/-boas-praticas](../-padrao-pastas/-boas-praticas/README.md)
+- 📂  boas praticas: [ias/-boas-praticas](../ias/-boas-praticas/README.md)
+- 📂  boas praticas: [ias/-prompts/-boas-praticas](../ias/-prompts/-boas-praticas/README.md)
+- 📂  boas praticas: [ias/memex/-boas-praticas](../ias/memex/-boas-praticas/README.md)
+- 📂  boas praticas: [ias/perplexity/-boas-praticas](../ias/perplexity/-boas-praticas/README.md)
+- 📂  padrao pastas: [-padrao-pastas](../-padrao-pastas/README.md)
+- 📂  prompts: [ias/-prompts](../ias/-prompts/README.md)
 - 📂 American truck simulator: [games/american-truck-simulator](../games/american-truck-simulator/README.md)
 - 📂 Analise precos com custo beneficio automatica: [ias/perplexity/analise-precos-com-custo-beneficio-automatica](../ias/perplexity/analise-precos-com-custo-beneficio-automatica/README.md)
 - 📂 App deinstalar sem restricoes: [windows/app-deinstalar-sem-restricoes](../windows/app-deinstalar-sem-restricoes/README.md)
 - 📂 App_tree: [dev/app_tree](../dev/app_tree/README.md)
 - 📂 Assets: [assets](../assets/README.md)
-- 📂 Boas praticas: [ias/boas-praticas](../ias/boas-praticas/README.md)
-- 📂 Boas praticas: [ias/perplexity/boas-praticas](../ias/perplexity/boas-praticas/README.md)
-- 📂 Boas praticas: [mini-glossarios/boas-praticas](../mini-glossarios/boas-praticas/README.md)
 - 📂 Captura imagens cria word transcricao: [videos/captura-imagens-cria-word-transcricao](../videos/captura-imagens-cria-word-transcricao/README.md)
+- 📂 Capturar frames unicos do youtube: [ias/chatgpt/capturar-frames-unicos-do-youtube](../ias/chatgpt/capturar-frames-unicos-do-youtube/README.md)
 - 📂 Capturar frames unicos do youtube: [ias/perplexity/capturar-frames-unicos-do-youtube](../ias/perplexity/capturar-frames-unicos-do-youtube/README.md)
 - 📂 Chatgpt: [ias/chatgpt](../ias/chatgpt/README.md)
 - 📂 Cities skylines: [games/cities-skylines](../games/cities-skylines/README.md)
@@ -36,10 +40,10 @@ Este repositório é um hub central com coleções de manuais, testes, glossári
 - 📂 Inventario colecoes notion: [dev/inventario-colecoes-notion](../dev/inventario-colecoes-notion/README.md)
 - 📂 Macros: [word/macros](../word/macros/README.md)
 - 📂 Memex: [ias/memex](../ias/memex/README.md)
-- 📂 Mensagem dia moldura: [ias/chatgpt/mensagem-dia-moldura](../ias/chatgpt/mensagem-dia-moldura/README.md)
 - 📂 Mini glossarios gerais: [mini-glossarios-gerais](../mini-glossarios-gerais/README.md)
 - 📂 Mini glossarios: [mini-glossarios](../mini-glossarios/README.md)
 - 📂 Mini instrucoes: [mini-instrucoes](../mini-instrucoes/README.md)
+- 📂 Moldura para menssagens bom dia: [ias/-prompts/moldura-para-menssagens-bom-dia](../ias/-prompts/moldura-para-menssagens-bom-dia/README.md)
 - 📂 Notepad++: [notepad++](../notepad++/README.md)
 - 📂 Otimizar recursos creditos recomendacao dinamica icone: [ias/perplexity/otimizar-recursos-creditos-recomendacao-dinamica-icone](../ias/perplexity/otimizar-recursos-creditos-recomendacao-dinamica-icone/README.md)
 - 📂 Perplexity: [ias/perplexity](../ias/perplexity/README.md)
@@ -53,6 +57,7 @@ Este repositório é um hub central com coleções de manuais, testes, glossári
 - 📂 Teste automatizado app web perplexity trocar localhost para html: [ias/perplexity/teste-automatizado-app-web-perplexity-trocar-localHost-para-html](../ias/perplexity/teste-automatizado-app-web-perplexity-trocar-localHost-para-html/README.md)
 - 📂 Teste manuais: [dev/app_tree/teste-manuais](../dev/app_tree/teste-manuais/README.md)
 - 📂 Thunderbird: [yahoo/thunderbird](../yahoo/thunderbird/README.md)
+- 📂 Transcricao youtube criando word com texto images: [ias/chatgpt/transcricao-youtube-criando-Word-com-texto-images](../ias/chatgpt/transcricao-youtube-criando-Word-com-texto-images/README.md)
 - 📂 Vbsript: [vbsript](../vbsript/README.md)
 - 📂 Videos: [videos](../videos/README.md)
 - 📂 Windows: [windows](../windows/README.md)
