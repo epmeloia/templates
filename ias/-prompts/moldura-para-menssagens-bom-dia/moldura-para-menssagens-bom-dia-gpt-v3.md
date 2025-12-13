@@ -1,5 +1,5 @@
 # 📅🎨 Molduda para Menssagens de Bom Dia 🎨📅 - v2:
-"moldura-para-menssagens-bom-dia-v2.md"
+"moldura-para-menssagens-bom-dia-v3.md"
 
 Este prompt pode ser colado integralmente no início de um novo chat para reproduzir, com a maior fidelidade possível, o comportamento do assistente original.
 
