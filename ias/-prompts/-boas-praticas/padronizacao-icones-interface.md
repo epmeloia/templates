@@ -1,5 +1,6 @@
-# Ícones da Interface
-"icones-interface.md"
+# Padronização: Ícones da Interface:
+
+"padronizacao-icones-interface.md"
 
 ---
 

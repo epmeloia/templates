@@ -1,6 +1,6 @@
-# 📌 POLÍTICA DE SUGESTÃO DE CÓDIGO: GERAÇÃO / ATUALIZAÇÃO / MELHORIA / CORREÇAO DO PROMPT:
-"politica-sugestao-codigo-geracao-atualizacao-melhoria-correcao-prompt.md"
+# 📌 PADRONIZAÇÃO - CÓDIGO - POLÍTICA DE SUGESTÃO DE CÓDIGO: GERAÇÃO / ATUALIZAÇÃO / MELHORIA / CORREÇÃO DO PROMPT:
 
+"padronizacao-codigo-politica-sugestao-codigo-geracao-atualizacao-melhoria-correcao-prompt.md"
 
 ---
 

@@ -1,5 +1,7 @@
-# 🧠 Programação Eficiente e Economia de Créditos - JSON:
-"programacao-eficiente-economia-creditos-json-2025-10-25.md"
+🧠 Padronização - Código - Programação Eficiente e Economia de Créditos - JSON:
+
+"padronizacao-codigo-programacao-eficiente-economia-creditos-json.md"
+
 
 ---
 

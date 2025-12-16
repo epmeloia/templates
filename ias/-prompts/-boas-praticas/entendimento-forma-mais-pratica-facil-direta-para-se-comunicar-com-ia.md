@@ -1,5 +1,6 @@
-# 💡 Forma mais Prática, Fácil e Direta para se Comunicar com a IA:
-"forma-mais-pratica-facil-direta-para-comunicar-com-uma-ia.md"
+# 💡 Entendimento - Forma mais Prática, Fácil e Direta para se Comunicar com a IA:
+
+"entendimento-forma-mais-pratica-facil-direta-para-se-comunicar-com-ia.md"
 
 ---
 

@@ -1,6 +1,6 @@
+# Padronização - Markdown: Codificação / Simbolos / Ícones:
 
-# Markdown - Codificação / Simbolos / Ícones:
-"markdown-codificacao-simbolos-icones.md"
+"padronizacao-markdown-codificacao-simbolos-icones.md"
 
 ---
 

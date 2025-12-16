@@ -1,6 +1,7 @@
 
-# Ícones e Descrições:
-"icones-descricoes.md"
+# Padronização: Ícones e Descrições:
+
+"padronizacao-icones-descricoes.md"
 
 ---
 

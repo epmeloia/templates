@@ -1,6 +1,8 @@
-# Organizando as Respostas de Atualização de Código:
-"organizando-respostas-atualizacao-codigo.md"
+# Padronização - Código - Respostas de Atualização de Código - Organizando:
 
+"padronizacao-codigo-respostas-atualizacao-codigo-organizando.md"
+
+---
 
 ## **Padrão de Alertas de Atualização,  Siga somente os exemplos abaixo para sempre Identificar se o evento é novo ou se já existe ou é uma Atualização:**
 
