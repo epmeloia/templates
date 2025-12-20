@@ -2,7 +2,7 @@
 
 Este repositório é um hub central com coleções de manuais, testes, glossários, códigos, prompts e soluções para uso prático.
 
-**Gerado automaticamente em:** 2025-12-16 12:09:37
+**Gerado automaticamente em:** 2025-12-19 21:13:34
 
 ## Seções Disponíveis
 
@@ -21,6 +21,7 @@ Este repositório é um hub central com coleções de manuais, testes, glossári
 - 📂 Captura imagens cria word transcricao: [videos/captura-imagens-cria-word-transcricao](../videos/captura-imagens-cria-word-transcricao/README.md)
 - 📂 Capturar frames unicos do youtube: [ias/chatgpt/capturar-frames-unicos-do-youtube](../ias/chatgpt/capturar-frames-unicos-do-youtube/README.md)
 - 📂 Capturar frames unicos do youtube: [ias/perplexity/capturar-frames-unicos-do-youtube](../ias/perplexity/capturar-frames-unicos-do-youtube/README.md)
+- 📂 Changelog: [ias/-prompts/moldura-para-menssagens-bom-dia/changelog](../ias/-prompts/moldura-para-menssagens-bom-dia/changelog/README.md)
 - 📂 Chatgpt: [ias/chatgpt](../ias/chatgpt/README.md)
 - 📂 Cities skylines: [games/cities-skylines](../games/cities-skylines/README.md)
 - 📂 Como usar classificador de complexidade: [ias/perplexity/como-usar-classificador-de-complexidade](../ias/perplexity/como-usar-classificador-de-complexidade/README.md)
@@ -40,6 +41,7 @@ Este repositório é um hub central com coleções de manuais, testes, glossári
 - 📂 Inventario colecoes notion: [dev/inventario-colecoes-notion](../dev/inventario-colecoes-notion/README.md)
 - 📂 Macros: [word/macros](../word/macros/README.md)
 - 📂 Memex: [ias/memex](../ias/memex/README.md)
+- 📂 Meta: [ias/-prompts/moldura-para-menssagens-bom-dia/meta](../ias/-prompts/moldura-para-menssagens-bom-dia/meta/README.md)
 - 📂 Mini glossarios gerais: [mini-glossarios-gerais](../mini-glossarios-gerais/README.md)
 - 📂 Mini glossarios: [mini-glossarios](../mini-glossarios/README.md)
 - 📂 Mini instrucoes: [mini-instrucoes](../mini-instrucoes/README.md)

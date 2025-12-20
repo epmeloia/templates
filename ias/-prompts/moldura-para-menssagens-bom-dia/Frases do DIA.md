@@ -207,24 +207,10 @@ Data: /01/2026
 Data: /01/2026
 "O primeiro passo do ano nao precisa ser grande — precisa ser consciente."
 
-
-
-
-
 Data: /12/2025
-"O ano termina melhor quando voce encerra pendencias com clareza."
+"Nem tudo precisa ser entregue hoje — mas tudo precisa ser entendido."
 
-Data: /12/2025
-"O novo ciclo comeca mais leve quando o antigo foi bem revisado."
-
-Data: /12/2025
-"Antes de planejar o proximo passo, vale entender o caminho percorrido."
-
-Data: /12/2025
-"O ano muda no calendario, mas o ajuste real acontece na decisao."
-
-
-
+< Semana do ANO NORMAL >
 
 Data: /12/2025
 "O ano desacelera no fim, mas o essencial ainda pede atencao."
@@ -241,20 +227,34 @@ Data: /12/2025
 Data: /12/2025
 "O clima de dezembro favorece revisoes mais honestas."
 
-Data: /12/2025
-"Nem tudo precisa ser entregue hoje — mas tudo precisa ser entendido."
+
+< Semana do ANO NOVO >
 
 Data: /12/2025
-"O fim do ano pede menos pressa e mais consistencia."
+"O ano termina melhor quando voce encerra pendencias com clareza."
 
 Data: /12/2025
+"O novo ciclo comeca mais leve quando o antigo foi bem revisado."
+
+Data: /12/2025
+"Antes de planejar o proximo passo, vale entender o caminho percorrido."
+
+Data: 22/12/2025
+"O ano muda no calendario, mas o ajuste real acontece na decisao."
+
+< Semana do Natal >
+
+Data: 19/12/2025
+"O fim do ano pede menos pressa e mais regularidade."
+
+Data: 18/12/2025
 "Organizar antes de desligar evita retornar ao caos."
 
-Data: /12/2025
+Data: 17/12/2025
 "O melhor ajuste do ano costuma ser simplificar."
 
 Data: 16/12/2025
-"Dezembro nao é sobre correr — e sobre alinhar."
+"Dezembro nao é sobre correr e sim sobre alinhar."
 
 Data: 15/12/2025
 "O pano sobre a mesa esconde tarefa — descubra e finalize sem distração."
