@@ -1,9 +1,12 @@
-# 📄 `prompt-clonagem-continuidade.md`
+# 📄 `prompt-clonagem-continuidade-v10.0`
+
+"prompt-clonagem-continuidade-v10.0.md"
+
 
 > **Tipo:** Prompt operacional especial
 > **Finalidade:** Clonagem e continuidade total de qualquer chat/projeto
 > **Uso:** Colar **integralmente** em um NOVO CHAT GPT quando houver risco de perda, quebra de contexto ou necessidade de continuidade limpa
-> **Status:** Arquivo OFICIAL e CONGELADO (base V10)
+> **Status:** Arquivo OFICIAL e CONGELADO (base V09)
 
 ---
 
@@ -170,3 +173,12 @@ Nada mais.
 
 ---
 
+##----------####----------####----------####----------##
+```
+         .' '.    .' '.         ,-.
+.        .   .    .   .         \ /
+ .         .        .       . -{|||)<
+   ' .  . ' ' .  . ' ' . . '    / \
+                                `-^
+```
+##----------####----------####----------####----------##

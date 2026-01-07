@@ -1,3 +1,8 @@
+# Frases do Dia:
+
+"frases-do-dia.md"
+
+---
 
 #
 ## Frases do DIA
@@ -5,167 +10,177 @@
 ## https://chatgpt.com/g/g-6887616b01748191bd7ccd6b16a56542-moldura-msg-bom-dia
 #
 
+Data: 25/12/2026
+"Que o Natal seja um momento de pausa real, reconhecimento sincero e descanso merecido."
+
+Data: 24/12/2026
+"Na vespera de Natal, o melhor presente e reconhecer o trabalho bem feito ao longo do ano."
 
 
-Data: /12/2025
+
+
+
+
+Data: /01/2026
 "O sistema responde melhor quando a decisao vem clara, nao rapida."
 
-Data: /12/2025
+Data: /01/2026
 "Revisar com calma costuma resolver o que a pressa complica."
 
-Data: /12/2025
+Data: /01/2026
 "A estrutura certa reduz a necessidade de explicacoes futuras."
 
-Data: /12/2025
+Data: /01/2026
 "O erro ensina mais quando voce para de reagir e comeca a observar."
 
-Data: /12/2025
+Data: /01/2026
 "A boa solucao nasce do entendimento completo, nao do primeiro impulso."
 
-Data: /12/2025
+Data: /01/2026
 "Organizar antes de executar evita correcoes silenciosas depois."
 
-Data: /12/2025
+Data: /01/2026
 "O trabalho consistente vale mais que ajustes brilhantes e instaveis."
 
-Data: /12/2025
+Data: /01/2026
 "Quando o processo esta claro, o resultado exige menos esforco."
 
-Data: /12/2025
+Data: /01/2026
 "Melhorar o sistema comeca por reduzir o ruido interno."
 
-Data: /12/2025
+Data: /01/2026
 "A maturidade tecnica aparece quando voce escolhe simplicidade."
 
-Data: /12/2025
+Data: /01/2026
 "O backlog parado nao julga — ele apenas revela prioridades mal escolhidas."
 
-Data: /12/2025
+Data: /01/2026
 "A mensagem curta no commit diz mais quando voce sabe o que mudou."
 
-Data: /12/2025
+Data: /01/2026
 "O tempo gasto entendendo o problema economiza correcoes depois."
 
-Data: /12/2025
+Data: /01/2026
 "O sistema melhora quando voce aceita revisar a propria decisao."
 
-Data: /12/2025
+Data: /01/2026
 "A solucao simples quase sempre aparece depois da ultima tentativa apressada."
 
-Data: /12/2025
+Data: /01/2026
 "O codigo claro respeita quem vai ler amanha, inclusive voce."
 
-Data: /12/2025
+Data: /01/2026
 "O erro recorrente insiste ate voce mudar a abordagem."
 
-Data: /12/2025
+Data: /01/2026
 "O ajuste pequeno feito hoje evita explicacoes longas depois."
 
-Data: /12/2025
+Data: /01/2026
 "O fluxo funciona melhor quando voce remove excessos, nao quando adiciona controles."
 
-Data: /12/2025
+Data: /01/2026
 "A boa construcao nasce quando pensar vem antes de executar."
 
-Data: /12/2025
+Data: /01/2026
 "A tela em branco nao acusa erro — ela apenas aguarda sua primeira decisao."
 
-Data: /12/2025
+Data: /01/2026
 "O arquivo salvo cedo evita retrabalho — finalize enquanto a ideia ainda esta quente."
 
-Data: /12/2025
+Data: /01/2026
 "O cursor piscando nao pressiona — ele convida voce a continuar."
 
-Data: /12/2025
+Data: /01/2026
 "A revisao feita sem pressa corrige mais que bugs — organiza o raciocinio."
 
-Data: /12/2025
+Data: /01/2026
 "O sistema responde melhor quando voce pausa antes de ajustar."
 
-Data: /12/2025
+Data: /01/2026
 "O compilador interno também avisa quando falta sono — execute o comando descanso()."
 
-Data: /12/2025
+Data: /01/2026
 "O objeto fora do lugar chama mais atencao que o problema evitado."
 
-Data: /12/2025
+Data: /01/2026
 "Nem todo erro pede correcao imediata — alguns pedem entendimento."
 
-Data: /12/2025
+Data: /01/2026
 "O dia anda melhor quando voce ajusta o basico primeiro."
 
-Data: /12/2025
+Data: /01/2026
 "O sistema falha menos quando voce para de lutar contra ele."
 
-Data: /12/2025
+Data: /01/2026
 "A rotina revela muito sobre o que voce esta adiando."
 
-Data: /12/2025
+Data: /01/2026
 "Codigo escrito com clareza costuma sobreviver melhor ao tempo."
 
-Data: /12/2025
+Data: /01/2026
 "O silencio entre uma tarefa e outra tambem faz parte do processo."
 
-Data: /12/2025
+Data: /01/2026
 "Debuggar sem pressa evita repetir o mesmo erro com outro nome."
 
-Data: /12/2025
+Data: /01/2026
 "O cuidado com detalhes simples sustenta dias mais complexos."
 
-Data: /12/2025
+Data: /01/2026
 "A boa decisao aparece quando voce entende o contexto inteiro."
 
-Data: /12/2025
+Data: /01/2026
 "O gesto pequeno feito agora economiza energia depois."
 
-Data: /12/2025
+Data: /01/2026
 "O trabalho flui quando voce remove o excesso de expectativa."
 
-Data: /12/2025
+Data: /01/2026
 "O ambiente organizado reduz atritos invisiveis."
 
-Data: /12/2025
+Data: /01/2026
 "Nem todo ajuste melhora o sistema — alguns apenas acalmam a ansiedade."
 
-Data: /12/2025
+Data: /01/2026
 "A consistencia diaria construi resultados mais solidos."
 
-Data: /12/2025
+Data: /01/2026
 "O problema fica menor quando voce para de tratar sintomas."
 
-Data: /12/2025
+Data: /01/2026
 "A atencao sustentada vale mais que a velocidade inicial."
 
-Data: /12/2025
+Data: /01/2026
 "O processo amadurece quando voce aprende a esperar."
 
-Data: /12/2025
+Data: /01/2026
 "O equilibrio entre pensar e agir evita retrabalho."
 
-Data: /12/2025
+Data: /01/2026
 "O dia rende mais quando voce respeita o proprio ritmo."
 
+Data: /01/2026
+"Nem tudo precisa ser entregue hoje — mas tudo precisa ser entendido."
 
-
-Data: /12/2025
+Data: /01/2026
 "Encerrar bem o ano reduz o peso que voce levaria adiante."
 
-Data: /12/2025
+Data: /01/2026
 "O fechamento consciente prepara melhor que qualquer resolucao."
 
-Data: /12/2025
+Data: /01/2026
 "Antes de mudar o calendario, vale organizar o que ficou aberto."
 
-Data: /12/2025
+Data: /01/2026
 "O fim do ano revela o que merece continuar."
 
-Data: /12/2025
+Data: /01/2026
 "Nem tudo precisa ser resolvido, mas tudo pode ser compreendido."
 
-Data: /12/2025
+Data: /01/2026
 "Reduzir excessos agora facilita escolhas depois."
 
-Data: /12/2025
+Data: /01/2026
 "O descanso funciona melhor quando nao carrega pendencias."
 
 Data: /01/2026
@@ -207,42 +222,66 @@ Data: /01/2026
 Data: /01/2026
 "O primeiro passo do ano nao precisa ser grande — precisa ser consciente."
 
-Data: /12/2025
-"Nem tudo precisa ser entregue hoje — mas tudo precisa ser entendido."
-
 < Semana do ANO NORMAL >
 
-Data: /12/2025
-"O ano desacelera no fim, mas o essencial ainda pede atencao."
+Data: /01/2026
+"O Ano Desacelera no Fim, mas o Essencial ainda pede Atenção."
 
-Data: /12/2025
-"Luzes acesas lembram que clareza tambem e escolha."
+Data: 08/01/2026
+"Luzes acesas lembram que clareza também e escolha."
 
-Data: /12/2025
+Data: 07/01/2026
 "Fechar pendencias antes do recesso traz mais descanso que qualquer pausa."
 
-Data: /12/2025
-"O sistema agradece quando voce encerra ciclos com cuidado."
+Data: 06/01/2026
+"O sistema agradece quando se encerra ciclos com cuidado."
 
-Data: /12/2025
-"O clima de dezembro favorece revisoes mais honestas."
-
-
-< Semana do ANO NOVO >
-
-Data: /12/2025
-"O ano termina melhor quando voce encerra pendencias com clareza."
-
-Data: /12/2025
+Data: 02/01/2026
 "O novo ciclo comeca mais leve quando o antigo foi bem revisado."
 
-Data: /12/2025
-"Antes de planejar o proximo passo, vale entender o caminho percorrido."
+
+
+< Primeira Semana do ANO NOVO >
+
+
+Data: 31/12/2025
+"Hoje e dia de valorizar o que foi construído com consistência ao longo do ano."
+
+Data: 30/12/2025
+"Que o Ano Novo traga clareza, descanso e um bom ponto de partida para o que vem depois."
+
+Data: 29/12/2025
+"O ano quase termina, e o que fica é o compromisso que construímos juntos."
+
+
+
+< Semana Entre Natal e ANO NOVO >
+
+
+
+Data: 25/12/2025
+"Que este Natal marque um ponto de equilibrio entre descanso, clareza e gratidao."
+
+
+
+< Dia do Natal >
+
+
+
+Data: 24/12/2025
+"Nesta Véspera, Desacelerar também faz parte de entregar bem."
+
+Data: 23/12/2025
+"Antes de planejar o próximo passo, vale entender o caminho percorrido."
 
 Data: 22/12/2025
 "O ano muda no calendario, mas o ajuste real acontece na decisao."
 
+
+
 < Semana do Natal >
+
+
 
 Data: 19/12/2025
 "O fim do ano pede menos pressa e mais regularidade."
@@ -633,3 +672,25 @@ Data: 12/06/2025
 
 Data: 11/06/2025  
 "Antes de mudar o mundo, sente-se em silêncio por três minutos. Depois, comece por você."  
+
+
+
+===---+++---===
+===---+++---===
+
+---
+
+```
+##----------####----------####----------##
+##                                      ##
+##   ... 🐝 Assinatura Institucional    ##
+##                                      ##
+##----------####----------####----------##
+
+         .' '.    .' '.         ,-.
+.        .   .    .   .         \ /
+ .         .        .       . -{|||)<
+   ' .  . ' ' .  . ' ' . . '    / \
+                                `-^
+##----------####----------####----------##
+```
