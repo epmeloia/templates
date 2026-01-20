@@ -4,21 +4,24 @@
 
 ---
 
-
-[OBS] BLOCO 1
-[EXEC] pré-visualização do Bloco 1
-[EXEC] Confirmação Final para gerar o Bloco 1
-
-Data: 05/01/2026
-"O sistema agradece quando se encerra ciclos com cuidado."
+[EXEC] Ativar v11
+[ANEXO] moldura-para-menssagens-bom-dia-v11.md
+[ANEXO] ambientes-locais-para-temas-frases-dia-v1.md
 
 
-# BLOCO 2
-[ANEXO] BLOCO 1
-[EXEC] pré-visualização do Bloco 2
-[EXEC] Confirmação Final para gerar o Bloco 2
+[EXEC] BLOCO 1 - pré-visualização do Bloco 1
+Data: 12/01/2026
+Frase: "O inicio do ano pede menos expectativa e mais atenção ao processo."
 
+
+[EXEC] BLOCO 1 - Confirmação Final para gerar o Bloco 1
+
+
+[EXEC] BLOCO 2 - pré-visualização do Bloco 2
 - 🌐 Mundial (internet) - Dia do Bacon
+
+
+[EXEC] BLOCO 2 - Confirmação Final para gerar o Bloco 2
 
 
 

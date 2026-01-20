@@ -214,18 +214,19 @@ Data: /01/2026
 "Retomar o ritmo com clareza vale mais que largar com pressa."
 
 Data: /01/2026
-"O inicio do ano pede menos expectativa e mais atencao ao processo."
+"O inicio do ano pede menos expectativa e mais atenção ao processo."
 
-Data: /01/2026
+Data: 10/01/2026
 "Planejar faz sentido quando voce entende o que realmente funcionou."
 
-Data: /01/2026
-"O primeiro passo do ano nao precisa ser grande — precisa ser consciente."
+Data: 09/01/2026
+"O primeiro passo do ano não precisa ser grande — precisa ser consciente."
+
+
 
 < Semana do ANO NORMAL >
 
-Data: /01/2026
-"O Ano Desacelera no Fim, mas o Essencial ainda pede Atenção."
+
 
 Data: 08/01/2026
 "Luzes acesas lembram que clareza também e escolha."

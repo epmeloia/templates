@@ -2,22 +2,22 @@
 
 Este repositório é um hub central com coleções de manuais, testes, glossários, códigos, prompts e soluções para uso prático.
 
-**Gerado automaticamente em:** 2026-01-07 14:59:45
+**Gerado automaticamente em:** 2026-01-20 13:25:27
 
 ## Seções Disponíveis
 
-- 📂  boas praticas: [-padrao-pastas/-boas-praticas](../-padrao-pastas/-boas-praticas/README.md)
 - 📂  boas praticas: [ias/memex/-boas-praticas](../ias/memex/-boas-praticas/README.md)
 - 📂  boas praticas: [ias/perplexity/-boas-praticas](../ias/perplexity/-boas-praticas/README.md)
-- 📂  padrao pastas: [-padrao-pastas](../-padrao-pastas/README.md)
+- 📂  boas praticas: [padrao-pastas/-boas-praticas](../padrao-pastas/-boas-praticas/README.md)
 - 📂 Ambientes locais para temas frases dia: [dev/moldura-para-mensagens-bom-dia/ambientes-locais-para-temas-frases-dia](../dev/moldura-para-mensagens-bom-dia/ambientes-locais-para-temas-frases-dia/README.md)
 - 📂 American truck simulator: [games/american-truck-simulator](../games/american-truck-simulator/README.md)
 - 📂 Analise precos com custo beneficio automatica: [ias/perplexity/analise-precos-com-custo-beneficio-automatica](../ias/perplexity/analise-precos-com-custo-beneficio-automatica/README.md)
 - 📂 App deinstalar sem restricoes: [windows/app-deinstalar-sem-restricoes](../windows/app-deinstalar-sem-restricoes/README.md)
 - 📂 App_tree: [dev/app_tree](../dev/app_tree/README.md)
 - 📂 Assets: [assets](../assets/README.md)
+- 📂 Boas praticas: [Notion/boas-praticas](../Notion/boas-praticas/README.md)
+- 📂 Boas praticas: [dev/boas-praticas](../dev/boas-praticas/README.md)
 - 📂 Boas praticas: [ias/boas-praticas](../ias/boas-praticas/README.md)
-- 📂 Boas praticas: [ias/prompts/boas-praticas](../ias/prompts/boas-praticas/README.md)
 - 📂 Captura imagens cria word transcricao: [videos/captura-imagens-cria-word-transcricao](../videos/captura-imagens-cria-word-transcricao/README.md)
 - 📂 Capturar frames unicos do youtube: [ias/chatgpt/capturar-frames-unicos-do-youtube](../ias/chatgpt/capturar-frames-unicos-do-youtube/README.md)
 - 📂 Capturar frames unicos do youtube: [ias/perplexity/capturar-frames-unicos-do-youtube](../ias/perplexity/capturar-frames-unicos-do-youtube/README.md)
@@ -30,6 +30,7 @@ Este repositório é um hub central com coleções de manuais, testes, glossári
 - 📂 Controle_pedidos: [dev/controle_pedidos](../dev/controle_pedidos/README.md)
 - 📂 Criacao roteiro teste perplexity: [ias/perplexity/criacao-roteiro-teste-Perplexity](../ias/perplexity/criacao-roteiro-teste-Perplexity/README.md)
 - 📂 Cruzamentos interceccoes: [games/cities-skylines/youtube/cruzamentos-interceccoes](../games/cities-skylines/youtube/cruzamentos-interceccoes/README.md)
+- 📂 Dados: [dev/controle_pedidos/dados](../dev/controle_pedidos/dados/README.md)
 - 📂 Descricao: [dev/app_tree/descricao](../dev/app_tree/descricao/README.md)
 - 📂 Dev: [dev](../dev/README.md)
 - 📂 Docs: [docs](../docs/README.md)
@@ -49,7 +50,9 @@ Este repositório é um hub central com coleções de manuais, testes, glossári
 - 📂 Mini instrucoes: [mini-instrucoes](../mini-instrucoes/README.md)
 - 📂 Moldura para mensagens bom dia: [dev/moldura-para-mensagens-bom-dia](../dev/moldura-para-mensagens-bom-dia/README.md)
 - 📂 Notepad++: [notepad++](../notepad++/README.md)
+- 📂 Notion: [Notion](../Notion/README.md)
 - 📂 Otimizar recursos creditos recomendacao dinamica icone: [ias/perplexity/otimizar-recursos-creditos-recomendacao-dinamica-icone](../ias/perplexity/otimizar-recursos-creditos-recomendacao-dinamica-icone/README.md)
+- 📂 Padrao pastas: [padrao-pastas](../padrao-pastas/README.md)
 - 📂 Perplexity: [ias/perplexity](../ias/perplexity/README.md)
 - 📂 Polimento materiais massa: [mini-glossarios-gerais/polimento-materiais-massa](../mini-glossarios-gerais/polimento-materiais-massa/README.md)
 - 📂 Promp eficiencia creditos: [ias/memex/promp-eficiencia-creditos](../ias/memex/promp-eficiencia-creditos/README.md)
