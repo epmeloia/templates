@@ -11,7 +11,7 @@
 
 [EXEC] BLOCO 1 - pré-visualização do Bloco 1
 Data: 12/01/2026
-Frase: "O inicio do ano pede menos expectativa e mais atenção ao processo."
+Frase: "Planejar faz sentido quando você entende o que realmente funcionou."
 
 
 [EXEC] BLOCO 1 - Confirmação Final para gerar o Bloco 1

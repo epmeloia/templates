@@ -216,7 +216,7 @@ Data: /01/2026
 Data: /01/2026
 "O inicio do ano pede menos expectativa e mais atenção ao processo."
 
-Data: 10/01/2026
+Data: 12/01/2026
 "Planejar faz sentido quando voce entende o que realmente funcionou."
 
 Data: 09/01/2026
