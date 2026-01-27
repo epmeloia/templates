@@ -2,7 +2,7 @@
 
 Este repositório é um hub central com coleções de manuais, testes, glossários, códigos, prompts e soluções para uso prático.
 
-**Gerado automaticamente em:** 2026-01-20 13:25:27
+**Gerado automaticamente em:** 2026-01-27 16:10:56
 
 ## Seções Disponíveis
 
@@ -15,9 +15,11 @@ Este repositório é um hub central com coleções de manuais, testes, glossári
 - 📂 App deinstalar sem restricoes: [windows/app-deinstalar-sem-restricoes](../windows/app-deinstalar-sem-restricoes/README.md)
 - 📂 App_tree: [dev/app_tree](../dev/app_tree/README.md)
 - 📂 Assets: [assets](../assets/README.md)
-- 📂 Boas praticas: [Notion/boas-praticas](../Notion/boas-praticas/README.md)
+- 📂 Assets: [dev/controle_pedidos/assets](../dev/controle_pedidos/assets/README.md)
+- 📂 Assets: [dev/moldura-para-mensagens-bom-dia/assets](../dev/moldura-para-mensagens-bom-dia/assets/README.md)
 - 📂 Boas praticas: [dev/boas-praticas](../dev/boas-praticas/README.md)
 - 📂 Boas praticas: [ias/boas-praticas](../ias/boas-praticas/README.md)
+- 📂 Boas praticas: [notion/boas-praticas](../notion/boas-praticas/README.md)
 - 📂 Captura imagens cria word transcricao: [videos/captura-imagens-cria-word-transcricao](../videos/captura-imagens-cria-word-transcricao/README.md)
 - 📂 Capturar frames unicos do youtube: [ias/chatgpt/capturar-frames-unicos-do-youtube](../ias/chatgpt/capturar-frames-unicos-do-youtube/README.md)
 - 📂 Capturar frames unicos do youtube: [ias/perplexity/capturar-frames-unicos-do-youtube](../ias/perplexity/capturar-frames-unicos-do-youtube/README.md)
@@ -50,7 +52,7 @@ Este repositório é um hub central com coleções de manuais, testes, glossári
 - 📂 Mini instrucoes: [mini-instrucoes](../mini-instrucoes/README.md)
 - 📂 Moldura para mensagens bom dia: [dev/moldura-para-mensagens-bom-dia](../dev/moldura-para-mensagens-bom-dia/README.md)
 - 📂 Notepad++: [notepad++](../notepad++/README.md)
-- 📂 Notion: [Notion](../Notion/README.md)
+- 📂 Notion: [notion](../notion/README.md)
 - 📂 Otimizar recursos creditos recomendacao dinamica icone: [ias/perplexity/otimizar-recursos-creditos-recomendacao-dinamica-icone](../ias/perplexity/otimizar-recursos-creditos-recomendacao-dinamica-icone/README.md)
 - 📂 Padrao pastas: [padrao-pastas](../padrao-pastas/README.md)
 - 📂 Perplexity: [ias/perplexity](../ias/perplexity/README.md)
