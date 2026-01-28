@@ -1,6 +1,6 @@
-# Relação Guia Passo a Passo - Criar e Localizar - Tabelas e Banco de Dados:
+# Tabelas e Banco de Dados - Criar e Localizar - Guia Passo a Passo:
 
-# Nome: "relacao-guia-passo-a-passo-criar-localizar-tabelas-banco-dados.md"
+# Nome: "relacionar-tabelas-banco-dados-criar-localizar-guia-passo-a-passo.md"
 
 ***
 
@@ -11,45 +11,48 @@ Criar, no **DB Pedidos - v3**, uma relação chamada **Tabela Produtos Destino**
 ***
 
 ## Pré-requisitos
-
+```
 - Já existir o database **DB Pedidos - v3** configurado.  
 - Já existir o database **DB Produtos - v3** configurado.  
 - Ter certeza de que está trabalhando na versão correta do sistema (v3.x.x). [notion](https://www.notion.com/help/intro-to-databases)
+```
 
 ***
 
 ## Passo a passo: Criar Relation Bidirecional
 
 ### 1. Abrir o DB Pedidos - v3 (lado de origem)
-
+```
 1. Navegar até a página **Pedidos - v3**.  
 2. Localizar a tabela **DB Pedidos - v3** (database inline dentro dessa página). [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/8f23e2af-d928-4156-8bd6-1459865f67ec/image.jpg)
 3. Confirmar que está vendo as colunas já existentes (ID Tabela Pedidos, ID dos Pedidos, Status, etc.).
+```
 
 ***
 
 ### 2. Criar a nova propriedade de Relation
-
+```
 1. Na última coluna da tabela, clicar em **“+”** para adicionar uma nova propriedade.  
 2. No campo de nome, digitar exatamente:  
    - `Tabela Produtos Destino`  
 3. No seletor de tipo de propriedade, escolher **Relation** (ícone de elos de corrente). [notion](https://www.notion.com/help/relations-and-rollups)
+```
 
 ***
 
 ### 3. Escolher o database de destino (DB Produtos - v3)
-
+```
 1. Ao selecionar **Relation**, o Notion abre uma caixa para escolher o database relacionado.  
 2. No campo de busca dessa caixa, digitar:  
    - `DB Produtos - v3`  
 3. Selecionar o database que aparecer com esse nome (confirme pela URL/título se necessário). [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/8f23e2af-d928-4156-8bd6-1459865f67ec/image.jpg)
-
 Resultado esperado: a janela mostra algo como “Relate **DB Pedidos - v3** to **DB Produtos - v3**”. [notion](https://www.notion.com/help/relations-and-rollups)
+```
 
 ***
 
 ### 4. Configurar a relação como bidirecional
-
+```
 1. Na mesma janela de configuração da relation, localizar a opção:  
    - **“Show on [DB Produtos - v3]”** (ou texto equivalente de “Mostrar no outro database”). [notion](https://www.notion.vip/insights/notion-explained-relations-rollups)
 2. Certificar-se de que a caixa está **marcada** (✅).  
@@ -58,11 +61,12 @@ Resultado esperado: a janela mostra algo como “Relate **DB Pedidos - v3** to *
 4. Confirmar que a pré-visualização indica:  
    - Em **DB Pedidos - v3**: propriedade `Tabela Produtos Destino`  
    - Em **DB Produtos - v3**: propriedade `Tabela Pedido Origem`. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/8f23e2af-d928-4156-8bd6-1459865f67ec/image.jpg)
+```
 
 ***
 
 ### 5. Concluir a criação da relation
-
+```
 1. Clicar em **“Add relation” / “Adicionar relação”**.  
 2. Aguardar o Notion aplicar a mudança.  
 3. Verificar no **DB Pedidos - v3** que:  
@@ -71,11 +75,12 @@ Resultado esperado: a janela mostra algo como “Relate **DB Pedidos - v3** to *
 4. Abrir o **DB Produtos - v3** e conferir:  
    - Existe uma nova coluna **Tabela Pedido Origem**, criada automaticamente.  
    - O tipo é “Relation” apontando para **DB Pedidos - v3**. [notion](https://www.notion.com/help/relations-and-rollups)
+```
 
 ***
 
 ### 6. Validar o comportamento many-to-many
-
+```
 **Teste mínimo recomendável:**
 
 1. Em **DB Pedidos - v3**, criar um pedido de teste (por exemplo: “Pedido TESTE Relation 001”).  
@@ -87,11 +92,12 @@ Resultado esperado: a janela mostra algo como “Relate **DB Pedidos - v3** to *
    - Confirmar que, no produto correspondente, o campo **Tabela Pedido Origem** é atualizado automaticamente (o vínculo desaparece ali também).  
 
 Se tudo se comportar assim, a relation bidirecional está corretamente configurada e pronta para ser usada pelos **Rollups** (Valor Total do Pedido, Quantidade Total de Itens, Produtos Diferentes) e pelo **Teste Prático** que você descreveu. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/108742584/d24e7426-1709-492b-8857-186b4301cae6/estrutura-menu-utilizando-frase-destaque-titulo-3-alternante-guia-passo-a-passo.md)
+```
 
 ***
 
 ### 7. Checklist rápido (para marcar depois da auditoria)
-
+```
 - [ ] `Tabela Produtos Destino` criada em **DB Pedidos - v3**.  
 - [ ] Database de destino correto: **DB Produtos - v3**.  
 - [ ] Opção “Show on DB Produtos - v3” marcada.  
@@ -100,6 +106,7 @@ Se tudo se comportar assim, a relation bidirecional está corretamente configura
 - [ ] Relation usada com sucesso em pelo menos um rollup de teste (ex.: Sum de `Valor Total`). [theorganizednotebook](https://theorganizednotebook.com/blogs/blog/notion-relations-rollups)
 
 Se quiser, o próximo passo pode ser transformar esse fluxo em um **bloco padrão [EXEC]** para colar direto no Notion como “procedimento oficial” de criação de relations no seu sistema.
+```
 
 ***
 
@@ -132,10 +139,13 @@ Resultado: Conteúdo da página em formato Markdown especial
 ```
 
 **Informações extraídas:**
+```
 - `url=` → URL do database (interface visual)
 - `data-source-url=` → **Collection ID** (identificador interno único)
+```
 
 #### **Passo 3: Fetch do Database Completo**
+
 ```yaml
 Ferramenta: mcp_tool_notion-fetch
 Input: URL do database (https://www.notion.so/2eff7525a6a9804e8ce9f94698ca9ac2)
@@ -179,9 +189,27 @@ Resultado: Schema completo com TODAS as propriedades
 ```
 
 ### **Por que Collections são importantes?**
+```
 - **Imutável:** Mesmo se renomear database, Collection ID não muda
 - **Único:** Identifica precisamente aquele database específico
 - **Relations:** Relations usam Collection IDs para conectar databases
 - **Backup:** Permite referenciar database de forma absoluta
+```
 
 ***
+---
+
+```
+##----------####----------####----------##
+##                                      ##
+##   ... 🐝 Assinatura Institucional    ##
+##                                      ##
+##----------####----------####----------##
+
+         .' '.    .' '.         ,-.
+.        .   .    .   .         \ /
+ .         .        .       . -{|||)<
+   ' .  . ' ' .  . ' ' . . '    / \
+                                `-^
+##----------####----------####----------##
+```
