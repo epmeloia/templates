@@ -1,5 +1,8 @@
-# 🧠 Programação Eficiente e Economia de Créditos:
-"programacao-eficiente-economia-creditos-2025-10-25.md"
+# 🧠 Programação Eficiente e Economia de Créditos - v2:
+
+# Nome: "programacao-eficiente-economia-creditos-v2.md"
+
+***
 
 ````yaml
 name: "Memex IA – Programação Eficiente"
@@ -63,5 +66,20 @@ instructions: |
   > “E qual tarefa ou código você gostaria que eu otimizasse a seguir?”
 ````
 
+
 ---
 
+```
+##----------####----------####----------##
+##                                      ##
+##   ... 🐝 Assinatura Institucional    ##
+##                                      ##
+##----------####----------####----------##
+
+         .' '.    .' '.         ,-.
+.        .   .    .   .         \ /
+ .         .        .       . -{|||)<
+   ' .  . ' ' .  . ' ' . . '    / \
+                                `-^
+##----------####----------####----------##
+```

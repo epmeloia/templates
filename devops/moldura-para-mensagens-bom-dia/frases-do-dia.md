@@ -21,200 +21,167 @@ Data: 24/12/2026
 
 
 
-Data: /01/2026
+Data: /02/2026
 "O sistema responde melhor quando a decisao vem clara, nao rapida."
 
-Data: /01/2026
+Data: /02/2026
 "Revisar com calma costuma resolver o que a pressa complica."
 
-Data: /01/2026
+Data: /02/2026
 "A estrutura certa reduz a necessidade de explicacoes futuras."
 
-Data: /01/2026
+Data: /02/2026
 "O erro ensina mais quando voce para de reagir e comeca a observar."
 
-Data: /01/2026
+Data: /02/2026
 "A boa solucao nasce do entendimento completo, nao do primeiro impulso."
 
-Data: /01/2026
+Data: /02/2026
 "Organizar antes de executar evita correcoes silenciosas depois."
 
-Data: /01/2026
+Data: /02/2026
 "O trabalho consistente vale mais que ajustes brilhantes e instaveis."
 
-Data: /01/2026
+Data: /02/2026
 "Quando o processo esta claro, o resultado exige menos esforco."
 
-Data: /01/2026
+Data: /02/2026
 "Melhorar o sistema comeca por reduzir o ruido interno."
 
-Data: /01/2026
+Data: /02/2026
 "A maturidade tecnica aparece quando voce escolhe simplicidade."
 
-Data: /01/2026
+Data: /02/2026
 "O backlog parado nao julga — ele apenas revela prioridades mal escolhidas."
 
-Data: /01/2026
+Data: /02/2026
 "A mensagem curta no commit diz mais quando voce sabe o que mudou."
 
-Data: /01/2026
+Data: /02/2026
 "O tempo gasto entendendo o problema economiza correcoes depois."
 
-Data: /01/2026
+Data: /02/2026
 "O sistema melhora quando voce aceita revisar a propria decisao."
 
-Data: /01/2026
+Data: /02/2026
 "A solucao simples quase sempre aparece depois da ultima tentativa apressada."
 
-Data: /01/2026
+Data: /02/2026
 "O codigo claro respeita quem vai ler amanha, inclusive voce."
 
-Data: /01/2026
+Data: /02/2026
 "O erro recorrente insiste ate voce mudar a abordagem."
 
-Data: /01/2026
+Data: /02/2026
 "O ajuste pequeno feito hoje evita explicacoes longas depois."
 
-Data: /01/2026
+Data: /02/2026
 "O fluxo funciona melhor quando voce remove excessos, nao quando adiciona controles."
 
-Data: /01/2026
+Data: /02/2026
 "A boa construcao nasce quando pensar vem antes de executar."
 
-Data: /01/2026
+Data: /02/2026
 "A tela em branco nao acusa erro — ela apenas aguarda sua primeira decisao."
 
-Data: /01/2026
+Data: /02/2026
 "O arquivo salvo cedo evita retrabalho — finalize enquanto a ideia ainda esta quente."
 
-Data: /01/2026
+Data: /02/2026
 "O cursor piscando nao pressiona — ele convida voce a continuar."
 
-Data: /01/2026
+Data: /02/2026
 "A revisao feita sem pressa corrige mais que bugs — organiza o raciocinio."
 
-Data: /01/2026
+Data: /02/2026
 "O sistema responde melhor quando voce pausa antes de ajustar."
 
-Data: /01/2026
+Data: /02/2026
 "O compilador interno também avisa quando falta sono — execute o comando descanso()."
 
-Data: /01/2026
+Data: /02/2026
 "O objeto fora do lugar chama mais atencao que o problema evitado."
 
-Data: /01/2026
+Data: /02/2026
 "Nem todo erro pede correcao imediata — alguns pedem entendimento."
 
-Data: /01/2026
+Data: /02/2026
 "O dia anda melhor quando voce ajusta o basico primeiro."
 
-Data: /01/2026
+Data: /02/2026
 "O sistema falha menos quando voce para de lutar contra ele."
 
-Data: /01/2026
+Data: /02/2026
 "A rotina revela muito sobre o que voce esta adiando."
 
-Data: /01/2026
+Data: /02/2026
 "Codigo escrito com clareza costuma sobreviver melhor ao tempo."
 
-Data: /01/2026
+Data: /02/2026
 "O silencio entre uma tarefa e outra tambem faz parte do processo."
 
-Data: /01/2026
+Data: /02/2026
 "Debuggar sem pressa evita repetir o mesmo erro com outro nome."
 
-Data: /01/2026
+Data: /02/2026
 "O cuidado com detalhes simples sustenta dias mais complexos."
 
-Data: /01/2026
+Data: /02/2026
 "A boa decisao aparece quando voce entende o contexto inteiro."
 
-Data: /01/2026
+Data: /02/2026
 "O gesto pequeno feito agora economiza energia depois."
 
-Data: /01/2026
+Data: /02/2026
 "O trabalho flui quando voce remove o excesso de expectativa."
 
-Data: /01/2026
+Data: /02/2026
 "O ambiente organizado reduz atritos invisiveis."
 
-Data: /01/2026
+Data: /02/2026
 "Nem todo ajuste melhora o sistema — alguns apenas acalmam a ansiedade."
 
-Data: /01/2026
+Data: /02/2026
 "A consistencia diaria construi resultados mais solidos."
 
-Data: /01/2026
+Data: /02/2026
 "O problema fica menor quando voce para de tratar sintomas."
 
-Data: /01/2026
+Data: /02/2026
 "A atencao sustentada vale mais que a velocidade inicial."
 
-Data: /01/2026
+Data: /02/2026
 "O processo amadurece quando voce aprende a esperar."
 
-Data: /01/2026
-"O equilibrio entre pensar e agir evita retrabalho."
+Data: 13/02/2026
+"O equilíbrio entre pensar e agir evita retrabalho."
 
-Data: /01/2026
-"O dia rende mais quando voce respeita o proprio ritmo."
+Data: 12/02/2026
+"O dia rende mais quando você respeita o próprio ritmo."
 
-Data: /01/2026
+Data: 11/02/2026
 "Nem tudo precisa ser entregue hoje — mas tudo precisa ser entendido."
 
-Data: /01/2026
-"Encerrar bem o ano reduz o peso que voce levaria adiante."
+Data: 10/02/2026
+"O fechamento consciente prepara melhor que qualquer resolução."
 
-Data: /01/2026
-"O fechamento consciente prepara melhor que qualquer resolucao."
+Data: 09/02/2026
+"Antes de mudar o calendário, vale organizar o que ficou aberto."
 
-Data: /01/2026
-"Antes de mudar o calendario, vale organizar o que ficou aberto."
-
-Data: /01/2026
-"O fim do ano revela o que merece continuar."
-
-Data: /01/2026
+Data: 06/02/2026
 "Nem tudo precisa ser resolvido, mas tudo pode ser compreendido."
 
-Data: /01/2026
-"Reduzir excessos agora facilita escolhas depois."
+Data: 05/02/2026
+"Reduzir excessos agora facilita suas escolhas depois."
 
-Data: /01/2026
-"O descanso funciona melhor quando nao carrega pendencias."
+Data: 04/02/2026
+"O descanso funciona melhor quando não carrega pendencias."
 
-Data: /01/2026
-"O novo ano responde melhor a quem chega com clareza."
+Data: 03/02/2026
+"O tempo muda, mas o processo continua pedindo consistência."
 
-Data: /01/2026
-"Comecar leve depende mais do que voce fecha do que do que promete."
-
-Data: /01/2026
-"O tempo muda, mas o processo continua pedindo consistencia."
-
-Data: /01/2026
-"A transicao pede revisao, nao pressa."
-
-Data: /01/2026
-"O ano novo nao corrige falhas antigas sem ajustes reais."
-
-Data: /01/2026
-"O que voce organiza no fim sustenta o que construi no inicio."
-
-Data: /01/2026
-"A clareza atravessa melhor a virada do que a ansiedade."
-
-Data: /01/2026
-"Entrar no ano novo e mais facil quando voce sabe o que ficou para tras."
-
-Data: /01/2026
-"O ano comeca melhor quando voce ajusta o basico antes de acelerar."
-
-Data: /01/2026
+Data: 02/02/2026
 "Retomar o ritmo com clareza vale mais que largar com pressa."
-
-Data: /01/2026
-"O inicio do ano pede menos expectativa e mais atenção ao processo."
 
 Data: 12/01/2026
 "Planejar faz sentido quando voce entende o que realmente funcionou."

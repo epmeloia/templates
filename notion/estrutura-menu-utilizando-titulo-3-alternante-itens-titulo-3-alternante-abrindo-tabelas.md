@@ -159,13 +159,11 @@
 03.c. Selecionar Item 'Título 3 alternantes - Transformar em'.
 ```
 
-***
-
-### **6. Para Inserir um Sub Bloco reconhecível com Título 3 Alternante** - Repita o Procedimento '### **5.'
+Obs.05.: Para Inserir um Sub Bloco reconhecível com Título 3 Alternante** - Repita o Procedimento.
 
 ***
 
-### **7. Opção de Vincular em Tabela e Coleções de Visualizações da Tabela:
+### **6.a. Opção de "Visualização em Tabela - Base de dados":
 ```
 01. Movimentar o Cursor para Sub Bloco 'Rastreio'
 02. Verificar o Ícone que está a Esquerda do 'LINKS TODOS' for '>' (Recolhido).
@@ -186,44 +184,42 @@
 15. Clicar no Sub Bloco 'Rastreio'
 ```
 
+Obs.6.a.1.: Etapa '13.', no momento pode ser criada uma nova visualização, que será incorporada a Tabela.
+
+Obs.6.a.2.: Quando usado a 'Visualização em Tabela - Base de dados', é mais possível alterar e alterar a 'Visualização em Tabela - Base de dados', é só entrar em Configurações (primeiro Ícone do lado esquerdo do Botão Azul 'Nova V'), vá em direção ao rodapé até a Sub Aba 'Configurações da fonte de dados' e entrar na item 'Fonte' e selecionar uma nova 'Fonte'.
 
 
-`Vinculação vinculada da fonte de dados`
-
-
-
-Localiza a Página/Tabela
-
-Seleciona a Visualização existente ou cria uma nova (Nova Visualização)
-
-
-4. Escolha a opção **“Criar visualização vinculada de banco de dados”** (em português) ou “Create linked view of database”. [notion](https://www.notion.com/help/views-filters-and-sorts)
-5. Vai abrir uma caixa para você escolher qual base quer vincular.  
-6. No campo de busca dessa caixa, digite **`Links - Todos - VALIDADO`**.  
-7. Clique na base **“Links - Todos - VALIDADO”** quando ela aparecer.  
-8. O Notion criará um novo Bloco de database vinculado na coluna da direita, mostrando os dados da tabela original.
 
 ***
 
-
-
-
-
-
-
-
-
-
-
-
-### **05. Inserir mais Sub Blocos reconhecível com Título 3 Alternante**
-
-#### Antes de Escolher uma Opção:
+### **6.a. Opção de "Visualização vinculada da fonte de dados":
 ```
-- Pressionar 'ENTER'
-- Digitar 'Rastreio'
+01. Movimentar o Cursor para Sub Bloco 'Lojas'
+02. Verificar o Ícone que está a Esquerda do 'LINKS TODOS' for '>' (Recolhido).
+	. Clicar no Ícone '>' para Expandir.
+03. Verificar o Ícone que está a Esquerda do 'LINKS TODOS' for 'V' (Expandido).
+	. Movimentar o Cursor para a Linha com 'Alternante vazio. Clique para digitar ou arraste solte Blocos dentro dele.'
+04. Verificar se o Texto da Linha Exibe 'Toque na barra de espaço para ativar a IA, digite "/" para comandos...'
+05. Digite `/` para abrir o menu de comandos.
+06. Comece a digitar `vi`
+07. Selecionar `Visualização vinculada da fonte de dados`.
+08. Localizar o Campo 'Nova base de dados'.
+09. Posicionar o Cursor no Início da Linha do Texto 'Adicionar ou vincular fonte de dados...'
+10. Digitar 'Link'
+11. Selecionar Tabela 'Links - VALIDADO'
+12. São Exibidas as Visualizações abaixo do Texto 'Visualizações da coleção Links - VALIDADO'
+13. Selecionar 'Lojas'
+14. Neste momento pode Personalizar da forma que quiser essa Visualização.
+15. Clicar no Sub Bloco 'Lojas'
 ```
 
+Obs.6.b.1.: Etapa '13.', no momento pode ser criada uma nova visualização, que será incorporada a Tabela.
+
+Obs.6.b.2.: Quando usado a 'Visualização em Tabela - Base de dados', é mais possível alterar e alterar a 'Visualização em Tabela - Base de dados', é só entrar em Configurações (primeiro Ícone do lado esquerdo do Botão Azul 'Nova V'), vá em direção ao rodapé até a Sub Aba 'Configurações da fonte de dados' e entrar na item 'Fonte' e selecionar uma nova 'Fonte'.
+
+
+
+***
 
 ---
 
@@ -269,4 +265,3 @@ Seleciona a Visualização existente ou cria uma nova (Nova Visualização)
    ' .  . ' ' .  . ' ' . . '    / \
                                 `-^
 ##----------####----------####----------##
-```

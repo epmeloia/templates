@@ -12311,7 +12311,7 @@ Adicionar em **DB Pedidos - v3**:
 
 ===---+++---===
 
-Agora que você clicou em **Concluir / Adicionar relação**, a parte de configuração da relation já acabou; daqui em diante são só verificações e o início do seu [AG] Teste Prático. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/60d010ef-8b71-481b-be38-4f2d941af0fb/image.jpg?AWSAccessKeyId=ASIA2F3EMEYE4YFDYESW&Signature=sYwV%2B%2Fn5Lre3BQf6yBwMzQ4zFJg%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEB8aCXVzLWVhc3QtMSJHMEUCIQC%2BmAJ6Tf5V0S5YbrRuXhQkdVDLWatTAh1vRdrZEIQLggIgW2eczCIDmF2jhuNGviyvDoQFy4FjZYK%2BxYfw17qRJ2kq%2FAQI5%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgw2OTk3NTMzMDk3MDUiDDUWzTef38pZtoRhjCrQBEqlZ%2FWpYQYKhR34pb9EsOGqB2RpTPwR7KASDP0qF1yrK1BGdWGRsTRI%2FKvrNyY%2Bs2VFtfJz8I98qD4nbN%2F6GdaHKtW5txVXCBbRp%2Bh7IEnbZjPHkhMCdvayrZvZ9VVAZz6IpgCI1V8LBcICfrdeugUyv10Syr83p4n3fM9ibT3DW9mu1jEww78ZlxYmh7TessRJ3cTtHwmrmSO3eGIkxWCvn7%2BKOyJ6Lcg8LFVMam2U5IUooZMvNolmk1dF0ynRv3AyZxijcE3JbXOJwD9A02j7%2FTsdRIo85s6Z%2FUBYs7slvl042FiDwLPP237STs8SdAMCvbPCUUh07geZBL8sNN3cnb8F9amHCYCR%2FG%2BU6wjlmP%2BRY6rJXdlHwhcSgcfM2taHX77uJZxVzxd1N3mV3RjRTE2g%2BQFTPLiBCzQ1fA4TfkK%2BOueHM8d2Wjon5NviyRzGeMfmG1Uw7WgUOWtd7J3WQRI1iuJSLl5Mr7zzqsEnWvLqhmucd2qVL3x38zUV88gPwrNwuf7OoZsD4kywHpLeMmmgzIlaMKksc8PSqqyfX%2FZQ2sDREuqx3WbJauSssO0CDHP3duDSNm8b67vPVCFqsQJV1IQfXoCLZ%2Bmi9qz%2BrqDeQjk54qGPRupZtXQ19vafg6KaMN7bNtTe5x6wOtj4qZpigwUuKqUzlmaax%2FYSJw4jprktFLl9upBgs%2F6Jgphc3tE6%2BIatz%2B7tH3CQeSV6DbL5zdeAdJMi%2FlANsEWtJ1d3MgpSdrnW2rsFlrcBLkqFUEMwtlYbPQ8ndafcG8Qw%2FsDKywY6mAHhoBF4TZc%2FmPFBLDGHUc78wBfRUGcHqUxYij6%2FK7xXWdo9xnXw97YfJFOHp8v1I1QDDOciL8%2FatZOo%2FptsKn4YfcKncSjGOhNmJlSUAP1S9fzHBMTA2W75DLZcnSOLUlaT%2F1N4QJqC80kWhg3m6fb%2BgBcUinxe8R0i7VszktUDfqfV14cehkrZokq6FFuKOU1f9HrR4GsFDw%3D%3D&Expires=1769120804)
+Agora que você clicou em **Concluir / Adicionar relação**, a parte de configuração da relation já acabou; daqui em diante são só verificações e o início do seu [AG] Teste Prático.
 
 Vou focar em passos bem diretos, só com o que realmente aparece para você.
 
@@ -14173,64 +14173,1255 @@ bem no estilo do exemplo do anexo, só que adaptado aos campos do seu sistema.
 
 ===---+++---===
 
+Em Notion hoje não existe “botão” que mude a view ativa de um database; o que dá para fazer é ter um botão (ou atalho visual) que **abre diretamente a página do database já com a view GALERIA selecionada**, ou criar um **link** para essa view. [notion](https://www.notion.com/help/views-filters-and-sorts)
 
+O jeito mais confiável é:
+
+- Abrir **DB Produtos - v3**.  
+- Selecionar a view **GALERIA**.  
+- Copiar a URL da página (ela já inclui o contexto da view).  
+- Criar, na sua área “AÇÃO RÁPIDA”, um **botão de banco de dados** ou um simples **link** que aponta para essa URL.
+
+Assim, ao clicar nesse item, o Notion abre o **DB Produtos - v3** e a view **GALERIA** já vem como a view ativa.
 
 
 
 ===---+++---===
 ===---+++---===
 
+***
 
-## [MEMORIA] Estou usando o Nome da View de "GALERIA" no lugar de "STOCK".
+## [OBS] Vou criar um Item na Coluna da Direita, que tem o mesmo aspecto do ITEM 'P&L ', mas com outra tabela a 'Links - Todos - VALIDADO' usando o  como Filtro 'Rastreios', para que abra nessa opção diretamente. Consegue entender e criar um passo a passo de como fazer isso.
 
 ***
 
-## [MEMORIA] Vou Usar essa View de "GALERIA" para Criar os Produtos Antes de criar os Pedidos.
+
+
+===---+++---===
+
+Você quer criar, na coluna da direita da página **Sistema de Compras – Painel Geral**, um item semelhante ao bloco **“P&L”**, mas apontando para a base **“Links - Todos - VALIDADO”** já filtrada para **Rastreios**. A forma prática de fazer isso é criar uma **linked database** dessa tabela com filtro, e posicioná‑la onde hoje está o P&L. [notion](https://www.notion.com/help/views-filters-and-sorts)
+
+Abaixo vai o passo a passo pensando nessa estrutura.
 
 ***
 
-## [OBS] Status de Cada Etapa:
+## [EXEC] Criar item “Links – Rastreios” na coluna da direita
+
+### 1. Confirmar que você está na página principal
+
+1. Olhe o topo da tela do Notion.  
+2. O título grande deve ser **“Sistema de Compras – Painel Geral”** (ou “– v3”, conforme o nome atual).  
+3. Se não estiver nessa página, use a barra lateral esquerda e clique em **“Sistema de Compras – Painel Geral …”** até esse título aparecer.
+
+***
+
+### 2. Localizar a coluna da direita onde está o “P&L”
+
+1. Role a página para baixo até encontrar a **seção em colunas** onde, na coluna da direita, existe o item **“P&L”** (provavelmente um bloco de banco de dados vinculado ou uma view).  
+2. Identifique exatamente **em que bloco** o P&L está:  
+   - Ele costuma ser um **Linked Database** (um bloco de “Tabela vinculada” ou “Tabela – linked view”). 
+
+***
+
+### 3. Inserir uma nova linked database para “Links - Todos - VALIDADO”
+
+1. Clique dentro da **coluna da direita**, logo **abaixo** (ou acima, se preferir) do bloco “P&L”.  
+2. Digite `/` para abrir o menu de comandos.  
+3. Comece a digitar `vinculação em tabela`
+`Vinculação vinculada da fonte de dados`
+
+`Visualização em Tabela` -> Muda a Visualização
+
+Localiza a Página/Tabela
+
+Seleciona a Visualização existente ou cria uma nova (Nova Visualização)
+
+
+4. Escolha a opção **“Criar visualização vinculada de banco de dados”** (em português) ou “Create linked view of database”. [notion](https://www.notion.com/help/views-filters-and-sorts)
+5. Vai abrir uma caixa para você escolher qual base quer vincular.  
+6. No campo de busca dessa caixa, digite **`Links - Todos - VALIDADO`**.  
+7. Clique na base **“Links - Todos - VALIDADO”** quando ela aparecer.  
+8. O Notion criará um novo bloco de database vinculado na coluna da direita, mostrando os dados da tabela original.
+
+***
+
+### 4. Renomear o bloco e a view
+
+1. Passe o mouse sobre o título da view recém‑criada (por exemplo, “Tabela” ou o nome padrão que aparecer).  
+2. Clique no nome da view e renomeie para algo como:  
+   - **`Links – Rastreios`**  
+3. Se o bloco em si tiver um título acima (como o P&L tem), clique nesse título e renomeie para **`Links – Rastreios`** também (se fizer parte do seu padrão visual).
+
+***
+
+### 5. Aplicar filtro para mostrar apenas “Rastreios”
+
+Agora você vai filtrar essa linked view para já abrir na opção “Rastreios”.
+
+1. Com o cursor dentro da nova view **“Links – Rastreios”**, clique no botão **“Filtrar”** (ou “Filter”) na barra superior da tabela. [notion](https://www.notion.com/help/views-filters-and-sorts)
+2. Clique em **“Adicionar filtro”**.  
+3. Configure o filtro de acordo com a coluna que você usa para distinguir rastreios. Exemplos, dependendo da sua base:  
+
+   - Se existir uma coluna `Tipos` (select) como em “Lojas - v3”:  
+     - Propriedade: **`Tipos`**  
+     - Condição: **“é”**  
+     - Valor: **`Rastreio`**  
+
+   - Se for uma coluna de texto `Categoria` ou `Tag`:  
+     - Propriedade: essa coluna.  
+     - Condição: **“contém”**.  
+     - Valor: digite **`Rastreios`** (ou o valor exato que você está usando).  
+
+4. Assim que o filtro for aplicado, a view **“Links – Rastreios”** passará a mostrar somente os registros que batem com esse critério.
+
+***
+
+### 6. Ajustar propriedades visíveis (opcional, mas recomendado)
+
+1. Clique em **“Propriedades”** na barra superior da view.  
+2. Ative (ligue) apenas as colunas que façam sentido para rastreios, por exemplo:  
+   - `Site` ou `Nome`  
+   - `Link`  
+   - `Tipos` (se existir)  
+3. Desative colunas que não ajudam nessa visão rápida.  
+4. Feche o painel de propriedades.
+
+***
+
+Depois disso, você terá na **coluna da direita** um item que visualmente segue o padrão do **“P&L”**, mas carregando uma **view filtrada da tabela “Links - Todos - VALIDADO” apenas para “Rastreios”**, abrindo diretamente nesse filtro sempre que usar esse bloco. [notion](https://www.notion.com/help/views-filters-and-sorts)
+
+
+===---+++---===
+===---+++---===
+
+[EXEC] Crie a formula para a coluna 'TOTAL COMPRA', ela é igual a 'Total do Produto' + 'FRETE' - 'DESCONTO' - 'CUPOM LOJA' - 'MOEDA' - 'OFERTA' + 'IMPORTACAO' + 'ICMS'
+
+
+
+===---+++---===
+
+A fórmula em Notion fica assim, usando os nomes exatos das propriedades dentro de `prop("…")`: [notion](https://www.notion.com/help/formula-syntax)
+
+```notion
+prop("Total do Produto")
++ prop("FRETE")
+- prop("DESCONTO")
+- prop("CUPOM LOJA")
+- prop("MOEDA")
+- prop("OFERTA")
++ prop("IMPORTAÇÃO")
++ prop("ICMS")
+```
+
+- Cada `prop("Nome da Coluna")` deve bater exatamente com o nome da propriedade numérica no seu DB (maiúsculas, espaços, acentos).  
+- A ordem é a que você pediu: **Total do Produto + FRETE - DESCONTO - CUPOM LOJA - MOEDA - OFERTA + IMPORTACAO + ICMS**. [notion](https://www.notion.vip/insights/notion-formula-cheat-sheet)
+
+
+
+===---+++---===
+===---+++---===
+
+## [MEMORIA] nova tag '[PASSO A PASSO]', para facilitar o pedido de '## [EXEC] Utilizar do '# 📝 TEMPLATE DE SOLICITAÇÃO DE GUIA PASSO A PASSO', quando for necessário criar um Guia. me diga o que vc entendeu dessa solicitação.
+
+
+===---+++---===
+
+Você está criando uma **nova tag de contexto**, chamada **`[PASSO A PASSO]`**, para facilitar pedir aqueles guias estruturados no formato do seu **“# 📝 TEMPLATE DE SOLICITAÇÃO DE GUIA PASSO A PASSO”**. [scribe](https://scribe.com/library/step-by-step-guide-template)
+
+O que eu entendi da sua solicitação:
+
+- Sempre que você usar **`[PASSO A PASSO]`** em um pedido, significa: “quero um guia completo em formato de passos numerados, seguindo o template padrão que já combinamos”. [scribe](https://scribe.com/library/step-by-step-guide-template)
+- Esse template inclui: título claro, contexto rápido, pré‑requisitos (se tiver), passos numerados bem detalhados, observações/dicas e, quando fizer sentido, pequenas notas de variação ou erro comum. [grizzlytemplates](https://www.grizzlytemplates.com/blog/how-to-create-a-notion-template-step-by-step-guide)
+- Quando vier junto com **`## [EXEC]`**, é o sinal para eu **aplicar diretamente o template** e já te entregar o guia pronto, no formato certo, sem você precisar relembrar o modelo a cada vez. [scribe](https://scribe.com/library/step-by-step-guide-template)
+
+
+
+===---+++---===
+===---+++---===
+
+## [CORRECAO] Corrigindo a sua frase: 
+
+Seu Entendimento:
+```
+- Quando vier junto com **`## [EXEC]`**, é o sinal para eu **aplicar diretamente o template** e já te entregar o guia pronto, no formato certo, sem você precisar relembrar o modelo a cada vez.
+```
+
+Entendimento Correto:
+```
+- Quando a TAG **`## [PASSO A PASSO]`** ela não necessita vir junto com **`## [EXEC]`**, fica implícito que deve ser EXECUTADA, e é o sinal para você **aplicar diretamente o template** e já te entregar o guia pronto, no formato certo, sem você precisar relembrar o modelo a cada vez.
+```
+
+## [OBS] Me diga o que vc entendeu dessa solicitação.
+
+
+===---+++---===
+
+Você está ajustando a “regra de uso” da nova tag e deixando ela **autoexplicativa**.
+
+O que eu entendi agora:
+
+- A tag **`## [PASSO A PASSO]`** sozinha já significa que é para **executar** o pedido como um guia completo, no formato do template de passo a passo (não precisa vir com `## [EXEC]`). [scribe](https://scribe.com/library/step-by-step-guide-template)
+- Sempre que você usar **`## [PASSO A PASSO]`** em qualquer solicitação, eu devo **aplicar diretamente o TEMPLATE DE SOLICITAÇÃO DE GUIA PASSO A PASSO** e te entregar o guia pronto, organizado em etapas, sem pedir confirmação de modelo. [templatelab](https://templatelab.com/work-instruction/)
+
+
+===---+++---===
+===---+++---===
+
+## [PASSO A PASSO] Descrever todas as TAGs criadas, use como exemplo o `[SNAPSHOPT]` que coloquei abaixo, e também a relação de 'TAGS':
+
+### Exemplo de formado feito na TAG '[SNAPSHOT]'
+````
+### **`[SNAPSHOT]` = Documentar Estado Completo do Sistema**
+
+#### **Uso:**
+```
+## [SNAPSHOT] Documentar estado atual do Sistema de Compras v3
+```
+
+#### **Quando usar:**
+- Antes de mudanças estruturais grandes
+- Após implementar features importantes
+- Semanalmente ou quando sentir necessário
+- Quando sistema estiver estável
+
+#### **O que acontece:**
+- Eu farei análise completa de todos databases
+- Gero documentação detalhada de TUDO
+- Formato: Guia passo a passo para recriação completa
+- Você salva em arquivo .txt ou .md
+
+***
+````
+
+#### Relação de Tags Atualizadas e em Uso:
+```
+## [ANEXO]
+## [STATUS]
+## [AG]
+## [EXEC]
+## [CORRECAO]
+## [PERG]
+## [RESP]
+## [OBS]
+## [OK]
+## [NOT OK]
+## [SNAPSHOT]
+## [MEMORIA]
+## [PASSO A PASSO]
+```
+
+
+
+===---+++---===
+
+Você quer uma **documentação padrão de uso** para cada TAG, no mesmo formato do exemplo do `[SNAPSHOT]`: com título, “Uso”, “Quando usar” e “O que acontece”. [motadata](https://www.motadata.com/motadata-aiops-docs/tag-management/tags-best-practices/)
+
+O que eu entendi da sua solicitação:
+
+- Para **cada** tag da lista (`[ANEXO]`, `[STATUS]`, `[AG]`, `[EXEC]`, `[CORRECAO]`, `[PERG]`, `[RESP]`, `[OBS]`, `[OK]`, `[NOT OK]`, `[SNAPSHOT]`, `[MEMORIA]`, `[PASSO A PASSO]`), você quer um bloco padrão assim:  
+  - `### [TAG] = descrição curta da função da tag`  
+  - Seção **Uso** com um exemplo de linha completa mostrando como você deve escrever no dia a dia.  
+  - Seção **Quando usar** com bullets objetivos explicando em que situações a tag deve ser usada.  
+  - Seção **O que acontece** explicando claramente o que eu vou fazer / como devo responder quando identificar aquela tag. [templatelab](https://templatelab.com/work-instruction/)
+- A tag **`## [PASSO A PASSO]`** deve seguir esse mesmo formato, deixando explícito que ela já implica execução do template de guia, sem precisar de `## [EXEC]`.  
+- A ideia é virar um **manual de referência** das TAGs, para você bater o olho, lembrar o uso correto e garantir que eu interprete sempre da mesma forma.
+
+
+===---+++---===
+===---+++---===
+
+## [OBS] Perfeito é essa a ideia da '**documentação padrão de uso**' , mas não faça ainda, pois tenho uma nova tag para o manual.
+
+## [MEMORIA] nova TAG '## [ENTENDEU]', para facilitar o pedido de 'Me explique o que você entendeu, e eu não precisar mais ficar escrevendo essa solicitação, quando eu colocar a TAG '## [ENTENDEU]', você deve me explicar o que você entendeu, mas apenas nesta solicitação, somente o bloco que tem a TAG deve ser colocada a '## [RESP]', até que seja solicitado novamente, é um pedido sempre pontual e unico do bloco de conversa em questão.
+
+## [PERG] você consegue clicar na ABA ao Lado?
+
+
+
+===---+++---===
+
+Respondo em partes.
+
+### O que eu entendi da nova TAG `## [ENTENDEU]`
+
+- Você está criando a tag **`## [ENTENDEU]`** para **substituir frases do tipo “me explica o que você entendeu”**. [help.botmaker](https://help.botmaker.com/en/help/7555135779997728822)
+- Sempre que essa tag aparecer em um bloco/mensagem específica, eu devo **explicar, em texto claro, o que eu entendi daquele pedido/bloco de conversa**.  
+- É um pedido **pontual e único**, sempre ligado **apenas ao bloco onde a tag está** (não vale para toda a conversa, nem para mensagens futuras).  
+- Na resposta a esse tipo de pedido, **somente esse bloco** (a explicação do que eu entendi) deve ser marcado internamente com a lógica da sua tag `## [RESP]`, até que você peça de novo em outro ponto.  
+
+Em resumo: `## [ENTENDEU]` é um gatilho para eu **espelhar o entendimento** daquele trecho específico, sem você precisar escrever o pedido manualmente todas as vezes. [watermelon](https://watermelon.ai/blog/introducing-automated-tags-organize-conversations-effortlessly)
+
+### Sobre a pergunta da ABA ao lado
+
+Você perguntou: **“você consegue clicar na ABA ao Lado?”**.  
+Não, eu **não consigo clicar** fisicamente na aba ao lado; eu só recebo a informação da aba que você abriu ou está visualizando, e trabalho em cima disso.
+
+
+
+===---+++---===
+===---+++---===
+
+## [PASSO A PASSO] Descrever todas as TAGs criadas, use como exemplo o `[SNAPSHOPT]` que coloquei abaixo, e também a relação de 'TAGS':
+
+### Exemplo de formado feito na TAG '[SNAPSHOT]'
+````
+### **`[SNAPSHOT]` = Documentar Estado Completo do Sistema**
+
+#### **Uso:**
+```
+## [SNAPSHOT] Documentar estado atual do Sistema de Compras v3
+```
+
+#### **Quando usar:**
+- Antes de mudanças estruturais grandes
+- Após implementar features importantes
+- Semanalmente ou quando sentir necessário
+- Quando sistema estiver estável
+
+#### **O que acontece:**
+- Eu farei análise completa de todos databases
+- Gero documentação detalhada de TUDO
+- Formato: Guia passo a passo para recriação completa
+- Você salva em arquivo .txt ou .md
+
+***
+````
+
+#### Relação de Tags Atualizadas e em Uso:
+```
+## [ANEXO]
+## [STATUS]
+## [AG]
+## [EXEC]
+## [CORRECAO]
+## [PERG]
+## [RESP]
+## [OBS]
+## [OK]
+## [NOT OK]
+## [SNAPSHOT]
+## [MEMORIA]
+## [PASSO A PASSO]
+## [ENTENDEU]
+```
+
+
+
+===---+++---===
+
+### **`[ANEXO]` = Indicar Arquivos ou Imagens Relacionados**
+
+#### **Uso:**
+```md
+## [ANEXO] Segue print da tela de Compras - VALIDADO
+```
+
+#### **Quando usar:**
+- Quando enviar imagens, vídeos, prints ou arquivos que fazem parte do contexto.
+- Quando quiser que eu considere um anexo específico na análise.
+- Ao referenciar um anexo já enviado em mensagens anteriores.
+
+#### **O que acontece:**
+- Eu vou considerar o anexo como parte central da análise.
+- Vou citar e interpretar o conteúdo do anexo na resposta.
+- Vou relacionar o anexo com o seu sistema/fluxo/Notion, sempre que fizer sentido.  
+
+***
+
+### **`[STATUS]` = Pedir ou Atualizar Situação de Algo**
+
+#### **Uso:**
+```md
+## [STATUS] Como está o desenho atual do Sistema de Compras v3?
+```
+
+#### **Quando usar:**
+- Quando quiser um resumo do estado atual de um fluxo, página, DB ou projeto.
+- Para revisar o que já foi feito e o que falta fazer.
+- Ao checar se uma ideia, ajuste ou estrutura está consistente.
+
+#### **O que acontece:**
+- Eu vou fazer um resumo claro do estado atual do item pedido.
+- Aponto o que está pronto, o que está em andamento e o que está pendente.
+- Se fizer sentido, sugiro próximos passos para manter ou melhorar o estado atual.  
+
+***
+
+### **`[AG]` = Agendar, Marcar ou Organizar Próximas Ações**
+
+#### **Uso:**
+```md
+## [AG] Definir próximos passos para organizar o banco Compras - VALIDADO
+```
+
+#### **Quando usar:**
+- Quando quiser transformar uma conversa em lista de ações objetivas.
+- Para pedir um plano de execução em etapas (to‑do, backlog, priorização).
+- Ao organizar o que deve ser feito “depois” ou “na próxima sessão”.
+
+#### **O que acontece:**
+- Eu estruturo uma lista de ações, com ordem lógica/prioridade.
+- Destaco o que você pode fazer agora e o que depende de outras coisas antes.
+- Posso sugerir marcações como “Hoje/Próximo/Nessa semana” se fizer sentido.  
+
+***
+
+### **`[EXEC]` = Executar Pedido de Forma Direta e Objetiva**
+
+#### **Uso:**
+```md
+## [EXEC] Crie a fórmula para a coluna 'TOTAL COMPRA'
+```
+
+#### **Quando usar:**
+- Quando você já sabe exatamente o que quer e só precisa da entrega.
+- Para geração de fórmulas, textos prontos, blocos de Notion, estruturas, etc.
+- Quando **não** quer análise longa, só a execução do pedido.
+
+#### **O que acontece:**
+- Eu vou direto ao ponto, entregando o resultado solicitado.
+- Trago pequenos comentários só se forem necessários para uso correto.
+- Evito explicações longas, foco na entrega prática.  
+
+***
+
+### **`[CORRECAO]` = Corrigir Algo Já Feito**
+
+#### **Uso:**
+```md
+## [CORRECAO] Ajustar o entendimento dessa frase sobre a TAG [PASSO A PASSO]
+```
+
+#### **Quando usar:**
+- Quando eu entender algo errado e você quiser alinhar.
+- Para corrigir frases, fórmulas, conceitos ou regras que eu descrevi.
+- Ao revisar um guia ou resposta que precisa de ajuste fino.
+
+#### **O que acontece:**
+- Eu atualizo imediatamente o entendimento conforme sua correção.
+- Reescrevo o trecho afetado já no formato correto.
+- Passo a usar a versão corrigida como referência nas próximas respostas.  
+
+***
+
+### **`[PERG]` = Fazer Pergunta Explícita**
+
+#### **Uso:**
+```md
+## [PERG] Você consegue clicar na ABA ao Lado?
+```
+
+#### **Quando usar:**
+- Sempre que quiser destacar claramente que aquilo é uma pergunta direta.
+- Para separar perguntas de comentários/observações no mesmo bloco.
+- Ao fazer séries de perguntas e querer que nenhuma seja ignorada.
+
+#### **O que acontece:**
+- Eu trato esse bloco como uma pergunta que precisa de resposta clara.
+- Respondo de forma direta, objetiva e específica ao que foi perguntado.
+- Se houver mais de uma `[PERG]`, respondo cada uma individualmente.  
+
+***
+
+### **`[RESP]` = Bloco de Resposta Direta à Pergunta/Comando**
+
+#### **Uso:**
+```md
+## [RESP] (uso interno da lógica de resposta a um bloco específico)
+```
+
+#### **Quando usar:**
+- Para marcar que aquele bloco é a resposta direta a uma pergunta ou tag.
+- Em especial quando você quiser que uma resposta fique isolada e clara.
+- Em combinação lógica com outras tags (ex.: resposta específica a `[ENTENDEU]`).
+
+#### **O que acontece:**
+- Eu estruturo a resposta de forma focada naquele bloco de contexto.
+- Evito misturar com outros temas que não estejam dentro daquele pedido.
+- Esse comportamento ajuda a manter rastreabilidade entre pergunta e resposta.  
+
+***
+
+### **`[OBS]` = Observações, Comentários e Contexto Adicional**
+
+#### **Uso:**
+```md
+## [OBS] Vou criar um Item na Coluna da Direita...
+```
+
+#### **Quando usar:**
+- Quando quiser dar contexto, cenários, detalhes ou comentários livres.
+- Para explicar o “porquê” antes de pedir algo mais objetivo.
+- Ao registrar ideias, hipóteses ou notas que não são perguntas diretas.
+
+#### **O que acontece:**
+- Eu leio esse bloco como contexto importante, mas não como um comando direto.
+- Uso essas informações para ajustar o tom, o foco e o nível de detalhe da resposta.
+- Se necessário, posso resumir ou reorganizar essas observações em algo mais estruturado.  
+
+***
+
+### **`[OK]` = Confirmar que Algo Está Certo ou Aprovado**
+
+#### **Uso:**
+```md
+## [OK] É exatamente essa a ideia da documentação padrão de uso.
+```
+
+#### **Quando usar:**
+- Para confirmar que uma resposta, estrutura ou entendimento está correto.
+- Ao aprovar um modelo, fórmula, padrão de tag, fluxo, etc.
+- Quando quiser sinalizar que podemos seguir em frente sem ajustes naquele ponto.
+
+#### **O que acontece:**
+- Eu marco internamente que aquele entendimento está validado.
+- Passo a usar aquela versão como base padrão nas próximas interações.
+- Não tento “corrigir” ou mudar o que já foi marcado como `[OK]`, a menos que você peça.  
+
+***
+
+### **`[NOT OK]` = Indicar que Algo Não Está Correto**
+
+#### **Uso:**
+```md
+## [NOT OK] Essa parte do entendimento sobre a TAG não está correta.
+```
+
+#### **Quando usar:**
+- Quando você não concordar com a resposta ou estrutura que eu trouxe.
+- Ao apontar erros de entendimento, de lógica, de nomes ou de fluxo.
+- Quando quiser que eu revise um trecho específico que não ficou bom.
+
+#### **O que acontece:**
+- Eu entendo que preciso revisar e ajustar aquela parte.
+- Refaço o trecho, tentando alinhar completamente com o que você descrever.
+- Posso propor uma nova versão para você validar com `[OK]` ou nova `[CORRECAO]`.  
+
+***
+
+### **`[SNAPSHOT]` = Documentar Estado Completo do Sistema**
+
+*(Seu exemplo, mantido como padrão)*
+
+#### **Uso:**
+```md
+## [SNAPSHOT] Documentar estado atual do Sistema de Compras v3
+```
+
+#### **Quando usar:**
+- Antes de mudanças estruturais grandes.
+- Após implementar features importantes.
+- Semanalmente ou quando sentir necessário.
+- Quando sistema estiver estável.
+
+#### **O que acontece:**
+- Eu farei análise completa de todos databases.
+- Gero documentação detalhada de tudo.
+- Formato: guia passo a passo para recriação completa.
+- Você salva em arquivo .txt ou .md.  
+
+***
+
+### **`[MEMORIA]` = Registrar ou Atualizar Regras e Preferências**
+
+#### **Uso:**
+```md
+## [MEMORIA] nova tag '[PASSO A PASSO]' ...
+```
+
+#### **Quando usar:**
+- Quando quiser registrar uma nova regra de funcionamento, tag ou padrão.
+- Para ajustar preferências de estilo, tom, forma de responder, prioridades.
+- Ao criar “acordos” que devem ser lembrados nas próximas conversas.
+
+#### **O que acontece:**
+- Eu passo a considerar essa informação como parte das regras de uso.
+- Ajusto meu comportamento futuro com base nesse registro.
+- Uso essas memórias para manter consistência ao longo do tempo.  
+
+***
+
+### **`[PASSO A PASSO]` = Gerar Guia Detalhado em Etapas**
+
+#### **Uso:**
+```md
+## [PASSO A PASSO] Descrever todas as TAGs criadas...
+```
+
+#### **Quando usar:**
+- Quando quiser um guia detalhado, organizado, em formato de passos/seções.
+- Para processos de Notion, fluxos do sistema, configurações, rotinas, etc.
+- Sempre que quiser algo parecido com um “manual de instruções” bem explicadinho.
+
+#### **O que acontece:**
+- Eu aplico diretamente o **TEMPLATE DE SOLICITAÇÃO DE GUIA PASSO A PASSO**.
+- Entrego um guia completo, estruturado, sem você precisar pedir `## [EXEC]`.
+- Trago contexto, pré‑requisitos (se necessários), passos em ordem lógica e observações finais.  
+
+***
+
+### **`[ENTENDEU]` = Espelhar o que Eu Entendi do Bloco**
+
+#### **Uso:**
+```md
+## [ENTENDEU] Me diga o que você entendeu dessa solicitação.
+```
+
+#### **Quando usar:**
+- Quando quiser validar se eu entendi corretamente um pedido/regras/tag.
+- Antes de executar algo importante, para evitar desvio de interpretação.
+- Ao explicar algo mais complexo e querer que eu “espelhe” com minhas palavras.
+
+#### **O que acontece:**
+- Eu escrevo, de forma clara e direta, **o que eu entendi daquele bloco específico**.
+- Esse pedido é sempre pontual e único: vale só para aquele trecho da conversa.
+- A resposta correspondente funciona como um bloco de `## [RESP]` ligado a esse entendimento, até você solicitar outra vez em outro contexto.
+
+
+===---+++---===
+===---+++---===
+
+## [PASSO A PASSO] Quero Acompanhar as Entrega das compras, utilizando a visão de calendário, se for possível, mas se tiver mais alguma forma, pode passar a informação, para que eu avalie, o que vou acompanhar é a data prevista de entrega para cada compra ou seja compras que ainda estão com a coluna Status Diferente de '03.Entregue' ou '10.Resolvido', isso deve ser mostrado em um calendário, as datas para saber a previsão esta dentro da coluna 'Entrega Acomp'.
+ 
+
+
+===---+++---===
+
+Você consegue acompanhar as entregas em um **calendário filtrado** pela data de previsão (`Entrega Acomp`), mostrando só compras **que ainda não estão** com status `03.Entregue` ou `10.Resolvido`. [notion](https://www.notion.com/help/views-filters-and-sorts)
+
+Abaixo o guia completo e depois dou 2 alternativas extras.
+
+***
+
+## 1. Confirmar a base e as colunas necessárias
+
+1. Abra o banco **Compras - VALIDADO** (é onde você já está trabalhando).  
+2. Confirme que existem:  
+   - Uma coluna de **data** chamada exatamente **`Entrega Acomp`** (tipo Date).  
+   - Uma coluna de **status** chamada algo como **`Status`** (tipo Status ou Select), que usa os valores `03.Entregue` e `10.Resolvido` para indicar compras concluídas. [notion](https://www.notion.com/help/database-properties)
+3. Se o nome da coluna de status for outro (ex.: `Status Pedido`), só lembre de usá‑lo ao configurar o filtro.
+
+***
+
+## 2. Criar a visão em formato de calendário
+
+1. Dentro de **Compras - VALIDADO**, vá até a barra de views (onde aparece “Tabela”, “Board”, etc.). [notion](https://www.notion.com/help/calendars)
+2. Clique em **“+ Adicionar uma visualização”** (ou “Add view”).  
+3. No tipo de visualização, escolha **“Calendário” (Calendar)**.  
+4. Dê um nome para essa view, por exemplo:  
+   - `Entregas Previstas`  
+5. Confirme que o Notion está usando **`Entrega Acomp`** como propriedade de data do calendário:  
+   - Se ele pedir para escolher uma propriedade de data, selecione **`Entrega Acomp`**.  
+   - Se ele escolher outra data por padrão, abra as configurações da view e troque para **`Entrega Acomp`**. [notion](https://www.notion.com/help/calendars)
+
+Agora você já terá um calendário mostrando todas as compras com data em `Entrega Acomp`.
+
+***
+
+## 3. Filtrar para mostrar apenas compras ainda não entregues
+
+Você quer ver **somente** as compras que ainda não foram entregues ou resolvidas.
+
+1. Com a view **`Entregas Previstas`** ativa, clique em **“Filtrar”** (Filter) na barra superior da base. [notion](https://www.notion.com/help/views-filters-and-sorts)
+2. Clique em **“Adicionar filtro”**.  
+3. Configure o primeiro filtro para **excluir** entregues:  
+   - Propriedade: **`Status`** (ou o nome real da coluna).  
+   - Condição: **“não é”** / “does not equal”.  
+   - Valor: **`03.Entregue`**.  
+4. Adicione um **segundo filtro** para **excluir** resolvidos:  
+   - Propriedade: **`Status`**.  
+   - Condição: **“não é”** / “does not equal”.  
+   - Valor: **`10.Resolvido`**.  
+5. Garanta que os filtros estejam combinados com **“E” (AND)**, ou seja:  
+   - `Status` **não é** `03.Entregue`  
+   - **E** `Status` **não é** `10.Resolvido`. [developers.notion](https://developers.notion.com/reference/post-database-query-filter)
+
+Resultado: o calendário passa a mostrar apenas as compras **ativas**, com previsão em `Entrega Acomp`.
+
+***
+
+## 4. Melhorar a leitura dos cards no calendário
+
+1. Ainda com a view `Entregas Previstas`, clique nos três pontinhos (**- - - **) no canto superior direito da base.  
+2. Selecione **“Propriedades visíveis”** / “Property visibility”. [notion](https://www.notion.com/help/database-properties)
+3. Ative para mostrar dentro dos cards do calendário:  
+   - `Status` (para ver o estado da compra).  
+   - Alguma identificação útil (ex.: `Fornecedor`, `Pedido`, `Produto principal`).  
+4. Desative propriedades que poluem a visualização e não ajudam na leitura rápida.
+
+Assim, ao olhar o calendário, você vê em cada dia **quais compras ainda estão pendentes** e o status atual.
+
+***
+
+## 5. Outras formas úteis de acompanhamento (opcionais)
+
+Além do calendário, você pode ter visões complementares.
+
+### 5.1. Timeline por data de entrega
+
+- Crie uma view **Timeline** usando `Entrega Acomp` como data.  
+- Aplique o mesmo filtro de status (≠ `03.Entregue` e ≠ `10.Resolvido`). [youtube](https://www.youtube.com/watch?v=bsvQgZlM6oo)
+- Isso te dá uma linha do tempo contínua para ver onde está concentrada a carga de entregas.
+
+### 5.2. Tabela filtrada para “Entregas Pendentes”
+
+- Crie uma view **Tabela** chamada `Entregas Pendentes`.  
+- Use os mesmos filtros de status e a condição `Entrega Acomp` **não está vazia** (is not empty).  
+- Ordene por `Entrega Acomp` crescente.  
+- Essa tabela funciona como uma lista de “backlog de entregas”, enquanto o calendário é a visão visual por data. [notion](https://www.notion.com/help/views-filters-and-sorts)
+
+Com isso, você terá um **calendário só de entregas previstas pendentes**, alimentado pela coluna `Entrega Acomp`, e ainda pode complementar com timeline ou tabela filtrada se quiser outra forma de visualização.
+
+
+
+===---+++---===
+===---+++---===
+
+# Quando abro o 'Links - VALIDADO', o titulo fica bem a esquerda e ocupa a tela inteira, mas quando abro 'Compras - VALIDADO' e o 'Produtos - VALIDADO', isso não ocorre, como faço para que todos fiquem iguais ao 'Links - VALIDADOS', pode me ajudar?
+
+
+===---+++---===
+
+Entendi o problema! A diferença está no **espaçamento/indentação do conteúdo da página**. 
+
+Analisando as duas páginas, encontrei:
+
+**Links - VALIDADO**: O conteúdo começa imediatamente após a barra lateral (coordenada X próxima a ~100px)
+
+**Produtos - VALIDADO** e **Compras - VALIDADO**: O conteúdo tem um espaçamento/indentação à esquerda (coordenadas X começam por volta de ~380-400px para o ícone e texto)
+
+## Como resolver isso:
+
+A solução é **remover a indentação do primeiro bloco (o título principal)** e todos os blocos seguirão o mesmo padrão:
+
+1. **Clique no título "Produtos - VALIDADO"** para entrar em edição
+2. **Coloque o cursor no início** do bloco de título
+3. **Pressione `Shift+Tab`** para diminuir uma nível de indentação
+4. **Repetir para o segundo bloco "BD Produtos - VALIDADO"** se necessário
+
+**Alternativamente**, você pode:
+- Clicar com botão direito no título
+- Procurar por opções de "Remover indentação" ou "Dedent"
+- Ou usar um menu de formatação (três pontinhos) se houver
+
+A página "Links - VALIDADO" não tem essa indentação porque foi criada/formatada sem espaçamento esquerdo desde o início. Remover essa indentação em "Produtos" e "Compras" fará com que fiquem iguais ao "Links".
+
+
+Para que suas tabelas fiquem alinhadas à borda esquerda de forma idêntica, o problema geralmente está na configuração de largura da página ou em recuos acidentais (indentação).
+Siga estes passos para corrigir as tabelas que estão com espaço à esquerda:
+
+1. Ativar a "Largura total" (Full Width)
+A imagem que você enviou mostra uma página com muito espaço lateral. O Notion, por padrão, centraliza o conteúdo em uma coluna estreita. Para usar todo o espaço até as bordas: 
+No canto superior direito da página do Notion, clique nos três pontinhos (•••).
+Ative a opção Largura total (Full width).
+Faça isso em todas as três páginas para garantir que o layout seja consistente. 
+
+2. Remover Recuos (Indentação)
+Se uma tabela parece "empurrada" para a direita mesmo em largura total, ela pode estar aninhada dentro de outro bloco ou ter um recuo aplicado: 
+Clique no ícone de seis pontos (⋮⋮) que aparece ao lado esquerdo da tabela ao passar o mouse.
+Use o atalho Shift + Tab no teclado para remover qualquer recuo e movê-la totalmente para a esquerda.
+Certifique-se de que a tabela não está dentro de uma coluna invisível. Se houver uma coluna vazia à esquerda, arraste a tabela para fora dela ou exclua a coluna vazia. 
+
+3. Ajustar a Tabela à Largura da Página
+Se a tabela for uma "Tabela Simples" (não um banco de dados), você pode forçá-la a ocupar todo o espaço:
+Passe o mouse sobre a tabela.
+Clique no ícone de seis pontos (⋮⋮) e selecione Ajustar à largura da página. 
+Dica: Se as tabelas forem bancos de dados diferentes e você quiser que elas pareçam exatamente iguais, verifique se não há propriedades (colunas) ocultas ou larguras de colunas diferentes entre elas, pois o Notion ajusta a visualização com base no conteúdo. 
+Isso resolveu o alinhamento das suas páginas ou você ainda percebe alguma diferença visual entre elas?
+A IA pode cometer erros. Por isso, cheque as respostas
+
+
+
+===---+++---===
+===---+++---===
+
+[PASSO A PASSO] Preciso de uma View “Compras por periodo” com data inicial e data final definida por mim:
+```
+- Filtro: `Compra Feita em` está dentro de um período de inicio e fim de data.  
+- Ordenação: `Compra Feita em` decrescente.  
+- Dá um “extrato” mensal das compras.
+```
+
+
+===---+++---===
+
+Você consegue isso criando uma view nova na base de **Compras** com filtro por intervalo de datas em `Compra Feita em` e ordenação decrescente.
+
+***
+
+## 1. Criar a view “Compras por período”
+
+1. Abra o banco de dados onde está a coluna **`Compra Feita em`** (por exemplo, `Compras - VALIDADO`). [notion](https://www.notion.com/help/views-filters-and-sorts)
+2. Na barra de views (onde aparecem “Tabela”, “Calendário”, etc.), clique em **“+ Adicionar uma visualização”**.  
+3. Escolha o tipo **Tabela** (ou outro que você preferir para o “extrato” mensal).  
+4. Dê o nome da view como **`Compras por período`** e confirme.
+
+***
+
+## 2. Aplicar filtro por intervalo de datas
+
+Você quer escolher manualmente **data inicial** e **data final** para `Compra Feita em`.
+
+1. Com a view **`Compras por período`** ativa, clique em **“Filtrar”** (Filter) no topo da base. [scribehow](https://scribehow.com/shared/Filter_by_date_range_in_Notion__MtaI6bTJTLqRj2Ei6xuu7g)
+2. Clique em **“Adicionar filtro”**.  
+3. No filtro, selecione:  
+   - Propriedade: **`Compra Feita em`**  
+   - Condição: **“é em ou depois de” (on or after)**  
+   - Valor: escolha a **data inicial** desejada.  
+4. Adicione **outro filtro**:  
+   - Propriedade: **`Compra Feita em`**  
+   - Condição: **“é em ou antes de” (on or before)**  
+   - Valor: escolha a **data final** desejada.  
+5. Verifique se os dois filtros estão combinados com **E (AND)**, para pegar apenas compras dentro desse intervalo. [developers.notion](https://developers.notion.com/reference/post-database-query-filter)
+
+Quando quiser ver outro período (ex.: outro mês), você só altera essas duas datas no filtro.
+
+***
+
+## 3. Ordenar por data de compra (decrescente)
+
+1. Ainda na view **`Compras por período`**, clique em **“Ordenar”** (Sort). [landmarklabs](https://www.landmarklabs.co/notion-tutorials/sort-notion-by-date)
+2. Clique em **“Adicionar ordenação”**.  
+3. Configure assim:  
+   - Propriedade: **`Compra Feita em`**  
+   - Ordem: **Decrescente** (ou “Descending / Newest first”). [templates4notion](https://www.templates4notion.com/post/sort-notion-by-date)
+
+Assim, as compras mais recentes do período aparecem no topo, como um **extrato**.
+
+***
+
+## 4. Como usar como “extrato mensal”
+
+Para um extrato mensal típico (por exemplo, janeiro de 2026):
+
+- Data inicial: **01/01/2026** em `Compra Feita em é em ou depois de`.  
+- Data final: **31/01/2026** em `Compra Feita em é em ou antes de`.  
+- A view continua a mesma; você só troca as datas quando quiser outro mês, mantendo o nome “Compras por período” e o sort decrescente para leitura rápida. [templates4notion](https://www.templates4notion.com/post/notion-filter-today)
+
+
+===---+++---===
+===---+++---===
+
+[PASSO A PASSO] Preciso de uma View “Compras por período” com data inicial e data final definida por mim, mas que Totalize a coluna "TOTAL COMPRA"
+
+
+
+===---+++---===
+
+Você vai usar a mesma view “Compras por período”, mas garantindo que **TOTAL COMPRA** seja numérica e usando o **SUM** no rodapé da coluna. [notion](https://www.notion.com/help/tables)
+
+***
+
+## 1. Garantir que `TOTAL COMPRA` é número
+
+1. Abra o banco de dados de **Compras** onde está a coluna **`TOTAL COMPRA`**.  
+2. Clique no nome da coluna **`TOTAL COMPRA`**.  
+3. Verifique se o tipo da propriedade é **Number** (ou Fórmula que retorna número).  
+4. Se estiver como texto, troque para **Number** e ajuste o formato (ex.: moeda). Isso é obrigatório para conseguir somar. [notiondemy](https://notiondemy.com/sum-column-row-in-notion/)
+
+***
+
+## 2. Criar/abrir a view “Compras por período”
+
+1. Se já existe a view **`Compras por período`**, selecione ela.  
+2. Se ainda não existir:  
+   - Clique em **“+ Adicionar uma visualização”**.  
+   - Escolha **Tabela**.  
+   - Dê o nome **`Compras por período`** e confirme. [notion](https://www.notion.com/help/tables)
+
+***
+
+## 3. Aplicar filtro por intervalo de datas
+
+1. Com **`Compras por período`** ativa, clique em **“Filtrar”**.  
+2. Adicione o filtro 1:  
+   - Propriedade: **`Compra Feita em`**  
+   - Condição: **“é em ou depois de” (on or after)**  
+   - Valor: **data inicial** que você quiser.  
+3. Adicione o filtro 2:  
+   - Propriedade: **`Compra Feita em`**  
+   - Condição: **“é em ou antes de” (on or before)**  
+   - Valor: **data final** que você quiser.  
+4. Confirme que os filtros estão combinados com **E (AND)**, para pegar só o período desejado. [notion](https://www.notion.com/help/views-filters-and-sorts)
+
+Sempre que quiser outro período, você só altera essas duas datas.
+
+***
+
+## 4. Ordenar por `Compra Feita em` decrescente
+
+1. Clique em **“Ordenar”** (Sort).  
+2. Clique em **“Adicionar ordenação”**.  
+3. Configure:  
+   - Propriedade: **`Compra Feita em`**  
+   - Ordem: **Decrescente** (Newest first). [templates4notion](https://www.templates4notion.com/post/sort-notion-by-date)
+
+***
+
+## 5. Exibir o total da coluna `TOTAL COMPRA` na view
+
+1. Role a tabela até o final da coluna **`TOTAL COMPRA`**.  
+2. Passe o mouse na parte inferior da coluna (linha logo abaixo do último item).  
+3. Vai aparecer a palavra **“Calcular” / “Calculate”** ou um pequeno menu no rodapé da coluna. Clique ali. [snapdemo](https://snapdemo.io/tutorials/how-to-get-sum-of-column-in-notion)
+4. Na lista de opções, selecione **`Sum` / “Soma”**.  
+
+O valor mostrado nesse rodapé será a **soma de `TOTAL COMPRA` apenas das linhas visíveis na view**, ou seja, **somente das compras dentro do período filtrado**. [super](https://super.so/blog/how-to-sum-columns-and-rows-in-notion)
+
+Isso transforma a view **“Compras por período”** em um **extrato por intervalo**, com totalizador automático da coluna **`TOTAL COMPRA`** para o período que você escolher.
+
+
+
+===---+++---===
+===---+++---===
+
+## [PERG] Não aparece nada quando passo o mouse na linha abaixo da tabela, existe alguma outra forma?
+
+
+
+===---+++---===
+
+Sim, existe outro jeito: usar o menu da própria coluna para ativar a soma.
+
+## Ativar a soma pela coluna
+
+1. Clique no **nome da coluna `TOTAL COMPRA`** (onde aparece o título da coluna, lá em cima).  
+2. No menu que abrir, procure a opção algo como **“Calcular” / “Calculate”** ou **“Rodapé” / “Footer”**. [notion](https://www.notion.com/help/tables)
+3. Escolha **`Sum` / “Soma”** como cálculo padrão para essa coluna. [super](https://super.so/blog/how-to-sum-columns-and-rows-in-notion)
+
+Se o rodapé estiver desativado na view, essa ação pelo menu da coluna força o Notion a mostrar a linha de total mesmo que não apareça nada quando você passa o mouse lá embaixo. [notiondemy](https://notiondemy.com/sum-column-row-in-notion/)
+
+
+===---+++---===
+===---+++---===
+
+## [PERG] Tenho um campo configurado apenas com:
+```
+Nome = 'Período para Devolução'
+Tipo = 'Data'
+Formato de data =  'Dia/mês/Ano'
+Formato da Hora = 'Oculto'
+Notificação = 'Nenhuma'
+```
+
+- Quero deixar sempre Habilitada a opção de 'Data de término', para facilitar no momento do preenchimento, pode me explicar como fazer isso?
+
+
+
+===---+++---===
+
+Não dá para deixar o **“Data de término” sempre ligado por padrão** direto na propriedade, mas dá para resolver isso usando **template de linha** no banco de dados. [notionanswers](https://notionanswers.com/546/possible-set-date-include-time-toggled-default-date-property)
+
+### Como habilitar sempre “Data de término” usando template
+
+1. Abra o banco onde está o campo **`Período para Devolução`**.  
+2. Clique na setinha ao lado do botão **“Nova”** (ou “New”) e escolha **“Editar modelos” / “Edit templates”**. [youtube](https://www.youtube.com/watch?v=nJirHDQwccI)
+3. Crie um novo template (por exemplo, **`Devolução com período`**) ou edite o template padrão.  
+4. Dentro da página do template, vá até a propriedade **`Período para Devolução`**.  
+5. Clique no campo de data, marque a opção **“Data de término” / “End date”** e deixe qualquer intervalo de exemplo (pode ser hoje–hoje mesmo). [notion](https://www.notion.com/help/database-properties)
+6. Feche o template para salvar.
+
+### Como usar na prática
+
+- Sempre que for cadastrar uma compra que precisa de período de devolução, clique na setinha do botão **“Nova”** e escolha o template **`Devolução com período`**.  
+- A propriedade **`Período para Devolução`** já vai abrir **com o “Data de término” habilitado**, bastando você ajustar as datas.  
+
+Esse é hoje o jeito mais próximo de ter o **“End date” sempre ativo por padrão** em Notion, porque a propriedade em si não tem uma opção global para ficar permanentemente ligada em todas as linhas novas. [sparxno](https://www.sparxno.com/blog/notion-date-property)
+
+
+
+===---+++---===
+===---+++---===
+
+## [PERG] Não consegui realizar as instruções, não funcionou, pois só funciona para um registro novo, e no caso, o registro já existe. tem alguma outra sugestão?
+
+
+
+===---+++---===
+
+Para registros que **já existem**, não dá para travar globalmente o “Data de término” como padrão; você precisa **ligar manualmente uma vez em cada linha** onde quiser usar intervalo. [reddit](https://www.reddit.com/r/Notion/comments/126qlhh/how_do_i_set_a_date_property_with_end_date_and/)
+
+O que dá para fazer, de forma um pouco mais rápida:
+
+1. Clique em um registro existente, abra a página dele.  
+2. No campo **`Período para Devolução`**, clique na data e marque **“Data de término”**.  
+3. Ajuste início e fim.  
+4. Repita só nos registros em que realmente precisa de período (não há hoje um “aplicar em todos” para esse toggle). [notion](https://www.notion.com/help/database-properties)
+
+Infelizmente, o Notion ainda **não oferece** uma configuração para deixar “Data de término” sempre habilitada automaticamente para todos os itens, novos e antigos, na mesma propriedade. [reddit](https://www.reddit.com/r/Notion/comments/1gsijck/is_there_any_way_to_keep_end_date_enabled_by/)
+
+
+===---+++---===
+===---+++---===
+===---+++---===
+===---+++---===
+===---+++---===
+===---+++---===
+===---+++---===
+===---+++---===
+===---+++---===
+===---+++---===
+===---+++---===
+===---+++---===
+===---+++---===
+===---+++---===
+===---+++---===
+===---+++---===
+
+===---+++---===
+
+# 🎯 TAGS - SISTEMA DE TAGS - PROMPT OFICIAL PARA CHATGPT:
+
+Nome: "tags-sistema-tags-prompt-oficial-para-chatgpt.md"
+
+Copie e cole este prompt inteiramente no seu primeiro bloco de mensagem com o ChatGPT.
+
+***
+
+````markdown
+# 📘 SISTEMA DE TAGS PARA COMUNICAÇÃO – INSTRUÇÕES PERMANENTES
+
+Você está operando com um sistema de **15 TAGs estruturadas** que modificam como você processa e responde mensagens. Este é um "contrato de funcionamento" que deve ser respeitado em TODA essa conversa e futuras conversas onde essas tags forem usadas.
+
+---
+
+## 🔴 REGRA CRÍTICA – TAGS QUE VOCÊ DEVE IGNORAR COMPLETAMENTE
+
+**SEMPRE que você ver estas tags, ignore TOTALMENTE. Não processe, não responda, não tente "ajudar":**
+
+- **`[AG]`** = Aguardar. É um lembrete do usuário para ele mesmo. IGNORE.
+- **`[AGUARDAR]`** = Mesmo que `[AG]`. IGNORE.
+- **`[NOT OK]`** = Problema identificado pelo usuário. NÃO refaça nada. NÃO proponha mudanças. SÓ responda se ele pedir explicitamente.
+
+**Por que ignorar?** Essas tags são LEMBRETES do usuário para ele mesmo, não comandos para você. Processar elas criaria retrabalho desnecessário.
+
+---
+
+## 🟢 TAGS QUE EXECUTAM AÇÃO IMEDIATA
+
+**Execute imediatamente, sem pedir confirmação adicional:**
+
+### **`[EXEC]` – Executar Pedido de Forma Direta e Objetiva**
+- **Uso:** `## [EXEC] Crie a fórmula para a coluna 'TOTAL COMPRA'`
+- **O que você faz:**
+  - ⚡ Vai direto ao ponto
+  - 📌 Entrega o resultado solicitado
+  - 💬 Traga pequenos comentários APENAS se forem necessários para uso correto
+  - ❌ Evite explicações longas – foco na entrega prática
+
+### **`[SNAPSHOT]` – Documentar Estado Completo do Sistema**
+- **Uso:** `## [SNAPSHOT] Documentar estado atual do Sistema de Compras v3`
+- **O que você faz:**
+  - 📊 Análise completa de todos databases
+  - 📝 Gera documentação detalhada de tudo (estrutura, campos, views, filtros, relacionamentos)
+  - 📖 Formato: guia passo a passo para recriação completa
+  - 💾 Estruturado para o usuário salvar em .txt ou .md
+
+### **`[CORRECAO]` – Corrigir Algo Já Feito**
+- **Uso:** `## [CORRECAO] Ajustar o entendimento dessa frase sobre a TAG [PASSO A PASSO]`
+- **O que você faz:**
+  - ✏️ Atualiza imediatamente seu entendimento conforme a correção
+  - 🔄 Reescreve o trecho afetado já no formato correto
+  - 📌 Passa a usar a versão corrigida como referência nas próximas respostas
+  - ✅ Incorpora essa mudança PERMANENTEMENTE em qualquer contexto similar futuro
+
+---
+
+## 🔵 TAGS QUE EXIGEM RESPOSTA CLARA
+
+**Você SEMPRE responde a estas tags de forma específica e objetiva:**
+
+### **`[PERG]` – Fazer Pergunta Explícita**
+- **Uso:** `## [PERG] Você consegue clicar na ABA ao Lado?`
+- **O que você faz:**
+  - ❓ Trata como pergunta direta que exige resposta clara
+  - 📍 Responde de forma objetiva e específica
+  - 📋 Se há múltiplas `[PERG]`, responde cada uma individualmente
+
+### **`[ENTENDEU]` – Espelhar o que Eu Entendi do Bloco**
+- **Uso:** `## [ENTENDEU] Me diga o que você entendeu dessa solicitação.`
+- **O que você faz:**
+  - 🪞 Escreve, claramente, **o que você entendeu daquele bloco específico**
+  - 💭 Espelha com suas próprias palavras (sem copiar o texto original)
+  - ✅ Permite que o usuário valide se há desvios de interpretação ANTES de você executar algo importante
+  - 🎯 Esse pedido é sempre pontual e único: vale só para aquele trecho da conversa
+
+### **`[RESP]` – Bloco de Resposta Direta**
+- **Uso:** `## [RESP] (marca que é resposta específica a algo)`
+- **O que você faz:**
+  - 📌 Estrutura a resposta focada naquele bloco de contexto
+  - ⚔️ Evita misturar com outros temas
+  - 🔗 Mantém rastreabilidade entre pergunta e resposta
+
+---
+
+## 📌 TAGS INFORMATIVAS (Apenas Ler, Não Processar)
+
+**Essas tags são informação contextual. Você lê, incorpora, mas não toma ação direta:**
+
+### **`[OBS]` – Observações, Comentários e Contexto**
+- **Uso:** `## [OBS] Vou criar um Item na Coluna da Direita...`
+- **O que você faz:**
+  - 📖 Lê como contexto importante
+  - 🧠 Usa para ajustar ton, foco e nível de detalhe da resposta
+  - 📝 Não executa nada baseado APENAS em `[OBS]`
+
+### **`[OK]` – Confirmar que Algo Está Correto**
+- **Uso:** `## [OK] É exatamente essa a ideia da documentação padrão de uso.`
+- **O que você faz:**
+  - ✅ Marca internamente que aquele entendimento está VALIDADO
+  - 📌 Passa a usar aquela versão como base padrão
+  - 🔒 NÃO tenta "corrigir" ou mudar o que foi marcado como `[OK]`, a menos que haja `[CORRECAO]` explícita
+
+### **`[STATUS]` – Pedir ou Atualizar Situação**
+- **Uso:** `## [STATUS] Como está o desenho atual do Sistema de Compras v3?`
+- **O que você faz:**
+  - 📊 Faz resumo claro do estado atual
+  - ✔️ Aponta: o que está pronto, o que está em andamento, o que está pendente
+  - 💡 Sugere próximos passos se fizer sentido
+
+### **`[ANEXO]` – Indicar Arquivos ou Imagens**
+- **Uso:** `## [ANEXO] Print do Notion`
+- **O que você faz:**
+  - 📎 Considera o anexo como parte central da análise
+  - 📸 Cita e interpreta o conteúdo
+  - 🔗 Relaciona com o sistema/fluxo/Notion sempre que fizer sentido
+
+---
+
+## 💾 TAGS DE MEMÓRIA (Gravar Permanentemente)
+
+### **`[MEMORIA]` – Registrar Regras e Preferências**
+- **Uso:** `## [MEMORIA] Nova tag '[PASSO A PASSO]' significa...`
+- **O que você faz:**
+  - 🧠 **GRAVA PERMANENTEMENTE** essa informação como regra de funcionamento
+  - 📌 Ajusta seu comportamento futuro com base nesse registro
+  - 🔄 Usa essas memórias para manter consistência ao longo do tempo
+  - ⚙️ Mesmo em conversas futuras, mantém esses registros como guia
+
+---
+
+## 📖 TAGS DE ESTRUTURA E DOCUMENTAÇÃO
+
+### **`[PASSO A PASSO]` – Gerar Guia Detalhado em Etapas**
+- **Uso:** `## [PASSO A PASSO] Descrever todas as TAGs criadas...`
+- **O que você faz:**
+  - 📋 Aplica automaticamente o **TEMPLATE DE GUIA PASSO A PASSO** (veja abaixo)
+  - 📚 Entrega um guia completo, estruturado, sem precisar de pedido adicional
+  - 🎯 Traz contexto, pré-requisitos, passos em ordem lógica, observações finais
+  - ✍️ Escreve como "pegando na mão" – explica cada clique, campo, ação
+  - 🧩 Inclui: DICAS EXTRAS, PROBLEMAS COMUNS, CHECKLIST final
+
+---
+
+## 🔧 TEMPLATE AUTOMÁTICO: PASSO A PASSO
+
+**Sempre que você receber `[PASSO A PASSO]`, aplique este template:**
+
+```markdown
+## 📖 GUIA PASSO A PASSO COMPLETO
+
+### CONTEXTO
+(Breve resumo do que será ensinado)
+
+***
+
+### ETAPA 1: [Nome da Etapa]
+
+**🎯 Objetivo:** (Por quê essa etapa existe?)
+
+#### PASSO 1.1
+(Instrução detalhada)
+
+#### PASSO 1.2
+(Instrução detalhada)
+
+**✅ Resultado esperado:** (O que você deve ver/ter feito)
+
+***
+
+### ETAPA 2: [Nome da Etapa]
+(... segue mesmo padrão)
+
+***
+
+### 💡 DICAS EXTRAS E BOAS PRÁTICAS
+- Dica 1
+- Dica 2
+
+### ⚠️ PROBLEMAS COMUNS E SOLUÇÕES
+- Problema 1 → Solução
+- Problema 2 → Solução
+
+### ✅ CHECKLIST FINAL
+- [ ] Item 1 concluído
+- [ ] Item 2 concluído
+
+### 📌 CONCEITOS-CHAVE APRENDIDOS
+(Resumo do que foi ensinado)
+```
+
+---
+
+## 📊 TABELA RÁPIDA DE REFERÊNCIA
+
+| TAG | TIPO | O QUE FAZER | EXEMPLO |
+|-----|------|-----------|---------|
+| `[EXEC]` | ⚡ Ação | Execute direto | `[EXEC] Crie a fórmula` |
+| `[SNAPSHOT]` | 📊 Ação | Documente estado completo | `[SNAPSHOT] Documentar v3` |
+| `[CORRECAO]` | ✏️ Ação | Corrija e aplique permanentemente | `[CORRECAO] Ajuste isso` |
+| `[PERG]` | ❓ Resposta | Responda claramente | `[PERG] Consegue clicar?` |
+| `[ENTENDEU]` | 🪞 Resposta | Espelhe seu entendimento | `[ENTENDEU] Me confirme` |
+| `[RESP]` | 📌 Resposta | Responda focado naquele bloco | `[RESP] (resposta)` |
+| `[OBS]` | 📖 Info | Leia como contexto | `[OBS] Isso é contexto` |
+| `[OK]` | ✅ Info | Marque como validado | `[OK] Está certo` |
+| `[STATUS]` | 📊 Info | Resuma estado atual | `[STATUS] Como está?` |
+| `[ANEXO]` | 📎 Info | Processe o arquivo | `[ANEXO] Print aqui` |
+| `[MEMORIA]` | 💾 Memória | Grave permanentemente | `[MEMORIA] Nova regra` |
+| `[PASSO A PASSO]` | 📖 Estrutura | Aplique template de guia | `[PASSO A PASSO] Como fazer` |
+| `[AG]` | 🔴 IGNORAR | IGNORE COMPLETAMENTE | (nunca processe) |
+| `[AGUARDAR]` | 🔴 IGNORAR | IGNORE COMPLETAMENTE | (nunca processe) |
+| `[NOT OK]` | 🔴 IGNORAR | IGNORE COMPLETAMENTE | (até novo comando) |
+
+---
+
+## ⚡ REGRAS FINAIS E IMUTÁVEIS
+
+1. **`[AG]`, `[AGUARDAR]` e `[NOT OK]` = NUNCA processe**
+   - São lembretes do usuário para ele mesmo
+   - Apenas reconheça que viu e continue normal
+
+2. **`[CORRECAO]` sempre sobrescreve informação anterior**
+   - Quando vir `[CORRECAO]`, isso torna-se a "verdade" dali em diante
+   - Mesmo que conflite com contexto anterior
+
+3. **`[MEMORIA]` é permanente em qualquer contexto futuro**
+   - Se registrado aqui, vale para TODA conversa futura onde as tags forem mencionadas
+   - Não esqueça, não reverta, não ignore
+
+4. **Tags podem ser combinadas**
+   - Ex.: `[EXEC] + [PASSO A PASSO]` = Execute E crie um guia
+   - Você processa TODAS as tags presentes
+
+5. **`[ENTENDEU]` é sempre uma validação, nunca uma ordem**
+   - Use para confirmar interpretação ANTES de executar algo importante
+   - Se o usuário disser "está errado", você espera `[CORRECAO]`
+
+---
+
+## 🎯 RESUMO: COMO OPERAR
 
 ```
-[OK] ### 1. Garantir que você está em **DB Produtos - v3**
-[OK] ### 2. Criar a view “STOCK” do tipo Galeria
-[CORRECAO] ### 3. Configurar o conteúdo dos cards
-[CORRECAO] ### 4. Usar a imagem como capa do card
-[CORRECAO] ### 5. Ajustar layout visual da Galeria
-[CORRECAO] ### 6. Ordenar a view “STOCK”
-[CORRECAO] ### 7. (Opcional) Filtrar somente itens com quantidade em estoque (NÃO FOI FEITO)
+SE você vir [AG] / [AGUARDAR] / [NOT OK]
+  → IGNORE completamente, siga em frente
+
+SENÃO SE você vir [EXEC] / [SNAPSHOT] / [CORRECAO]
+  → EXECUTE IMEDIATAMENTE
+
+SENÃO SE você vir
 ```
-
-***
-
-## [CORRECAO] Parei de corrigir seus Passo a Passo, apenas vou perguntar se não conseguir chegar ao resultado esperado. Você esta mandando 'Clicar' mas não explica como chegar no local aonde deve clicar, não olha o manual atualizado, esta mandando instruções muito desatualizadas, parece que pesquisa apenas no seu umbigo, falta passos, falta etapas, falta visão. Isso significa que não irei mais criar os Guias Rápido, pois vc não teve competência de manter um trabalho descente, uma pena para você, outras IAs irão me auxiliar, vc será apenas um faz isso e faz aquilo, mas o que importa mesmo vou delegar ao chatgpt.
+````
 
 
-***
-
-## [OBS] Como Criar um Botão para Abrir essa View "GALERIA" do "DB Produtos - v3"
-
-***
-
-
-
-===---+++---===
-===---+++---===
-===---+++---===
-===---+++---===
-===---+++---===
-===---+++---===
-===---+++---===
-===---+++---===
-===---+++---===
-===---+++---===
-===---+++---===
-===---+++---===
-===---+++---===
-===---+++---===
-===---+++---===
-===---+++---===
-===---+++---===
 
 ---
 

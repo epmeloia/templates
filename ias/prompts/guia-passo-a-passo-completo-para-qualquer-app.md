@@ -1,6 +1,40 @@
-# 📝 Código - Criar Guia Passo a Passo Completo - Template De Solicitação:
+# 📝 Guia Passo a Passo Completo para Qualquer APP:
 
-Nome: "codigo-criar-guia-passo-a-passo-completo-template-solicitacao.md"
+# Nome: "guia-passo-a-passo-completo-para-qualquer-app.md"
+
+---
+
+## EXEMPLO:
+
+````
+[CAPTURE]
+[CAPTURE+]
+[CAPTURE+V]
+
+## [APP] GEELARK
+
+## [EXEC] para a aba ao lado, criar um manual estruturado tipo SOP (Standard Operating Procedure) pronto para você usar no GitHub, no formato 1. **Bloco de texto pronto para copiar e colar no GitHub** (com markdown). Quando terminar o manual em sua ultima linha me informe que é este texto  '* * * * *   F I M   -   G U I A   P A S S O   A   P A S S O   * * * * *', enquanto não for a ultima do  completo não coloque nada, para que eu saiba quando pedir um novo manual ou para você continuar o manual.
+
+## [EXEC] Preciso de 5 hashtags ideais para publicar este manual no Telegram e no GuitHub. 
+```
+As hashtags devem:
+- Ser específicas da plataforma/ferramenta
+- Facilitar busca e localização
+- Cobrir conceitos-chave
+- Atrair público-alvo correto
+- Uma ser a tag principal (#NomeDaFerramenta)
+```
+
+### [LINK] https://www.geelark.com/
+
+
+* * * * *   F I M   -   G U I A   P A S S O   A   P A S S O   * * * * *
+* * * * *   G E E L A R K   * * * * * 
+
+🔍 Encontre facilmente usando:
+#DesenvolvimentoParalelo #GitWorktrees
+````
+
 
 ---
 
@@ -328,3 +362,20 @@ Eu vou entender que preciso criar o guia completo do que acabamos de fazer! 😊
 
 **✅ RESUMO: Basta mencionar "guia usando o template" + descrever brevemente O QUE documentar. Pronto!**
 
+
+---
+
+```
+##----------####----------####----------##
+##                                      ##
+##   ... 🐝 Assinatura Institucional    ##
+##                                      ##
+##----------####----------####----------##
+
+         .' '.    .' '.         ,-.
+.        .   .    .   .         \ /
+ .         .        .       . -{|||)<
+   ' .  . ' ' .  . ' ' . . '    / \
+                                `-^
+##----------####----------####----------##
+```

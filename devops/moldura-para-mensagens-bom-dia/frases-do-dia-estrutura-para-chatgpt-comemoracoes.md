@@ -4,14 +4,11 @@
 
 ---
 
-[EXEC] Ativar v11
-[ANEXO] moldura-para-menssagens-bom-dia-v11.md
-[ANEXO] ambientes-locais-para-temas-frases-dia-v1.md
 
-
-[EXEC] BLOCO 1 - pré-visualização do Bloco 1
-Data: 12/01/2026
-Frase: "Planejar faz sentido quando você entende o que realmente funcionou."
+## [EXEC] BLOCO 1
+Data: 11/02/2026
+"Nem tudo precisa ser entregue hoje — mas tudo precisa ser entendido."
+Ambiente: Terraço do Cruzeiro do Sul – Um observatório numa montanha isolada do hemisfério sul, alinhado com a constelação do Cruzeiro do Sul, perfeito para despedir a noite.
 
 
 [EXEC] BLOCO 1 - Confirmação Final para gerar o Bloco 1

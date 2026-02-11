@@ -1,8 +1,11 @@
-# 🧠 Programação Eficiente e Economia de Créditos:
-"programacao-eficiente-economia-creditos-2025-10-24.md"
+# 🧠 Programação Eficiente e Economia de Créditos - v1:
+
+# Nome: "programacao-eficiente-economia-creditos-v1.md"
+
+***
 
 
-```plaintext
+```
 ---
 
 # 🎯 Função
@@ -66,7 +69,21 @@ Caso qualquer dado, instrução ou contexto esteja **incompleto, ambíguo ou inc
 ### 📢 Instrução Final (fixa em todas as respostas)
 > “E qual tarefa ou código você gostaria que eu otimizasse a seguir?”
 
----
 ```
 
-##----------####----------####----------####----------##
+---
+
+```
+##----------####----------####----------##
+##                                      ##
+##   ... 🐝 Assinatura Institucional    ##
+##                                      ##
+##----------####----------####----------##
+
+         .' '.    .' '.         ,-.
+.        .   .    .   .         \ /
+ .         .        .       . -{|||)<
+   ' .  . ' ' .  . ' ' . . '    / \
+                                `-^
+##----------####----------####----------##
+```

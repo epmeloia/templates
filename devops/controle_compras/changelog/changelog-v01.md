@@ -15771,15 +15771,100 @@ PROGRESSO: 0% - FASE 4 - Fase 4: Testes de cenários (4 Cenários)
 
 
 ===---+++---===
+===---+++---===
+
+[PROMPT] Atue como um especialista e professor em Notion, conhece e sabe como explicar de forma simples e direta.
+
+[PERG] App Notion, na aba ao lado esta mostrando um Banco de dados de Compras, ele tem um relacionamento com o Banco Produtos, aonde eu pego o nome do produto, queria pegar também no produto a imagem e colocar aqui, é possível ser feito isso.
 
 
 
 
 ===---+++---===
+
+Sim, é possível trazer a **imagem do Produto** para o banco de **Compras**, mas você precisa que o banco de Produtos tenha uma propriedade de arquivo/imagem bem definida e usar **Relation + Rollup**.
+
+## Visão geral (o que dá para fazer)
+
+- Se no banco **Produtos** você tem uma propriedade do tipo **Arquivos e mídia** (por exemplo, “Foto do Produto”), você consegue “puxar” essa imagem para a tabela **Compras** usando um **Rollup** baseado na relação que você já tem entre Compras ↔ Produtos. [notion](https://www.notion.com/pt/help/relations-and-rollups)
+- O resultado é uma coluna em Compras que mostra a mesma imagem cadastrada no item correspondente em Produtos.
+
+## Passo a passo no seu caso
+
+1. **Confirme a imagem no banco Produtos**  
+   - Abra o banco **Produtos**.  
+   - Garanta que exista uma coluna do tipo **Arquivos e mídia** (ex.: “Imagem”, “Foto do Produto”) e que os produtos tenham uma imagem anexada nessa coluna. [notion](https://www.notion.com/pt/help/images-files-and-media)
+
+2. **Veja qual é a coluna de relação em Compras**  
+   - Na tabela **TB Compras**, identifique a propriedade de relação com Produtos (algo como “Relação com Produto”, “Produto”, etc.).  
+   - Ela é do tipo **Relação** e aponta para o banco Produtos. [notion](https://www.notion.com/pt/help/relations-and-rollups)
+
+3. **Crie a coluna que puxa a imagem (Rollup)**  
+   - Em **TB Compras**, clique em “+ Adicionar propriedade”.  
+   - Dê o nome: por exemplo, **Imagem do Produto**.  
+   - No tipo, escolha **Rollup**.  
+   - Em “Relação”, selecione a relação que liga Compras → Produtos.  
+   - Em “Propriedade”, escolha a coluna de imagem do banco Produtos (ex.: “Foto do Produto”).  
+   - Em “Calcular”, deixe como “Mostrar original” ou equivalente, para ele apenas exibir o arquivo/imagem, sem fazer contagem. [theorganizednotebook](https://theorganizednotebook.com/blogs/blog/notion-relations-rollups)
+
+4. **Usar no dia a dia**  
+   - Sempre que você escolher um Produto na linha de Compras, o Rollup “Imagem do Produto” vai mostrar automaticamente a mesma imagem cadastrada no item de Produtos.  
+   - Se mudar a imagem no banco Produtos, ela atualiza em Compras também (porque está só referenciando). [createwithnotion](https://createwithnotion.com/notion-relation-property-a-guide-on-usage/)
+
+Se você quiser, pode me dizer exatamente o nome da relação entre Compras e Produtos e o nome da coluna de imagem em Produtos, que eu te devolvo os rótulos certinhos para usar nas propriedades.
+
+
+
 ===---+++---===
 ===---+++---===
+
+## [RESP] Informações:
+- Banco de Dados - 'BD Compras' (https://www.notion.so/2eff7525a6a9804e8ce9f94698ca9ac2?v=2eff7525a6a980c89f4b000cd11edd49) -> Criada a Coluna 'Imagens do Produto'
+- Banco de Dados - 'BD Produtos' (https://www.notion.so/2eff7525a6a9818ba88fe0a74b8d6513?v=2eff7525a6a9819297b2000cc43ac7d8) -> Coluna 'Imagens' (aonde estão as imagens)
+- Banco de Dados - 'BD Produtos' -> Criada automaticamente a Coluna 'Imagens2' renomeada para 'Imagens para Compras'
+- Quando estou em compras e clico no campo da 'Imagens do Produto' ele mostra uma lista com os produtos, quando relaciono ele traz o ID do Produto não a imagem.
+
+## [ANEXO] Imagens das propriedades das Colunas
+
+## [EXEC] Veja se tem informações suficientes para realizar 'eu te devolvo os rótulos certinhos para usar nas propriedades', qualquer dúvida ou falta de informação é só pedir.
+
+
+
+===---+++---===
+
+Você já fez a parte difícil; agora falta só **trocar o tipo da coluna em Compras** e criar o Rollup certo. Não consigo “clicar” dentro do seu Notion, mas dá para resolver com o que você passou.
+
+## 1. Como deve ficar cada coluna
+
+- Em **BD Produtos**  
+  - Coluna **Imagens** → tipo: **Arquivos e mídia** (onde você já sobe as fotos).  
+  - Coluna **Imagens para Compras** → tipo: **Relação**, relacionada a **BD Compras** (isso já está ok, é o espelho). [notion](https://www.notion.com/pt/help/relations-and-rollups)
+
+- Em **BD Compras**  
+  - Coluna **Imagens do Produto** → precisa ser **Rollup**, não Relação. Hoje ela está como Relação apontando para BD Produtos (por isso só lista produtos e mostra ID). [theorganizednotebook](https://theorganizednotebook.com/blogs/blog/notion-relations-rollups)
+
+## 2. Ajuste da coluna “Imagens do Produto” em BD Compras
+
+1. Na tabela **BD Compras**, clique no título da coluna **Imagens do Produto**.  
+2. Clique em **“Tipo”** e mude de **Relação** para **Rollup**.  
+3. Nas opções do Rollup, preencha assim:  
+   - **Relação:** selecione a relação que liga Compras → Produtos (provavelmente a coluna que você usa para escolher o produto, não “Imagens do Produto”).  
+   - **Propriedade:** escolha **Imagens** (a coluna de arquivos/imagens lá em **BD Produtos**).  
+   - **Calcular:** deixe como **Mostrar original** (ou equivalente) para exibir os próprios arquivos, não contagem ou outra agregação. [createwithnotion](https://createwithnotion.com/notion-relation-property-a-guide-on-usage/)
+
+Se na etapa “Propriedade” você não vê “Imagens”, confira se está selecionando a **relação correta** (a relação de produto, não a relação “Imagens para Compras”). O Rollup sempre lista as propriedades do banco relacionado que você escolher na primeira linha (“Relação”). [notion](https://www.notion.com/pt/help/relations-and-rollups)
+
+
+
 ===---+++---===
 ===---+++---===
+
+
+
+===---+++---===
+
+
+
 ===---+++---===
 ===---+++---===
 ===---+++---===
