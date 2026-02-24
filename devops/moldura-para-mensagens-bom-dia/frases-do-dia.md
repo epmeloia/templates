@@ -31,7 +31,7 @@ Data: /02/2026
 "A estrutura certa reduz a necessidade de explicacoes futuras."
 
 Data: /02/2026
-"O erro ensina mais quando voce para de reagir e comeca a observar."
+"O erro ensina mais quando você para de reagir e comeca a observar."
 
 Data: /02/2026
 "A boa solucao nasce do entendimento completo, nao do primeiro impulso."
@@ -49,34 +49,34 @@ Data: /02/2026
 "Melhorar o sistema comeca por reduzir o ruido interno."
 
 Data: /02/2026
-"A maturidade tecnica aparece quando voce escolhe simplicidade."
+"A maturidade tecnica aparece quando você escolhe simplicidade."
 
 Data: /02/2026
 "O backlog parado nao julga — ele apenas revela prioridades mal escolhidas."
 
 Data: /02/2026
-"A mensagem curta no commit diz mais quando voce sabe o que mudou."
+"A mensagem curta no commit diz mais quando você sabe o que mudou."
 
 Data: /02/2026
 "O tempo gasto entendendo o problema economiza correcoes depois."
 
 Data: /02/2026
-"O sistema melhora quando voce aceita revisar a propria decisao."
+"O sistema melhora quando você aceita revisar a propria decisao."
 
 Data: /02/2026
 "A solucao simples quase sempre aparece depois da ultima tentativa apressada."
 
 Data: /02/2026
-"O codigo claro respeita quem vai ler amanha, inclusive voce."
+"O codigo claro respeita quem vai ler amanha, inclusive você."
 
 Data: /02/2026
-"O erro recorrente insiste ate voce mudar a abordagem."
+"O erro recorrente insiste ate você mudar a abordagem."
 
 Data: /02/2026
 "O ajuste pequeno feito hoje evita explicacoes longas depois."
 
 Data: /02/2026
-"O fluxo funciona melhor quando voce remove excessos, nao quando adiciona controles."
+"O fluxo funciona melhor quando você remove excessos, nao quando adiciona controles."
 
 Data: /02/2026
 "A boa construcao nasce quando pensar vem antes de executar."
@@ -88,13 +88,13 @@ Data: /02/2026
 "O arquivo salvo cedo evita retrabalho — finalize enquanto a ideia ainda esta quente."
 
 Data: /02/2026
-"O cursor piscando nao pressiona — ele convida voce a continuar."
+"O cursor piscando nao pressiona — ele convida você a continuar."
 
 Data: /02/2026
 "A revisao feita sem pressa corrige mais que bugs — organiza o raciocinio."
 
 Data: /02/2026
-"O sistema responde melhor quando voce pausa antes de ajustar."
+"O sistema responde melhor quando você pausa antes de ajustar."
 
 Data: /02/2026
 "O compilador interno também avisa quando falta sono — execute o comando descanso()."
@@ -106,13 +106,13 @@ Data: /02/2026
 "Nem todo erro pede correcao imediata — alguns pedem entendimento."
 
 Data: /02/2026
-"O dia anda melhor quando voce ajusta o basico primeiro."
+"O dia anda melhor quando você ajusta o basico primeiro."
 
 Data: /02/2026
-"O sistema falha menos quando voce para de lutar contra ele."
+"O sistema falha menos quando você para de lutar contra ele."
 
 Data: /02/2026
-"A rotina revela muito sobre o que voce esta adiando."
+"A rotina revela muito sobre o que você esta adiando."
 
 Data: /02/2026
 "Codigo escrito com clareza costuma sobreviver melhor ao tempo."
@@ -127,31 +127,31 @@ Data: /02/2026
 "O cuidado com detalhes simples sustenta dias mais complexos."
 
 Data: /02/2026
-"A boa decisao aparece quando voce entende o contexto inteiro."
+"A boa decisao aparece quando você entende o contexto inteiro."
 
 Data: /02/2026
 "O gesto pequeno feito agora economiza energia depois."
 
 Data: /02/2026
-"O trabalho flui quando voce remove o excesso de expectativa."
+"O trabalho flui quando você remove o excesso de expectativa."
 
-Data: /02/2026
-"O ambiente organizado reduz atritos invisiveis."
+Data: 25/02/2026
+"O ambiente organizado reduz atritos invisíveis."
 
-Data: /02/2026
+Data: 24/02/2026
 "Nem todo ajuste melhora o sistema — alguns apenas acalmam a ansiedade."
 
-Data: /02/2026
-"A consistencia diaria construi resultados mais solidos."
+Data: 23/02/2026
+"A consistência diária constrói resultados mais sólidos."
 
-Data: /02/2026
-"O problema fica menor quando voce para de tratar sintomas."
+Data: 20/02/2026
+"O problema fica menor quando você para de tratar sintomas."
 
-Data: /02/2026
-"A atencao sustentada vale mais que a velocidade inicial."
+Data: 19/02/2026
+"A atenção sustentada vale mais que a velocidade inicial."
 
-Data: /02/2026
-"O processo amadurece quando voce aprende a esperar."
+Data: 18/02/2026
+"O processo amadurece quando você aprende a esperar."
 
 Data: 13/02/2026
 "O equilíbrio entre pensar e agir evita retrabalho."
@@ -184,7 +184,7 @@ Data: 02/02/2026
 "Retomar o ritmo com clareza vale mais que largar com pressa."
 
 Data: 12/01/2026
-"Planejar faz sentido quando voce entende o que realmente funcionou."
+"Planejar faz sentido quando você entende o que realmente funcionou."
 
 Data: 09/01/2026
 "O primeiro passo do ano não precisa ser grande — precisa ser consciente."
@@ -648,17 +648,16 @@ Data: 11/06/2025
 
 ---
 
-```
 ##----------####----------####----------##
 ##                                      ##
 ##   ... 🐝 Assinatura Institucional    ##
 ##                                      ##
 ##----------####----------####----------##
-
+```
          .' '.    .' '.         ,-.
 .        .   .    .   .         \ /
  .         .        .       . -{|||)<
    ' .  . ' ' .  . ' ' . . '    / \
                                 `-^
-##----------####----------####----------##
 ```
+##----------####----------####----------##

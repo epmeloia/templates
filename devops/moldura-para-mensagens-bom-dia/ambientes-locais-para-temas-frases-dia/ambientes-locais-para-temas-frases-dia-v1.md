@@ -11,49 +11,49 @@
 
 ---
 
-## [EXEC] BLOCO 1 - IDEOGRAM
+## [EXEC] BLOCO 1 - IDEOGRAM - CAD - FALTA PROMPT
 Data: 03/02/2026
 "O tempo muda, mas o processo continua pedindo consistência."
 Ambiente: Metrópole de Néon de Andrômeda – Uma cidade flutuando em nuvens de gás colorido dentro da galáxia de Andrômeda, onde o amanhecer é um show permanente de luzes."
 
 
 
-## [EXEC] BLOCO 1 - IDEOGRAM
+## [EXEC] BLOCO 1 - IDEOGRAM - CAD - FALTA PROMPT
 - Data: 04/02/2026
 - "O descanso funciona melhor quando não carrega pendencias."
 - Ambiente: Mercado do Amanhecer em Machu Picchu Paralelo – Uma versão alternativa de Machu Picchu, suspensa ainda mais alto nas montanhas, que só aparece ao nascer do sol."
 
 
 
-## [EXEC] BLOCO 1 - IDEOGRAM - OK
+## [EXEC] BLOCO 1 - IDEOGRAM - OK - CAD - FALTA PROMPT
 - Data: 05/02/2026
 - "Reduzir excessos agora facilita suas escolhas depois."
 - Ambiente: Jardins Suspensos de Órion – Terraços de cristal construídos no interior da constelação de Órion, regados pela luz azulada das estrelas gigantes."
 
 
 
-## [EXEC] BLOCO 1 - SORA - OK
+## [EXEC] BLOCO 1 - SORA - OK - CAD - FALTA PROMPT
 - Data: 06/02/2026
 - "Nem tudo precisa ser resolvido, mas tudo pode ser compreendido."
 - Ambiente: Beira-mar de Waitomo Estelar – Uma praia num planeta oceânico onde o céu lembra as cavernas bioluminescentes de Waitomo, com pontos de luz vivos no firmamento."
 
 
 
-## [EXEC] BLOCO 1 - SORA - OK
+## [EXEC] BLOCO 1 - SORA - OK - CAD - FALTA PROMPT
 - Data: 09/02/2026
 - "Antes de mudar o calendário, vale organizar o que ficou aberto."
 - Ambiente: Café da Aurora em Vênus Refrescado – Uma futura estação em Vênus com cúpulas refrigeradas, onde se observa a espessa atmosfera dourada clareando lentamente."
 
 
 
-## [EXEC] BLOCO 1 - GEMINI - OK
+## [EXEC] BLOCO 1 - GEMINI - OK - CAD - FALTA PROMPT
 - Data: 10/02/2026
 - "O fechamento consciente prepara melhor que qualquer resolução."
 - Ambiente: Praça Central da Cidade Esmeralda de Oz – Clássica cidade verde reluzente, onde o sol da manhã se reflete em cada torre de cristal."
 
 
 
-## [EXEC] BLOCO 1 - NIGHTCAFE - OK
+## [EXEC] BLOCO 1 - SORA - OK
 - Data: 11/02/2026
 - "Nem tudo precisa ser entregue hoje — mas tudo precisa ser entendido."
 - Ambiente: "Vila Nebulosa de Pégaso – Pequeno vilarejo construído em asteroides ligados por pontes, viajando junto à constelação de Pégaso."
@@ -81,34 +81,39 @@ Ambiente: Metrópole de Néon de Andrômeda – Uma cidade flutuando em nuvens d
 
 
 
-## [EXEC] BLOCO 1
+## [EXEC] BLOCO 1 - IMAGEFX - OK
 - Data: 19/02/2026
 - "A atenção sustentada vale mais que a velocidade inicial."
 - Ambiente: "Distrito Antigo de Petra Lunar – Colônia cravada em cânions de uma lua rochosa, inspirada nas construções esculpidas em pedra de Petra na Jordânia."
 
 
 
-## [EXEC] BLOCO 1
-
-Ambiente: "Mirante de Pamukkale Celestial – Degraus naturais de água luminosa em um mundo distante, lembrando as piscinas brancas de Pamukkale, mas com líquidos azul-neon."
-
-
-
-## [EXEC] BLOCO 1
-
-Ambiente: "Estação Aurora Boreal Infinita – Plataforma em órbita da Terra onde a vista constante são cortinas de aurora boreal girando abaixo, como se o amanhecer fosse colorido em verde e violeta."
+## [EXEC] BLOCO 1 - IMAGEFX - WHISK - OK
+- Data: 20/02/2026
+- "O problema fica menor quando você para de tratar sintomas."
+- Ambiente: "Mirante de Pamukkale Celestial – Degraus naturais de água luminosa em um mundo distante, lembrando as piscinas brancas de Pamukkale, mas com líquidos azul-neon."
 
 
 
-## [EXEC] BLOCO 1
+## [EXEC] BLOCO 1 - IA: SORA - OK
+- Data: 23/02/2026
+- "A consistência diária constrói resultados mais sólidos."
+- Ambiente: "Estação Aurora Boreal Infinita – Plataforma em órbita da Terra onde a vista constante são cortinas de aurora boreal girando abaixo, como se o amanhecer fosse colorido em verde e violeta."
 
-Ambiente: "Floresta Flutuante de Nárnia Estelar – Uma expansão cósmica de Nárnia, em que árvores crescem em ilhas suspensas num céu lilás, ligadas por raízes de luz."
+
+
+## [EXEC] BLOCO 1 - GEMINI - OK
+- Data: 24/02/2026
+- "Nem todo ajuste melhora o sistema — alguns apenas acalmam a ansiedade."
+- Ambiente: "Floresta Flutuante de Nárnia Estelar – Uma expansão cósmica de Nárnia, em que árvores crescem em ilhas suspensas num céu lilás, ligadas por raízes de luz."
 
 
 
-## [EXEC] BLOCO 1
+## [EXEC] BLOCO 1 - IDEOGRAM - OK
 
-Ambiente: "Mirante dos Lagos de Plitvice Galácticos – Sistema de lagos em cascata num exoplaneta, com água transparente refletindo três sóis diferentes ao amanhecer."
+- Data: 25/02/2026
+- "O ambiente organizado reduz atritos invisíveis."
+- Ambiente: "Mirante dos Lagos de Plitvice Galácticos – Sistema de lagos em cascata num exoplaneta, com água transparente refletindo três sóis diferentes ao amanhecer."
 
 
 

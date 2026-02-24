@@ -7,6 +7,8 @@
 
 ## 📝 OCR - Extração Especializada de Textos em Mídias Sociais (Texto):
 
+***
+
 ---
 
 Responda em Markdown, seguindo exatamente as instruções abaixo.
@@ -92,10 +94,10 @@ Assim você tem, no Notion, os três prompts com metadados consistentes e pronto
 
 
 ***
-***
 
 ## 📝 OCR - Extração Especializada de Tabelas de Mídias Sociais (Markdown):
 
+***
 
 ---
 
@@ -131,7 +133,9 @@ Responda em Markdown, seguindo exatamente as instruções abaixo.
 ---
 
 
-### 🎯 JUSTIFICATIVA TÉCNICA
+***
+
+## 🎯 JUSTIFICATIVA TÉCNICA
 
 - A extração de tabelas com LLMs melhora muito quando o prompt declara explicitamente que a imagem é uma tabela e que o objetivo é preservar linhas e colunas (“layout directive”). [zenn](https://zenn.dev/coffin299/articles/60ba24446c0c27?locale=en)
 - Pedir saída diretamente em tabela Markdown é considerado hoje um dos formatos mais “LLM‑friendly”, mantendo a estrutura tabular de forma legível para humanos e para processamento posterior (CSV, SQL, etc.). [labnext70](https://www.labnext70.news/news/how-to-convert-tables-into-llm-friendly-format)
@@ -169,9 +173,10 @@ Tabela sugerida para o database de prompts (apenas este prompt):
 
 
 ***
-***
 
 ## 📝 OCR - Extração Especializada de Textos e Tabelas de Mídias Sociais (Texto/Markdown):
+
+***
 
 ---
 
@@ -218,7 +223,7 @@ Responda em Markdown, seguindo exatamente as instruções abaixo.
 
 ***
 
-### 🎯 JUSTIFICATIVA TÉCNICA
+## 🎯 JUSTIFICATIVA TÉCNICA
 
 - Combinar instruções para texto corrido e tabelas em um único prompt cria um “template universal” que reduz o esforço operacional e mantém consistência entre diferentes tipos de posts. [docs.reducto](https://docs.reducto.ai/extraction/best-practices-extract)
 - A detecção condicional de tabelas (“se identificar região tabular, renderizar em Markdown”) segue as boas práticas recentes de OCR com LLM, permitindo bom desempenho tanto em posts puramente textuais quanto em posts híbridos. [nanonets](https://nanonets.com/blog/table-extraction-using-llms-unlocking-structured-data-from-documents/)
@@ -259,13 +264,12 @@ Tabela sugerida para o database de prompts (prompt unificado):
 
 ---
 
-```
 ##----------####----------####----------##
 ##                                      ##
 ##   ... 🐝 Assinatura Institucional    ##
 ##                                      ##
 ##----------####----------####----------##
-
+```
          .' '.    .' '.         ,-.
 .        .   .    .   .         \ /
  .         .        .       . -{|||)<
@@ -273,3 +277,4 @@ Tabela sugerida para o database de prompts (prompt unificado):
                                 `-^
 ##----------####----------####----------##
 ```
+

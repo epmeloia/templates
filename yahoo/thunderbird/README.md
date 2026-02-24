@@ -12,13 +12,12 @@ This repository provides a tested and secure method for integrating Yahoo Mail (
 - 🖥️ Compatible with Thunderbird 115+ on Windows 10/11
 
 ## 📂 Files Included
-- `Checklist_Yahoo_Thunderbird_2025.md` (PT-BR)
-- `Checklist_Yahoo_Thunderbird_2025_EN.md` (English)
-- `docs/` folder for future improvements
+- [Guia Passo a Passo - Yahoo no Thunderbird - PT-BR](yahoo-mail-thunderbird-secure-imap-setup-guide-pt-br.md)
+- [Guia Passo a Passo - Yahoo no Thunderbird - EN](yahoo-mail-thunderbird-secure-imap-setup-guide-en.md)
 
 ## ✅ Tested Accounts
-- epmelo_compras@yahoo.com
-- epmelo_informatica@yahoo.com.br
+- teste_1@yahoo.com
+- teste_2@yahoo.com.br
 
 ## 🧠 Contributions
 Feel free to open issues, suggest improvements, or translate the content to other languages!

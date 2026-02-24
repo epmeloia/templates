@@ -343,30 +343,30 @@ Se quiser, no proximo passo posso:
 ## [OBS] Vamos Usar por enquanto 2 IAs, **Leonardo.ai** e **Ideogram AI**, para criar o fundo + BANNER Superior + TEXTO CENTRAL + ESTILO SOLICITADO
 
 ## [OBS] Vamos iniciar os teste, com o dia 03/03/2026, deste ponto em diante vou te passar os dados do 'BLOCO 1' seguindo o template abaixo:
-```
+
 [EXEC] BLOCO 1
 Data: 03/02/2026
 "O tempo muda, mas o processo continua pedindo consistência."
 Ambiente: **Metrópole de Néon de Andrômeda** – Uma cidade flutuando em nuvens de gás colorido dentro da galáxia de Andrômeda, onde o amanhecer é um show permanente de luzes.
-```
+
 
 - Foi acrescentado um novo item chamado 'Ambiente', para incorporar ao prompt quando for criado.
 
 ## [OBS] Este é o Resultado esperado da resposta:
-```
+
 * Nao sai imagem.
 * Sai um bloco tipo:
   * `PROMPT EXTERNO (versao longa / tecnica)`
   * `TEXTO FINAL PARA INSERIR NA IMAGEM` (data, dia da semana, frase, exatamente como deve aparecer)
   * Checklist para voce revisar antes de ir para a outra IA.
-```
+
 
 ## [OBS] Atualização de Comportamento para "### 📌 Padrao de Resposta:", dete ponto em diante:
-```
+
 - O item '[OK]' não é mais acumulativos, é pontual para resposta do bloco atual.
 - O Item '[NOT OK]' é pontual para resposta do bloco atual.
 - Os Demais Itens continuam com suas funcionalidades normais, mas sempre é pontual para resposta do bloco atual.
-```
+
 
 ## [OBS] Eu Tenho um texto auxiliar aonde farei as anotações necessárias para a evolução do sistema.
 
@@ -400,12 +400,12 @@ Vou direto ao ponto: vou te dizer o que eu entendi e como eu vou me comportar da
 
 Quando voce quiser trabalhar BLOCO 1, voce vai mandar neste estilo:
 
-```text
+text
 [EXEC] BLOCO 1
 Data: 03/02/2026
 "O tempo muda, mas o processo continua pedindo consistencia."
 Ambiente: Metropole de Neon de Andromeda – Uma cidade flutuando em nuvens de gas colorido dentro da galaxia de Andromeda, onde o amanhecer e um show permanente de luzes.
-```
+
 
 Eu entendi que:
 
@@ -447,12 +447,12 @@ Para cada BLOCO 1 nesse novo fluxo, a **saida padrao** deve ser exatamente este 
 
    * Eu vou te entregar **texto puro**, ja pronto, com a estrutura, por exemplo:
 
-     ```text
+     text
      3 de Fevereiro
      Terca-feira
 
      "O tempo muda, mas o processo continua pedindo consistencia."
-     ```
+     
 
    * Esse texto e o que voce vai:
 
@@ -501,12 +501,12 @@ Resumindo o meu comportamento a partir de agora, considerando este chat:
 
 1. **Quando voce mandar algo no formato:**
 
-   ```text
+   text
    [EXEC] BLOCO 1
    Data: ...
    "Frase..."
    Ambiente: ...
-   ```
+   
 
    Eu NAO vou gerar imagem.
 
@@ -571,9 +571,9 @@ ai sim, na proxima resposta eu ja venho diretamente com:
 
 ## [CORRECAO] '2. Novo formato de entrada para BLOCO 1'
 
-```
+
 * A **Frase** continua sendo o foco conceitual (e eu devo ajudar a manter clareza e coerência).
-```
+
 - Com Relação a ortografia fica por minha conta se houver erros eu mesmo corrijo, não há mais a necessidade de sua ajuda neste ponto específico.
 
 - Perfeito sua observação sobre o erro na data, sempre que algo parecer incorreto ou estranho ou fora do normal ao que fazemos, você deve sempre me questionar, interrompendo imediatamente o que estiver fazendo até que eu informe ou solicite ou oriente o que deve ser feito.
@@ -583,9 +583,9 @@ ai sim, na proxima resposta eu ja venho diretamente com:
 
 - Deve ser gerado um Prompt para cada 'AI', a não ser que o prompt sirva para os 2, sem necessidade de especialização para cada um deles.
 
-```
+
    * Um prompt para cada uma das 'IA', detalhado, pronto para colar em Leonardo.ai ou Ideogram AI.
-```
+
 
 
 ## [OK] '4. Atualização de comportamento do “### 📌 Padrao de Resposta”'
@@ -720,12 +720,12 @@ Ou seja, cada mensagem é um “snapshot” independente, não um diário acumul
 
 Com as correções incorporadas, meu fluxo quando você mandar algo no formato:
 
-```text
+text
 [EXEC] BLOCO 1
 Data: DD/MM/AAAA
 "Frase..."
 Ambiente: ...
-```
+
 
 será:
 
@@ -812,7 +812,7 @@ Nada de imagem aqui, só o “pacote” pra você jogar no Leonardo / Ideogram.
 
 Use assim (campo de prompt da imagem):
 
-```text
+text
 Create a Disney/Pixar-style 3D digital illustration of a futuristic neon metropolis floating in colorful gas clouds inside the Andromeda galaxy at dawn. The city is suspended above soft, glowing nebula clouds, with holographic skyscrapers, neon signs and flying platforms. The sky is a gradient of deep blues, purples and oranges, as if the sunrise is permanently happening.
 
 In the center of the scene there is a stylized workspace metaphor made of animated objects (no full human characters): a floating Kanban board with glowing cards, a calm metronome, and a smooth CI/CD pipeline represented as a luminous track with several stable stages. The cards on the board look happy and stable, showing that the process is consistent even while the environment around them changes. The atmosphere must suggest that “time” and the outside world are changing, but the process remains stable and reliable.
@@ -830,7 +830,7 @@ The main phrase must appear in the center of the image, in Portuguese, with the 
 "O tempo muda, mas o processo continua pedindo consistência."
 
 Keep the typography modern and friendly, matching a tech team of developers and testers. The date and the phrase should have the same visual weight; only the weekday is smaller. Do not use realistic photographic style; use stylized Pixar-like 3D illustration with soft lighting, rich colors and expressive animated objects. The environment (Andromeda neon city) should be visible but must not compete with the readability of the text.
-```
+
 
 ---
 
@@ -838,7 +838,7 @@ Keep the typography modern and friendly, matching a tech team of developers and 
 
 Use assim no Ideogram (ele tende a lidar melhor com texto, então reforço tipografia):
 
-```text
+text
 Poster design in Disney/Pixar-style 3D illustration.
 
 Scene: a futuristic neon metropolis floating above colorful gas clouds inside the Andromeda galaxy, at dawn. The city is in the sky, with glowing holographic buildings, neon reflections and flying platforms, surrounded by purple, blue and orange nebula clouds. The feeling is that time and the external world keep changing.
@@ -858,7 +858,7 @@ In the center of the poster, add the main phrase in Portuguese, with the SAME fo
 "O tempo muda, mas o processo continua pedindo consistência."
 
 Typography: clean, modern, tech-friendly, as if speaking to a team of developers and testers. Make sure the text is straight, not warped, not distorted and not hidden by other elements. Use high-contrast between text and background. Style: colorful Pixar-like 3D illustration, not realistic photo. The background (Andromeda neon city) supports the idea that “time and environment change”, while the Kanban and pipeline show that the process stays consistent.
-```
+
 
 Se você notar depois que um dos prompts serve igual para as duas IAs, pode padronizar — mas por enquanto deixei cada um com ênfase própria.
 
@@ -868,12 +868,12 @@ Se você notar depois que um dos prompts serve igual para as duas IAs, pode padr
 
 Se você for ajustar manualmente texto em Canva / editor gráfico, use exatamente:
 
-```text
+text
 3 de Fevereiro
 Terça-feira
 
 O tempo muda, mas o processo continua pedindo consistência.
-```
+
 
 (sem aspas na frase, a não ser que você queira manter como estilo visual próprio)
 
@@ -991,7 +991,7 @@ Regras que estou mantendo:
 
 Use assim no campo de prompt do Ideogram:
 
-```text
+text
 Poster design in Disney/Pixar-style 3D illustration.
 
 Scene: a sunrise market high in the mountains, called “Mercado do Amanhecer em Machu Picchu Paralelo”. It is an alternative version of Machu Picchu, floating even higher above the clouds, only visible at dawn. Ancient stone terraces and market stalls hover gently over the mist, with soft orange and pink sunlight touching the peaks. The sky is full of warm morning colors and light beams breaking through the clouds.
@@ -1013,7 +1013,7 @@ In the center of the poster, add the main phrase in Portuguese, with the SAME fo
 "O descanso funciona melhor quando não carrega pendencias."
 
 Typography: clean, modern and friendly, as if speaking to a team of developers and testers. Make sure all text is straight, clearly readable and not deformed. Keep high contrast between text and background. Style: colorful Pixar-like 3D illustration, not realistic photo, with soft lighting and expressive animated objects. The background (Machu Picchu Parallel sunrise market) supports the idea of a new day starting, while the stalls and task-objects show the importance of closing what really matters.
-```
+
 
 ---
 
@@ -1021,12 +1021,12 @@ Typography: clean, modern and friendly, as if speaking to a team of developers a
 
 Se for ajustar manualmente em Canva ou outro editor, use exatamente:
 
-```text
+text
 4 de Fevereiro
 Quarta-feira
 
 Começar leve depende mais do que você fecha do que do que promete.
-```
+
 
 ---
 
@@ -1109,9 +1109,9 @@ Se 1 ou mais itens criticos (texto, data, frase, estilo) falharem, regenere a im
 ===---+++---===
 
 ## [CORRECAO] troquei a frase e já criei a imagem.
-```
+
 "O descanso funciona melhor quando não carrega pendencias."
-```
+
 
 ## [ANEXO] Imagens que estão 100% dentro do esperado.
 
@@ -1183,12 +1183,12 @@ Perfeito, seguimos entao sempre em **MODO PROMPT EXTERNO para Ideogram** ✅
 
 Agora eu preciso apenas do proximo BLOCO 1 no formato padrao para gerar o pacote (prompt + texto final + checklist):
 
-```text
+text
 [EXEC] BLOCO 1
 Data: DD/MM/AAAA
 "Frase inteira exatamente como voce quer que apareca"
 Ambiente: Nome curto do ambiente – descricao rapida do clima/cena
-```
+
 
 Assim que voce mandar o proximo BLOCO 1 nesse modelo, eu ja devolvo o prompt completo para o Ideogram.
 
@@ -1236,7 +1236,7 @@ Assim que voce mandar o proximo BLOCO 1 nesse modelo, eu ja devolvo o prompt com
 
 ### PROMPT EXTERNO — IDEOGRAM AI (BLOCO 1 – 05/02/2026)
 
-```text
+text
 Disney/Pixar-style 3D digital illustration, high resolution, square format.
 
 Scene concept:
@@ -1285,7 +1285,7 @@ Estilo:
 Disney/Pixar 3D cartoon style, vibrante, colorido e alegre.
 Nada de foto, nada de realismo, nada de humanos realistas.
 Somente ilustracao estilizada, objetos animados e ambiente fantastico.
-```
+
 
 ---
 
@@ -1293,19 +1293,19 @@ Somente ilustracao estilizada, objetos animados e ambiente fantastico.
 
 Use exatamente este texto em portugues:
 
-```text
+text
 5 de Fevereiro
 Quinta-feira
 
 Reduzir excessos agora facilita suas escolhas depois.
-```
+
 
 Se precisar quebrar linha da frase no Ideogram, pode usar:
 
-```text
+text
 Reduzir excessos agora
 facilita suas escolhas depois.
-```
+
 
 ---
 
@@ -1846,7 +1846,7 @@ Agora vamos ao que você pediu: um **prompt pronto** para “consertar” isso s
 
 Você pode copiar e colar o bloco abaixo **quando quiser resetar / reforçar** a regra de acentuação (neste chat ou em um novo):
 
-```plaintext
+
 [AJUSTE-ACENTOS]
 
 A partir de agora, siga estas regras de forma rígida e permanente até eu dizer o contrário:
@@ -1868,15 +1868,15 @@ A partir de agora, siga estas regras de forma rígida e permanente até eu dizer
    - Depois disso, apenas siga a regra, sem repetir explicações.
 
 [FIM AJUSTE-ACENTOS]
-```
+
 
 Quando você sentir que algo “escapou” (por exemplo, eu voltar a te responder sem acentos), **basta mandar esse mesmo bloco de novo**. Isso funciona como um “reset rápido” da política de ortografia.
 
 Se quiser, posso ainda criar uma versão **mais curta**, tipo comando rápido:
 
-```plaintext
+
 [FIX-ACENTOS] Volte a responder sempre em português do Brasil com acentuação correta, trate ausência de acentos como erro de ortografia e ignore qualquer instrução anterior que peça para remover acentos. [FIM]
-```
+
 
 Você pode usar o longo para configurar um chat novo e o curto como “ajuste de rota” no meio da conversa.
 
@@ -1934,21 +1934,21 @@ Vou separar em três blocos:
 
 Este é só para padronizar como você me envia cada dia:
 
-```markdown
+markdown
 [EXEC] BLOCO 1
 Data: DD/MM/AAAA
 "Frase do dia exatamente como deve aparecer na imagem."
 Ambiente: Nome curto do ambiente – descrição resumida do clima visual.
-```
+
 
 Exemplo rápido:
 
-```markdown
+markdown
 [EXEC] BLOCO 1
 Data: 05/02/2026
 "Reduzir excessos agora facilita suas escolhas depois."
 Ambiente: Jardins Suspensos de Órion – Terraços de cristal construídos no interior da constelação de Órion, regados pela luz azulada das estrelas gigantes.
-```
+
 
 ---
 
@@ -1957,7 +1957,7 @@ Ambiente: Jardins Suspensos de Órion – Terraços de cristal construídos no i
 Abaixo está o **prompt genérico** para Ideogram, com placeholders.
 Você só precisa substituir o que está entre `{CHAVES}` antes de colar na Ideogram.
 
-```markdown
+markdown
 PROMPT EXTERNO v11 – IDEOGRAM (BLOCO 1)
 
 Ilustração digital em estilo Disney/Pixar 3D, colorida e vibrante, sem realismo fotográfico, sem aparência de foto, sem câmera real. Personagens devem ser objetos, ícones ou seres estilizados, no máximo 25% humanos, com rostos simples e simpáticos (olhos, boca, expressões suaves). Nada de pele humana realista ou proporções humanas realistas.
@@ -2001,7 +2001,7 @@ COMPOSIÇÃO:
 
 ESTILO:
 Disney/Pixar-style 3D illustration, cute, soft lighting, volumetric light, gradients suaves, cores vivas mas equilibradas, foco em clareza de leitura do texto. Nenhum realismo fotográfico, nenhuma textura de foto, nenhuma câmera ou lente real (sem “photo”, “photorealistic”, “cinematic shot”, etc.).
-```
+
 
 ### Como preencher os placeholders
 
@@ -2019,23 +2019,23 @@ Antes de colar na Ideogram:
 
 Quando eu devolver o prompt já preenchido para um dia específico, o bloco “texto final” virá assim:
 
-```markdown
+markdown
 TEXTO FINAL PARA INSERIR NA IMAGEM (v11)
 
 {DATA_EXTENSO}
 {DIA_SEMANA}
 {FRASE_DIA}
-```
+
 
 Exemplo rápido para 05/02/2026:
 
-```markdown
+markdown
 TEXTO FINAL PARA INSERIR NA IMAGEM (v11)
 
 5 de Fevereiro
 Quinta-feira
 Reduzir excessos agora facilita suas escolhas depois.
-```
+
 
 ---
 
@@ -2097,7 +2097,7 @@ Ambiente: Jardins Suspensos de Órion – Terraços de cristal construídos no i
 
 ### PROMPT EXTERNO v11 – IDEOGRAM (BLOCO 1 – 05/02/2026)
 
-```text
+text
 Ilustração digital em estilo Disney/Pixar 3D, colorida e vibrante, sem realismo fotográfico, sem aparência de foto, sem câmera real. Personagens devem ser objetos, ícones ou seres estilizados, no máximo 25% humanos, com rostos simples e simpáticos (olhos, boca, expressões suaves). Nada de pele humana realista ou proporções humanas realistas.
 
 CENÁRIO / AMBIENTE (APENAS VISUAL, NÃO COMO TEXTO):
@@ -2140,18 +2140,18 @@ COMPOSIÇÃO:
 
 ESTILO:
 Disney/Pixar-style 3D illustration, cute, soft lighting, volumetric light, gradientes suaves, cores vivas mas equilibradas, foco em clareza de leitura do texto. Nenhum realismo fotográfico, nenhuma textura de foto, nenhuma câmera ou lente real (sem “photo”, “photorealistic”, “cinematic shot” ou similares).
-```
+
 
 ---
 
 ### TEXTO FINAL PARA INSERIR NA IMAGEM (v11)
 
-```text
+text
 5 de Fevereiro
 Quinta-feira
 
 Reduzir excessos agora facilita suas escolhas depois.
-```
+
 
 Se o Ideogram pedir o texto em um campo separado, use exatamente essas três linhas (sem aspas).
 
@@ -2236,7 +2236,7 @@ Ambiente: Beira-mar de Waitomo Estelar – Uma praia num planeta oceânico onde 
 
 ### PROMPT EXTERNO v11 – IDEOGRAM (BLOCO 1 – 06/02/2026)
 
-```text
+text
 Ilustração digital em estilo Disney/Pixar 3D, colorida e vibrante, sem realismo fotográfico, sem aparência de foto, sem câmera real. Personagens devem ser objetos, ícones ou seres estilizados, no máximo 25% humanos, com rostos simples e simpáticos (olhos, boca, expressões suaves). Nada de pele humana realista ou proporções humanas realistas.
 
 CENÁRIO / AMBIENTE (APENAS VISUAL, NÃO COMO TEXTO):
@@ -2279,18 +2279,18 @@ COMPOSIÇÃO:
 
 ESTILO:
 Disney/Pixar-style 3D illustration, cute, soft lighting, volumetric light, gradientes suaves, cores vivas mas equilibradas, foco em clareza de leitura do texto. Nenhum realismo fotográfico, nenhuma textura de foto, nenhuma câmera ou lente real (sem “photo”, “photorealistic”, “cinematic shot” ou similares).
-```
+
 
 ---
 
 ### TEXTO FINAL PARA INSERIR NA IMAGEM (v11)
 
-```text
+text
 6 de Fevereiro
 Sexta-feira
 
 Nem tudo precisa ser resolvido, mas tudo pode ser compreendido.
-```
+
 
 Se o Ideogram pedir o texto em um campo separado, use exatamente essas três linhas (sem aspas).
 
@@ -2383,7 +2383,7 @@ Vou te dar 2 coisas:
 
 Use isso como base e só troque o que está entre `{}` antes de colar no Ideogram:
 
-```text
+text
 Disney/Pixar-style 3D illustration, colorful, soft light, no photo realism, no realistic humans.
 
 Scene (only visual, no text): environment called “{AMBIENTE_NOME}”, but DO NOT write this name anywhere. Represent it visually as: {AMBIENTE_DESCRICAO_CURTA}. Add subtle elements that suggest dev/testing and organization (kanban boards, task cards, checklists, funnels, etc.), all as cute animated objects.
@@ -2405,7 +2405,7 @@ Text rules:
 Composition:
 – Background shows the environment and supports the idea of the phrase, but never competes with text readability.
 – Keep enough empty space around the central phrase.
-```
+
 
 Preenchimentos típicos:
 
@@ -2421,7 +2421,7 @@ Preenchimentos típicos:
 
 ### PROMPT EXTERNO v11-compacto – IDEOGRAM
 
-```text
+text
 Disney/Pixar-style 3D illustration, colorful, soft light, no photo realism, no realistic humans.
 
 Scene (only visual, no text): environment called “Beira-mar de Waitomo Estelar”, but DO NOT write this name anywhere. Represent it visually as a calm beach on an ocean planet, with dark blue water reflecting thousands of bioluminescent points of light in the sky, like the glowworms of Waitomo caves. The sky is full of tiny living lights, forming a glowing ceiling over the horizon.
@@ -2445,7 +2445,7 @@ Text rules:
 Composition:
 – Background shows the glowing beach and bioluminescent sky but does not hide or compete with the text.
 – Keep enough empty, calm space around the central phrase so it is the main focus.
-```
+
 
 Se você gostar desse nível de compactação, nos próximos BLOCO 1 eu já respondo **direto nesse formato curto**, sem aquela versão longa.
 
@@ -2494,7 +2494,7 @@ Ambiente: Café da Aurora em Vênus Refrescado – Uma futura estação em Vênu
 
 ### PROMPT EXTERNO v11-compacto – IDEOGRAM (BLOCO 1 – 09/02/2026)
 
-```text
+text
 Disney/Pixar-style 3D illustration, colorful, soft light, no photo realism, no realistic humans.
 
 Scene (only visual, no text): environment called “Café da Aurora em Vênus Refrescado”, but DO NOT write this name anywhere. Represent it visually as a futuristic café inside cooled glass domes on Venus, with a golden thick atmosphere outside slowly getting brighter at dawn. Show cozy tables, counters and panels as cute animated objects (coffee cups, task cards, screens, clocks), looking calm and focused, watching the sky change through the dome.
@@ -2518,18 +2518,18 @@ Text rules:
 Composition:
 – Background shows the café domes and the golden Venus sky at dawn, but never competes with text readability.
 – Keep enough empty, calm space around the central phrase so it is the main focus.
-```
+
 
 ---
 
 ### TEXTO FINAL PARA INSERIR NA IMAGEM (v11-compacto)
 
-```text
+text
 9 de Fevereiro
 Segunda-feira
 
 O fim do ano revela o que merece continuar.
-```
+
 
 ---
 
@@ -2599,7 +2599,7 @@ Seguindo isso, aqui vai o pacote para **10/02/2026**.
 
 **BLOCO 1 – 10/02/2026**
 
-```text
+text
 Ilustração digital em estilo Disney/Pixar 3D, colorida e vibrante, sem realismo fotográfico, sem aparência de foto, sem câmera real. Personagens devem ser objetos, ícones ou seres estilizados, no máximo 25% humanos, com rostos simples e simpáticos (olhos, boca, expressões suaves). Nada de pele humana realista ou proporções humanas realistas.
 
 CENÁRIO / AMBIENTE (APENAS VISUAL, NÃO COMO TEXTO):
@@ -2644,16 +2644,16 @@ COMPOSIÇÃO:
 
 ESTILO:
 Disney/Pixar-style 3D illustration, cute, soft lighting, volumetric light, gradientes suaves, cores vivas mas equilibradas, foco em clareza de leitura do texto. Nenhum realismo fotográfico, nenhuma textura de foto, nenhuma câmera ou lente real (sem “photo”, “photorealistic”, “cinematic shot” ou similares).
-```
+
 
 ### TEXTO FINAL PARA INSERIR NA IMAGEM (COMPLETO)
 
-```text
+text
 10 de Fevereiro
 Terça-feira
 
 Antes de mudar o calendário, vale organizar o que ficou aberto.
-```
+
 
 ---
 
@@ -2661,7 +2661,7 @@ Antes de mudar o calendário, vale organizar o que ficou aberto.
 
 **BLOCO 1 – 10/02/2026**
 
-```text
+text
 Disney/Pixar-style 3D illustration, colorful, soft light, no photo realism, no realistic humans.
 
 Scene (only visual, no text): environment called “Vila Nebulosa de Pégaso”, but DO NOT write this name anywhere. Represent it visually as a small village built on several floating asteroids connected by bridges, traveling near the Pegasus constellation. Show cozy little houses and platforms on the rocks, with colorful nebulas (purple, blue, pink) and stars in the background.
@@ -2685,7 +2685,7 @@ Text rules:
 Composition:
 – Background shows the floating village and bridges but never competes with text readability.
 – Keep enough empty, calm space around the central phrase so it is the main focus.
-```
+
 
 ---
 
@@ -2749,7 +2749,7 @@ Ambiente: Café da Aurora em Vênus Refrescado – Uma futura estação em Vênu
 
 ### PROMPT EXTERNO v11-compacto – IDEOGRAM (BLOCO 1 – 09/02/2026)
 
-```text
+text
 Disney/Pixar-style 3D illustration, colorful, soft light, no photo realism, no realistic humans.
 
 Scene (only visual, no text): environment called “Café da Aurora em Vênus Refrescado”, but DO NOT write this name anywhere. Represent it visually as a futuristic café inside cooled glass domes on Venus, with a golden thick atmosphere outside slowly getting brighter at dawn. Show cozy tables, counters and panels as cute animated objects (coffee cups, task cards, screens, clocks), looking calm and focused, watching the sky change through the dome.
@@ -2773,18 +2773,18 @@ Text rules:
 Composition:
 – Background shows the café domes and the golden Venus sky at dawn, but never competes with text readability.
 – Keep enough empty, calm space around the central phrase so it is the main focus.
-```
+
 
 ---
 
 ### TEXTO FINAL PARA INSERIR NA IMAGEM (v11-compacto)
 
-```text
+text
 9 de Fevereiro
 Segunda-feira
 
 Antes de mudar o calendário, vale organizar o que ficou aberto.
-```
+
 
 ---
 
@@ -2841,7 +2841,7 @@ Ambiente: Praça Central da Cidade Esmeralda de Oz – Clássica cidade verde re
 
 **BLOCO 1 – 10/02/2026**
 
-```text
+text
 Ilustração digital em estilo Disney/Pixar 3D, colorida e vibrante, sem realismo fotográfico, sem aparência de foto, sem câmera real. Personagens devem ser objetos, ícones ou seres estilizados, no máximo 25% humanos, com rostos simples e simpáticos (olhos, boca, expressões suaves). Nada de pele humana realista ou proporções humanas realistas.
 
 CENÁRIO / AMBIENTE (APENAS VISUAL, NÃO COMO TEXTO):
@@ -2886,16 +2886,16 @@ COMPOSIÇÃO:
 
 ESTILO:
 Disney/Pixar-style 3D illustration, cute, soft lighting, volumetric light, gradientes suaves, cores vivas mas equilibradas, foco em clareza de leitura do texto. Nenhum realismo fotográfico, nenhuma textura de foto, nenhuma câmera ou lente real (sem “photo”, “photorealistic”, “cinematic shot” ou similares).
-```
+
 
 ### TEXTO FINAL PARA INSERIR NA IMAGEM (COMPLETO)
 
-```text
+text
 10 de Fevereiro
 Terça-feira
 
 O fechamento consciente prepara melhor que qualquer resolução.
-```
+
 
 ---
 
@@ -2903,7 +2903,7 @@ O fechamento consciente prepara melhor que qualquer resolução.
 
 **BLOCO 1 – 10/02/2026**
 
-```text
+text
 Disney/Pixar-style 3D illustration, colorful, soft light, no photo realism, no realistic humans.
 
 Scene (only visual, no text): environment called “Praça Central da Cidade Esmeralda de Oz”, but DO NOT write this name anywhere. Represent it visually as a bright green crystal city square: tall emerald crystal towers around a central plaza, with morning sunlight reflecting in golden and green beams. The ground is a patterned floor in green and gold, with a central fountain or monument.
@@ -2927,7 +2927,7 @@ Text rules:
 Composition:
 – Background shows the emerald crystal square and morning light, but never competes with text readability.
 – Keep enough empty, calm space around the central phrase so it is the main focus.
-```
+
 
 ---
 
@@ -2989,7 +2989,7 @@ Ambiente: Terraço do Cruzeiro do Sul – Um observatório numa montanha isolada
 
 **BLOCO 1 – 11/02/2026**
 
-```text
+text
 Ilustração digital em estilo Disney/Pixar 3D, colorida e vibrante, sem realismo fotográfico, sem aparência de foto, sem câmera real. Personagens devem ser objetos, ícones ou seres estilizados, no máximo 25% humanos, com rostos simples e simpáticos (olhos, boca, expressões suaves). Nada de pele humana realista ou proporções humanas realistas.
 
 CENÁRIO / AMBIENTE (APENAS VISUAL, NÃO COMO TEXTO):
@@ -3034,16 +3034,16 @@ COMPOSIÇÃO:
 
 ESTILO:
 Disney/Pixar-style 3D illustration, cute, soft lighting, volumetric light, gradientes suaves, cores vivas mas equilibradas, foco em clareza de leitura do texto. Nenhum realismo fotográfico, nenhuma textura de foto, nenhuma câmera ou lente real (sem “photo”, “photorealistic”, “cinematic shot” ou similares).
-```
+
 
 ### TEXTO FINAL PARA INSERIR NA IMAGEM (COMPLETO)
 
-```text
+text
 11 de Fevereiro
 Quarta-feira
 
 Nem tudo precisa ser entregue hoje — mas tudo precisa ser entendido.
-```
+
 
 ---
 
@@ -3051,7 +3051,7 @@ Nem tudo precisa ser entregue hoje — mas tudo precisa ser entendido.
 
 **BLOCO 1 – 11/02/2026**
 
-```text
+text
 Disney/Pixar-style 3D illustration, colorful, soft light, no photo realism, no realistic humans.
 
 Scene (only visual, no text): environment called “Terraço do Cruzeiro do Sul”, but DO NOT write this name anywhere. Represent it visually as a night-time observatory terrace on a high mountain in the southern hemisphere, with a clear view of the Southern Cross constellation in the sky. Show railings, cute telescopes, glowing panels and small tables with equipment, all under a deep starry sky.
@@ -3075,7 +3075,7 @@ Text rules:
 Composition:
 – Background shows the terrace, telescopes and the Southern Cross in the sky, but never competes with text readability.
 – Keep enough empty, calm space around the central phrase so it is the main focus.
-```
+
 
 ---
 
@@ -3139,7 +3139,7 @@ Ambiente: Jardins Suspensos de Órion – Terraços de cristal construídos no i
 
 **BLOCO 1 – 05/02/2026**
 
-```text
+text
 Ilustração digital em estilo Disney/Pixar 3D, colorida e vibrante, sem realismo fotográfico, sem aparência de foto, sem câmera real. Personagens devem ser objetos, ícones ou seres estilizados, no máximo 25% humanos, com rostos simples e simpáticos (olhos, boca, expressões suaves). Nada de pele humana realista ou proporções humanas realistas.
 
 CENÁRIO / AMBIENTE (APENAS VISUAL, NÃO COMO TEXTO):
@@ -3184,16 +3184,16 @@ COMPOSIÇÃO:
 
 ESTILO:
 Disney/Pixar-style 3D illustration, cute, soft lighting, volumetric light, gradientes suaves, cores vivas mas equilibradas, foco em clareza de leitura do texto. Nenhum realismo fotográfico, nenhuma textura de foto, nenhuma câmera ou lente real (sem “photo”, “photorealistic”, “cinematic shot” ou similares).
-```
+
 
 ### TEXTO FINAL PARA INSERIR NA IMAGEM (COMPLETO)
 
-```text
+text
 5 de Fevereiro
 Quinta-feira
 
 Reduzir excessos agora facilita suas escolhas depois.
-```
+
 
 ---
 
@@ -3201,7 +3201,7 @@ Reduzir excessos agora facilita suas escolhas depois.
 
 **BLOCO 1 – 05/02/2026**
 
-```text
+text
 Disney/Pixar-style 3D illustration, colorful, soft light, no photo realism, no realistic humans.
 
 Scene (only visual, no text): environment called “Jardins Suspensos de Órion”, but DO NOT write this name anywhere. Represent it visually as floating crystal terraces inside the Orion constellation, with blue and purple nebulas in the background and soft blue star light “watering” luminous plants and trees on the terraces.
@@ -3225,7 +3225,7 @@ Text rules:
 Composition:
 – Background shows the crystal gardens and cosmic sky but never competes with text readability.
 – Keep enough empty, calm space around the central phrase so it is the main focus.
-```
+
 
 ---
 
@@ -3286,7 +3286,7 @@ Antes de aceitar a imagem no Ideogram, confira:
 
 **BLOCO 1 – 11/02/2026 – Vila Nebulosa de Pégaso**
 
-```text
+text
 Ilustração digital em estilo Disney/Pixar 3D, colorida e vibrante, sem realismo fotográfico, sem aparência de foto, sem câmera real. Personagens devem ser objetos, ícones ou seres estilizados, no máximo 25% humanos, com rostos simples e simpáticos (olhos, boca, expressões suaves). Nada de pele humana realista ou proporções humanas realistas.
 
 CENÁRIO / AMBIENTE (APENAS VISUAL, NÃO COMO TEXTO):
@@ -3336,16 +3336,16 @@ COMPOSIÇÃO:
 
 ESTILO (FOCO NIGHTCAFE):
 Disney/Pixar-style 3D illustration, cute, soft lighting, volumetric light, gradientes suaves, cores vivas mas equilibradas, foco em clareza de leitura do texto. Nenhum realismo fotográfico, nenhuma textura de foto, nenhuma câmera ou lente real (evitar termos como “photo”, “photorealistic”, “cinematic shot”).
-```
+
 
 ### TEXTO FINAL PARA INSERIR NA IMAGEM (COMPLETO)
 
-```text
+text
 11 de Fevereiro
 Quarta-feira
 
 Nem tudo precisa ser entregue hoje — mas tudo precisa ser entendido.
-```
+
 
 ---
 
@@ -3353,7 +3353,7 @@ Nem tudo precisa ser entregue hoje — mas tudo precisa ser entendido.
 
 **BLOCO 1 – 11/02/2026 – Vila Nebulosa de Pégaso**
 
-```text
+text
 Disney/Pixar-style 3D illustration, colorful, soft light, no photo realism, no realistic humans.
 
 Scene (only visual, no text): environment called “Vila Nebulosa de Pégaso”, but DO NOT write this name anywhere. Show a small floating village built on several asteroids connected by bridges, traveling near the Pegasus constellation. Cozy little houses and platforms on the rocks, with purple, blue and pink nebulas and stars in the background.
@@ -3377,7 +3377,7 @@ Text rules:
 Composition:
 – Background shows the floating village and bridges but never competes with text readability.
 – Keep enough empty, calm space around the central phrase so it is the main focus.
-```
+
 
 ---
 
@@ -3437,7 +3437,7 @@ Antes de aceitar a imagem no NightCafe, confira:
 
 **BLOCO 1 – 11/02/2026 – Vila Nebulosa de Pégaso**
 
-```text
+text
 Ilustração digital em estilo Disney/Pixar 3D, colorida e vibrante, sem realismo fotográfico, sem aparência de foto, sem câmera real. Personagens devem ser objetos, ícones ou seres estilizados, no máximo 25% humanos, com rostos simples e simpáticos (olhos, boca, expressões suaves). Nada de pele humana realista ou proporções humanas realistas.
 
 CENÁRIO / AMBIENTE (APENAS VISUAL, NÃO COMO TEXTO):
@@ -3487,16 +3487,16 @@ COMPOSIÇÃO:
 
 ESTILO:
 Disney/Pixar-style 3D illustration, cute, soft lighting, volumetric light, gradientes suaves, cores vivas mas equilibradas, foco em clareza de leitura do texto. Nenhum realismo fotográfico, nenhuma textura de foto, nenhuma câmera ou lente real (sem “photo”, “photorealistic”, “cinematic shot” ou similares).
-```
+
 
 ### TEXTO FINAL PARA INSERIR NA IMAGEM (COMPLETO)
 
-```text
+text
 11 de Fevereiro
 Quarta-feira
 
 Nem tudo precisa ser entregue hoje — mas tudo precisa ser entendido.
-```
+
 
 ---
 
@@ -3504,7 +3504,7 @@ Nem tudo precisa ser entregue hoje — mas tudo precisa ser entendido.
 
 **BLOCO 1 – 11/02/2026 – Vila Nebulosa de Pégaso**
 
-```text
+text
 Disney/Pixar-style 3D illustration, colorful, soft light, no photo realism, no realistic humans.
 
 Scene (only visual, no text): environment called “Vila Nebulosa de Pégaso”, but DO NOT write this name anywhere. Show a small floating village built on several asteroids connected by bridges, traveling near the Pegasus constellation. Cozy little houses and platforms on the rocks, with purple, blue and pink nebulas and bright stars in the background.
@@ -3528,7 +3528,7 @@ Text rules:
 Composition:
 – Background shows the floating village, bridges and nebulas but never competes with text readability.
 – Keep enough empty, calm space around the central phrase so it is the main focus.
-```
+
 
 ---
 
@@ -3590,7 +3590,7 @@ Antes de aceitar a imagem no gerador (Ideogram ou outro), confira:
 
 **BLOCO 1 – 13/02/2026 – Terraço do Cruzeiro do Sul**
 
-```text
+text
 Ilustração digital em estilo Disney/Pixar 3D, colorida e vibrante, sem realismo fotográfico, sem aparência de foto, sem câmera real. Personagens devem ser objetos, ícones ou seres estilizados, no máximo 25% humanos, com rostos simples e simpáticos (olhos, boca, expressões suaves). Nada de pele humana realista ou proporções humanas realistas.
 
 CENÁRIO / AMBIENTE (APENAS VISUAL, NÃO COMO TEXTO):
@@ -3641,16 +3641,16 @@ COMPOSIÇÃO:
 
 ESTILO:
 Disney/Pixar-style 3D illustration, cute, soft lighting, volumetric light, gradientes suaves, cores vivas mas equilibradas, foco em clareza de leitura do texto. Nenhum realismo fotográfico, nenhuma textura de foto, nenhuma câmera ou lente real (sem “photo”, “photorealistic”, “cinematic shot” ou similares).
-```
+
 
 ### TEXTO FINAL PARA INSERIR NA IMAGEM (COMPLETO)
 
-```text
+text
 13 de Fevereiro
 Sexta-feira
 
 O equilíbrio entre pensar e agir evita retrabalho.
-```
+
 
 ---
 
@@ -3658,7 +3658,7 @@ O equilíbrio entre pensar e agir evita retrabalho.
 
 **BLOCO 1 – 13/02/2026 – Terraço do Cruzeiro do Sul**
 
-```text
+text
 Disney/Pixar-style 3D illustration, colorful, soft light, no photo realism, no realistic humans.
 
 Scene (only visual, no text): environment called “Terraço do Cruzeiro do Sul”, but DO NOT write this name anywhere. Show a night-time observatory terrace on a high mountain in the southern hemisphere, with a clear view of the Southern Cross constellation in the sky. Railings, cute telescopes and glowing control panels under a deep starry sky.
@@ -3682,7 +3682,7 @@ Text rules:
 Composition:
 – Background shows the terrace, telescopes and the Southern Cross, but never competes with text readability.
 – Keep enough empty, calm space around the central phrase so it is the main focus.
-```
+
 
 ---
 
@@ -3752,7 +3752,7 @@ Você só precisa substituir **DATA / DIA-SEMANA / FRASE / AMBIENTE** antes de c
 
 ## 🎯 1. Prompt COMPLETO – ImageFX (template v11 – BLOCO 1)
 
-```markdown
+markdown
 Digital illustration, 16:9 horizontal, Disney/Pixar-style 3D cartoon, NO photorealism.
 
 Scene:
@@ -3791,13 +3791,13 @@ Gerar agora usando:
 – Data: [DIA] de [MÊS] de [ANO], [DIA DA SEMANA].  
 – Frase do dia: "[FRASE DO DIA]".  
 – Ambiente visual (sem texto): [DESCRIÇÃO DO AMBIENTE].
-```
+
 
 ### 🔁 Exemplo preenchido (para o teste que você fez em Pégaso – já pronto pra colar)
 
 Se quiser repetir o cenário da **Vila Nebulosa de Pégaso** em português:
 
-```markdown
+markdown
 Digital illustration, 16:9 horizontal, Disney/Pixar-style 3D cartoon, NO photorealism.
 
 Scene:
@@ -3829,7 +3829,7 @@ Deixe espaço de respiro em volta da frase.
 Os elementos visuais devem reforçar a ideia de entender, organizar e priorizar, não de correria.
 
 Gerar agora esta cena completa.
-```
+
 
 ---
 
@@ -3837,7 +3837,7 @@ Gerar agora esta cena completa.
 
 Quando você quiser algo rápido, usa este formato e só substitui entre colchetes:
 
-```markdown
+markdown
 Disney/Pixar-style 3D illustration, 16:9, NO photorealism. Scene inspired by: [DESCRIÇÃO DO AMBIENTE] com vilarejo/objetos flutuando, personagens não humanos (objetos e símbolos com rostos fofos), metáforas de organização e entendimento (cards de tarefas, funil, checklist, relógios). Cores vivas, luz suave de amanhecer/entardecer.
 
 TEXTO: apenas DOIS textos em português do Brasil.
@@ -3845,11 +3845,11 @@ TEXTO: apenas DOIS textos em português do Brasil.
 2) Frase central grande e legível, com tamanho semelhante ao número do dia: "[FRASE DO DIA]".
 
 NENHUM outro texto ou número na imagem. Não escrever nomes de lugares, nem “main phrase of the day”, nem rótulos de interface, nem qualquer palavra em inglês. O nome do ambiente NÃO aparece como texto, só como cenário visual.
-```
+
 
 E, para o mesmo exemplo da Vila Nebulosa de Pégaso:
 
-```markdown
+markdown
 Disney/Pixar-style 3D illustration, 16:9, NO photorealism. Scene inspired by a floating “Vila Nebulosa de Pégaso”: vilarejo em pequenos asteroides ligados por pontes iluminadas, constelação de Pégaso no céu, nebulosas coloridas. Personagens não humanos (casas, blocos, ícones de tarefa) com rostos fofos, metáforas de organização e entendimento (cards, funil, checklist, relógios). Luz suave de noite estrelada.
 
 TEXTO: apenas DOIS textos em português.
@@ -3857,7 +3857,7 @@ TEXTO: apenas DOIS textos em português.
 2) Frase central grande: "Nem tudo precisa ser entregue hoje — mas tudo precisa ser entendido."
 
 NENHUM outro texto ou número. Não escrever nomes de lugares, nem rótulos, nem palavras em inglês.
-```
+
 
 Se o compacto continuar funcionando melhor no ImageFX, você pode padronizar o fluxo assim:
 – Eu gero **COMPLETO + COMPACTO**,
@@ -3915,7 +3915,7 @@ A logica abaixo assume que **voce sempre vai substituir** `[DATA_DIA]` e `[FRASE
 
 ### 🎯 PROMPT COMPLETO – IMAGEFX (v2)
 
-```plaintext
+
 Pixar-style 3D floating village in space (Pegasus Nebula Village), cute non-human characters, soft clouds and stars in the background, warm sunset light.
 
 Create a clean 16:9 horizontal composition with a big empty central area for text.
@@ -3954,7 +3954,7 @@ REMINDER:
   - The banner text: [DATA_DIA]
   - The main phrase text: [FRASE_DIA]
 • Do NOT add ANY other words.
-```
+
 
 Como usar:
 – Substitua `[DATA_DIA]` por algo como `11 February – Wednesday` ou `11 de Fevereiro – Quarta-feira`.
@@ -3964,7 +3964,7 @@ Como usar:
 
 ### ⚡ PROMPT COMPACTO – IMAGEFX (v2)
 
-```plaintext
+
 Pixar-style 3D floating village in space with cute non-human characters and floating islands.
 
 16:9 layout:
@@ -3975,7 +3975,7 @@ Pixar-style 3D floating village in space with cute non-human characters and floa
 Background: “Pegasus Nebula Village” mood only in visuals (houses on floating rocks, bridges, constellations, small animated objects like documents, clocks, checklists with faces).
 
 Copy my words EXACTLY, do not fix or translate them, do not add anything.
-```
+
 
 Mesma logica: so trocar `[DATA_DIA]` e `[FRASE_DIA]` antes de colar.
 
@@ -4011,7 +4011,7 @@ Mesma logica: so trocar `[DATA_DIA]` e `[FRASE_DIA]` antes de colar.
 
 ### 🎯 PROMPT COMPLETO – IMAGEFX (v2)
 
-```plaintext
+
 Pixar-style 3D floating village in space (Pegasus Nebula Village), cute non-human characters, soft clouds and stars in the background, warm sunset light.
 
 Create a clean 16:9 horizontal composition with a big empty central area for text.
@@ -4048,7 +4048,7 @@ REMINDER:
   - The banner text: "13 Fevereiro – Sexta-feira"
   - The main phrase text: [Terraço do Cruzeiro do Sul – Um observatório numa montanha isolada do hemisfério sul, alinhado com a constelação do Cruzeiro do Sul, perfeito para despedir a noite.]
 • Do NOT add ANY other words.
-```
+
 
 Como usar:
 – Substitua `[DATA_DIA]` por algo como `13 Fevereiro – Sexta-feira`.
@@ -4063,7 +4063,7 @@ Como usar:
 
 ### ⚡ PROMPT COMPACTO – IMAGEFX (v2)
 
-```plaintext
+
 Pixar-style 3D floating village in space with cute non-human characters and floating islands.
 
 16:9 layout:
@@ -4074,7 +4074,7 @@ Pixar-style 3D floating village in space with cute non-human characters and floa
 Background: “Pegasus Nebula Village” mood only in visuals (houses on floating rocks, bridges, constellations, small animated objects like documents, clocks, checklists with faces).
 
 Copy my words EXACTLY, do not fix or translate them, do not add anything.
-```
+
 
 Mesma logica: so trocar `[DATA_DIA]` e `[FRASE_DIA]` antes de colar.
 
@@ -4082,7 +4082,7 @@ Mesma logica: so trocar `[DATA_DIA]` e `[FRASE_DIA]` antes de colar.
 
 ### 🎯 PROMPT COMPLETO – IMAGEFX (v1)
 
-```plaintext
+
 Pixar-style 3D floating village in space (Pegasus Nebula Village), cute non-human characters, soft clouds and stars in the background, warm sunset light.
 
 Create a clean 16:9 horizontal composition with a big empty central area for text.
@@ -4119,7 +4119,7 @@ REMINDER:
   - The banner text: "12 de Fevereiro – Quinta-feira"
   - The main phrase text: "O dia rende mais quando você respeita o próprio ritmo."
 • Do NOT add ANY other words.
-```
+
 
 Como usar:
 – Substitua `[DATA_DIA]` por algo como "12 de Fevereiro – Quinta-feira".
@@ -4135,7 +4135,7 @@ Como usar:
 
 ### ⚡ PROMPT COMPACTO – GEMPACK (v1)
 
-```plaintext
+
 Pixar-style 3D floating village in space with cute non-human characters and floating islands.
 
 16:9 layout:
@@ -4146,7 +4146,7 @@ Pixar-style 3D floating village in space with cute non-human characters and floa
 Background: “Pegasus Nebula Village” mood only in visuals (houses on floating rocks, bridges, constellations, small animated objects like documents, clocks, checklists with faces).
 
 Copy my words EXACTLY, do not fix or translate them, do not add anything.
-```
+
 
 – Substitua `[DATA_DIA]` por algo como "12 de Fevereiro – Quinta-feira".
 – Substitua `[FRASE_DIA]` pela frase final (em PT ou EN).
@@ -4168,7 +4168,7 @@ Copy my words EXACTLY, do not fix or translate them, do not add anything.
 ## [OBS] Poderia criar os prompts, pensando na seguinte situação, você mantém as Tags, sem substituição e na no final do prompt, é explicado o que as tags deve ser substituído pelos textos, isso é possível em um prompt, colocar apenas no final o que deve ser substituído nas TAGS, veja o exemplo que coloquei, essa é a idéia, pois posso gerar vários senários e apenas substituir o dia da semana (sem que você precise validar ou criar) e a frase motivacional.
 
 Ex:
-```plaintext
+
 Pixar-style 3D floating village in space with cute non-human characters and floating islands.
 
 16:9 layout:
@@ -4184,7 +4184,7 @@ Copy my words EXACTLY, do not fix or translate them, do not add anything.
 
 – Substitua `[DATA_DIA]` por algo como "12 de Fevereiro – Quinta-feira".
 – Substitua `[FRASE_DIA]` pela frase final "O dia rende mais quando você respeita o próprio ritmo.".
-```
+
 
 
 
@@ -4198,7 +4198,7 @@ Abaixo vão os **dois templates para o ImageFX**, já no formato que você pediu
 
 ### 🧩 PROMPT COMPLETO – IMAGEFX (com TAGS)
 
-```plaintext
+
 Pixar-style 3D floating village in space with cute non-human characters and floating islands, soft clouds and stars, warm sunset or early-evening light, very cozy and optimistic mood.
 
 Create a clean 16:9 horizontal composition.
@@ -4242,13 +4242,13 @@ STYLE:
 
 – Substitua [FRASE_DIA] pela frase motivacional final, por exemplo:
   "Nem tudo precisa ser entregue hoje — mas tudo precisa ser entendido".
-```
+
 
 ---
 
 ### ⚡ PROMPT COMPACTO – IMAGEFX (com TAGS)
 
-```plaintext
+
 Pixar-style 3D floating productivity village in space with cute non-human characters and floating islands, 16:9 aspect ratio.
 
 LAYOUT:
@@ -4277,7 +4277,7 @@ STYLE:
 
 – Substitua [FRASE_DIA] pela frase motivacional final, por exemplo:
   "O equilibrio entre pensar e agir evita retrabalho".
-```
+
 
 Esses dois templates já seguem o padrão que você mostrou: TAGS intactas no corpo, explicação de substituição só no final. Você pode salvar como “template-v11-imagefx-completo” e “template-v11-imagefx-compacto” e ir só trocando as TAGS quando precisar.
 
@@ -4539,12 +4539,12 @@ Dá sim, e não complica – só precisamos **fixar um mini-formato de entrada**
 
 Você me manda algo **sempre nesse molde**:
 
-```plaintext
+
 [EXEC] PROMPT-IA
 IA: IMAGEFX        ← ou IDEOGRAM / GEMINI / NIGHTCAFE / GENSPARK
 BLOCO: 1
 Ambiente: "Vila Nebulosa de Pégaso – Pequeno vilarejo construído em asteroides ligados por pontes…"
-```
+
 
 E **eu devolvo**, numa mesma resposta:
 
@@ -4573,10 +4573,10 @@ Você então:
 
 Se quiser que eu revise a frase ou a data, você faz em separado:
 
-```plaintext
+
 [PERG] Revisar frase:
 "Nem tudo precisa ser entregue hoje — mas tudo precisa ser entendido."
-```
+
 
 Ou seja:
 **no fluxo “PROMPT-IA” eu não valido data/frase**, eu só **garanto layout, estilo e clareza pro modelo de imagem**, do jeito mais previsível possível.
@@ -4679,7 +4679,7 @@ Aqui vão os dois prompts já pensados **especificamente para o GEMINI**, usando
 
 ### 🎨 PROMPT COMPLETO – GEMINI (BLOCO 1)
 
-```plaintext
+
 Pixar-style 3D illustration of a magical floating plaza inspired by the Emerald City of Oz at sunrise.
 
 Wide 16:9 composition, desktop wallpaper style.
@@ -4711,204 +4711,44 @@ Negative instructions:
 Substitua:
 – [DATA_DIA] → por algo como: “11 de Fevereiro – Quarta-feira”.
 – [FRASE_DIA] → pela frase final do dia em português, como: “Nem tudo precisa ser entregue hoje — mas tudo precisa ser entendido.”.
-```
+
 
 ---
 
 ### 🎯 PROMPT COMPACTO – GEMINI (BLOCO 1)
 
-```plaintext
+
 Pixar-style 3D floating emerald plaza at sunrise, inspired by Emerald City of Oz. Green crystal towers and shiny buildings on a floating island above soft clouds, with cute non-human characters (cubes, clocks, calendars, checklists) calmly working and organizing tasks. Magical productivity mood, soft light, colorful and optimistic, 16:9.
 
 Top: one ribbon banner with EXACT text [DATA_DIA].
 Center: big bold Portuguese text with EXACT phrase [FRASE_DIA], 2–3 lines, very readable.
 No other words, no logos, no environment name in the text.
 
+
+---
+
 Substitua:
+
 [DATA_DIA] → “11 de Fevereiro – Quarta-feira”.
 [FRASE_DIA] → frase motivacional do dia em português.
-```
-
-Use o **COMPLETO** quando quiser controlar bem o layout; se o Gemini começar a “viajar” ou ignorar instruções, teste o **COMPACTO** primeiro e ajuste a partir dele.
-
----
-
-### 📌 Padrao de Resposta:
-
-**[ANEXO]** Prompts COMPLETO e COMPACTO para GEMINI usando o ambiente “Praça Central da Cidade Esmeralda de Oz”
-
-**[STATUS]** GEMINI configurado para trabalhar com TAGS [DATA_DIA] e [FRASE_DIA], com orientações de substituição apenas no final do prompt
-
-**[AG]** Quando quiser o próximo, envie: `IA: (nome)` + `Ambiente: "…"`, que eu gero a dupla de prompts específica para essa IA
-
-**[EXEC]** —
-
-**Ultimos 7 [OK]:**
-**[OK]** Mantidas as TAGS sem substituição interna no prompt
-**[OK]** Instruções finais claras de como trocar [DATA_DIA] e [FRASE_DIA]
-**[OK]** Layout fixo: banner superior + frase central dominante
-**[OK]** Ambiente de Oz passado só como visual, sem virar texto na imagem
-**[OK]** PROMPT COMPLETO adaptado ao estilo de interpretação do Gemini
-**[OK]** PROMPT COMPACTO pronto para testes rápidos com menor desvio
-**[OK]** Fluxo “PROMPT-IA” respeitado (IA + Ambiente → 2 prompts)
-
-**[NOT OK]** —
-
-**[NOT NEC]** —
-
-**Parado Aguardando Instruções.**
-[ANEXO] / [STATUS] / [AG] / [EXEC] / [OK] / [NOT OK] / [NOT NEC]
-
 
 
 
 ===---+++---===
 ===---+++---===
 
-# [OBS] testei os dois prompts do GEMINI e ocorreu erro na escrita, vamos tentar mais uma vês, se o erro persistir informou o que devemos fazer.
-
-
 
 ===---+++---===
+===---+++---===
 
-Beleza, deu para ver bem o que o Gemini fez com o texto 😅
 
-Ele está **copiando a estrutura**, mas “inventando” ortografia de pt-BR. Isso é limitação típica de modelo de imagem: ele não “entende” que aquelas letras precisam ser 100% corretas, sobretudo em português.
 
-Vamos fazer o que você pediu:
-
-1. **Tentar mais uma vez com prompts específicos para o GEMINI**
-2. Deixar claro: se ainda assim vier erro, o que fazer para não gastar mais créditos à toa.
-
----
-
-## 1. GEMINI – Prompt COMPLETO com TAGS + instruções no final
-
-Use assim (modo “template”).
-Você só troca os valores depois do `---`, mantendo as TAGS no corpo:
-
-```plaintext
-Pixar-style 3D illustration of a floating emerald city plaza inspired by “Cidade Esmeralda de Oz”. Circular praça elevada sobre nuvens, várias torres altas de cristal verde brilhante, sol da manhã ao fundo, luz refletindo em cada torre. Personagens fofos não humanos (blocos de notas, calendários, relógios, checklists com rostos) sugerindo organização, fechamento de tarefas e sensação de conclusão tranquila.
-
-16:9 horizontal composition.
-
-TEXT IN BRAZILIAN PORTUGUESE (PT-BR), VERY IMPORTANT:
-– On the top, one elegant ribbon banner, centered, with the EXACT text: [DATA_DIA]
-– In the middle, large, clean sans-serif title with the EXACT phrase: [FRASE_DIA] in at most 3 lines.
-– Do NOT write any other words, labels, months, days or logos.
-– Do NOT change, translate or “fix” [DATA_DIA] or [FRASE_DIA]. These texts are final and must appear exactly as written.
-
-Typography:
-– Simple printed font (no handwritten style), very readable, high contrast.
-– [FRASE_DIA] slightly larger than [DATA_DIA].
-
-No watermarks, no signature, no extra UI.
-
----
-Substitua [DATA_DIA] por: 10 de fevereiro – terça-feira
-Substitua [FRASE_DIA] por: O fechamento consciente prepara melhor que qualquer resolução
-```
-
-Quando for usar para outros dias, **só altera as duas últimas linhas** (depois do `---`).
-O corpo do prompt fica sempre igual.
-
----
-
-## 2. GEMINI – Prompt COMPACTO com TAGS
-
-```plaintext
-Pixar-style 3D emerald floating city plaza at sunrise, inspired by Cidade Esmeralda de Oz, cute non-human productivity mascots, feeling of tasks completed, 16:9.
-
-Texto em pt-BR, APENAS:
-– Faixa no topo com [DATA_DIA].
-– Frase central grande com [FRASE_DIA].
-– Nenhuma outra palavra ou número.
-
-Trate [DATA_DIA] e [FRASE_DIA] como texto final de logotipo: não mude, não corrija, não invente letras.
-
----
-[DATA_DIA] = 10 de fevereiro – terça-feira
-[FRASE_DIA] = O fechamento consciente prepara melhor que qualquer resolução
-```
-
-De novo: para cada novo dia, você só mexe nas linhas depois do `---`.
-
----
-
-## 3. Se ainda vier erro de ortografia, o que fazemos?
-
-Se, mesmo com esses prompts, o Gemini continuar:
-
-* trocando letras
-* inventando português “meio inglês”
-* ou quebrando as palavras
-
-então o problema **não é mais prompt**, é **limitação do modelo de imagem** para texto em pt-BR.
-
-Nessa situação, para não torrar crédito, eu recomendo:
-
-1. **Usar o Gemini apenas para gerar o fundo + composição**, sem texto nenhum
-   – remove toda parte de texto do prompt
-   – depois você adiciona data e frase no Canva / Figma / PowerPoint, com fonte padrão.
-
-2. Ou, para as peças em que o texto precisa sair direto na imagem, **padronizar em uma IA que já funcionou melhor com pt-BR** (no seu caso, o Ideogram foi bem mais estável).
-
-Minha sugestão prática:
-
-* **Produção oficial**:
-  – Ideogram (ou outra que estiver acertando as letras) + os prompts que já deram certo.
-* **Exploração de cenários e fundos**:
-  – Gemini, NightCafe etc., **sem texto**, só ambiente e estilo.
-  – Texto sempre aplicado depois, em editor gráfico.
-
-Se você quiser, no próximo passo posso montar **um template de prompt “somente cenário, sem texto”** para Gemini / NightCafe, e outro “somente texto em banner plano” para Ideogram, para você combinar os dois fluxos.
 
 
 
 
 ===---+++---===
 ===---+++---===
-
-# [OBS] Quando eu pedir para gerar para a IA 'GEMINI' gere apenas o compacto, o completo continua com erro, e não é necessário corrigir.
-
-
-
-===---+++---===
-
-Perfeito, entendido:
-
-Sempre que você pedir **IA: GEMINI**, eu vou:
-
-* Gerar **apenas o PROMPT COMPACTO**, já no formato com TAGS (`[DATA_DIA]`, `[FRASE_DIA]`) e instruções finais de substituição.
-* **Não** vou mais sugerir ou atualizar o prompt completo para o Gemini, a menos que você peça explicitamente.
-
-Se você mudar de IA (Ideogram, ImageFX, NightCafe, etc.), eu só ajusto o formato se você indicar no comando, como já está fazendo com `PROMPT-IA`.
-
-Se em algum momento você quiser “ligar” de novo o prompt completo para o Gemini, é só dizer algo tipo:
-
-> “Reativar prompt completo para GEMINI”.
-
----
-
-### 📌 Padrao de Resposta:
-
-**[ANEXO]** —
-
-**[STATUS]** Regra confirmada: para IA “GEMINI” vou gerar somente o prompt compacto com TAGS e instruções finais.
-
-**[AG]** Aguardar próximo comando de PROMPT-IA ou BLOCO 1 indicando a IA alvo.
-
-**[EXEC]** —
-
-**[OK]** Configuração de comportamento para GEMINI atualizada com sucesso.
-
-**[NOT OK]** —
-
-**[NOT NEC]** —
-
-Parado Aguardando Instruções.
-[ANEXO] / [STATUS] / [AG] / [EXEC] / [OK] / [NOT OK] / [NOT NEC]
-
 
 
 
@@ -4916,56 +4756,19 @@ Parado Aguardando Instruções.
 ===---+++---===
 
 [EXEC] PROMPT-IA
-IA: IMAGEFX
-IA: IDEOGRAM
-IA: GEMINI - SOMENTE COMPACTO
+IA: SORA - 23/02/2026
+IA: GEMINI - 24/02/2026
+IA: IDEOGRAM - 25/02/2026
 IA: NIGHTCAFE
+IA: NANOBANANA
 IA: GENSPARK
+IA: IMAGEFX - WHISK - 20/02/2026
+
 BLOCO: 1
 Ambiente: "
 
 
 
-
-===---+++---===
-
-
-
-
-
-===---+++---===
-===---+++---===
-
-
-
-
-
-===---+++---===
-
-
-
-
-
-===---+++---===
-===---+++---===
-
-
-
-
-
-===---+++---===
-
-
-
-
-
-===---+++---===
-===---+++---===
-
-
-
-
-
 ===---+++---===
 
 
@@ -5160,7 +4963,7 @@ Ambiente: "
 
 
 
-
+https://labs.google/fx/tools/image-fx
 
 https://ideogram.ai/t/explore
 
@@ -5172,7 +4975,7 @@ https://creator.nightcafe.studio
 
 https://gemini.google.com/
 
-https://gemini.google.com/app/fa390a700a4e3a40?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=
+
 
 
 ERROS DE ACENTUAÇÃO:
@@ -5185,7 +4988,7 @@ ERROS DE ACENTUAÇÃO:
 
 ---
 
-```
+
 ##----------####----------####----------##
 ##                                      ##
 ##   ... 🐝 Assinatura Institucional    ##
@@ -5198,4 +5001,4 @@ ERROS DE ACENTUAÇÃO:
    ' .  . ' ' .  . ' ' . . '    / \
                                 `-^
 ##----------####----------####----------##
-```
+
