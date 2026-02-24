@@ -6,10 +6,11 @@
 Este checklist fornece um guia confiável para configurar contas Yahoo no Thunderbird com senha de aplicativo, incluindo suporte ao 2FA.
 
 ---
+
 # 🔧 Índice:
 
 - [Configuração Manual do Yahoo Mail no Thunderbird](#configura%C3%A7%C3%A3o-manual-do-yahoo-mail-no-thunderbird)
-- [Solução Passo a Passo](#%EF%B8%8F-solu%C3%A7%C3%A3o-passo-a-passo)
+- [🛠️ Solução Passo a Passo](#%EF%B8%8F-solu%C3%A7%C3%A3o-passo-a-passo)
 - [1. Requisitos Iniciais](#1-requisitos-iniciais)
 - [2. Abrindo o Thunderbird](#2-abrindo-o-thunderbird)
 - [3. Dados da Conta Yahoo](#3-dados-da-conta-yahoo)
@@ -24,7 +25,6 @@ Este checklist fornece um guia confiável para configurar contas Yahoo no Thunde
 - [✅ Verificação Final - Envio de E-mail](#-verifica%C3%A7%C3%A3o-final---envio-de-e-mail)
 - [🧭 Princípio da Navalha de Occam Aplicado](#-princ%C3%ADpio-da-navalha-de-occam-aplicado)
 - [⚠️ Dica](#%EF%B8%8F-dica)
-
 
 
 ---
