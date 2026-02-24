@@ -6,14 +6,13 @@
 Este checklist fornece um guia confiável para configurar contas Yahoo no Thunderbird com senha de aplicativo, incluindo suporte ao 2FA.
 
 ---
-
 # 🔧 Índice:
 
 01. [Configuração Manual do Yahoo Mail no Thunderbird](#configura%C3%A7%C3%A3o-manual-do-yahoo-mail-no-thunderbird)
 02. [Solução Passo a Passo](#%EF%B8%8F-solu%C3%A7%C3%A3o-passo-a-passo)
-03. [Requisitos Iniciais](#1-requisitos-iniciais)
-04. [Abrindo o Thunderbird](#2-abrindo-o-thunderbird)
-05. [Dados da Conta Yahoo](#3-dados-da-conta-yahoo)
+03. [1. Requisitos Iniciais](#1-requisitos-iniciais)
+04. [2. Abrindo o Thunderbird](#2-abrindo-o-thunderbird)
+05. [3. Dados da Conta Yahoo](#3-dados-da-conta-yahoo)
 06. [Configuração Manual dos Servidores](#4-configuracao-manual-dos-servidores)
 07. [Como Gerar Senha de Aplicativo no Yahoo](#5--como-gerar-senha-de-aplicativo-no-yahoo)
 08. [Acesse a página de segurança do Yahoo](#51-acesse-a-pagina-de-seguranca-do-yahoo)
@@ -27,6 +26,7 @@ Este checklist fornece um guia confiável para configurar contas Yahoo no Thunde
 16. [Dica](#%EF%B8%8F-dica)
 
 
+
 ---
 
 # Configuração Manual do Yahoo Mail no Thunderbird:
@@ -34,9 +34,6 @@ Este checklist fornece um guia confiável para configurar contas Yahoo no Thunde
 - **Contexto:**
 
 Você deseja configurar manualmente uma conta de e-mail do Yahoo Brasil (`@yahoo.com.br`) no cliente de e-mails "Mozilla Thunderbird".
-
-
-#### [Retorna ao Índice](#-%C3%ADndice)
 
 
 ---
@@ -60,6 +57,9 @@ Você deseja configurar manualmente uma conta de e-mail do Yahoo Brasil (`@yahoo
 2. Vá em **Menu ≡ → Contas → Configurações de contas → Ações de conta → Adicionar conta de e-mail**.
 
 
+#### [Retorna ao Índice](#-%C3%ADndice)
+
+
 ---
 
 ### 3. **Dados da Conta Yahoo**
@@ -70,6 +70,9 @@ Você deseja configurar manualmente uma conta de e-mail do Yahoo Brasil (`@yahoo
 * **Senha:** Sua senha do Yahoo ou senha de aplicativo (preferível).
 
 2. Clique em **Configuração Manual**.
+
+
+#### [Retorna ao Índice](#-%C3%ADndice)
 
 
 ---
@@ -99,6 +102,9 @@ Usuário: seuemail@yahoo.com.br
 2. Clique em **Concluído**.
 
 
+#### [Retorna ao Índice](#-%C3%ADndice)
+
+
 ---
 
 ### 5. 🔐 Como Gerar Senha de Aplicativo no Yahoo
@@ -109,12 +115,18 @@ Usuário: seuemail@yahoo.com.br
 * 👉 [https://login.yahoo.com/account/security](https://login.yahoo.com/account/security)
 
 
+#### [Retorna ao Índice](#-%C3%ADndice)
+
+
 ---
 
 #### 5.2. **Faça login na sua conta Yahoo**
 
 * Use seu e-mail `@yahoo.com.br` e senha normalmente.
 * Se a **verificação em duas etapas** estiver ativa, você receberá um código via SMS ou app.
+
+
+#### [Retorna ao Índice](#-%C3%ADndice)
 
 
 ---
@@ -125,12 +137,18 @@ Usuário: seuemail@yahoo.com.br
 * Clique em **"Gerar senha de app"**.
 
 
+#### [Retorna ao Índice](#-%C3%ADndice)
+
+
 ---
 
 #### 5.4. **Escolha "Outros" ou "Thunderbird"**
 
 * No campo de escolha de aplicativo, selecione “Outro aplicativo” ou digite “Thunderbird”.
 * Clique em **"Gerar"**.
+
+
+#### [Retorna ao Índice](#-%C3%ADndice)
 
 
 ---
@@ -140,6 +158,9 @@ Usuário: seuemail@yahoo.com.br
 * O sistema vai mostrar uma senha exclusiva (ex: `abcd efgh ijkl mnop`).
 * Copie **exatamente como aparecer** (sem espaços extras).
 * Use essa senha ao configurar sua conta no Thunderbird, no lugar da senha normal do Yahoo.
+
+
+#### [Retorna ao Índice](#-%C3%ADndice)
 
 
 ---
@@ -160,12 +181,18 @@ Após configurar, envie um e-mail de teste para verificar:
 * Pastas (caixa de entrada, enviados, etc.) estão sincronizadas?
 
 
+#### [Retorna ao Índice](#-%C3%ADndice)
+
+
 ---
 
 ### 🧭 Princípio da Navalha de Occam Aplicado
 
 * **Solução mais simples:** Usar a senha de aplicativo e configuração IMAP padrão.
 * **Se não funcionar:** Verifique se há bloqueio por parte do Yahoo ou necessidade de ativar permissões adicionais no painel de segurança.
+
+
+#### [Retorna ao Índice](#-%C3%ADndice)
 
 
 ---
@@ -175,6 +202,9 @@ Após configurar, envie um e-mail de teste para verificar:
 * Essa senha gerada é **só para o Thunderbird**. Se mudar de app ou dispositivo, **gere outra**.
 
 * Ver versão em inglês: [yahoo-mail-thunderbird-secure-imap-setup-guide-en.md](yahoo-mail-thunderbird-secure-imap-setup-guide-en.md)
+
+
+#### [Retorna ao Índice](#-%C3%ADndice)
 
 
 ---
