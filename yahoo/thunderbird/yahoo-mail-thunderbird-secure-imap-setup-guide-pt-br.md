@@ -23,7 +23,7 @@ Este checklist fornece um guia confiável para configurar contas Yahoo no Thunde
 - [5.6. Finalização](#56-finaliza%C3%A7%C3%A3o)
 - [Verificação Final - Envio de E-mail](#-verifica%C3%A7%C3%A3o-final---envio-de-e-mail)
 - [Princípio da Navalha de Occam Aplicado](#-princ%C3%ADpio-da-navalha-de-occam-aplicado)
-- [Dica](#%EF%B8%8F-dica)
+- [⚠️ Dica](#%EF%B8%8F-dica)
 
 
 
