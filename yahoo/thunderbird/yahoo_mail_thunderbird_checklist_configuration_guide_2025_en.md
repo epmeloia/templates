@@ -10,4 +10,4 @@ This checklist provides a secure way to configure Yahoo Mail in Thunderbird usin
 4. Test send and receive
 5. Re-enable 2FA
 
-View Portuguese version: [Checklist_Yahoo_Thunderbird_2025.md](Checklist_Yahoo_Thunderbird_2025.md)
+View Portuguese version: [Checklist_Yahoo_Thunderbird_2025.md](yahoo_mail_thunderbird_checklist_configuration_guide_2025.md)
