@@ -4,15 +4,22 @@ Este checklist fornece um guia confiável para configurar contas Yahoo no Thunde
 
 ---
 
-## 🔧 Etapas principais
+## 🔧 Etapas:
 
-1. Desative o 2FA temporariamente
-2. [Gere senha de aplicativo no painel Yahoo](#-como-gerar-senha-de-aplicativo-no-yahoo)
+1. [Solução Passo a Passo](### 🛠️ Solução Passo a Passo)
+1. [Requisitos Iniciais](#### 1. **Requisitos Iniciais**)
+2. []()
+2. []()
+2. []()
+2. []()
+2. [Desative o 2FA temporariamente]()
+2. [Gerar senha de aplicativo no painel Yahoo](#-como-gerar-senha-de-aplicativo-no-yahoo)
 3. Configure manualmente os servidores IMAP/SMTP
 4. Teste envio e recebimento
 5. Reative o 2FA
 
-Ver versão em inglês: [yahoo_mail_thunderbird_checklist_configuration_guide_2025_EN.md](yahoo_mail_thunderbird_checklist_configuration_guide_2025_EN.md)
+
+Ver versão em inglês: [yahoo_mail_thunderbird_checklist_configuration_guide_2025_EN.md](https://github.com/epmeloia/templates/blob/main/yahoo/thunderbird/yahoo_mail_thunderbird_checklist_configuration_guide_2025_en.md)
 
 ---
 
@@ -32,7 +39,7 @@ Você deseja configurar manualmente uma conta de e-mail do Yahoo Brasil (`@yahoo
 
 #### 1. **Requisitos Iniciais**
 
-* Certifique-se de que a **verificação em duas etapas** está **desativada** ou você tenha gerado uma **senha de aplicativo** no Yahoo.
+* Certifique-se de que a [**verificação em duas etapas**](#-como-gerar-senha-de-aplicativo-no-yahoo) está **desativada** ou você tenha gerado uma **senha de aplicativo** no Yahoo.
 * Sua conta Yahoo deve estar com o **IMAP habilitado**.
 
 ---
