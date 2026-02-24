@@ -6,7 +6,7 @@ Este checklist fornece um guia confiável para configurar contas Yahoo no Thunde
 
 ## 🔧 Etapas principais
 
-1. Desative o 2FA temporariamente
+1. Desative o 2FA temporariamente 
 [2. Gere senha de aplicativo no painel Yahoo](#-como-gerar-senha-de-aplicativo-no-yahoo)
 3. Configure manualmente os servidores IMAP/SMTP
 4. Teste envio e recebimento
