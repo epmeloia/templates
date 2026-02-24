@@ -10,8 +10,8 @@ Este checklist fornece um guia confiável para configurar contas Yahoo no Thunde
 # 🔧 Índice:
 
 01. [Configuração Manual do Yahoo Mail no Thunderbird](configuração-manual-do-yahoo-mail-no-thunderbird)
-02. [Solução Passo a Passo](##-🛠️-Solução-Passo-a-Passo)
-03. [Requisitos Iniciais](###-1.-**Requisitos-Iniciais**)
+02. [Solução Passo a Passo](solução-passo-a-passo)
+03. [Requisitos Iniciais](requisitos---iniciais)
 04. [Abrindo o Thunderbird](### 2. **Abrindo o Thunderbird**)
 05. [Dados da Conta Yahoo](### 3. **Dados da Conta Yahoo**)
 06. [Configuração Manual dos Servidores](### 4. **Configuração Manual dos Servidores**)
