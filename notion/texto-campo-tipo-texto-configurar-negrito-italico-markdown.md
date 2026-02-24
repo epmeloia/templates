@@ -1,4 +1,5 @@
 # Texto - Campo Tipo Texto - Configurar Negrito e Itálico - Markdown ou Rich Text:
+
 Nome: "texto-campo-tipo-texto-configurar-negrito-italico-markdown-rich-text.md"
 
 ---

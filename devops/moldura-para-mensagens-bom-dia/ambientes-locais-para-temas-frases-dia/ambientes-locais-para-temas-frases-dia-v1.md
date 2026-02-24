@@ -4,7 +4,7 @@
 
 ---
 
-- Lista de Ambientes a serem utilizados na composição da Imagens geradas, que se relacionem a fraze do Dia, utilize como templates de ídéias para o fundo, olhando por um tipo de janela ou algo parecido, como pode ser o local aonde se desenrola o enrredo da frase.
+- Lista de Ambientes a serem utilizados na composição da Imagens geradas, que se relacionem a fraze do Dia, utilize como templates de ideias para o fundo, olhando por um tipo de janela ou algo parecido, como pode ser o local aonde se desenrola o enredo da frase.
 
 - Lista está pronta mas é sempre valido misturar locais reais, astronômicos e totalmente fictícios, porque isso dá variedade de clima, de cultura e de “vibe” para as frases.
 
@@ -60,35 +60,31 @@ Ambiente: Metrópole de Néon de Andrômeda – Uma cidade flutuando em nuvens d
 
 
 
-## [EXEC] BLOCO 1 - IMAGEFX - ERRO
+## [EXEC] BLOCO 1 - IMAGEFX - OK
 - Data: 12/02/2026
 - "O dia rende mais quando você respeita o próprio ritmo."
 - Ambiente: "Dunas Cantantes de Titã – Campos de areia gelada na lua Titã, de Saturno, onde o vento faz as dunas “cantarem” com sons graves pela manhã."
 
 
 
-## [EXEC] BLOCO 1 - GEMPACK - OK
+## [EXEC] BLOCO 1 - SORA - OK
 - Data: 13/02/2026
 - "O equilíbrio entre pensar e agir evita retrabalho."
 - Ambiente: "Vila Nebulosa de Pégaso – Pequeno vilarejo construído em asteroides ligados por pontes, viajando junto à constelação de Pégaso."
 
 
 
-## [EXEC] BLOCO 1
-
-Ambiente: "Terraço do Cruzeiro do Sul – Um observatório numa montanha isolada do hemisfério sul, alinhado com a constelação do Cruzeiro do Sul, perfeito para despedir a noite."
-
-
-
-## [EXEC] BLOCO 1
-
-Ambiente: "Margens do Rio de Luz em Ursa Maior – Um rio de partículas brilhantes que corta um planeta dentro da região da Ursa Maior, criando reflexos como se fosse amanhecer o tempo todo."
+## [EXEC] BLOCO 1 - IMAGEFX - OK
+- Data: 18/02/2026
+- "O processo amadurece quando você aprende a esperar."
+- Ambiente: "Margens do Rio de Luz em Ursa Maior – Um rio de partículas brilhantes que corta um planeta dentro da região da Ursa Maior, criando reflexos como se fosse amanhecer o tempo todo."
 
 
 
 ## [EXEC] BLOCO 1
-
-Ambiente: "Distrito Antigo de Petra Lunar – Colônia cravada em cânions de uma lua rochosa, inspirada nas construções esculpidas em pedra de Petra na Jordânia."
+- Data: 19/02/2026
+- "A atenção sustentada vale mais que a velocidade inicial."
+- Ambiente: "Distrito Antigo de Petra Lunar – Colônia cravada em cânions de uma lua rochosa, inspirada nas construções esculpidas em pedra de Petra na Jordânia."
 
 
 

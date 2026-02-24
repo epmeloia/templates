@@ -1,6 +1,6 @@
-# 📝 Guia Passo A Passo: Criação Do Bloco "Acesso Rápido" - Destaque + Titulo Alternante:
+# 📝 Paginas e Banco de Dados - Botão de "Acesso Rápido - v1":
 
-Nome: "guia-passo-a-passo-criacao-bloco-acesso-rapido-destaque-titulo-alternante"
+Nome: "paginas-banco-de-dados-botao-de-acesso-rapido-v1.md"
 
 
 

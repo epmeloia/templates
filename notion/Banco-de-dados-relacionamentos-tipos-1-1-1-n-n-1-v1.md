@@ -1,6 +1,6 @@
-# Relações no Notion (1–1, 1–N, N–1) - Manual v1
+# Banco de Dados - Relacionamentos - Tipos 1–1, 1–N, N–1 - v1
 
-# Nome: "manual-relacoes-notion-1-1-1-n-n-1-manual-v1.md"
+# Nome: "Banco-de-dados-relacionamentos-tipos-1-1-1-n-n-1-v1.md"
 
 ---
 

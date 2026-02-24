@@ -208,7 +208,7 @@ Vou aguardar sua resposta antes de tomar qualquer ação. 🎯
 Perfeito! Estou na página "ACESSO RÁPIDO". Vejo: [notion](https://www.notion.so/ACESSO-R-PIDO-2eaf7525a6a9806e8fe6edd050a7e8d6)
 
 - Título: ACESSO RÁPIDO ✅
-- Tabela: Site e Links (com 2 colunas: "Site" e "Link")
+- Tabela: Site e Links (com 2 Campos: "Site" e "Link")
 - Status atual: Vazia (sem registros visíveis)
 - Botão "Nova" (azul) para adicionar
 
@@ -293,8 +293,8 @@ Você tem uma lista em Markdown padrão:
 ```
 
 Onde:
-- [...] = Coluna "Site" (nome/rótulo)
-- (...)  = Coluna "Link" (URL)
+- [...] = Campo "Site" (nome/rótulo)
+- (...)  = Campo "Link" (URL)
 
 Sua lista tem 6 registros:
 1. Correios - Rastreio Brasil
@@ -449,8 +449,8 @@ Checklist de qualidade:
 | Item | Status | Detalhes |
 |------|--------|----------|
 | Total de registros | ✅ 15 | Convertidos com sucesso |
-| Coluna "Site" | ✅ OK | Nomes limpos, sem caracteres especiais |
-| Coluna "Link" | ✅ OK | URLs válidas e completas |
+| Campo "Site" | ✅ OK | Nomes limpos, sem caracteres especiais |
+| Campo "Link" | ✅ OK | URLs válidas e completas |
 | Caracteres especiais | ✅ OK | Removidos "&" e "*" extras |
 | Encoding | ✅ UTF-8 | Caracteres acentuados OK |
 | Duplicatas | ✅ Nenhuma | Todos os registros únicos |
@@ -481,7 +481,7 @@ PASSO 2: Importar no Notion
 > 2. Selecione "Importar"
 > 3. Escolha "CSV"
 > 4. Selecione o arquivo `siteslinks.csv`
-> 5. Mapeie as colunas:
+> 5. Mapeie as Campos:
 >    - CSV "Site" → Notion "Site"
 >    - CSV "Link" → Notion "Link"
 > 6. Clique "Importar"
@@ -561,7 +561,7 @@ Início do Projeto v2:
 Tarefas Realizadas:
 - Criação/limpeza da página "ACESSO RÁPIDO" com banco de dados "Site e Links" [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/108742584/d64bf3d9-c8b2-4e46-99c8-56ba59f649fd/changelog-v02.md)
 - Importação de 15 sites e links (Correios, Amazon, Shopee, Temu, AliExpress, Kabum) via CSV [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/108742584/d64bf3d9-c8b2-4e46-99c8-56ba59f649fd/changelog-v02.md)
-- Estrutura com 2 colunas: "Site" (nome) e "Link" (URL) [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/108742584/d64bf3d9-c8b2-4e46-99c8-56ba59f649fd/changelog-v02.md)
+- Estrutura com 2 Campos: "Site" (nome) e "Link" (URL) [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/108742584/d64bf3d9-c8b2-4e46-99c8-56ba59f649fd/changelog-v02.md)
 
 Diretrizes Estabelecidas:
 - Instruções sempre em Português/BR [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/108742584/d64bf3d9-c8b2-4e46-99c8-56ba59f649fd/changelog-v02.md)
@@ -639,7 +639,7 @@ PASSO 2: Importar no Notion
 3. Selecione "Importar"
 4. Escolha "CSV"
 5. Selecione o arquivo `siteslinks.csv` que você salvou
-6. O Notion irá mapear automaticamente as colunas (Site → Site, Link → Link)
+6. O Notion irá mapear automaticamente as Campos (Site → Site, Link → Link)
 7. Clique em "Importar"
 
 ## ✅ O Que Esperar
@@ -674,7 +674,7 @@ A importação CSV no Notion criou uma PÁGINA NOVA chamada "siteslinks.csv" ao 
 
 Status Atual:
 - ✅ Todos os 15 registros foram importados corretamente (Correios, Amazon, Shopee, Temu, AliExpress, Kabum) [notion](https://www.notion.so/2eaf7525a6a980fe9db1dc25bd253889?v=885da9f21b7b40e49b378917d72b3d9e)
-- ✅ As duas colunas "Site" e "Link" estão corretas [notion](https://www.notion.so/2eaf7525a6a980fe9db1dc25bd253889?v=885da9f21b7b40e49b378917d72b3d9e)
+- ✅ As duas Campos "Site" e "Link" estão corretas [notion](https://www.notion.so/2eaf7525a6a980fe9db1dc25bd253889?v=885da9f21b7b40e49b378917d72b3d9e)
 - ⚠️ Problema: Os dados estão em uma página separada, não na página "ACESSO RÁPIDO" original
 
 ### 🎯 Soluções Disponíveis
@@ -777,7 +777,7 @@ Após completar os 2 passos, você deve ter:
 
 - ✅ Uma página chamada "ACESSO RÁPIDO"
 - ✅ Com 15 registros na tabela "Site e Links"
-- ✅ Duas colunas: "Site" e "Link"
+- ✅ Duas Campos: "Site" e "Link"
 - ✅ Nenhuma página duplicada ou vazia
 
 *
@@ -836,7 +836,7 @@ Perfeito! Entendi todo o contexto do arquivo changelog-v02.md. Agora estou atual
 
 ### O Que Já Foi Concluído:
 1. ✅ Criação da página ACESSO RÁPIDO
-2. ✅ Estrutura da tabela "Site e Links" (2 colunas: Site e Link)
+2. ✅ Estrutura da tabela "Site e Links" (2 Campos: Site e Link)
 3. ✅ Conversão da lista Markdown para formato CSV com 15 registros [notion](https://www.notion.so/Sistema-de-Compras-Painel-Geral-v2-2eaf7525a6a981498b61e4d4c3f9ae31)
 4. ✅ Importação dos dados no Notion
 
@@ -901,7 +901,7 @@ Se sim, vou te passar o passo a passo de como:
 1. Voltar para a página "Sistema de Compras – Painel Geral - v2"
 2. Deletar o link atual de "ACESSO RÁPIDO"
 3. Criar uma visualização inline da database "Site e Links" dentro de um toggle
-4. Configurar a visualização para mostrar apenas os campos necessários
+4. Configurar a visualização para mostrar apenas os s necessários
 
 Confirme se é isso mesmo e eu prossigo com as instruções detalhadas! 🔧
 
@@ -1308,7 +1308,7 @@ Resultado final:
 - ✅ Toggle funcionando: Abre (▼) e fecha (►) perfeitamente
 - ✅ Posição: Abaixo do DATABASE (não dentro)
 - ✅ Database própria: Nova database de "Sites e Links" (não vinculada ao P&L)
-- ✅ Colunas:
+- ✅ Campos:
   - Name: Nome do site (ex: "Shopee")
   - URL: Link clicável (ex: "shopee.com.br" → https://shopee.com.br)
 
@@ -1334,7 +1334,7 @@ Agora você pode adicionar quantos links quiser clicando em "+ Nova página" e p
 ### Pagina "Sistema de Compras – Painel Geral - v2":
 	- Imagem da Capa
 	- Ícone
-	- Na Coluna da Esquerda da página:
+	- Na Campo da Esquerda da página:
 		.. Renomeei o 'ACESSO RÁPIDO' para 'ACESSO RÁPIDO v2'
 
 	- Na Divisão Direita da Tela aonde ficam as Frases de Destaque:
@@ -1342,7 +1342,7 @@ Agora você pode adicionar quantos links quiser clicando em "+ Nova página" e p
 		.. Coloquei o 'ACESSO RÁPIDO' como primeiro dessa Divisão
 		.. Alterado para 'Links Úteis e Sites Importantes' 
 
-## [OBS] Agora que vc sabe estamete o que quero, aonde quero, com qual formado opções, um novo 'ACESSO RÁPIDO v2' e coloque na Linha 'Toque na barra de espaço para ativar a IA, digite "/" para comandos...', que deixei aberto para facilitar sua criação, quero que seja feito, utilize o 'ACESSO RÁPIDO v2' para criar a nova 'Frase de destaque' com a opção de expandir e colapsar, mostrando as duas colunas de seus dados.
+## [OBS] Agora que vc sabe estamete o que quero, aonde quero, com qual formado opções, um novo 'ACESSO RÁPIDO v2' e coloque na Linha 'Toque na barra de espaço para ativar a IA, digite "/" para comandos...', que deixei aberto para facilitar sua criação, quero que seja feito, utilize o 'ACESSO RÁPIDO v2' para criar a nova 'Frase de destaque' com a opção de expandir e colapsar, mostrando as duas Campos de seus dados.
 
 
 
@@ -1356,12 +1356,12 @@ Criei com sucesso o **"ACESSO RÁPIDO v2"** exatamente como solicitado:
 1. ✅ **Localização**: Na divisão direita (Frases de Destaque), abaixo do "DATABASE"
 2. ✅ **Formato**: Título 3 (Heading 3) alternante com toggle (▼/►)
 3. ✅ **Ícone**: 🛒 (carrinho de compras)
-4. ✅ **Conteúdo**: Link para a database "ACESSO RÁPIDO v2" que contém **duas colunas**:
+4. ✅ **Conteúdo**: Link para a database "ACESSO RÁPIDO v2" que contém **duas Campos**:
    - **Site**: Nomes dos sites/links
    - **Link**: URLs completos
 5. ✅ **Funcionalidade**: 
    - O toggle abre (▼) e fecha (►) perfeitamente
-   - Ao clicar no link interno, abre a database completa mostrando ambas as colunas com todos os dados (Correios, Rastreadores, Amazon, etc.)
+   - Ao clicar no link interno, abre a database completa mostrando ambas as Campos com todos os dados (Correios, Rastreadores, Amazon, etc.)
 
 O "ACESSO RÁPIDO v2" está agora funcionando perfeitamente, igual ao P&L, e permite acesso rápido à database de "Sites e Links" através de um único clique!
 
@@ -1372,7 +1372,7 @@ O "ACESSO RÁPIDO v2" está agora funcionando perfeitamente, igual ao P&L, e per
 
 ## [ALTERACOES] Algumas Atualizações:
 ### Pagina "Sistema de Compras – Painel Geral - v2":
-	- Na Coluna da Esquerda da página:
+	- Na Campo da Esquerda da página:
 		.. Renomeei o 'ACESSO RÁPIDO v2' para 'ACESSO RÁPIDO'
 
 	- Na Divisão Direita da Tela aonde ficam as Frases de Destaque, Item 'ACESSO RÁPIDO V2':
@@ -1613,7 +1613,7 @@ Essa instrução me obrigaria a:
 ===---+++---===
 ===---+++---===
 
-## [STATUS] Modificações da coluna da Direita:
+## [STATUS] Modificações da Campo da Direita:
 - Apaguei o item '### ACESSO RÁPIDO v3`
 - Apaguei o item 'ACESSO RÁPIDO`
 - Curso do Mouse na linha 'Toque na barra de espaço para ativar a IA, digite "/" para comandos...'
@@ -1635,8 +1635,8 @@ Concluí com sucesso a criação do bloco "ACESSO RÁPIDO v3" no Notion! [notion
 ✅ **Descrição atualizada**: "Quick access to frequently used pages and tools"
 
 ✅ **Database vinculado**: Alterei a fonte de dados de "Orders" para "ACESSO RÁPIDO", agora exibindo:
-- Coluna "Site" (Kabum - Compras, AliExpress - Compras, Temu - Compras, etc.)
-- Coluna "Link" com os URLs correspondentes
+- Campo "Site" (Kabum - Compras, AliExpress - Compras, Temu - Compras, etc.)
+- Campo "Link" com os URLs correspondentes
 
 ✅ **Funcionalidade toggle**: O comportamento de expandir/colapsar funciona perfeitamente:
 - Clique na seta (►) para expandir
@@ -1652,7 +1652,7 @@ O bloco "ACESSO RÁPIDO v3" está posicionado entre o bloco P&L e o bloco DATABA
 
 ## [STATUS] 
 - Renomeei o item 'ACESSO RÁPIDO v3' para 'ACESSO RÁPIDO'
-- Modimentei o 'ACESSO RÁPIDO' para ser o primeiro item da coluna.
+- Modimentei o 'ACESSO RÁPIDO' para ser o primeiro item da Campo.
 
 ## [OBS] PARABENS: DEMOROU, TIVEMOS QUE RECONSTRUIR A PÁGINA, HOUVE AINDA UM TESTE SEM SUCESSO, MAS AGORA FICOU PERFEITO.
 
@@ -1662,7 +1662,7 @@ O bloco "ACESSO RÁPIDO v3" está posicionado entre o bloco P&L e o bloco DATABA
 
 ===---+++---===
 
-Perfeito! Vejo que você já renomeou para "ACESSO RÁPIDO" e moveu para o topo da coluna. Parabéns pelo resultado! [notion](https://www.notion.so/Sistema-de-Compras-Painel-Geral-v2-2daf7525a6a9806ab270c3543558fbd8)
+Perfeito! Vejo que você já renomeou para "ACESSO RÁPIDO" e moveu para o topo da Campo. Parabéns pelo resultado! [notion](https://www.notion.so/Sistema-de-Compras-Painel-Geral-v2-2daf7525a6a9806ab270c3543558fbd8)
 
 Agora vou criar um **guia passo a passo COMPLETO** que replica exatamente o que fizemos, como se estivesse pegando na sua mão em cada etapa:
 
@@ -1706,7 +1706,7 @@ Precisamos dar um nome específico ao novo bloco para identificá-lo corretament
 
 ### Como fazer:
 
-**PASSO 2.1** - Localize o campo do título
+**PASSO 2.1** - Localize o  do título
 - O bloco duplicado estará logo abaixo do P&L original
 - Você verá o texto "P&L " (com um espaço no final)
 
@@ -1769,7 +1769,7 @@ O bloco duplicado ainda está mostrando dados da tabela "Orders". Precisamos con
 
 **PASSO 4.3** - Selecione a nova fonte de dados
 - Uma nova tela abrirá mostrando "Origem" no topo
-- Você verá um campo de busca: "Vincular a uma fonte de dados..."
+- Você verá um  de busca: "Vincular a uma fonte de dados..."
 - Abaixo, uma seção "Fontes de dados existentes" com uma lista de databases
 - **Localize e clique** em **"ACESSO RÁPIDO"** (geralmente está no topo da lista)
 - O database está identificado com um ícone de tabela (🗂️) e o texto "Sistema de Compras – Painel Geral - v2" abaixo
@@ -1779,7 +1779,7 @@ O bloco duplicado ainda está mostrando dados da tabela "Orders". Precisamos con
 - Clique no **X** no canto superior direito do painel de configurações para fechá-lo
 - **ALTERNATIVA**: Clique fora do painel (em qualquer área vazia da página)
 
-**✅ Resultado esperado**: O database agora exibe colunas "Site" e "Link" com os dados da tabela ACESSO RÁPIDO (Kabum - Compras, AliExpress - Compras, Temu - Compras, etc.).
+**✅ Resultado esperado**: O database agora exibe Campos "Site" e "Link" com os dados da tabela ACESSO RÁPIDO (Kabum - Compras, AliExpress - Compras, Temu - Compras, etc.).
 
 ***
 
@@ -1802,8 +1802,8 @@ Garantir que o bloco funciona corretamente é essencial. O toggle permite econom
 
 **PASSO 5.3** - Verifique os dados
 - Com o bloco expandido, confirme que os dados corretos estão sendo exibidos:
-  - Coluna "Site" deve mostrar: Kabum - Compras, AliExpress - Compras, etc.
-  - Coluna "Link" deve mostrar os URLs correspondentes
+  - Campo "Site" deve mostrar: Kabum - Compras, AliExpress - Compras, etc.
+  - Campo "Link" deve mostrar os URLs correspondentes
 
 **✅ Resultado esperado**: O bloco expande e colapsa suavemente, mostrando/ocultando o conteúdo conforme esperado.
 
@@ -1890,11 +1890,11 @@ Durante o processo, podemos ter criado blocos de texto vazios ou marcações de 
 - 🎯 (alvo - atalhos importantes)
 - 📌 (alfinete - fixados)
 
-### 💡 Ajustar Colunas Visíveis
-**Para mostrar/ocultar colunas no database:**
+### 💡 Ajustar Campos Visíveis
+**Para mostrar/ocultar Campos no database:**
 1. Clique no botão **"- - - "** (três pontos) à direita da barra de ferramentas do database
 2. Selecione **"Propriedades"** (ou "Properties")
-3. Marque/desmarque as colunas que deseja exibir
+3. Marque/desmarque as Campos que deseja exibir
 4. Feche o painel
 
 ### 💡 Adicionar Filtros ao Database
@@ -1976,7 +1976,7 @@ Antes de considerar concluído, confira:
 - [ ] O ícone é apropriado (pode ser mantido ou alterado)
 - [ ] O toggle expande e colapsa corretamente (seta ►/▼ funciona)
 - [ ] O database mostra a fonte de dados correta (ACESSO RÁPIDO, não Orders)
-- [ ] As colunas "Site" e "Link" estão visíveis e com dados corretos
+- [ ] As Campos "Site" e "Link" estão visíveis e com dados corretos
 - [ ] O bloco está posicionado no local desejado da página
 - [ ] Não há blocos vazios ou textos de teste na página
 - [ ] Todas as abas de visualização (All orders, Unpaid, This month) funcionam
@@ -1990,7 +1990,7 @@ Agora que você dominou a técnica, pode aplicá-la para:
 
 1. **Criar outros blocos similares** - Duplicate a mesma lógica para outras tabelas
 2. **Personalizar visualizações** - Crie tabs específicos com filtros diferentes
-3. **Adicionar fórmulas** - Configure colunas calculadas no database
+3. **Adicionar fórmulas** - Configure Campos calculadas no database
 4. **Organizar hierarquias** - Agrupe blocos relacionados em seções
 5. **Documentar o processo** - Salve este guia para referência futura
 
@@ -2068,7 +2068,7 @@ REQUISITOS DO GUIA:
 
 2. NÍVEL DE DETALHAMENTO:
    - Escrever como se estivesse "pegando na minha mão"
-   - Explicar cada clique, cada campo, cada ação
+   - Explicar cada clique, cada , cada ação
    - Não assumir conhecimento prévio
    - Incluir localizações visuais (ex: "no canto superior direito", "abaixo do título")
    - Mencionar ícones e elementos visuais específicos
@@ -2100,7 +2100,7 @@ Você criou um bloco toggle "ACESSO RÁPIDO" no Notion que:
 - Contém um linked database da tabela "ACESSO RÁPIDO"
 - Foi duplicado a partir do bloco "P&L" existente
 - Tem comportamento de expandir/colapsar
-- Mostra colunas "Site" e "Link"
+- Mostra Campos "Site" e "Link"
 
 OBJETIVO:
 Criar um documento de referência que eu possa:
@@ -2173,7 +2173,7 @@ Contexto:
 Você criou um bloco toggle no Notion duplicando o bloco "P&L", 
 renomeou para "ACESSO RÁPIDO", trocou a fonte do database de 
 "Orders" para "ACESSO RÁPIDO", e posicionou como primeiro item 
-da coluna principal.
+da Campo principal.
 
 Use markdown com emojis, seja exhaustivo e escreva seu melhor trabalho.
 ```
@@ -2182,7 +2182,7 @@ Use markdown com emojis, seja exhaustivo e escreva seu melhor trabalho.
 
 ## 💡 DICAS DE PERSONALIZAÇÃO
 
-**Campos variáveis que você deve adaptar:**
+**s variáveis que você deve adaptar:**
 
 1. `[NOME DO RECURSO/FUNCIONALIDADE]` → "bloco toggle com database", "automação no Notion", "fórmula complexa", etc.
 
@@ -2260,7 +2260,7 @@ Contexto: [DESCREVA BREVEMENTE O QUE PRECISA SER DOCUMENTADO]
 ```
 Crie um GUIA PASSO A PASSO usando o TEMPLATE DE SOLICITAÇÃO sobre como criar uma fórmula no Notion que calcula o lucro percentual.
 
-Contexto: Criei uma fórmula na propriedade "Margem %" que divide o campo "Lucro" pelo campo "Venda" e multiplica por 100.
+Contexto: Criei uma fórmula na propriedade "Margem %" que divide o  "Lucro" pelo  "Venda" e multiplica por 100.
 ```
 
 ### Exemplo 2: Pedir para VOCÊ fazer e documentar
@@ -2281,7 +2281,7 @@ Contexto: Duplicamos o bloco P&L, renomeamos, trocamos a fonte de dados de Order
 ```
 Crie um GUIA PASSO A PASSO usando o TEMPLATE DE SOLICITAÇÃO sobre como configurar uma automação que envia notificação quando Status muda para "In Delivery".
 
-Contexto: Preciso configurar uma automação no Notion que monitora o campo Status da tabela Orders e dispara uma ação quando o valor muda para "In Delivery".
+Contexto: Preciso configurar uma automação no Notion que monitora o  Status da tabela Orders e dispara uma ação quando o valor muda para "In Delivery".
 ```
 
 ### Exemplo 5: Documentar integração
@@ -2346,7 +2346,7 @@ Crie um filtro avançado no database Orders que mostra apenas pedidos com lucro 
 ```
 Acabei de criar uma view "Urgent Orders" que filtra por prioridade alta. Crie um guia usando o template explicando como replicar isso.
 
-Contexto: View de tabela filtrada por campo Priority = "High" e ordenada por Due Date.
+Contexto: View de tabela filtrada por  Priority = "High" e ordenada por Due Date.
 ```
 
 ### Cenário 4: Quer documentar para treinar outra pessoa
@@ -2354,7 +2354,7 @@ Contexto: View de tabela filtrada por campo Priority = "High" e ordenada por Due
 ```
 Preciso de um guia usando o template para ensinar meu colega a adicionar novos produtos no database. 
 
-Contexto: Mostrar como preencher todos os campos obrigatórios (Nome, Preço, Categoria, Fornecedor) e fazer upload de imagem.
+Contexto: Mostrar como preencher todos os s obrigatórios (Nome, Preço, Categoria, Fornecedor) e fazer upload de imagem.
 ```
 
 ***
@@ -2399,7 +2399,7 @@ Eu vou entender que preciso criar o guia completo do que acabamos de fazer! 😊
 
 ## [EXEC] Crie um GUIA PASSO A PASSO usando o TEMPLATE DE SOLICITAÇÃO sobre todo o processo que fizemos para criar o bloco "ACESSO RÁPIDO".
 
-Contexto: Mas sem a Duplicação do bloco P&L, sem renomear, sem trocamos a fonte de dados de Orders para ACESSO RÁPIDO, sem ajustar a descrição e movemos para no Topo da página. Você deve criar uma 'v4' do zero apenas com a tabela 'ACESSO RÁPIDO', com as duas colunas, e uma linha criada com '---' no rodapé da coluna da direita da página, a ideia é saber fazer sem usar o atalho de copiar algo que já está pronto e funcionando, pois na maioria das vezes é assim que estamos.
+Contexto: Mas sem a Duplicação do bloco P&L, sem renomear, sem trocamos a fonte de dados de Orders para ACESSO RÁPIDO, sem ajustar a descrição e movemos para no Topo da página. Você deve criar uma 'v4' do zero apenas com a tabela 'ACESSO RÁPIDO', com as duas Campos, e uma linha criada com '---' no rodapé da Campo da direita da página, a ideia é saber fazer sem usar o atalho de copiar algo que já está pronto e funcionando, pois na maioria das vezes é assim que estamos.
 
 
 ===---+++---===
@@ -2410,7 +2410,7 @@ Contexto: Mas sem a Duplicação do bloco P&L, sem renomear, sem trocamos a font
 
 **Objetivo:** Criar um bloco toggle expansível com banco de dados vinculado "ACESSO RÁPIDO" do zero, sem duplicar blocos existentes. [notion](https://www.notion.so/Sistema-de-Compras-Painel-Geral-v2-2daf7525a6a9806ab270c3543558fbd8)
 
-**Resultado esperado:** Bloco toggle funcional na coluna direita com tabela vinculada exibindo colunas Site e Link, com separador '---' no rodapé.
+**Resultado esperado:** Bloco toggle funcional na Campo direita com tabela vinculada exibindo Campos Site e Link, com separador '---' no rodapé.
 
 **Página de referência:** Sistema de Compras – Painel Geral - v2
 
@@ -2419,8 +2419,8 @@ Contexto: Mas sem a Duplicação do bloco P&L, sem renomear, sem trocamos a font
 ## 🎯 ETAPA 1: POSICIONAMENTO E PREPARAÇÃO
 
 ### Passos:
-1. Role a página até o rodapé da coluna direita
-2. Clique no espaço vazio abaixo do último bloco da coluna direita
+1. Role a página até o rodapé da Campo direita
+2. Clique no espaço vazio abaixo do último bloco da Campo direita
 3. Aguarde o cursor aparecer
 
 ### Por quê?
@@ -2428,7 +2428,7 @@ Contexto: Mas sem a Duplicação do bloco P&L, sem renomear, sem trocamos a font
 - Evita necessidade de mover o bloco depois
 
 ### Resultado esperado:
-- Cursor piscando na coluna direita, abaixo do último elemento
+- Cursor piscando na Campo direita, abaixo do último elemento
 
 ### Troubleshooting:
 - **Problema:** Cursor não aparece
@@ -2577,7 +2577,7 @@ Contexto: Mas sem a Duplicação do bloco P&L, sem renomear, sem trocamos a font
 
 ### Resultado esperado:
 - Tabela "ACESSO RÁPIDO" aparece dentro do toggle
-- Dados são exibidos com colunas padrão
+- Dados são exibidos com Campos padrão
 
 ### Troubleshooting:
 - **Problema:** "ACESSO RÁPIDO" não aparece na lista
@@ -2587,28 +2587,28 @@ Contexto: Mas sem a Duplicação do bloco P&L, sem renomear, sem trocamos a font
 
 ***
 
-## 🎯 ETAPA 8: CONFIGURAÇÃO DAS COLUNAS
+## 🎯 ETAPA 8: CONFIGURAÇÃO DAS CampoS
 
 ### Passos:
 1. Clique nos "..." (três pontos) no canto superior direito da tabela
 2. Clique "<-" do `Visibilidade da propriedade`
 2. Selecione a "Configuração" a ser alterada nesta "View"
 3. Role até a seção "Propriedades visíveis" (Exemplo)
-4. Desmarque todas as colunas exceto:
+4. Desmarque todas as Campos exceto:
    - **Site**
    - **Link**
 5. Clique fora do menu para fechar
 
 ### Por quê?
-- Exibe apenas as colunas relevantes (Site e Link)
+- Exibe apenas as Campos relevantes (Site e Link)
 - Mantém a visualização limpa e focada
 
 ### Resultado esperado:
-- Tabela exibe apenas duas colunas: Site e Link
-- Dados são exibidos corretamente nessas colunas
+- Tabela exibe apenas duas Campos: Site e Link
+- Dados são exibidos corretamente nessas Campos
 
 ### Troubleshooting:
-- **Problema:** Colunas não aparecem ou desaparecem
+- **Problema:** Campos não aparecem ou desaparecem
   - **Solução:** Verifique se as propriedades "Site" e "Link" existem no banco "ACESSO RÁPIDO" original
 - **Problema:** Menu de configurações não abre
   - **Solução:** Clique diretamente no texto "Configurações" ou recarregue a página
@@ -2618,7 +2618,7 @@ Contexto: Mas sem a Duplicação do bloco P&L, sem renomear, sem trocamos a font
 ## 🎯 ETAPA 9: ADIÇÃO DO SEPARADOR '---'
 
 ### Passos:
-1. Role até o rodapé da coluna direita, abaixo do bloco v4
+1. Role até o rodapé da Campo direita, abaixo do bloco v4
 2. Clique no espaço vazio para posicionar o cursor
 3. Digite: `---` (três hífens)
 4. Pressione Enter
@@ -2643,7 +2643,7 @@ Contexto: Mas sem a Duplicação do bloco P&L, sem renomear, sem trocamos a font
 1. Clique no botão "►" (seta) ao lado do título "ACESSO RÁPIDO v4" para colapsar
 2. Clique novamente para expandir (▼)
 3. Verifique se a tabela aparece/desaparece corretamente
-4. Confirme que as colunas Site e Link exibem dados
+4. Confirme que as Campos Site e Link exibem dados
 5. Verifique se o separador '---' está posicionado corretamente no rodapé
 
 ### Por quê?
@@ -2653,8 +2653,8 @@ Contexto: Mas sem a Duplicação do bloco P&L, sem renomear, sem trocamos a font
 ### Resultado esperado:
 - Toggle expande e colapsa corretamente
 - Tabela exibe dados do banco "ACESSO RÁPIDO"
-- Colunas Site e Link visíveis
-- Separador posicionado no rodapé da coluna direita
+- Campos Site e Link visíveis
+- Separador posicionado no rodapé da Campo direita
 
 ### Troubleshooting:
 - **Problema:** Toggle não expande/colapsa
@@ -2668,14 +2668,14 @@ Contexto: Mas sem a Duplicação do bloco P&L, sem renomear, sem trocamos a font
 
 ## ✅ CHECKLIST FINAL
 
-- [ ] Bloco toggle criado na coluna direita (rodapé)
+- [ ] Bloco toggle criado na Campo direita (rodapé)
 - [ ] Título "ACESSO RÁPIDO v4" configurado
 - [ ] Ícone adicionado (opcional)
 - [ ] Descrição inserida dentro do toggle
 - [ ] Banco de dados vinculado inserido
 - [ ] Fonte configurada como "ACESSO RÁPIDO"
-- [ ] Apenas colunas "Site" e "Link" visíveis
-- [ ] Separador '---' no rodapé da coluna direita
+- [ ] Apenas Campos "Site" e "Link" visíveis
+- [ ] Separador '---' no rodapé da Campo direita
 - [ ] Toggle expande e colapsa corretamente
 - [ ] Dados são exibidos na tabela
 
@@ -2691,7 +2691,7 @@ Contexto: Mas sem a Duplicação do bloco P&L, sem renomear, sem trocamos a font
 
 3. **Banco de dados vinculado:** Sempre use "Linked database" em vez de "Database - Inline" para não duplicar dados e manter sincronização com a fonte original.
 
-4. **Posicionamento:** O bloco deve estar na **coluna direita**, no **rodapé**, conforme especificado.
+4. **Posicionamento:** O bloco deve estar na **Campo direita**, no **rodapé**, conforme especificado.
 
 ***
 
@@ -2724,7 +2724,7 @@ Contexto: Mas sem a Duplicação do bloco P&L, sem renomear, sem trocamos a font
 Consegui executar parcialmente o guia que criei para o bloco "ACESSO RÁPIDO v4". Aqui está o status:
 
 ## ✅ **Etapas concluídas:**
-1. ✅ Posicionar cursor no rodapé da coluna direita
+1. ✅ Posicionar cursor no rodapé da Campo direita
 2. ✅ Criar bloco toggle (usando "Lista de alternantes")
 3. ✅ Nomear o bloco como "ACESSO RÁPIDO v4"
 4. ✅ Etapa de ícone (opcional - pulada)
@@ -2734,7 +2734,7 @@ Consegui executar parcialmente o guia que criei para o bloco "ACESSO RÁPIDO v4"
 Encontrei dificuldades técnicas ao tentar inserir o banco de dados vinculado usando o comando `/linked` conforme o guia. O Notion estava apresentando comportamento inconsistente com os menus de comando durante a automação.
 
 ## 📌 **O que foi criado:** [notion](https://www.notion.so/Sistema-de-Compras-Painel-Geral-v2-2daf7525a6a9806ab270c3543558fbd8)
-- Toggle "ACESSO RÁPIDO v4" na coluna esquerda ✅
+- Toggle "ACESSO RÁPIDO v4" na Campo esquerda ✅
 - Toggle estruturado e pronto para receber conteúdo ✅
 - Segundo toggle "/linked" criado abaixo (incompleto) ⚠️
 
@@ -2743,8 +2743,8 @@ Para completar o guia manualmente, você precisará:
 1. Clicar dentro do toggle "ACESSO RÁPIDO v4"
 2. Digitar `/linked` e selecionar "Visualização vinculada da fonte de dados"  
 3. Selecionar "ACESSO RÁPIDO" como fonte
-4. Configurar as colunas para mostrar apenas "Site" e "Link"
-5. Adicionar `---` no rodapé da coluna direita
+4. Configurar as Campos para mostrar apenas "Site" e "Link"
+5. Adicionar `---` no rodapé da Campo direita
 
 O **guia passo a passo completo** que criei anteriormente está perfeito e pode ser usado para futuras criações ou para você completar manualmente este bloco v4!
 
@@ -2759,7 +2759,7 @@ O **guia passo a passo completo** que criei anteriormente está perfeito e pode 
 
 ===---+++---===
 
-O bloco "ACESSO RÁPIDO v4" foi criado com sucesso, replicando o comportamento do bloco P&L. A estrutura inclui um toggle expansível contendo uma visualização vinculada da tabela "ACESSO RÁPIDO" com duas colunas (Site e Link) e uma nova linha com "---" foi adicionada ao banco de dados.
+O bloco "ACESSO RÁPIDO v4" foi criado com sucesso, replicando o comportamento do bloco P&L. A estrutura inclui um toggle expansível contendo uma visualização vinculada da tabela "ACESSO RÁPIDO" com duas Campos (Site e Link) e uma nova linha com "---" foi adicionada ao banco de dados.
 
 
 
@@ -2779,7 +2779,7 @@ Verifiquei a aba de teste e a estrutura "ACESSO RÁPIDO v4" foi criada **correta
 ### ✅ O que está funcionando:
 1. **Toggle expansível/recolhível** - mostra ▼ quando expandido e ► quando recolhido
 2. **Visualização vinculada do banco "ACESSO RÁPIDO"** - exibe todas as páginas do banco de dados
-3. **Duas colunas** - "Site" e "Link" visíveis
+3. **Duas Campos** - "Site" e "Link" visíveis
 4. **Linha com "---"** - criada e visível no final da tabela (exibida como "—")
 
 ### 📋 Guia correto para criar do zero:
@@ -2796,8 +2796,8 @@ Verifiquei a aba de teste e a estrutura "ACESSO RÁPIDO v4" foi criada **correta
 **Passo 3:** Adicionar linha com "---"
 - Abra o banco "ACESSO RÁPIDO" completo
 - Adicione nova página
-- No campo "Site", digite "---"
-- Deixe o campo "Link" vazio
+- No  "Site", digite "---"
+- Deixe o  "Link" vazio
 
 O teste confirmou que todos os passos funcionam perfeitamente!
 
@@ -2806,7 +2806,7 @@ O teste confirmou que todos os passos funcionam perfeitamente!
 ===---+++---===
 ===---+++---===
 
-## [OBS] o Botão "ACESSO RÁPIDO v4", esta na ultima linha da coluna da direita quando o correto era estar na ultima linha da esquerda, pode corrigir isso, além de ser frase de destaque ao invés de lista de alternativas, a impressão que tenho é que você não seguiu todas as etapas do guia até o final, o que pode ser feito para que isso seja corrigido.?
+## [OBS] o Botão "ACESSO RÁPIDO v4", esta na ultima linha da Campo da direita quando o correto era estar na ultima linha da esquerda, pode corrigir isso, além de ser frase de destaque ao invés de lista de alternativas, a impressão que tenho é que você não seguiu todas as etapas do guia até o final, o que pode ser feito para que isso seja corrigido.?
 
 
 ===---+++---===
@@ -2828,7 +2828,7 @@ The structure perfectly replicates the P&L block behavior - it's a collapsible s
 
 # Renomeado a Tabela de "ACESSO RÁPIDO" para "LINKS para ACESSO RÁPIDO".
 
-# Renomeado a Item da Coluna da Direita "ACESSO RÁPIDO" para "LINKS para ACESSO RÁPIDO".
+# Renomeado a Item da Campo da Direita "ACESSO RÁPIDO" para "LINKS para ACESSO RÁPIDO".
 
 # É possível deixar de aparecer (ocultar) na tela principal a Tabela "LINKS para ACESSO RÁPIDO", apenas por estética?
 
@@ -2840,7 +2840,7 @@ Perfeito! Todas as alterações foram concluídas com sucesso: [notion](https://
 
 ✅ **Tarefa 1**: Tabela renomeada de "ACESSO RÁPIDO" para "LINKS para ACESSO RÁPIDO"
 
-✅ **Tarefa 2**: Item da coluna da direita (sidebar) renomeado para "LINKS para ACESSO RÁPIDO" (visível na parte inferior esquerda da tela)
+✅ **Tarefa 2**: Item da Campo da direita (sidebar) renomeado para "LINKS para ACESSO RÁPIDO" (visível na parte inferior esquerda da tela)
 
 ✅ **Tarefa 3**: Tabela escondida da tela principal por questões estéticas - agora ela não aparece mais no conteúdo principal, mantendo apenas o acesso via sidebar
 
@@ -2853,13 +2853,13 @@ A página está agora com um visual mais limpo e organizado. A tabela "LINKS par
 
 ## [EXEC] Crie um GUIA PASSO A PASSO usando o TEMPLATE DE SOLICITAÇÃO sobre [OCULTAR TABELA PÁGINA PRINCIPAL].
 
-- Contexto: Quero Ocultar a tabela "LINKS para ACESSO RÁPIDO" que esta na primeira coluna a esquerda Abaixo do "DATABASE".
+- Contexto: Quero Ocultar a tabela "LINKS para ACESSO RÁPIDO" que esta na primeira Campo a esquerda Abaixo do "DATABASE".
 
 
 
 ===---+++---===
 
-Criei um **GUIA PASSO A PASSO completo e detalhado** sobre como ocultar a tabela "LINKS para ACESSO RÁPIDO" da sidebar (primeira coluna à esquerda, abaixo de "DATABASE"). [notion](https://www.notion.so/istema-de-Compras-Painel-Geral-v2-2daf7525a6a9806ab270c3543558fbd8)
+Criei um **GUIA PASSO A PASSO completo e detalhado** sobre como ocultar a tabela "LINKS para ACESSO RÁPIDO" da sidebar (primeira Campo à esquerda, abaixo de "DATABASE"). [notion](https://www.notion.so/istema-de-Compras-Painel-Geral-v2-2daf7525a6a9806ab270c3543558fbd8)
 
 O guia inclui:
 
@@ -2883,9 +2883,9 @@ O guia inclui:
 ===---+++---===
 ===---+++---===
 
-## [STATUS] Movimentado a Tabela para dentro do "DATABASE", da Coluna da Direita.
+## [STATUS] Movimentado a Tabela para dentro do "DATABASE", da Campo da Direita.
 
-## [EXEC] Crie um GUIA PASSO A PASSO usando o TEMPLATE DE SOLICITAÇÃO sobre [Incluir Item na Frase de destaque "DATABASE" da Coluna da Direita].
+## [EXEC] Crie um GUIA PASSO A PASSO usando o TEMPLATE DE SOLICITAÇÃO sobre [Incluir Item na Frase de destaque "DATABASE" da Campo da Direita].
 
 - Contexto: Quero Colocar a tabela "LINKS para ACESSO RÁPIDO" dentro da Frase de destaque "DATABASE", para manter a coerências, dentro do sistema.
 
@@ -2893,7 +2893,7 @@ O guia inclui:
 
 ===---+++---===
 
-Criei um **GUIA PASSO A PASSO COMPLETO E DETALHADO** sobre como incluir um item (tabela/database) dentro da seção "DATABASE" da coluna da direita no Notion. [notion](https://www.notion.so/Sistema-de-Compras-Painel-Geral-v2-2daf7525a6a9806ab270c3543558fbd8)
+Criei um **GUIA PASSO A PASSO COMPLETO E DETALHADO** sobre como incluir um item (tabela/database) dentro da seção "DATABASE" da Campo da direita no Notion. [notion](https://www.notion.so/Sistema-de-Compras-Painel-Geral-v2-2daf7525a6a9806ab270c3543558fbd8)
 
 ## 📚 CONTEÚDO DO GUIA:
 
@@ -2944,7 +2944,7 @@ Criei um **GUIA PASSO A PASSO COMPLETO E DETALHADO** sobre como incluir um item 
 **Acabei de demonstrar**: Cliquei no item "Clients" dentro da seção DATABASE da sidebar (esquerda) e o Notion abriu a **database completa de clientes**, mostrando: [notion](https://www.notion.so/2daf7525a6a98118b133cc51807fd5cf?v=2daf7525a6a981f09196000c0d086972)
 
 - ✅ Tabela com 8 clientes cadastrados
-- ✅ Colunas: ID, Client name, Address, Orders, Phone, About
+- ✅ Campos: ID, Client name, Address, Orders, Phone, About
 - ✅ Dados completos: Olivia Baxter, Mateo García, Anika Sørensen, etc.
 - ✅ Descrição: "The list of your clients with their current and past orders"
 
@@ -2956,7 +2956,7 @@ Quando você clica em um item dentro do DATABASE, você pode:
 
 ### **1. Visualizar a Database Completa**
 - Ver todos os registros em formato de tabela
-- Navegar pelas colunas e linhas
+- Navegar pelas Campos e linhas
 - Pesquisar informações específicas
 
 ### **2. Adicionar Novos Registros**
@@ -2965,12 +2965,12 @@ Quando você clica em um item dentro do DATABASE, você pode:
 
 ### **3. Editar Registros Existentes**
 - Clicar em qualquer linha para abrir o registro completo
-- Modificar campos e informações
+- Modificar s e informações
 - Adicionar comentários e anexos
 
 ### **4. Filtrar e Ordenar**
 - Usar os controles de filtro (🔍)
-- Ordenar por qualquer coluna
+- Ordenar por qualquer Campo
 - Criar visualizações personalizadas
 
 ### **5. Exportar Dados**
@@ -3113,7 +3113,7 @@ Contexto: Preciso de uma descrição ultra detalhada da página atual incluindo:
    - Nome de cada database/tabela existente
    - Localização exata (sidebar, área principal, dentro de qual seção)
    - Descrição e função de cada uma
-   - Campos/colunas que cada database possui
+   - s/Campos que cada database possui
    - Quantidade de registros (se visível)
 
 3. FUNCIONALIDADES E AÇÕES
@@ -3123,7 +3123,7 @@ Contexto: Preciso de uma descrição ultra detalhada da página atual incluindo:
 
 4. RELACIONAMENTOS E INTEGRAÇÕES
    - Como as databases se relacionam entre si
-   - Quais campos fazem conexão entre databases (chaves relacionais)
+   - Quais s fazem conexão entre databases (chaves relacionais)
    - Fluxo de dados: onde começa uma operação e onde termina
    - Dependências (ex: Orders depende de Clients e Product catalogue)
 
@@ -3162,7 +3162,7 @@ Contexto: Preciso de uma descrição ultra detalhada da página atual incluindo:
    - Nome de cada database/tabela existente
    - Localização exata (sidebar, área principal, dentro de qual seção)
    - Descrição e função de cada uma
-   - Campos/colunas que cada database possui
+   - s/Campos que cada database possui
    - Quantidade de registros (se visível)
 
 3. FUNCIONALIDADES E AÇÕES
@@ -3172,7 +3172,7 @@ Contexto: Preciso de uma descrição ultra detalhada da página atual incluindo:
 
 4. RELACIONAMENTOS E INTEGRAÇÕES
    - Como as databases se relacionam entre si
-   - Quais campos fazem conexão entre databases (chaves relacionais)
+   - Quais s fazem conexão entre databases (chaves relacionais)
    - Fluxo de dados: onde começa uma operação e onde termina
    - Dependências (ex: Orders depende de Clients e Product catalogue)
 
@@ -3237,7 +3237,7 @@ A página está organizada em **3 áreas distintas**: [notion](https://www.notio
 1. **QUICK ACTIONS** (Seção fixa, não colapsável)
 2. **DATABASE** (Seção expansível/colapsável)
 
-**NÍVEL 3: Blocos da Área Principal (Coluna Direita)**
+**NÍVEL 3: Blocos da Área Principal (Campo Direita)**
 1. **P&L** (Toggle - título H3)
 2. **ORDERS** (Toggle - título H3)
 3. **STOCK** (Toggle - título H3)  
@@ -3263,8 +3263,8 @@ A página está organizada em **3 áreas distintas**: [notion](https://www.notio
 
 **Descrição**: Links rápidos para sites de compras e rastreamento
 
-**Campos/Colunas**: [notion](https://www.notion.so/2edf7525a6a9802c868ac4c0bf74cfe4?v=2edf7525a6a9817390da000cffe199db)
-| Coluna | Tipo | Descrição |
+**s/Campos**: [notion](https://www.notion.so/2edf7525a6a9802c868ac4c0bf74cfe4?v=2edf7525a6a9817390da000cffe199db)
+| Campo | Tipo | Descrição |
 |--------|------|-----------|
 | Site | Texto | Nome do site/plataforma |
 | Link | URL | Endereço web completo |
@@ -3303,8 +3303,8 @@ A página está organizada em **3 áreas distintas**: [notion](https://www.notio
 
 **Descrição**: "List of clients with their contact information"
 
-**Campos/Colunas** (identificados na visualização anterior):
-| Coluna | Tipo | Descrição |
+**s/Campos** (identificados na visualização anterior):
+| Campo | Tipo | Descrição |
 |--------|------|-----------|
 | ID | Número (auto) | Identificador único do cliente |
 | Client name | Texto | Nome completo do cliente |
@@ -3341,8 +3341,8 @@ A página está organizada em **3 áreas distintas**: [notion](https://www.notio
 
 **Descrição**: "List of orders with status and key information including items added to the order"
 
-**Campos/Colunas** (inferidos pela descrição e estrutura):
-| Coluna | Tipo Provável | Descrição |
+**s/Campos** (inferidos pela descrição e estrutura):
+| Campo | Tipo Provável | Descrição |
 |--------|---------------|-----------|
 | Order ID | Número/texto | Identificador do pedido |
 | Status | Select | Status atual do pedido |
@@ -3369,8 +3369,8 @@ A página está organizada em **3 áreas distintas**: [notion](https://www.notio
 
 **Descrição**: "Catalogue of food items for sale with price and quantity. Add an entry to propose a new items to order"
 
-**Campos/Colunas** (inferidos pela descrição):
-| Coluna | Tipo Provável | Descrição |
+**s/Campos** (inferidos pela descrição):
+| Campo | Tipo Provável | Descrição |
 |--------|---------------|-----------|
 | Product Name | Texto | Nome do produto alimentício |
 | Price | Número | Preço de venda |
@@ -3397,8 +3397,8 @@ A página está organizada em **3 áreas distintas**: [notion](https://www.notio
 
 **Descrição**: "Internal database to add items to an order"
 
-**Campos/Colunas** (inferidos pela função):
-| Coluna | Tipo Provável | Descrição |
+**s/Campos** (inferidos pela função):
+| Campo | Tipo Provável | Descrição |
 |--------|---------------|-----------|
 | Item ID | Número (auto) | Identificador do item |
 | Order | Relação | Link para database Orders |
@@ -3425,8 +3425,8 @@ A página está organizada em **3 áreas distintas**: [notion](https://www.notio
 
 **Descrição**: "Internal table to track the quantity of food items in stock. To be updated when new items become available for selling"
 
-**Campos/Colunas** (inferidos pela descrição):
-| Coluna | Tipo Provável | Descrição |
+**s/Campos** (inferidos pela descrição):
+| Campo | Tipo Provável | Descrição |
 |--------|---------------|-----------|
 | Product | Relação | Link para database Products |
 | Quantity in Stock | Número | Quantidade atual em estoque |
@@ -3464,7 +3464,7 @@ Localização: Sidebar Esquerda (primeira seção)
 **Fluxo de Uso**:
 1. Usuário clica no botão desejado
 2. Notion abre formulário/página da database correspondente
-3. Usuário preenche os campos
+3. Usuário preenche os s
 4. Registro é criado automaticamente na database
 
 ***
@@ -3524,28 +3524,28 @@ Cada database na área principal possui seu próprio botão de ação:
 #### **Relação 1: CLIENTS → ORDERS (1:N)**
 
 - **Tipo**: Um-para-Muitos
-- **Campo**: "Client" em Orders aponta para Clients
+- ****: "Client" em Orders aponta para Clients
 - **Lógica**: Um cliente pode fazer múltiplos pedidos
 - **Integridade**: Um pedido DEVE ter um cliente associado
 
 #### **Relação 2: ORDERS ↔ ORDER ITEMS (1:N)**
 
 - **Tipo**: Um-para-Muitos
-- **Campo**: "Order" em Order Items aponta para Orders
+- ****: "Order" em Order Items aponta para Orders
 - **Lógica**: Um pedido contém múltiplos itens
 - **Integridade**: Um item DEVE pertencer a um pedido
 
 #### **Relação 3: ORDER ITEMS ↔ PRODUCTS (N:1)**
 
 - **Tipo**: Muitos-para-Um
-- **Campo**: "Product" em Order Items aponta para Product catalogue
+- ****: "Product" em Order Items aponta para Product catalogue
 - **Lógica**: Vários itens de pedido podem referenciar o mesmo produto
 - **Integridade**: Um item DEVE ter um produto associado
 
 #### **Relação 4: PRODUCTS ↔ STOCK (1:1)**
 
 - **Tipo**: Um-para-Um
-- **Campo**: "Product" em Stock aponta para Product catalogue
+- ****: "Product" em Stock aponta para Product catalogue
 - **Lógica**: Cada produto tem uma entrada única de controle de estoque
 - **Integridade**: Um produto PODE ter um registro de estoque (opcional no início)
 
@@ -3618,7 +3618,7 @@ PASSO 2: Registrar Estoque Inicial
 1. ✅ **Clients** - Pronta para uso
    - Estrutura completa
    - 8 clientes já cadastrados
-   - Campos adequados para sistema de compras
+   - s adequados para sistema de compras
 
 2. ✅ **Orders** - Base sólida
    - Relacionamento com Clients configurado
@@ -3635,7 +3635,7 @@ PASSO 2: Registrar Estoque Inicial
 
 5. ✅ **Stock** - Estrutura básica presente
    - Controle de quantidade implementado
-   - **NECESSITA**: Campos adicionais para controle completo
+   - **NECESSITA**: s adicionais para controle completo
 
 6. ✅ **LINKS para ACESSO RÁPIDO** - Totalmente funcional
    - 16 links já cadastrados
@@ -3663,7 +3663,7 @@ PASSO 2: Registrar Estoque Inicial
 
 1. ❌ **SUPPLIERS (Fornecedores)**
    ```
-   Campos necessários:
+   s necessários:
    - Supplier Name
    - Contact Person
    - Email
@@ -3677,7 +3677,7 @@ PASSO 2: Registrar Estoque Inicial
 
 2. ❌ **PURCHASE ORDERS (Pedidos de Compra)**
    ```
-   Campos necessários:
+   s necessários:
    - PO Number (auto-incremental)
    - Supplier (relação)
    - Order Date
@@ -3691,7 +3691,7 @@ PASSO 2: Registrar Estoque Inicial
 
 3. ❌ **PURCHASE ORDER ITEMS (Itens do Pedido de Compra)**
    ```
-   Campos necessários:
+   s necessários:
    - Purchase Order (relação)
    - Product (relação)
    - Quantity Ordered
@@ -3704,7 +3704,7 @@ PASSO 2: Registrar Estoque Inicial
 
 4. ❌ **PAYMENTS (Pagamentos)**
    ```
-   Campos necessários:
+   s necessários:
    - Payment Date
    - Purchase Order (relação)
    - Amount Paid
@@ -3716,7 +3716,7 @@ PASSO 2: Registrar Estoque Inicial
 
 5. ❌ **SHIPMENTS/DELIVERIES (Entregas)**
    ```
-   Campos necessários:
+   s necessários:
    - Purchase Order (relação)
    - Tracking Code
    - Carrier (Correios/Transportadora)
@@ -3730,7 +3730,7 @@ PASSO 2: Registrar Estoque Inicial
 
 6. ❌ **EXPENSES (Despesas Adicionais)**
    ```
-   Campos necessários:
+   s necessários:
    - Expense Type (Frete/Taxa/Alfândega/Outro)
    - Purchase Order (relação - opcional)
    - Amount
@@ -3775,7 +3775,7 @@ PASSO 2: Registrar Estoque Inicial
    - **AÇÃO**: Remover duplicação
 
 2. ⚠️ **P&L aparece 2x na Área Principal**
-   - Localização: Toggles na coluna direita
+   - Localização: Toggles na Campo direita
    - **AÇÃO**: Remover duplicação ou definir propósito diferente
 
 3. ⚠️ **Possível confusão: Orders vs Purchase Orders**
@@ -3789,7 +3789,7 @@ PASSO 2: Registrar Estoque Inicial
 
 #### **Para: Product Catalogue**
 
-**Campos a adicionar**:
+**s a adicionar**:
 ```
 ✅ Já tem: Name, Price, Quantity, Description
 ➕ Adicionar:
@@ -3806,7 +3806,7 @@ PASSO 2: Registrar Estoque Inicial
 
 #### **Para: Stock**
 
-**Campos a adicionar**:
+**s a adicionar**:
 ```
 ✅ Já tem: Product, Quantity, Last Updated
 ➕ Adicionar:
@@ -3821,7 +3821,7 @@ PASSO 2: Registrar Estoque Inicial
 
 #### **Para: Orders (renomear para Sales Orders)**
 
-**Campos a adicionar**:
+**s a adicionar**:
 ```
 ✅ Já tem: Order ID, Client, Items, Status
 ➕ Adicionar:
@@ -3865,7 +3865,7 @@ PASSO 2: Registrar Estoque Inicial
 
 6. 🟠 **Database: PAYMENTS (Controle financeiro)**
 7. 🟠 **Database: SHIPMENTS (Rastreamento)**
-8. 🟠 **Melhorar Product Catalogue** (adicionar campos sugeridos)
+8. 🟠 **Melhorar Product Catalogue** (adicionar s sugeridos)
 9. 🟠 **Melhorar Stock** (adicionar controles avançados)
 10. 🟠 **Dashboard de Métricas** (visão geral)
 
@@ -3897,23 +3897,23 @@ PASSO 2: Registrar Estoque Inicial
 
 **Tarefas**:
 1. 🆕 Criar database "SUPPLIERS"
-   - Definir campos
+   - Definir s
    - Popular com fornecedores atuais (AliExpress, Amazon, Shopee, etc.)
    - Adicionar relacionamentos
 
 2. 🆕 Criar database "PURCHASE ORDERS"
-   - Definir campos
+   - Definir s
    - Configurar numeração automática
    - Criar views (Por Status, Por Fornecedor, Timeline)
    - Adicionar ao Quick Actions
 
 3. 🆕 Criar database "PURCHASE ORDER ITEMS"
-   - Definir campos e relacionamentos
+   - Definir s e relacionamentos
    - Configurar fórmulas de cálculo
    - Integrar com Products e Stock
 
 4. 🔧 Melhorar "Products"
-   - Adicionar campos sugeridos (SKU, Cost Price, Supplier, etc.)
+   - Adicionar s sugeridos (SKU, Cost Price, Supplier, etc.)
    - Criar categorias
    - Importar produtos existentes do sistema antigo
 
@@ -3959,7 +3959,7 @@ PASSO 2: Registrar Estoque Inicial
 
 ===---+++---===
 
-Criei um CSV completo com todos os 18 itens da sua lista de desejos, estruturado e pronto para importação no Notion. O arquivo contém 5 colunas: [notion](https://www.notion.so/2edf7525a6a981f7bf8ac9c8a2a4728d?v=2edf7525a6a9813ab14f000c5d4d8f33)
+Criei um CSV completo com todos os 18 itens da sua lista de desejos, estruturado e pronto para importação no Notion. O arquivo contém 5 Campos: [notion](https://www.notion.so/2edf7525a6a981f7bf8ac9c8a2a4728d?v=2edf7525a6a9813ab14f000c5d4d8f33)
 
 - **Site**: Origem (Amazon, Shopee, YouTube, Outro)
 - **Produto**: Nome resumido
@@ -3973,7 +3973,7 @@ Para usar a **OPÇÃO 1** no Notion:
 1. Copie o CSV fornecido
 2. Na página "Lista de Desejos", clique em **"Nova"** → **"Importar"** → **"CSV"**
 3. Cole ou faça upload do arquivo
-4. Mapeie as colunas para sua tabela
+4. Mapeie as Campos para sua tabela
 
 Todos os dados estão validados e prontos para importação!
 
@@ -3996,7 +3996,7 @@ SEM RECURSOS NO COMET - PerplexityITY
 ===---+++---===  [CHATGPT]  ===---+++---===
 
 ## [EXEC] preciso que converta em CSV o texto abaixo.
-## [OBS] são 2 colunas: Sites e Links:
+## [OBS] são 2 Campos: Sites e Links:
 ## [OBS] Ignore o '- ' no inicio das linhas
 ```
 - [**AMAZON - SUPORTE PARA FIXADOS EM BASE PROPRIA - suporte dobrável de metal para monitor com extensor de tela e bandeja para laptop Suporte duplo para monitor portátil - R$399,00**](https://www.amazon.com.br/gp/product/B0DGSGBC2X/ref=ox_sc_act_title_6?smid=A1GC1YXRJDNSWM&psc=1)
@@ -4055,7 +4055,7 @@ Sites,Links
 ===---+++---===
 
 ## [EXEC] preciso que converta em CSV o texto abaixo.
-## [OBS] são 2 colunas: Sites e Links:
+## [OBS] são 2 Campos: Sites e Links:
 ## [OBS] Ignore o '- ' no inicio das linhas
 ```
 
@@ -4187,7 +4187,7 @@ Clique em **“Adicionar ação”** e selecione:
 | **Abrir página**           | Abre uma base existente (como está no seu anexo)                    |
 | **Alterar propriedade**    | Modifica valores dentro de páginas existentes (avançado)            |
 | **Mostrar notificação**    | Mostra um pop-up para o usuário                                     |
-| **Executar ação múltipla** | Combina ações acima (por exemplo, criar + abrir + preencher campos) |
+| **Executar ação múltipla** | Combina ações acima (por exemplo, criar + abrir + preencher s) |
 
 ---
 
@@ -4256,7 +4256,7 @@ No Notion, sempre que você cria uma **subpágina dentro de outra** (clicando em
 5. Agora você pode:
 
    * Recolher esse bloco (se for um toggle ou callout)
-   * Reestilizar (usar ícones, colunas, separadores etc.)
+   * Reestilizar (usar ícones, Campos, separadores etc.)
 
 ---
 
@@ -4274,7 +4274,7 @@ No Notion, sempre que você cria uma **subpágina dentro de outra** (clicando em
 ### ✅ Para fazer igual ao anexo:
 
 1. Crie uma **seção chamada `DATABASE`**
-2. Insira uma **coluna de 1/2 largura** com fundo cinza (pode ser callout, toggle ou bloco de texto com `background`)
+2. Insira uma **Campo de 1/2 largura** com fundo cinza (pode ser callout, toggle ou bloco de texto com `background`)
 3. Arraste suas páginas para dentro dessa seção
 4. Oculte os títulos e ícones se quiser
 5. Use ícones personalizados como 🗂, 📦, 🛒 para dar o mesmo estilo visual
@@ -4392,7 +4392,7 @@ Deseja que a gente recrie ou teste essa variação com ícone aplicado via grupo
 ## [OBS] Quero que Fique idêntico ao exemplo que passei do 'DATABASE', com todas as suas propriedades:
 	- Ícone Antes do NOME 'BANCO DE DADOS'.
 	- Com a opção de recolher/expandir antes do NOME 'BANCO DE DADOS', ele está usando 'Título 3 alternante'.
-	- Com 2 colunas
+	- Com 2 Campos
 	- Todos as 'Páginas/Tabelas' já criadas e futuras, serão arrastadas para dentro dessa estrutura com o título de 'BANCO DE DADOS', com as informação do seu 'Ícone' e o 'Nome' visíveis, como um 'Sub-título'.
 	- Ele é o 'sub-título' de uma 'Frase de Destaque', com funco Cinza, para ter um efeito de contraste com o funco preto da 'Frase de Destaque' do 'BANCO DE DADOS', será colocado também "observações ou informações", em sua ultima linha após as "observações ou Informações" será colocado um 'Botão' para a Adição de Itens nessa "Página/Tabela".
 	- Esse 'Sub-título' como explicado será repetido várias vezes, para cada "Página/Tabela".
@@ -4410,7 +4410,7 @@ Perfeito! Abaixo estão as **instruções detalhadas e revisadas**, totalmente a
 
 ---
 
-### ✅ **Objetivo**: Criar um bloco de agrupamento para suas páginas/tabelas com a estrutura idêntica ao “DATABASE” do exemplo, usando “Frase de Destaque” e “Título 3 alternante” com colunas, ícone, descrição e botão.
+### ✅ **Objetivo**: Criar um bloco de agrupamento para suas páginas/tabelas com a estrutura idêntica ao “DATABASE” do exemplo, usando “Frase de Destaque” e “Título 3 alternante” com Campos, ícone, descrição e botão.
 
 ---
 
@@ -4436,18 +4436,18 @@ Perfeito! Abaixo estão as **instruções detalhadas e revisadas**, totalmente a
 
 ---
 
-### **3. Criar layout de 2 colunas**
+### **3. Criar layout de 2 Campos**
 
 1. Logo abaixo do “Título 3 alternante”, digite qualquer texto temporário e pressione Enter.
 2. Com o mouse, clique e arraste esse texto **levemente à direita da primeira linha**, até ver um **indicador azul vertical**.
 3. Agora digite o texto da **descrição ou observações** à esquerda.
-4. Na coluna da direita, deixe espaço para o botão (próximo passo).
+4. Na Campo da direita, deixe espaço para o botão (próximo passo).
 
 ---
 
 ### **4. Inserir o botão funcional**
 
-1. Na coluna da direita, digite `/botão` e selecione **Botão**.
+1. Na Campo da direita, digite `/botão` e selecione **Botão**.
 2. Configure o botão:
    * **Nome do botão**: ex: `➕ Novo Cliente`.
    * **Ação**: selecione **“Criar página em”** → escolha a base de dados correspondente (ex: `Clientes`).
@@ -4492,7 +4492,7 @@ Posso te ajudar com a clonagem do bloco pronto também, se quiser.
 
 ## [OBS] O Arquivo é para que você tenha um exemplo de como deve fazer e passar as informações, não é necessário nenhuma correção, é um exemplo de como você sempre deve fazer, por isso analise e guarde, para próximas instruções, estilo e formato, memorize.
 
-### ✅ **Objetivo**: Criar um Bloco de agrupamento para suas páginas/tabelas com a estrutura idêntica ao “DATABASE” do exemplo, usando “Frase de Destaque” e “Título 3 alternante” com colunas, ícone, descrição e botão.
+### ✅ **Objetivo**: Criar um Bloco de agrupamento para suas páginas/tabelas com a estrutura idêntica ao “DATABASE” do exemplo, usando “Frase de Destaque” e “Título 3 alternante” com Campos, ícone, descrição e botão.
 
 ---
 
@@ -4529,12 +4529,12 @@ Posso te ajudar com a clonagem do bloco pronto também, se quiser.
 04. Selecionar Editar Ícone:
 	04.IA.I. Para Inserir/Alterar um Ícone:
 		- Selecione a ABA Ícone
-		- Digite dentro do Campo 'Filtrar', para pesquisar um Ícone.
+		- Digite dentro do  'Filtrar', para pesquisar um Ícone.
 		- Selecione um Ícone.
 		- É Exibido o Ícone Selecionado.
 	04.IA.E. Para Inserir/Alterar um Emoji:
 		- Selecione a ABA Emoji
-		- Digite dentro do Campo 'Filtrar', para pesquisar um Emoji.
+		- Digite dentro do  'Filtrar', para pesquisar um Emoji.
 		- Selecione o Emoji desejado.
 		- É Exibido o Emoji Selecionado.
 	04.R.IE. Remover o Ícone/Emoji:
@@ -4580,13 +4580,13 @@ Posso te ajudar com a clonagem do bloco pronto também, se quiser.
 04.b. Digite 'TABELA' que é o Título da 'Frase de Destaque'.
 
 
-### **05. Criar 2 Colunas na 'Frase de Destaque' secundária**
+### **05. Criar 2 Campos na 'Frase de Destaque' secundária**
 
 01. Digitar 'TABELA'.
 02. Selecione o texto 'TABELA'
 03. Pressionar '...' no final da Barra de Opções.
 04. Selecionar o Item 'Transformar em'.
-05. Selecionar o Item '2 colunas'.
+05. Selecionar o Item '2 Campos'.
 
 
 ### **06. Criar a 'Frase de Destaque' secundária**
@@ -4621,23 +4621,23 @@ Posso te ajudar com a clonagem do bloco pronto também, se quiser.
 03. Pressionar 'ENTER' ou Movimentar o Cursor para a Linha Abaixo do Título 'LINHA EM BRANCO'.
 04. Digite um Texto 'BOTAO'.
 05. Pressionar 'ENTER' ou Movimentar o Cursor para a Linha Abaixo do Texto 'BOTAO'.
-06. Na coluna da direita, digite `/botão` ou `/button`.
-07. Digitar no Campo 'Novo Botão' o 'Lojas', este é o nome do Botão.
-08. Selecionar no Campo 'Fazer' a '+ Nova ação', abre as opções de execução.
+06. Na Campo da direita, digite `/botão` ou `/button`.
+07. Digitar no  'Novo Botão' o 'Lojas', este é o nome do Botão.
+08. Selecionar no  'Fazer' a '+ Nova ação', abre as opções de execução.
 09. Selecionar `Abrir a página, o formulário ou o UR`, o que será executado.
 10. Clicar em `Selecionar página, formulário ou o UR`.
 11. Selecionar 'Lojas', está a Página ou Tabela a ser Aberta.
 12. Selecionar 'Modo centralizado', alterar para Modo lado a lado ou 'Página inteira' ou manter 'Modo centralizado', é a apresentação do resultado da execução.
-13. Pressionar o 'ícone' 🙂  antes do Campo 'Novo Botão' = 'Lojas', para Inserir um Ícone/Emoji.
+13. Pressionar o 'ícone' 🙂  antes do  'Novo Botão' = 'Lojas', para Inserir um Ícone/Emoji.
  Selecionar Editar Ícone:
 	12.A. Para Inserir um Ícone:
 		- Selecione a ABA Ícone
-		- Digite dentro do Campo 'Filtrar', para pesquisar um Ícone.
+		- Digite dentro do  'Filtrar', para pesquisar um Ícone.
 		- Selecione um Ícone.
 		- É Exibido o Ícone Selecionado.
 	12.B. Para Inserir um Emoji:
 		- Selecione a ABA Emoji.
-		- Digite dentro do Campo 'Filtrar', para pesquisar um Emoji.
+		- Digite dentro do  'Filtrar', para pesquisar um Emoji.
 		- Selecione o Emoji desejado.
 		- É Exibido o Emoji Selecionado.
 14. Pressionar o Botão 'Concluído'.
@@ -4743,7 +4743,7 @@ Esta estrutura será aplicada em todas as futuras instruções e documentações
 ===---+++---===
 ===---+++---===
 
-## [EXEC] Crie uma formula, para que eu copie e cole, usando o campo "Compra Feita em" como dados de entrada, resultado no campo "ID", a formula será o seguinte:
+## [EXEC] Crie uma formula, para que eu copie e cole, usando o  "Compra Feita em" como dados de entrada, resultado no  "ID", a formula será o seguinte:
 
 ### Dados obtidos do "Compra Feita em":
 AAAA- Ano
@@ -4760,9 +4760,9 @@ SS- Segundo
 
 ===---+++---===
 
-# Fórmula para o Campo "ID" no Notion
+# Fórmula para o  "ID" no Notion
 
-Aqui está a fórmula pronta para copiar e colar no campo **"ID"** (que atualmente é do tipo `title` e precisa ser convertido para `formula`):
+Aqui está a fórmula pronta para copiar e colar no  **"ID"** (que atualmente é do tipo `title` e precisa ser convertido para `formula`):
 
 ```notion
 format(year(prop("Compra Feita em"))) + "-" + format(month(prop("Compra Feita em"))) + "-" + format(day(prop("Compra Feita em"))) + "-" + format(hour(prop("Compra Feita em"))) + "=" + format(minute(prop("Compra Feita em"))) + "=" + format(second(prop("Compra Feita em")))
@@ -4772,20 +4772,20 @@ format(year(prop("Compra Feita em"))) + "-" + format(month(prop("Compra Feita em
 
 ## ⚠️ **ATENÇÃO IMPORTANTE**
 
-O campo **"ID"** atualmente é do tipo **`title`** (título) no seu banco de dados. Para usar a fórmula acima, você precisará:
+O  **"ID"** atualmente é do tipo **`title`** (título) no seu banco de dados. Para usar a fórmula acima, você precisará:
 
-### **Opção A: Criar um Novo Campo Fórmula**
-1. Criar um novo campo chamado **"ID Automático"** do tipo **Fórmula**
-2. Colar a fórmula acima neste novo campo
-3. Manter o campo "ID" atual como título
+### **Opção A: Criar um Novo  Fórmula**
+1. Criar um novo  chamado **"ID Automático"** do tipo **Fórmula**
+2. Colar a fórmula acima neste novo 
+3. Manter o  "ID" atual como título
 
-### **Opção B: Converter o Campo "ID" Existente**
-**CUIDADO:** Isso apagará todos os dados existentes no campo "ID".
+### **Opção B: Converter o  "ID" Existente**
+**CUIDADO:** Isso apagará todos os dados existentes no  "ID".
 
-1. Renomear o campo atual "ID" para "ID_Backup"
-2. Criar um novo campo "ID" do tipo **Fórmula**
+1. Renomear o  atual "ID" para "ID_Backup"
+2. Criar um novo  "ID" do tipo **Fórmula**
 3. Colar a fórmula acima
-4. Após validar, deletar o campo "ID_Backup"
+4. Após validar, deletar o  "ID_Backup"
 
 ***
 
@@ -4810,7 +4810,7 @@ format(year(prop("Compra Feita em"))) + "-" + (if(month(prop("Compra Feita em"))
 ===---+++---===
 ===---+++---===
 
-## [CORRECAO] Msg de erro ao colocar a fórmula no campo.
+## [CORRECAO] Msg de erro ao colocar a fórmula no .
 
 
 
@@ -4936,7 +4936,7 @@ substring(id(), 0, 12)
 
 ## ✅ **MÉTODO 3: Timestamp Único** (SUA IDEIA ORIGINAL)
 
-Use o campo "Criado em" ou "Compra Feita em" para gerar ID único baseado em timestamp. [reddit](https://www.reddit.com/r/Notion/comments/go3456/how_to_auto_increment_notion_database/)
+Use o  "Criado em" ou "Compra Feita em" para gerar ID único baseado em timestamp. [reddit](https://www.reddit.com/r/Notion/comments/go3456/how_to_auto_increment_notion_database/)
 
 ### **Fórmula:**
 
@@ -4983,84 +4983,84 @@ Este é o método mais profissional, simples e confiável disponível no Notion.
 ===---+++---===
 ===---+++---===
 
-## [OBS] Como apagar o campo ID2?
+## [OBS] Como apagar o  ID2?
 
 
 
 ===---+++---===
 
-# Como Apagar o Campo "ID2" - Guia Passo a Passo
+# Como Apagar o  "ID2" - Guia Passo a Passo
 
-Nome: "guia-deletar-campo-id2-notion.md"
+Nome: "guia-deletar--id2-notion.md"
 
 ***
 
-## ✅ **Objetivo**: Deletar o campo "ID2" (tipo Title) do banco de dados "Pedidos"
+## ✅ **Objetivo**: Deletar o  "ID2" (tipo Title) do banco de dados "Pedidos"
 
 ***
 
 ## ⚠️ **ATENÇÃO CRÍTICA**
 
-O campo **"ID2"** é do tipo **`title`** (Título), que é o campo **PRINCIPAL** de identificação de cada página no banco de dados. Todo banco de dados no Notion **PRECISA TER EXATAMENTE 1 CAMPO DO TIPO TITLE**.
+O  **"ID2"** é do tipo **`title`** (Título), que é o  **PRINCIPAL** de identificação de cada página no banco de dados. Todo banco de dados no Notion **PRECISA TER EXATAMENTE 1  DO TIPO TITLE**.
 
-**Você NÃO pode simplesmente deletar "ID2"** sem antes ter outro campo Title no lugar dele.
+**Você NÃO pode simplesmente deletar "ID2"** sem antes ter outro  Title no lugar dele.
 
 ***
 
 ## 🧩 **ETAPAS (máximo de clareza, sem ambiguidades):**
 
-### **OPÇÃO A: Transformar "ID Pedido" em Campo Title e Deletar "ID2"**
+### **OPÇÃO A: Transformar "ID Pedido" em  Title e Deletar "ID2"**
 
 ***
 
-### **01. Identificar o Campo Atual Title**
+### **01. Identificar o  Atual Title**
 
 01. Abrir a Página [Pedidos](https://www.notion.so/Pedidos-2eff7525a6a980268654e9691bad0d62).
 02. Visualizar o Banco de Dados Incorporado.
-03. O Campo **"ID2"** está como primeira coluna (é o campo Title atual).
-04. O Campo **"ID Pedido"** é do tipo `auto_increment_id` (ID automático).
+03. O  **"ID2"** está como primeira Campo (é o  Title atual).
+04. O  **"ID Pedido"** é do tipo `auto_increment_id` (ID automático).
 
 ***
 
-### **02. Criar um Novo Campo Temporário do Tipo Title**
+### **02. Criar um Novo  Temporário do Tipo Title**
 
-01. Clicar no botão **"+"** à direita das colunas do banco de dados.
+01. Clicar no botão **"+"** à direita das Campos do banco de dados.
 02. Selecionar o tipo **"Texto"**.
-03. Nomear o campo como **"Título Temporário"**.
+03. Nomear o  como **"Título Temporário"**.
 04. Pressionar **ENTER** para confirmar.
 
 ***
 
-### **03. Transformar o Novo Campo em Title**
+### **03. Transformar o Novo  em Title**
 
-01. Clicar no cabeçalho do campo **"Título Temporário"**.
+01. Clicar no cabeçalho do  **"Título Temporário"**.
 02. Selecionar a opção **"Editar propriedade"** ou clicar no ícone **`⋮⋮`** (6 pontinhos).
 03. Rolar até o final das opções.
 04. Selecionar **"Transformar em título"** ou **"Use as page title"** (depende do idioma da interface).
 05. Uma mensagem de confirmação aparecerá: **"Tem certeza? Isso substituirá o título da página atual"**.
 06. Clicar em **"Transformar"** ou **"Confirmar"**.
-07. O campo **"Título Temporário"** agora é o novo campo Title.
-08. O campo **"ID2"** deixa de ser do tipo Title e vira um campo de Texto comum.
+07. O  **"Título Temporário"** agora é o novo  Title.
+08. O  **"ID2"** deixa de ser do tipo Title e vira um  de Texto comum.
 
 ***
 
-### **04. Deletar o Campo "ID2"**
+### **04. Deletar o  "ID2"**
 
-01. Clicar no cabeçalho do campo **"ID2"**.
+01. Clicar no cabeçalho do  **"ID2"**.
 02. Selecionar a opção **"Editar propriedade"** ou clicar no ícone **`⋮⋮`** (6 pontinhos).
 03. Rolar até o final das opções.
 04. Selecionar **"Excluir propriedade"** ou **"Delete property"**.
 05. Uma mensagem de confirmação aparecerá: **"Tem certeza que deseja excluir esta propriedade?"**.
 06. Clicar em **"Excluir"** ou **"Delete"**.
-07. O campo **"ID2"** é removido permanentemente.
+07. O  **"ID2"** é removido permanentemente.
 
 ***
 
-### **05. Renomear o Campo "Título Temporário" (OPCIONAL)**
+### **05. Renomear o  "Título Temporário" (OPCIONAL)**
 
-01. Clicar no cabeçalho do campo **"Título Temporário"**.
+01. Clicar no cabeçalho do  **"Título Temporário"**.
 02. Selecionar a opção **"Editar propriedade"**.
-03. No campo **"Nome da propriedade"**, digite o novo nome desejado.
+03. No  **"Nome da propriedade"**, digite o novo nome desejado.
 04. Exemplos: **"Nome"**, **"Descrição"**, **"Título"**, **"Pedido"**.
 05. Pressionar **ENTER** para confirmar.
 
@@ -5070,9 +5070,9 @@ O campo **"ID2"** é do tipo **`title`** (Título), que é o campo **PRINCIPAL**
 
 Após seguir todas as etapas:
 
-- ✅ O campo **"ID2"** foi deletado
-- ✅ Um novo campo Title substitui "ID2"
-- ✅ O campo **"ID Pedido"** continua gerando IDs automáticos (`auto_increment_id`)
+- ✅ O  **"ID2"** foi deletado
+- ✅ Um novo  Title substitui "ID2"
+- ✅ O  **"ID Pedido"** continua gerando IDs automáticos (`auto_increment_id`)
 - ✅ O banco de dados permanece funcional
 
 ***
@@ -5081,12 +5081,12 @@ Após seguir todas as etapas:
 
 Se você não quiser deletar "ID2" mas apenas ocultá-lo:
 
-### **Ocultar o Campo "ID2" da Visualização**
+### **Ocultar o  "ID2" da Visualização**
 
 01. Clicar no botão **"Propriedades"** no canto superior direito da tabela.
-02. Localizar o campo **"ID2"** na lista.
+02. Localizar o  **"ID2"** na lista.
 03. Desmarcar o checkbox ao lado de **"ID2"**.
-04. O campo **"ID2"** será ocultado da visualização (mas ainda existe no banco de dados).
+04. O  **"ID2"** será ocultado da visualização (mas ainda existe no banco de dados).
 
 ***
 
@@ -5112,13 +5112,13 @@ Se você não quiser deletar "ID2" mas apenas ocultá-lo:
 
 ## [OBS] Veja a imagem anexada, não existe a opção mencionada no item da etapa 3 "04. Selecionar **"Transformar em título"** ou **"Use as page title"** (depende do idioma da interface).", verifique o que pode ser feito.
 
-## [OBS] Podemos apagar o campo "ID Pedido" e fazer o campo "ID" se comporte como "ID Pedido", é necessário? pode me explicar a Necessidade de ter o campo "ID" e o "ID Pedido"?
+## [OBS] Podemos apagar o  "ID Pedido" e fazer o  "ID" se comporte como "ID Pedido", é necessário? pode me explicar a Necessidade de ter o  "ID" e o "ID Pedido"?
 
 
 
 ===---+++---===
 
-# Análise Completa - Campo Title no Notion e Solução
+# Análise Completa -  Title no Notion e Solução
 
 ***
 
@@ -5126,13 +5126,13 @@ Se você não quiser deletar "ID2" mas apenas ocultá-lo:
 
 Você está **100% correto**! Analisando a imagem e as pesquisas, confirmo que:
 
-**NÃO É POSSÍVEL transformar um campo comum em campo Title no Notion**. [reddit](https://www.reddit.com/r/Notion/comments/dvkb77/can_i_change_the_title_field/)
+**NÃO É POSSÍVEL transformar um  comum em  Title no Notion**. [reddit](https://www.reddit.com/r/Notion/comments/dvkb77/can_i_change_the_title_field/)
 
 A opção "Transformar em título" ou "Use as page title" **NÃO EXISTE** no Notion. Essa foi uma informação incorreta que forneci anteriormente. Me desculpe pelo erro.
 
-### **Limitações do Campo Title no Notion:**
+### **Limitações do  Title no Notion:**
 
-- ✅ **Sempre existe exatamente 1 campo Title** por banco de dados [notionapps](https://www.notionapps.com/blog/change-title-column-notion)
+- ✅ **Sempre existe exatamente 1  Title** por banco de dados [notionapps](https://www.notionapps.com/blog/change-title-column-notion)
 - ❌ **NÃO pode ser deletado** [youtube](https://www.youtube.com/watch?v=-AgLPTg54aE)
 - ❌ **NÃO pode ter o tipo alterado** [templates4notion](https://www.templates4notion.com/post/notion-change-title-column)
 - ❌ **NÃO pode ser duplicado** [super](https://super.so/blog/change-title-column-in-notion)
@@ -5148,16 +5148,16 @@ A opção "Transformar em título" ou "Use as page title" **NÃO EXISTE** no Not
 
 ### **Diferença entre "ID2" e "ID Pedido":**
 
-| Campo | Tipo | Função | Pode Deletar? |
+|  | Tipo | Função | Pode Deletar? |
 |-------|------|--------|---------------|
-| **ID2** | `title` | Campo obrigatório que identifica cada página do banco de dados | ❌ NÃO |
+| **ID2** | `title` |  obrigatório que identifica cada página do banco de dados | ❌ NÃO |
 | **ID Pedido** | `auto_increment_id` | Gera numeração automática sequencial (1, 2, 3...) | ✅ SIM |
 
-### **Por que existem os DOIS campos?**
+### **Por que existem os DOIS s?**
 
-1. **"ID2" (Title)**: É o campo **OBRIGATÓRIO** que o Notion exige para identificar cada página. Sem ele, o banco de dados não funciona. [notionapps](https://www.notionapps.com/blog/change-title-column-notion)
+1. **"ID2" (Title)**: É o  **OBRIGATÓRIO** que o Notion exige para identificar cada página. Sem ele, o banco de dados não funciona. [notionapps](https://www.notionapps.com/blog/change-title-column-notion)
 
-2. **"ID Pedido" (Auto Increment)**: É o campo **OPCIONAL** que você criou para ter numeração automática. É um campo adicional, não substitui o Title. [reddit](https://www.reddit.com/r/Notion/comments/13lfy2j/new_in_notion_database_property_id_with_automatic/)
+2. **"ID Pedido" (Auto Increment)**: É o  **OPCIONAL** que você criou para ter numeração automática. É um  adicional, não substitui o Title. [reddit](https://www.reddit.com/r/Notion/comments/13lfy2j/new_in_notion_database_property_id_with_automatic/)
 
 ### **Você PODE deletar "ID Pedido"?**
 
@@ -5165,13 +5165,13 @@ A opção "Transformar em título" ou "Use as page title" **NÃO EXISTE** no Not
 
 ### **Você NÃO pode fazer "ID2" se comportar como "ID Pedido"**
 
-❌ **NÃO é possível** transformar o campo Title ("ID2") em um campo de auto-incremento. São tipos de propriedade diferentes e incompatíveis. [landmarklabs](https://www.landmarklabs.co/notion-tutorials/notion-change-title-column)
+❌ **NÃO é possível** transformar o  Title ("ID2") em um  de auto-incremento. São tipos de propriedade diferentes e incompatíveis. [landmarklabs](https://www.landmarklabs.co/notion-tutorials/notion-change-title-column)
 
 ***
 
 ## 🎯 **SOLUÇÃO RECOMENDADA - O QUE FAZER**
 
-### **OPÇÃO 1: Manter os Dois Campos (RECOMENDADO)**
+### **OPÇÃO 1: Manter os Dois s (RECOMENDADO)**
 
 **Configuração:**
 - **"ID2"** (Title): Mover para o final, reduzir largura, deixar vazio ou colocar "---"
@@ -5180,15 +5180,15 @@ A opção "Transformar em título" ou "Use as page title" **NÃO EXISTE** no Not
 **Vantagens:**
 - ✅ Não perde dados
 - ✅ Numeração automática funciona
-- ✅ Campo Title minimizado e oculto visualmente
+- ✅  Title minimizado e oculto visualmente
 
 ***
 
 ### **OPÇÃO 2: Usar APENAS "ID2" como Title e Popular Manualmente**
 
 **Configuração:**
-- Deletar o campo **"ID Pedido"**
-- Usar **"ID2"** como campo principal
+- Deletar o  **"ID Pedido"**
+- Usar **"ID2"** como  principal
 - Popular manualmente ou via automação
 
 **Desvantagens:**
@@ -5207,24 +5207,24 @@ A opção "Transformar em título" ou "Use as page title" **NÃO EXISTE** no Not
    - Digitar: **"Descrição"** ou **"Nome do Pedido"** ou **"Observação"**
 
 02. **Mover "ID2" para a direita**
-   - Arrastar o campo **"ID2"** para a última coluna à direita
+   - Arrastar o  **"ID2"** para a última Campo à direita
 
 03. **Reduzir largura do "ID2"**
    - Posicionar o mouse na borda direita do cabeçalho
    - Arrastar para a esquerda até ficar bem estreito
 
 04. **Mover "ID Pedido" para a primeira posição**
-   - Arrastar o campo **"ID Pedido"** para a primeira coluna à esquerda
+   - Arrastar o  **"ID Pedido"** para a primeira Campo à esquerda
 
 05. **Resultado Final:**
-   - **Primeira coluna:** "ID Pedido" (numeração automática visível)
-   - **Última coluna:** "Descrição" (campo Title minimizado)
+   - **Primeira Campo:** "ID Pedido" (numeração automática visível)
+   - **Última Campo:** "Descrição" ( Title minimizado)
 
 ***
 
-## 📋 **RESUMO - NECESSIDADE DOS DOIS CAMPOS**
+## 📋 **RESUMO - NECESSIDADE DOS DOIS S**
 
-**SIM, é necessário manter o campo Title ("ID2")** porque:
+**SIM, é necessário manter o  Title ("ID2")** porque:
 - É **obrigatório** no Notion [super](https://super.so/blog/change-title-column-in-notion)
 - Não pode ser deletado [youtube](https://www.youtube.com/watch?v=-AgLPTg54aE)
 - Não pode ter o tipo alterado [templates4notion](https://www.templates4notion.com/post/notion-change-title-column)
@@ -5235,7 +5235,7 @@ A opção "Transformar em título" ou "Use as page title" **NÃO EXISTE** no Not
 - Reduzindo a largura ao mínimo
 - Mantendo vazio ou com "---"
 
-**O campo "ID Pedido" é opcional**, mas fornece a numeração automática que você deseja. Mantê-lo é a melhor opção para sua necessidade de IDs únicos sequenciais. [reddit](https://www.reddit.com/r/Notion/comments/13lfy2j/new_in_notion_database_property_id_with_automatic/)
+**O  "ID Pedido" é opcional**, mas fornece a numeração automática que você deseja. Mantê-lo é a melhor opção para sua necessidade de IDs únicos sequenciais. [reddit](https://www.reddit.com/r/Notion/comments/13lfy2j/new_in_notion_database_property_id_with_automatic/)
 
 
 
@@ -5254,7 +5254,7 @@ A opção "Transformar em título" ou "Use as page title" **NÃO EXISTE** no Not
 	. Unidades
 	. Imagem
 	. Observações
-- Quais outros Campos devo criar para que possa colocar os Produtos em uma tabela que será uma conexão entre "Pedidos x Produtos Comprados".
+- Quais outros s devo criar para que possa colocar os Produtos em uma tabela que será uma conexão entre "Pedidos x Produtos Comprados".
 
 
 
@@ -5278,39 +5278,39 @@ Nome: "estrutura-tabela-produtos-comprados-relacao-pedidos.md"
 - **Status** (multi_select)
 - **Compra Feita em** (date)
 - **Observações** (text)
-- Outros campos de rastreio e datas
+- Outros s de rastreio e datas
 
 ***
 
 ## 🏗️ **ESTRUTURA RECOMENDADA PARA "PRODUTOS COMPRADOS"**
 
-### **Campos OBRIGATÓRIOS (do seu requisito):**
+### **s OBRIGATÓRIOS (do seu requisito):**
 
-| Nome do Campo | Tipo de Propriedade | Descrição |
+| Nome do  | Tipo de Propriedade | Descrição |
 |---------------|---------------------|-----------|
-| **Nome do Produto** | `title` | Nome/descrição do produto (campo obrigatório Title) |
+| **Nome do Produto** | `title` | Nome/descrição do produto ( obrigatório Title) |
 | **Valor Unitário** | `number` | Preço unitário do produto (formato: R$ 0,00) |
 | **Quantidade** | `number` | Quantidade de unidades compradas |
 | **Imagem** | `file` | Foto/imagem do produto |
 
-### **Campos ESSENCIAIS (para funcionar o sistema):**
+### **s ESSENCIAIS (para funcionar o sistema):**
 
-| Nome do Campo | Tipo de Propriedade | Descrição |
+| Nome do  | Tipo de Propriedade | Descrição |
 |---------------|---------------------|-----------|
 | **Pedido** | `relation` | Relação com a tabela "Pedidos" (Many-to-One)  [notion](https://www.notion.com/help/relations-and-rollups) |
 | **ID Produto** | `auto_increment_id` | Numeração automática sequencial |
 
-### **Campos CALCULADOS (fórmulas automáticas):**
+### **s CALCULADOS (fórmulas automáticas):**
 
-| Nome do Campo | Tipo de Propriedade | Fórmula | Resultado |
+| Nome do  | Tipo de Propriedade | Fórmula | Resultado |
 |---------------|---------------------|---------|-----------|
 | **Valor Total** | `formula` | `prop("Valor Unitário") * prop("Quantidade")` | Valor total do item |
 | **ID Pedido Relacionado** | `rollup` | Agregação: "Show original" | Mostra o ID do pedido vinculado |
 | **Loja do Pedido** | `rollup` | Agregação: "Show original" | Mostra a loja do pedido vinculado |
 
-### **Campos COMPLEMENTARES (recomendados):**
+### **s COMPLEMENTARES (recomendados):**
 
-| Nome do Campo | Tipo de Propriedade | Descrição |
+| Nome do  | Tipo de Propriedade | Descrição |
 |---------------|---------------------|-----------|
 | **Link do Produto** | `url` | URL da página do produto na loja |
 | **SKU/Código** | `text` | Código identificador do produto na loja |
@@ -5331,12 +5331,12 @@ Nome: "estrutura-tabela-produtos-comprados-relacao-pedidos.md"
 
 ### **Configuração na Tabela "Produtos Comprados":**
 
-01. Campo **"Pedido"** (tipo `relation`)
+01.  **"Pedido"** (tipo `relation`)
 02. Relacionar com a tabela **"Pedidos"**
 03. **Limite:** `1 page` (cada produto pertence a apenas 1 pedido) [theeudaimon](https://theeudaimon.com/connecting-your-thinking-in-notion-relations-and-backlinks/)
-04. **Bidirecional:** Ativar para criar automaticamente o campo reverso em "Pedidos"
+04. **Bidirecional:** Ativar para criar automaticamente o  reverso em "Pedidos"
 
-### **Campo Automático Criado na Tabela "Pedidos":**
+### ** Automático Criado na Tabela "Pedidos":**
 
 - **Nome:** "Produtos Comprados" (ou nome que você escolher)
 - **Tipo:** `relation` (lista de produtos vinculados)
@@ -5350,7 +5350,7 @@ Nome: "estrutura-tabela-produtos-comprados-relacao-pedidos.md"
 TABELA: Produtos Comprados
 ========================
 
-CAMPOS PRINCIPAIS:
+S PRINCIPAIS:
 01. Nome do Produto          [title]         - Obrigatório
 02. ID Produto               [auto_increment_id] - ProdID-1, ProdID-2...
 03. Pedido                   [relation]      - Vínculo com Pedidos (limite: 1 page)
@@ -5358,13 +5358,13 @@ CAMPOS PRINCIPAIS:
 05. Quantidade               [number]        - Inteiro
 06. Imagem                   [file]          - Upload de imagem
 
-CAMPOS CALCULADOS:
+S CALCULADOS:
 07. Valor Total              [formula]       - Valor Unitário × Quantidade
 08. ID Pedido                [rollup]        - Pega "ID Pedido" da relação
 09. Loja                     [rollup]        - Pega "Loja" da relação
 10. Status do Pedido         [rollup]        - Pega "Status" da relação
 
-CAMPOS COMPLEMENTARES:
+S COMPLEMENTARES:
 11. Link do Produto          [url]           - URL do produto
 12. SKU/Código              [text]          - Código do produto
 13. Cor/Variação            [text]          - Variação específica
@@ -5419,7 +5419,7 @@ Produto 3:
 
 **Resultado na Tabela "Pedidos":**
 ```
-Campo "Produtos Comprados": 
+ "Produtos Comprados": 
 - Hot Wheels Ferrari F40
 - Ímã Neodímio N52 10x2mm
 - Chave Allen Set 9 Peças
@@ -5462,11 +5462,11 @@ Após criar a relação, adicione estes Rollups em "Pedidos":
 
 ## ⚠️ **DIFERENÇA: RELATION vs ARQUIVO**
 
-Você atualmente tem um campo **"Produtos"** do tipo `file` na tabela "Pedidos". Isso é diferente da solução proposta:
+Você atualmente tem um  **"Produtos"** do tipo `file` na tabela "Pedidos". Isso é diferente da solução proposta:
 
 | Método | Tipo | Vantagens | Desvantagens |
 |--------|------|-----------|--------------|
-| **Campo File Atual** | `file` | Simples, rápido | Sem estrutura, sem cálculos, sem filtros |
+| ** File Atual** | `file` | Simples, rápido | Sem estrutura, sem cálculos, sem filtros |
 | **Tabela Relacionada** | `relation` | Estruturado, cálculos automáticos, filtros, análises | Mais complexo inicialmente |
 
 ### **Recomendação:**
@@ -5566,14 +5566,14 @@ Posso gerar um arquivo `.md` detalhado com:
 - URL: https://www.notion.so/Pedidos-2eff7525a6a980268654e9691bad0d62
 - Data Source: collection://2eff7525-a6a9-8083-9b21-000b2f4b7248
 
-#### Campos Configurados:
-[lista completa de campos, tipos, fórmulas]
+#### s Configurados:
+[lista completa de s, tipos, fórmulas]
 
 ### 1.2 Tabela "Produtos Comprados"
 - URL: https://www.notion.so/Produtos-2eff7525a6a98135b7b4e23776e47a66
 - Status: Em configuração
 
-#### Campos Planejados:
+#### s Planejados:
 [estrutura definida anteriormente]
 
 ## 2. RELAÇÕES ENTRE TABELAS
@@ -5640,7 +5640,7 @@ Se você está referenciando outro serviço ou ferramenta, por favor especifique
 ### **O que eu POSSO fazer AGORA:**
 
 - ✅ Buscar a estrutura atual da tabela "Produtos"
-- ✅ Configurar os campos necessários
+- ✅ Configurar os s necessários
 - ✅ Criar a relação com "Pedidos"
 - ✅ Implementar as fórmulas
 - ✅ Testar o sistema completo
@@ -5731,8 +5731,8 @@ Digam e vamos ao trabalho! 💪
 - Tabela 'Produtos Comprados' renomeada para 'Produtos'
 - Tabela 'Produtos':
 . Copia da Tabela 'Pedidos'
-. Foram Aproveitados Alguns Campos e fórmulas:
-	.. ID Tabela Produtos [título] = campo obrigatório Título
+. Foram Aproveitados Alguns s e fórmulas:
+	.. ID Tabela Produtos [título] =  obrigatório Título
 	.. ID dos Produto [ID] = Numeração automática sequencial
 	.. Nome do Produto [texto] = Nome/descrição do produto
 	.. Variação [texto] = Variação específica do produto (ex: cor, tamanho, tipo, modelo)
@@ -5839,12 +5839,12 @@ Ou prefere fazer manualmente e apenas receber as instruções detalhadas?
 
 ## [AG] 'IMPLEMENTAÇÃO PASSO-A-PASSO' será respondido Depois
 
-## [PERG] Com relação aos campos:
+## [PERG] Com relação aos s:
 - Criei o ID dos Pedidos e Produtos Pensando que seriam usados para criar as Relações.? para oq ele será usado, se é realmente necessário??
 
-- Se for necessário criar um campo de relação prefiro criar um novo com os nomes:
-	. Na Tabela de Pedidos usamos o campo 'Relação Tabela Produtos'
-	. Na Tabela de Produtos usamos o campo 'Relação Tabela Pedidos'
+- Se for necessário criar um  de relação prefiro criar um novo com os nomes:
+	. Na Tabela de Pedidos usamos o  'Relação Tabela Produtos'
+	. Na Tabela de Produtos usamos o  'Relação Tabela Pedidos'
 
 
 
@@ -5860,7 +5860,7 @@ O Notion cria relações usando URLs internas únicas de cada página, **não** 
 
 ***
 
-## 📋 **UTILIDADE DOS CAMPOS DE ID**
+## 📋 **UTILIDADE DOS S DE ID**
 
 ### **ID dos Pedidos** [auto_increment_id]
 ✓ **Referência visual humana** (ex: "Pedido #42")  
@@ -5879,17 +5879,17 @@ O Notion cria relações usando URLs internas únicas de cada página, **não** 
 
 ## ✅ **RECOMENDAÇÃO**
 
-**MANTER ambos os campos!** Eles são úteis para:
+**MANTER ambos os s!** Eles são úteis para:
 - Identificação humana rápida
 - Ordenação cronológica
 - Integração futura com outros sistemas
 - Relatórios e análises
 
-**MAS**: A relação será criada através de campo **[relation]** específico, não através desses IDs.
+**MAS**: A relação será criada através de  **[relation]** específico, não através desses IDs.
 
 ***
 
-## 🔗 **NOMENCLATURA DOS CAMPOS DE RELAÇÃO**
+## 🔗 **NOMENCLATURA DOS S DE RELAÇÃO**
 
 Sua proposta está boa, mas sugiro **simplificar** (Navalha de Occam):
 
@@ -5919,10 +5919,10 @@ Sua proposta está boa, mas sugiro **simplificar** (Navalha de Occam):
 ## 📌 **RESUMO**
 
 ✓ **IDs numéricos**: MANTER (úteis para referência humana)  
-✓ **Relações**: Criar campos **[relation]** separados  
+✓ **Relações**: Criar s **[relation]** separados  
 ✓ **Nomenclatura**: Aguardando sua escolha para prosseguir
 
-**Qual opção de nomenclatura você escolhe para os campos de relação?**
+**Qual opção de nomenclatura você escolhe para os s de relação?**
 
 
 
@@ -5932,7 +5932,7 @@ Sua proposta está boa, mas sugiro **simplificar** (Navalha de Occam):
 
 ## [AG] 'IMPLEMENTAÇÃO PASSO-A-PASSO' será respondido Depois
 
-## [CORRECAO] na Tabela Pedidos foi deletado o Campo 'Produto'.
+## [CORRECAO] na Tabela Pedidos foi deletado o  'Produto'.
 
 ## [RESP] Opção 'D':
 ### **Opção 4: Híbrida Plus** (Clara e Concisa)
@@ -5953,7 +5953,7 @@ Sua proposta está boa, mas sugiro **simplificar** (Navalha de Occam):
 
 ## 📋 **STATUS ATUAL ATUALIZADO**
 
-✓ Campo `Produtos` [file] foi **deletado** da Tabela Pedidos  
+✓  `Produtos` [file] foi **deletado** da Tabela Pedidos  
 ✓ Caminho livre para criar a relação bidirecional  
 ✓ Nomenclatura clara e descritiva escolhida
 
@@ -6022,9 +6022,9 @@ Avise quando quiser executar a implementação ou se há algo mais a ajustar ant
 
 ### **Tabela Pedidos** (`collection://2eff7525-a6a9-8083-9b21-000b2f4b7248`)
 
-| Campo | Tipo | Descrição |
+|  | Tipo | Descrição |
 |-------|------|-----------|
-| ID Tabela Pedidos | `title` | Campo obrigatório (título) |
+| ID Tabela Pedidos | `title` |  obrigatório (título) |
 | ID dos Pedidos | `auto_increment_id` | Numeração sequencial automática |
 | **Tabela Produtos Destino** | `relation` ⭐ | **Relação → Tabela Produtos** |
 | Status | `multi_select` | Status do pedido |
@@ -6040,9 +6040,9 @@ Avise quando quiser executar a implementação ou se há algo mais a ajustar ant
 
 ### **Tabela Produtos** (`collection://2eff7525-a6a9-8118-b047-000bbe69a2eb`)
 
-| Campo | Tipo | Descrição |
+|  | Tipo | Descrição |
 |-------|------|-----------|
-| ID Tabela Produtos | `title` | Campo obrigatório (título) |
+| ID Tabela Produtos | `title` |  obrigatório (título) |
 | ID dos Produtos | `auto_increment_id` | Numeração sequencial automática |
 | **Tabela Pedido Origem** | `relation` ⭐ | **Relação → Tabela Pedidos** |
 | Nome do Produto | `text` | Nome/descrição do produto |
@@ -6165,7 +6165,7 @@ Criar relação bidirecional Many-to-Many entre as tabelas **Pedidos** e **Produ
 
 ✓ Tabela **Pedidos** existente  
 ✓ Tabela **Produtos** existente  
-✓ Campo com nome `Produtos` (se existir como [file]) deve ser renomeado ou deletado
+✓  com nome `Produtos` (se existir como [file]) deve ser renomeado ou deletado
 
 ***
 
@@ -6173,23 +6173,23 @@ Criar relação bidirecional Many-to-Many entre as tabelas **Pedidos** e **Produ
 
 ### **FASE 1: PREPARAÇÃO DA TABELA PEDIDOS**
 
-#### **Passo 1.1: Verificar Campo Existente**
+#### **Passo 1.1: Verificar  Existente**
 1. Abra a Tabela **Pedidos**
-2. Localize o campo `Produtos`
+2. Localize o  `Produtos`
 3. Verifique o tipo:
    - Se for **[file]** ou outro tipo → Precisa renomear ou deletar
    - Se não existir → Prossiga para Passo 2.1
 
-#### **Passo 1.2: Remover/Renomear Campo Conflitante** (se necessário)
+#### **Passo 1.2: Remover/Renomear  Conflitante** (se necessário)
 
 **Opção A - Deletar:**
-1. Clique no cabeçalho da coluna `Produtos`
+1. Clique no cabeçalho da Campo `Produtos`
 2. Clique nos `...` (três pontos)
 3. Selecione `Delete property`
 4. Confirme a exclusão
 
 **Opção B - Renomear:**
-1. Clique no cabeçalho da coluna `Produtos`
+1. Clique no cabeçalho da Campo `Produtos`
 2. Clique nos `...` (três pontos)
 3. Selecione `Rename`
 4. Digite novo nome: `Produtos - Arquivos`
@@ -6200,7 +6200,7 @@ Criar relação bidirecional Many-to-Many entre as tabelas **Pedidos** e **Produ
 ### **FASE 2: CRIAR RELAÇÃO NA TABELA PEDIDOS**
 
 #### **Passo 2.1: Adicionar Nova Propriedade**
-1. Na Tabela **Pedidos**, role até o final das colunas
+1. Na Tabela **Pedidos**, role até o final das Campos
 2. Clique no botão `+` (adicionar propriedade)
 3. Digite o nome: `Tabela Produtos Destino`
 4. **NÃO pressione Enter ainda**
@@ -6217,11 +6217,11 @@ Criar relação bidirecional Many-to-Many entre as tabelas **Pedidos** e **Produ
 #### **Passo 2.4: Configurar Propriedade Reversa**
 1. Na seção **"Show on Produtos"** (ou similar)
 2. Marque a opção para criar propriedade reversa
-3. No campo de nome da propriedade reversa, digite: `Tabela Pedido Origem`
+3. No  de nome da propriedade reversa, digite: `Tabela Pedido Origem`
 4. Clique em `Add relation` ou `Confirm`
 
 #### **Passo 2.5: Validar Criação**
-✓ Coluna `Tabela Produtos Destino` deve aparecer na Tabela Pedidos  
+✓ Campo `Tabela Produtos Destino` deve aparecer na Tabela Pedidos  
 ✓ Quando clicar em uma célula, deve permitir selecionar produtos
 
 ***
@@ -6230,10 +6230,10 @@ Criar relação bidirecional Many-to-Many entre as tabelas **Pedidos** e **Produ
 
 #### **Passo 3.1: Abrir Tabela Produtos**
 1. Navegue até a Tabela **Produtos**
-2. Role até o final das colunas
+2. Role até o final das Campos
 
-#### **Passo 3.2: Verificar Campo Criado Automaticamente**
-✓ Deve existir coluna `Tabela Pedido Origem`  
+#### **Passo 3.2: Verificar  Criado Automaticamente**
+✓ Deve existir Campo `Tabela Pedido Origem`  
 ✓ Tipo: Relation (ícone de corrente/link)  
 ✓ Quando clicar em célula, permite selecionar pedidos
 
@@ -6241,16 +6241,16 @@ Criar relação bidirecional Many-to-Many entre as tabelas **Pedidos** e **Produ
 
 ### **FASE 4: ORGANIZAR VISUALIZAÇÃO**
 
-#### **Passo 4.1: Reordenar Colunas na Tabela Pedidos**
-1. Arraste a coluna `Tabela Produtos Destino` para posição desejada
+#### **Passo 4.1: Reordenar Campos na Tabela Pedidos**
+1. Arraste a Campo `Tabela Produtos Destino` para posição desejada
 2. Sugestão: Posicionar após `Status` ou `ID dos Pedidos`
 
-#### **Passo 4.2: Reordenar Colunas na Tabela Produtos**
-1. Arraste a coluna `Tabela Pedido Origem` para posição desejada
+#### **Passo 4.2: Reordenar Campos na Tabela Produtos**
+1. Arraste a Campo `Tabela Pedido Origem` para posição desejada
 2. Sugestão: Posicionar após `ID dos Produtos`
 
-#### **Passo 4.3: Ajustar Largura das Colunas**
-1. Posicione mouse na borda direita do cabeçalho da coluna
+#### **Passo 4.3: Ajustar Largura das Campos**
+1. Posicione mouse na borda direita do cabeçalho da Campo
 2. Arraste para ajustar largura
 3. Recomendado: Largura média (150-200px)
 
@@ -6260,18 +6260,18 @@ Criar relação bidirecional Many-to-Many entre as tabelas **Pedidos** e **Produ
 
 ### **Checklist de Validação:**
 
-- [ ] Campo `Tabela Produtos Destino` existe na Tabela Pedidos
-- [ ] Campo `Tabela Pedido Origem` existe na Tabela Produtos
+- [ ]  `Tabela Produtos Destino` existe na Tabela Pedidos
+- [ ]  `Tabela Pedido Origem` existe na Tabela Produtos
 - [ ] Ao clicar em célula de Pedidos, posso selecionar Produtos
 - [ ] Ao clicar em célula de Produtos, posso selecionar Pedidos
-- [ ] Ambas as colunas mostram ícone de relation (corrente/link)
+- [ ] Ambas as Campos mostram ícone de relation (corrente/link)
 
 ***
 
 ## 🎯 **TESTE PRÁTICO RÁPIDO**
 
 1. Abra Tabela **Pedidos**
-2. Clique em uma célula da coluna `Tabela Produtos Destino`
+2. Clique em uma célula da Campo `Tabela Produtos Destino`
 3. Comece a digitar nome de um produto ou clique para ver lista
 4. Selecione um produto
 5. Vá até Tabela **Produtos**
@@ -6285,18 +6285,18 @@ Criar relação bidirecional Many-to-Many entre as tabelas **Pedidos** e **Produ
 ## 🔧 **SOLUÇÃO DE PROBLEMAS**
 
 ### **Problema: Não consigo criar relation com nome "Produtos"**
-**Solução:** Existe campo com esse nome. Delete ou renomeie (Fase 1, Passo 1.2)
+**Solução:** Existe  com esse nome. Delete ou renomeie (Fase 1, Passo 1.2)
 
 ### **Problema: Não encontro a Tabela Produtos na seleção**
 **Solução:** Verifique se está no workspace correto e se a tabela Produtos existe
 
-### **Problema: Campo criado mas não consigo selecionar nada**
+### **Problema:  criado mas não consigo selecionar nada**
 **Solução:** 
 1. Delete a relação
 2. Recrie seguindo todos os passos
 3. Certifique-se de selecionar a tabela correta
 
-### **Problema: Campo reverso não foi criado automaticamente**
+### **Problema:  reverso não foi criado automaticamente**
 **Solução:** 
 1. Vá em Tabela Produtos
 2. Crie propriedade Relation manualmente
@@ -6312,7 +6312,7 @@ Criar relação bidirecional Many-to-Many entre as tabelas **Pedidos** e **Produ
 - Mudanças em um lado refletem automaticamente no outro
 - Many-to-Many: Um pedido pode ter vários produtos, um produto pode estar em vários pedidos
 
-### **Diferença entre Relation e outros campos**
+### **Diferença entre Relation e outros s**
 - **File:** Armazena arquivos diretamente
 - **Relation:** Cria vínculo com outra tabela/página
 - **Rollup:** Calcula valores baseados em relations (próximo passo)
@@ -6379,7 +6379,7 @@ Se a propriedade `Produtos` **não existe mais** na Tabela Pedidos (você já de
 
 ## ✅ **CORREÇÃO DO GUIA**
 
-A **Fase 1** foi incluída como **medida preventiva** para cobrir cenários onde o campo ainda existisse. Como você já deletou antes, pode:
+A **Fase 1** foi incluída como **medida preventiva** para cobrir cenários onde o  ainda existisse. Como você já deletou antes, pode:
 
 ### **Pular direto para:**
 → **FASE 2: CRIAR RELAÇÃO NA TABELA PEDIDOS**
@@ -6389,7 +6389,7 @@ A **Fase 1** foi incluída como **medida preventiva** para cobrir cenários onde
 ## 📝 **GUIA CORRIGIDO PARA SUA SITUAÇÃO**
 
 Como você confirmou:
-- ✓ Campo `Produtos` já foi deletado anteriormente
+- ✓  `Produtos` já foi deletado anteriormente
 - ✓ Tabela Pedidos está limpa e pronta
 
 Então seu fluxo é:
@@ -6407,7 +6407,7 @@ A Fase 1 estava lá porque:
 - Guias devem ser **completos e universais**
 - Cobrir **todos os cenários possíveis**
 - Servir como referência para **qualquer pessoa** usar no futuro
-- Você mesmo pode usar este guia em **outro workspace** onde o campo ainda exista
+- Você mesmo pode usar este guia em **outro workspace** onde o  ainda exista
 
 ***
 
@@ -6415,7 +6415,7 @@ A Fase 1 estava lá porque:
 
 **Prossiga direto para FASE 2, Passo 2.1:**
 
-1. Na Tabela **Pedidos**, role até o final das colunas
+1. Na Tabela **Pedidos**, role até o final das Campos
 2. Clique no botão `+` (adicionar propriedade)
 3. Digite o nome: `Tabela Produtos Destino`
 4. Continue seguindo a partir dali
@@ -6507,7 +6507,7 @@ Vou criar um guia corrigido para você:
 #### **Passo 0.1: Renomear Database Pedidos**
 1. Abra a página `🚛 Pedidos` (dentro do teste)
 2. Clique no título do database inline: `Nova base de dados`
-3. No menu que abre, localize o campo **"Database name"** ou título
+3. No menu que abre, localize o  **"Database name"** ou título
 4. Altere para: `Pedidos - TESTE`
 5. Pressione **Enter**
 
@@ -6610,7 +6610,7 @@ Após teste, podemos adicionar:
 
 ***
 
-## [OBS] Parado na 'FAse 0' 'Passo 0.1' item '3.', nenhum menu abriu ao clicar no título, cliquei nos '...' no final da linha [ANEXO1], cliquei tambem nos 6 pontos que aparecem na frente, mas nenhum dos campo 'Database name"** ou título' aparece, ver o que esta ocorrendo e me passar a correção.
+## [OBS] Parado na 'FAse 0' 'Passo 0.1' item '3.', nenhum menu abriu ao clicar no título, cliquei nos '...' no final da linha [ANEXO1], cliquei tambem nos 6 pontos que aparecem na frente, mas nenhum dos  'Database name"** ou título' aparece, ver o que esta ocorrendo e me passar a correção.
 
 ***
 
@@ -6678,7 +6678,7 @@ Como você já adicionou o sufixo **" - v3"** nas tabelas originais, podemos **u
 
 #### **Passo 2.1: Adicionar Nova Propriedade**
 1. Abra a Tabela **Pedidos - v3** (ORIGINAL)
-2. Role até o final das colunas
+2. Role até o final das Campos
 3. Clique no botão `+` (adicionar propriedade)
 4. Digite: `Tabela Produtos Destino`
 
@@ -6701,8 +6701,8 @@ Como você já adicionou o sufixo **" - v3"** nas tabelas originais, podemos **u
 ## ✅ **VALIDAÇÃO**
 
 Após seguir esses passos:
-- ✓ Campo `Tabela Produtos Destino` na Tabela Pedidos - v3
-- ✓ Campo `Tabela Pedido Origem` na Tabela Produtos - v3
+- ✓  `Tabela Produtos Destino` na Tabela Pedidos - v3
+- ✓  `Tabela Pedido Origem` na Tabela Produtos - v3
 - ✓ Relação funcionando bidirecional
 
 ***
@@ -8812,7 +8812,7 @@ Status: [Descrição do estado]
 - **Nome:** ID Tabela Pedidos
 - **Tipo:** Title
 - **Obrigatório:** Sim
-- **Configuração:** Campo padrão de título
+- **Configuração:**  padrão de título
 
 #### Propriedade 2: ID dos Pedidos
 - **Nome:** ID dos Pedidos
@@ -9019,12 +9019,12 @@ Vou gerar agora o snapshot do seu sistema atual:
 ```yaml
 Nome: ID Tabela Pedidos
 Tipo: title (Título)
-Obrigatório: Sim (campo padrão do Notion)
-Configuração: Campo de título padrão, texto livre
+Obrigatório: Sim ( padrão do Notion)
+Configuração:  de título padrão, texto livre
 ```
 
 **Como recriar:**
-- Este campo é criado automaticamente ao criar database
+- Este  é criado automaticamente ao criar database
 - Renomear de "Name" para "ID Tabela Pedidos"
 
 ***
@@ -9193,7 +9193,7 @@ Formato de saída: Text (URL)
 5. Clicar em `Done`
 
 **O que a fórmula faz:**
-- Se campo "Rastreio 4tracking" estiver vazio → não mostra nada
+- Se  "Rastreio 4tracking" estiver vazio → não mostra nada
 - Se tiver código → concatena com URL do 4tracking
 - Resultado: Link clicável para rastreamento
 
@@ -9256,7 +9256,7 @@ Configuração: Texto livre longo
 Nome: ID Tabela Produtos
 Tipo: title
 Obrigatório: Sim
-Configuração: Campo de título padrão
+Configuração:  de título padrão
 ```
 
 ***
@@ -9684,13 +9684,13 @@ Quantidade de Registros: 1
 ```yaml
 Nome: ID Tabela Pedidos
 Tipo: title (Título)
-Obrigatório: Sim (campo padrão do Notion)
-Configuração: Campo de título padrão, texto livre
+Obrigatório: Sim ( padrão do Notion)
+Configuração:  de título padrão, texto livre
 ```
 
 **Como recriar:**
-1. Ao criar database, campo "Name" é criado automaticamente
-2. Clicar no nome da coluna "Name"
+1. Ao criar database,  "Name" é criado automaticamente
+2. Clicar no nome da Campo "Name"
 3. Renomear para: `ID Tabela Pedidos`
 4. Pressionar Enter
 
@@ -9709,7 +9709,7 @@ Configuração:
 ```
 
 **Como recriar:**
-1. Clicar em `+` no final das colunas
+1. Clicar em `+` no final das Campos
 2. Nome: `ID dos Pedidos`
 3. Tipo: Selecionar `ID` (ícone #123 com seta crescente)
 4. Salvar (Enter)
@@ -9889,7 +9889,7 @@ if(empty(prop("Rastreio 4tracking")), "", "https://www.4tracking.net/" + prop("R
 5. Clicar em `Done`
 
 **O que a fórmula faz:**
-- **SE** campo "Rastreio 4tracking" estiver vazio → retorna string vazia
+- **SE**  "Rastreio 4tracking" estiver vazio → retorna string vazia
 - **SENÃO** → concatena "https://www.4tracking.net/" com o código
 - **Resultado:** Link clicável para página de rastreamento
 
@@ -10034,7 +10034,7 @@ Quantidade de Registros: 0
 Nome: ID Tabela Produtos
 Tipo: title
 Obrigatório: Sim
-Configuração: Campo de título padrão
+Configuração:  de título padrão
 ```
 
 ***
@@ -10308,7 +10308,7 @@ Um Produto → Múltiplos Pedidos ✓
 
 2. **Sincronização automática:**
    - Ao vincular produto em Pedido
-   - Campo "Tabela Pedido Origem" do produto é atualizado automaticamente
+   -  "Tabela Pedido Origem" do produto é atualizado automaticamente
    - Mostra em qual pedido o produto está
 
 3. **Remoção:**
@@ -10382,7 +10382,7 @@ if(empty(prop("Rastreio 4tracking")), "", "https://www.4tracking.net/" + prop("R
 ```
 
 **Descrição:**
-- Verifica se campo "Rastreio 4tracking" está vazio
+- Verifica se  "Rastreio 4tracking" está vazio
 - Se vazio: retorna string vazia
 - Se preenchido: gera URL concatenando base com código
 - Resultado: Link clicável automático
@@ -10519,7 +10519,7 @@ Valor Total: 46.50 (calculado)
 
 #### **Passo 4.1: Criar Relation em Pedidos**
 1. Abrir `DB Pedidos - v3`
-2. Clicar em `+` no final das colunas
+2. Clicar em `+` no final das Campos
 3. Nome: `Tabela Produtos Destino`
 4. Tipo: `Relation`
 5. Selecionar database: `DB Produtos - v3`
@@ -10529,7 +10529,7 @@ Valor Total: 46.50 (calculado)
 
 #### **Passo 4.2: Validar Criação Automática**
 1. Abrir `DB Produtos - v3`
-2. Verificar que coluna `Tabela Pedido Origem` foi criada
+2. Verificar que Campo `Tabela Pedido Origem` foi criada
 3. Tipo deve ser [relation]
 
 #### **Passo 4.3: Testar Relation**
@@ -11454,7 +11454,7 @@ Uso: Ctrl+F + [#DB-PEDIDOS] para ir direto
 ```markdown
 ## TEMPLATE: Como Recriar uma Propriedade SELECT
 
-1. Clicar em + no final das colunas
+1. Clicar em + no final das Campos
 2. Nome: [NOME_DA_PROPRIEDADE]
 3. Tipo: Select
 4. Adicionar opções:
@@ -11967,14 +11967,14 @@ Criar, no **DB Pedidos - v3**, uma relação chamada **Tabela Produtos Destino**
 
 1. Navegar até a página **Pedidos - v3**.  
 2. Localizar a tabela **DB Pedidos - v3** (database inline dentro dessa página). [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/8f23e2af-d928-4156-8bd6-1459865f67ec/image.jpg)
-3. Confirmar que está vendo as colunas já existentes (ID Tabela Pedidos, ID dos Pedidos, Status, etc.).
+3. Confirmar que está vendo as Campos já existentes (ID Tabela Pedidos, ID dos Pedidos, Status, etc.).
 
 ***
 
 ### 2. Criar a nova propriedade de Relation
 
-1. Na última coluna da tabela, clicar em **“+”** para adicionar uma nova propriedade.  
-2. No campo de nome, digitar exatamente:  
+1. Na última Campo da tabela, clicar em **“+”** para adicionar uma nova propriedade.  
+2. No  de nome, digitar exatamente:  
    - `Tabela Produtos Destino`  
 3. No seletor de tipo de propriedade, escolher **Relation** (ícone de elos de corrente). [notion](https://www.notion.com/help/relations-and-rollups)
 
@@ -11983,7 +11983,7 @@ Criar, no **DB Pedidos - v3**, uma relação chamada **Tabela Produtos Destino**
 ### 3. Escolher o database de destino (DB Produtos - v3)
 
 1. Ao selecionar **Relation**, o Notion abre uma caixa para escolher o database relacionado.  
-2. No campo de busca dessa caixa, digitar:  
+2. No  de busca dessa caixa, digitar:  
    - `DB Produtos - v3`  
 3. Selecionar o database que aparecer com esse nome (confirme pela URL/título se necessário). [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/8f23e2af-d928-4156-8bd6-1459865f67ec/image.jpg)
 
@@ -11996,7 +11996,7 @@ Resultado esperado: a janela mostra algo como “Relate **DB Pedidos - v3** to *
 1. Na mesma janela de configuração da relation, localizar a opção:  
    - **“Show on [DB Produtos - v3]”** (ou texto equivalente de “Mostrar no outro database”). [notion](https://www.notion.vip/insights/notion-explained-relations-rollups)
 2. Certificar-se de que a caixa está **marcada** (✅).  
-3. No campo de nome da propriedade reversa, digitar exatamente:  
+3. No  de nome da propriedade reversa, digitar exatamente:  
    - `Tabela Pedido Origem`  
 4. Confirmar que a pré-visualização indica:  
    - Em **DB Pedidos - v3**: propriedade `Tabela Produtos Destino`  
@@ -12009,10 +12009,10 @@ Resultado esperado: a janela mostra algo como “Relate **DB Pedidos - v3** to *
 1. Clicar em **“Add relation” / “Adicionar relação”**.  
 2. Aguardar o Notion aplicar a mudança.  
 3. Verificar no **DB Pedidos - v3** que:  
-   - A nova coluna **Tabela Produtos Destino** apareceu.  
-   - O tipo da coluna é “Relation” apontando para **DB Produtos - v3**. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/8f23e2af-d928-4156-8bd6-1459865f67ec/image.jpg)
+   - A nova Campo **Tabela Produtos Destino** apareceu.  
+   - O tipo da Campo é “Relation” apontando para **DB Produtos - v3**. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/8f23e2af-d928-4156-8bd6-1459865f67ec/image.jpg)
 4. Abrir o **DB Produtos - v3** e conferir:  
-   - Existe uma nova coluna **Tabela Pedido Origem**, criada automaticamente.  
+   - Existe uma nova Campo **Tabela Pedido Origem**, criada automaticamente.  
    - O tipo é “Relation” apontando para **DB Pedidos - v3**. [notion](https://www.notion.com/help/relations-and-rollups)
 
 ***
@@ -12022,12 +12022,12 @@ Resultado esperado: a janela mostra algo como “Relate **DB Pedidos - v3** to *
 **Teste mínimo recomendável:**
 
 1. Em **DB Pedidos - v3**, criar um pedido de teste (por exemplo: “Pedido TESTE Relation 001”).  
-2. Na coluna **Tabela Produtos Destino**, clicar na célula desse pedido:  
+2. Na Campo **Tabela Produtos Destino**, clicar na célula desse pedido:  
    - Clicar em **“+ Add a page”** ou **“+”**.  
    - Selecionar produtos já existentes ou criar novos produtos de teste em **DB Produtos - v3**. [notion](https://www.notion.com/help/relations-and-rollups)
-3. Em **DB Produtos - v3**, abrir um dos produtos vinculados e conferir que o campo **Tabela Pedido Origem** mostra o pedido de teste.  
+3. Em **DB Produtos - v3**, abrir um dos produtos vinculados e conferir que o  **Tabela Pedido Origem** mostra o pedido de teste.  
 4. Remover a relação de um dos lados (por exemplo, tirar um produto de **Tabela Produtos Destino**):  
-   - Confirmar que, no produto correspondente, o campo **Tabela Pedido Origem** é atualizado automaticamente (o vínculo desaparece ali também).  
+   - Confirmar que, no produto correspondente, o  **Tabela Pedido Origem** é atualizado automaticamente (o vínculo desaparece ali também).  
 
 Se tudo se comportar assim, a relation bidirecional está corretamente configurada e pronta para ser usada pelos **Rollups** (Valor Total do Pedido, Quantidade Total de Itens, Produtos Diferentes) e pelo **Teste Prático** que você descreveu. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/108742584/d24e7426-1709-492b-8857-186b4301cae6/estrutura-menu-utilizando-frase-destaque-titulo-3-alternante-guia-passo-a-passo.md)
 
@@ -12096,28 +12096,28 @@ Você não está errando; a interface mudou e o meu passo a passo ficou desatual
 
 Na sua captura aparece a janela com:
 
-- Campo de nome: **Tabela Produtos Destino**  
+-  de nome: **Tabela Produtos Destino**  
 - Linha **Relacionado a → DB Produtos - …** (já está correto)  
 - Linha **Limite → Sem limite**  
 - Opção **Relação bidirecional** com um botão de ligar/desligar (toggle)  
 - Botão azul **Adicionar relação**. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/40ee9287-0b7b-4cf6-a5a4-b8b50c4f4430/image.jpg?AWSAccessKeyId=ASIA2F3EMEYE6CGSH5PJ&Signature=HG9v6kKJlrZ8%2FVXqO0Z%2BMNePZo0%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEB4aCXVzLWVhc3QtMSJIMEYCIQCPaIE7nyua1dND7Vn25uU4wExNPDyQreKYpds7vO72wQIhANUjtw03nOsbMhmtdUJJWCAxteK%2FLXxk%2BeEOE9zp2ahoKvwECOf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQARoMNjk5NzUzMzA5NzA1IgxTTND7OrH1eJaSlD4q0ARFr4dLegmwlcvgQ%2B0tOm3CR9%2BnnJO%2BM64WnRnSwS5MSmeDr9KiJyGL8AA6jkYVL5vc96aDTWgu24evBc4ndAbrkt2csVq0Qgg2Mt7me2YejxAe%2FG83%2BemIr3IEJM2gMt9AHX4pQcqfRLBCPFLUrCFFSp2f9kE%2B%2BDGQSm0yoDlDSKwpdWLqmvZpnyX9kFBQdNH2UM4rcM3I75sIa%2B6sz7ccyJOyrKwS417EnDfy3y%2BTSzZiuyZ512o%2BQ4Mu2BRUU15q9vRepkRYXnke%2BFs21Y9RdK53xQ8%2FCzINMDPGS53rXzOWmr%2FjgtiaNufmUADDf0NAFRuKIfz9Vwdq6Mu0yq%2FmpCqJHQbkyiguTG13prYZoKtoT4hx2bsMt42yhr6rtzSqwHFjPvcRnwSFN3I6NPVvT1p9XRq7ZBEn6mkDgNfylJb5tga7V6AHGntn3%2BFda4wOpWnavRDtnS2Oo5rmYL9YiDvLcTj6u7%2BSSGRozAz3gBBAQulpy3oKFV63E1%2Bs%2FOIZSiTQJezpw8uDWCbTFdsTfU154dELgetjugua1ym%2FXoQ9CMXSGb6RTfX9eY5n%2BXiuKLLO5VpkuXM2g3rbB1koVdqdtVLPSZ4o9AXOeTtCQjVaCEdwFY3mIixEN0wxqXCqfJ1IMbpxKv%2BtVyceD0eX%2BQwtTiIQ%2BcxHtUefZxkJZQbD3Gp4c5ThPJxvTRi3G7Q%2F91C0w1IAjJrOEPdS0xcCoKDPVU%2B%2B8%2FJRILL0Ot5qW93AsYSHeWsxttHYgl4%2BvVYYS22E68m8hamzBMeQ4w%2F6MLewyssGOpcBRX6JaY3HT2xtatBTPiJsFTTBOvYDN1c7FlEFVtlrrOZ4CMky1QpnP%2Btbw4bYrOaWFVdB3nXJDQUnqO%2Bbo1o4qByvYq%2B9Dbwm5g7HYukfRjmdbj4lbPV4pjHNPRBAdfr8Dxf2TrzDtehHS9vKl96liwVhfUoA6lxhqQqUzb%2FNJJ3mMDg0KqO7DfLWKP5FsZKuRbohDkbkuw%3D%3D&Expires=1769120189)
 
-Isso significa que agora o Notion controla a bidirecionalidade com esse **toggle “Relação bidirecional”**, em vez de mostrar um campo separado para digitar o nome da propriedade reversa. [notion](https://www.notion.com/help/relations-and-rollups)
+Isso significa que agora o Notion controla a bidirecionalidade com esse **toggle “Relação bidirecional”**, em vez de mostrar um  separado para digitar o nome da propriedade reversa. [notion](https://www.notion.com/help/relations-and-rollups)
 
 ## 2. Como concluir o Passo 4 na interface atual
 
 Refazendo o passo 4 de forma compatível com a sua tela:
 
-1. Na janela **Nova relação**, confirme que o campo **Relacionado a** está apontando para **DB Produtos - v3**.  
+1. Na janela **Nova relação**, confirme que o  **Relacionado a** está apontando para **DB Produtos - v3**.  
 2. Localize a opção **Relação bidirecional** (ícone de duas setas ↔).  
 3. Clique no botão para **ligar** esse toggle, deixando-o ativado (cor/estado “ON”). [notion](https://www.notion.com/help/relations-and-rollups)
-4. Deixe o campo **Limite** como **Sem limite** (isso garante many‑to‑many).  
+4. Deixe o  **Limite** como **Sem limite** (isso garante many‑to‑many).  
 5. Clique em **Adicionar relação**.
 
 O Notion vai:
 
-- Criar em **DB Pedidos - v3** a coluna **Tabela Produtos Destino** (relation).  
-- Criar automaticamente em **DB Produtos - v3** a coluna reversa, normalmente com um nome padrão (algo como “DB Pedidos - v3” ou similar), que depois você pode **renomear manualmente para `Tabela Pedido Origem`** na própria tabela de produtos. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/108742584/d24e7426-1709-492b-8857-186b4301cae6/estrutura-menu-utilizando-frase-destaque-titulo-3-alternante-guia-passo-a-passo.md)
+- Criar em **DB Pedidos - v3** a Campo **Tabela Produtos Destino** (relation).  
+- Criar automaticamente em **DB Produtos - v3** a Campo reversa, normalmente com um nome padrão (algo como “DB Pedidos - v3” ou similar), que depois você pode **renomear manualmente para `Tabela Pedido Origem`** na própria tabela de produtos. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/108742584/d24e7426-1709-492b-8857-186b4301cae6/estrutura-menu-utilizando-frase-destaque-titulo-3-alternante-guia-passo-a-passo.md)
 
 Ou seja: hoje você **não escolhe o nome da propriedade reversa na mesma janela**; ativa a bidirecionalidade pelo toggle e renomeia depois diretamente em DB Produtos.
 
@@ -12126,11 +12126,11 @@ Ou seja: hoje você **não escolhe o nome da propriedade reversa na mesma janela
 Depois de seguir os passos acima:
 
 - Em **DB Pedidos - v3**  
-  - Verifique se a coluna **Tabela Produtos Destino** apareceu e o tipo é “Relation” apontando para **DB Produtos - v3**. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/108742584/d24e7426-1709-492b-8857-186b4301cae6/estrutura-menu-utilizando-frase-destaque-titulo-3-alternante-guia-passo-a-passo.md)
+  - Verifique se a Campo **Tabela Produtos Destino** apareceu e o tipo é “Relation” apontando para **DB Produtos - v3**. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/108742584/d24e7426-1709-492b-8857-186b4301cae6/estrutura-menu-utilizando-frase-destaque-titulo-3-alternante-guia-passo-a-passo.md)
 
 - Em **DB Produtos - v3**  
-  - Deve ter surgido uma nova coluna de relation apontando para **DB Pedidos - v3**.  
-  - Clique no nome dessa coluna e renomeie para **Tabela Pedido Origem**, para ficar igual ao desenho do sistema. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/108742584/d24e7426-1709-492b-8857-186b4301cae6/estrutura-menu-utilizando-frase-destaque-titulo-3-alternante-guia-passo-a-passo.md)
+  - Deve ter surgido uma nova Campo de relation apontando para **DB Pedidos - v3**.  
+  - Clique no nome dessa Campo e renomeie para **Tabela Pedido Origem**, para ficar igual ao desenho do sistema. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/108742584/d24e7426-1709-492b-8857-186b4301cae6/estrutura-menu-utilizando-frase-destaque-titulo-3-alternante-guia-passo-a-passo.md)
 
 Se isso estiver ok, a relation bidirecional está criada corretamente e você pode seguir com:
 
@@ -12195,13 +12195,13 @@ Na imagem atual aparecem: [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-
 - **Relacionado a → DB Produtos - …** (ok).  
 - **Limite → Sem limite** (ok para many‑to‑many).  
 - **Relação bidirecional**: toggle **ligado** (azul).  
-- Campo **Nome da propriedade relacionada** preenchido com `DB Pedidos - v3`.  
+-  **Nome da propriedade relacionada** preenchido com `DB Pedidos - v3`.  
 
-Isso já cobre tudo o que seria configurado nos “itens seguintes” do passo anterior; essa caixa **Nome da propriedade relacionada** é justamente o lugar onde se define o nome da coluna reversa em DB Produtos. [notion](https://www.notion.com/help/relations-and-rollups)
+Isso já cobre tudo o que seria configurado nos “itens seguintes” do passo anterior; essa caixa **Nome da propriedade relacionada** é justamente o lugar onde se define o nome da Campo reversa em DB Produtos. [notion](https://www.notion.com/help/relations-and-rollups)
 
 ## O que fazer a partir deste ponto
 
-1. No campo **Nome da propriedade relacionada**, substitua o texto `DB Pedidos - v3` por:  
+1. No  **Nome da propriedade relacionada**, substitua o texto `DB Pedidos - v3` por:  
    - `Tabela Pedido Origem`  
 2. Verifique se continua assim:  
    - Relação bidirecional: **ligada**.  
@@ -12211,7 +12211,7 @@ Isso já cobre tudo o que seria configurado nos “itens seguintes” do passo a
 
 Pronto:  
 
-- Em **DB Pedidos - v3** ficará a coluna **Tabela Produtos Destino** (lado pedido).  
+- Em **DB Pedidos - v3** ficará a Campo **Tabela Produtos Destino** (lado pedido).  
 - Em **DB Produtos - v3** aparecerá já com o nome correto **Tabela Pedido Origem** (lado produto). [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/108742584/d24e7426-1709-492b-8857-186b4301cae6/estrutura-menu-utilizando-frase-destaque-titulo-3-alternante-guia-passo-a-passo.md)
 
 ## Depois disso
@@ -12317,28 +12317,28 @@ Vou focar em passos bem diretos, só com o que realmente aparece para você.
 
 ***
 
-## 1. Confirmar a coluna em **DB Pedidos - v3**
+## 1. Confirmar a Campo em **DB Pedidos - v3**
 
-Você já está vendo o menu de coluna da **Tabela Produtos Destino**. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/60d010ef-8b71-481b-be38-4f2d941af0fb/image.jpg?AWSAccessKeyId=ASIA2F3EMEYE4YFDYESW&Signature=sYwV%2B%2Fn5Lre3BQf6yBwMzQ4zFJg%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEB8aCXVzLWVhc3QtMSJHMEUCIQC%2BmAJ6Tf5V0S5YbrRuXhQkdVDLWatTAh1vRdrZEIQLggIgW2eczCIDmF2jhuNGviyvDoQFy4FjZYK%2BxYfw17qRJ2kq%2FAQI5%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgw2OTk3NTMzMDk3MDUiDDUWzTef38pZtoRhjCrQBEqlZ%2FWpYQYKhR34pb9EsOGqB2RpTPwR7KASDP0qF1yrK1BGdWGRsTRI%2FKvrNyY%2Bs2VFtfJz8I98qD4nbN%2F6GdaHKtW5txVXCBbRp%2Bh7IEnbZjPHkhMCdvayrZvZ9VVAZz6IpgCI1V8LBcICfrdeugUyv10Syr83p4n3fM9ibT3DW9mu1jEww78ZlxYmh7TessRJ3cTtHwmrmSO3eGIkxWCvn7%2BKOyJ6Lcg8LFVMam2U5IUooZMvNolmk1dF0ynRv3AyZxijcE3JbXOJwD9A02j7%2FTsdRIo85s6Z%2FUBYs7slvl042FiDwLPP237STs8SdAMCvbPCUUh07geZBL8sNN3cnb8F9amHCYCR%2FG%2BU6wjlmP%2BRY6rJXdlHwhcSgcfM2taHX77uJZxVzxd1N3mV3RjRTE2g%2BQFTPLiBCzQ1fA4TfkK%2BOueHM8d2Wjon5NviyRzGeMfmG1Uw7WgUOWtd7J3WQRI1iuJSLl5Mr7zzqsEnWvLqhmucd2qVL3x38zUV88gPwrNwuf7OoZsD4kywHpLeMmmgzIlaMKksc8PSqqyfX%2FZQ2sDREuqx3WbJauSssO0CDHP3duDSNm8b67vPVCFqsQJV1IQfXoCLZ%2Bmi9qz%2BrqDeQjk54qGPRupZtXQ19vafg6KaMN7bNtTe5x6wOtj4qZpigwUuKqUzlmaax%2FYSJw4jprktFLl9upBgs%2F6Jgphc3tE6%2BIatz%2B7tH3CQeSV6DbL5zdeAdJMi%2FlANsEWtJ1d3MgpSdrnW2rsFlrcBLkqFUEMwtlYbPQ8ndafcG8Qw%2FsDKywY6mAHhoBF4TZc%2FmPFBLDGHUc78wBfRUGcHqUxYij6%2FK7xXWdo9xnXw97YfJFOHp8v1I1QDDOciL8%2FatZOo%2FptsKn4YfcKncSjGOhNmJlSUAP1S9fzHBMTA2W75DLZcnSOLUlaT%2F1N4QJqC80kWhg3m6fb%2BgBcUinxe8R0i7VszktUDfqfV14cehkrZokq6FFuKOU1f9HrR4GsFDw%3D%3D&Expires=1769120804)
+Você já está vendo o menu de Campo da **Tabela Produtos Destino**. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/60d010ef-8b71-481b-be38-4f2d941af0fb/image.jpg?AWSAccessKeyId=ASIA2F3EMEYE4YFDYESW&Signature=sYwV%2B%2Fn5Lre3BQf6yBwMzQ4zFJg%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEB8aCXVzLWVhc3QtMSJHMEUCIQC%2BmAJ6Tf5V0S5YbrRuXhQkdVDLWatTAh1vRdrZEIQLggIgW2eczCIDmF2jhuNGviyvDoQFy4FjZYK%2BxYfw17qRJ2kq%2FAQI5%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgw2OTk3NTMzMDk3MDUiDDUWzTef38pZtoRhjCrQBEqlZ%2FWpYQYKhR34pb9EsOGqB2RpTPwR7KASDP0qF1yrK1BGdWGRsTRI%2FKvrNyY%2Bs2VFtfJz8I98qD4nbN%2F6GdaHKtW5txVXCBbRp%2Bh7IEnbZjPHkhMCdvayrZvZ9VVAZz6IpgCI1V8LBcICfrdeugUyv10Syr83p4n3fM9ibT3DW9mu1jEww78ZlxYmh7TessRJ3cTtHwmrmSO3eGIkxWCvn7%2BKOyJ6Lcg8LFVMam2U5IUooZMvNolmk1dF0ynRv3AyZxijcE3JbXOJwD9A02j7%2FTsdRIo85s6Z%2FUBYs7slvl042FiDwLPP237STs8SdAMCvbPCUUh07geZBL8sNN3cnb8F9amHCYCR%2FG%2BU6wjlmP%2BRY6rJXdlHwhcSgcfM2taHX77uJZxVzxd1N3mV3RjRTE2g%2BQFTPLiBCzQ1fA4TfkK%2BOueHM8d2Wjon5NviyRzGeMfmG1Uw7WgUOWtd7J3WQRI1iuJSLl5Mr7zzqsEnWvLqhmucd2qVL3x38zUV88gPwrNwuf7OoZsD4kywHpLeMmmgzIlaMKksc8PSqqyfX%2FZQ2sDREuqx3WbJauSssO0CDHP3duDSNm8b67vPVCFqsQJV1IQfXoCLZ%2Bmi9qz%2BrqDeQjk54qGPRupZtXQ19vafg6KaMN7bNtTe5x6wOtj4qZpigwUuKqUzlmaax%2FYSJw4jprktFLl9upBgs%2F6Jgphc3tE6%2BIatz%2B7tH3CQeSV6DbL5zdeAdJMi%2FlANsEWtJ1d3MgpSdrnW2rsFlrcBLkqFUEMwtlYbPQ8ndafcG8Qw%2FsDKywY6mAHhoBF4TZc%2FmPFBLDGHUc78wBfRUGcHqUxYij6%2FK7xXWdo9xnXw97YfJFOHp8v1I1QDDOciL8%2FatZOo%2FptsKn4YfcKncSjGOhNmJlSUAP1S9fzHBMTA2W75DLZcnSOLUlaT%2F1N4QJqC80kWhg3m6fb%2BgBcUinxe8R0i7VszktUDfqfV14cehkrZokq6FFuKOU1f9HrR4GsFDw%3D%3D&Expires=1769120804)
 
-1. Na própria tabela **DB Pedidos - v3**, confira se existe a coluna chamada **Tabela Produtos Destino**.  
-2. Passe o mouse sobre o nome da coluna e verifique que o ícone dela é de **Relation** (dois quadradinhos/elos).  
+1. Na própria tabela **DB Pedidos - v3**, confira se existe a Campo chamada **Tabela Produtos Destino**.  
+2. Passe o mouse sobre o nome da Campo e verifique que o ícone dela é de **Relation** (dois quadradinhos/elos).  
 3. Se estiver assim, esta parte está **OK**: a relation foi criada no lado de Pedidos. [notion](https://www.notion.com/help/relations-and-rollups)
 
 Nada mais precisa ser feito nessa janela de menu que aparece no print; pode fechá-la.
 
 ***
 
-## 2. Verificar a coluna reversa em **DB Produtos - v3**
+## 2. Verificar a Campo reversa em **DB Produtos - v3**
 
 Agora é o passo que não está explícito na tela do print, por isso parece que “faltou” alguma coisa:
 
 1. Abra a página **Produtos - v3**.  
-2. Na tabela **DB Produtos - v3**, procure uma **nova coluna de relation** criada automaticamente.  
+2. Na tabela **DB Produtos - v3**, procure uma **nova Campo de relation** criada automaticamente.  
    - Se você definiu o nome da propriedade relacionada como `Tabela Pedido Origem` na janela anterior, ela já deve aparecer com esse nome.  
-   - Se deixou o nome padrão (ex.: `DB Pedidos - v3`), renomeie essa coluna para **Tabela Pedido Origem** clicando no título da coluna e digitando o novo nome. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/108742584/d24e7426-1709-492b-8857-186b4301cae6/estrutura-menu-utilizando-frase-destaque-titulo-3-alternante-guia-passo-a-passo.md)
+   - Se deixou o nome padrão (ex.: `DB Pedidos - v3`), renomeie essa Campo para **Tabela Pedido Origem** clicando no título da Campo e digitando o novo nome. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/108742584/d24e7426-1709-492b-8857-186b4301cae6/estrutura-menu-utilizando-frase-destaque-titulo-3-alternante-guia-passo-a-passo.md)
 
-Se essa coluna existir e o tipo dela também for **Relation** apontando para **DB Pedidos - v3**, a relação bidirecional está confirmada.
+Se essa Campo existir e o tipo dela também for **Relation** apontando para **DB Pedidos - v3**, a relação bidirecional está confirmada.
 
 ***
 
@@ -12347,22 +12347,22 @@ Se essa coluna existir e o tipo dela também for **Relation** apontando para **D
 Para garantir que tudo está certo, faça só este teste mínimo:
 
 1. Em **DB Pedidos - v3**, crie um pedido de teste (pode ser algo simples, ex.: “Pedido TESTE Relation 001”).  
-2. Na coluna **Tabela Produtos Destino** desse pedido:  
+2. Na Campo **Tabela Produtos Destino** desse pedido:  
    - Clique na célula.  
    - Clique em **“+ Novo”** ou selecione um produto existente em **DB Produtos - v3**.  
-3. Vá para **DB Produtos - v3**, abra esse produto e veja se a coluna **Tabela Pedido Origem** mostra o pedido “Pedido TESTE Relation 001”. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/108742584/d24e7426-1709-492b-8857-186b4301cae6/estrutura-menu-utilizando-frase-destaque-titulo-3-alternante-guia-passo-a-passo.md)
+3. Vá para **DB Produtos - v3**, abra esse produto e veja se a Campo **Tabela Pedido Origem** mostra o pedido “Pedido TESTE Relation 001”. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/108742584/d24e7426-1709-492b-8857-186b4301cae6/estrutura-menu-utilizando-frase-destaque-titulo-3-alternante-guia-passo-a-passo.md)
 
 Se aparecer, a relação está **bidirecional e funcional**.
 
 A partir desse ponto você já pode:
 
 - Executar o seu **[AG] Teste Prático** (1 pedido realista, 3 produtos, vincular, validar sincronização, testar Valor Total).  
-- Depois criar os rollups em **DB Pedidos - v3** (Valor Total do Pedido, Quantidade Total de Itens, Produtos Diferentes), todos usando a coluna **Tabela Produtos Destino** como relation base. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/9c5429ad-70d9-4776-8882-1c9a223c70f8/image.jpg)
+- Depois criar os rollups em **DB Pedidos - v3** (Valor Total do Pedido, Quantidade Total de Itens, Produtos Diferentes), todos usando a Campo **Tabela Produtos Destino** como relation base. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/9c5429ad-70d9-4776-8882-1c9a223c70f8/image.jpg)
 
 Se quiser, no próximo passo posso montar um `[EXEC]` bem curto só com:
 
-- “Verificar coluna em Pedidos”  
-- “Verificar/renomear coluna em Produtos”  
+- “Verificar Campo em Pedidos”  
+- “Verificar/renomear Campo em Produtos”  
 - “Mini‑teste de vínculo 1 pedido ↔ 1 produto”
 
 
@@ -12375,7 +12375,7 @@ Se quiser, no próximo passo posso montar um `[EXEC]` bem curto só com:
 ## [CORRECAO] Parei após '2. Na tabela **DB Produtos - v3**, ...', pois não consegui seguir os passos que passou tento informações genéricas, tais como:
 - 'Abra a página **Produtos - v3**.', você deve me informar aonde está a pagina e como devo abrir, no que clicar, você tem o manual e a estrutura completa do sistemas, com todos os itens e partes, use isso a meu favor, me ajude a entender, seja sempre ultra-descritivo. Entenda o exemplo abaixo e use esse conhecimento e forma ultra-descritiva.
 
--  Esta na ultima posição, ou informar que ela tem que estar depois da coluna 'Observações', nunca pressuponha que sei o caminho, sempre prefiro o minucioso e a repetição das mesmas instruções 10x, do que instruções que pulam etapas por eu já haver feito aquilo outras vezes, entenda que eu tenho sérios problemas de memória.
+-  Esta na ultima posição, ou informar que ela tem que estar depois da Campo 'Observações', nunca pressuponha que sei o caminho, sempre prefiro o minucioso e a repetição das mesmas instruções 10x, do que instruções que pulam etapas por eu já haver feito aquilo outras vezes, entenda que eu tenho sérios problemas de memória.
 
 
 ### Veja um exemplo do como vc deve me dar o passo a passo, e entrar ou ver algo:
@@ -12395,11 +12395,11 @@ Se quiser, no próximo passo posso montar um `[EXEC]` bem curto só com:
 	- Clicar na Opção 'Ver base de dados'
 	- Estamos na Base de Dados 'DB Produtos - v3' da Página 'Produtos - v3'
 	- Desloque a tela para ver oque está na Ultima Propriedade da direita
-	- A Ultima Coluna é a Propriedade 'Tabela Produtos Destino'
+	- A Ultima Campo é a Propriedade 'Tabela Produtos Destino'
 	- Deve ser renomear de para 'Tabela Produtos Destino' para 'Tabela Pedido Origem'
 ```
 
-## [MEMORIA] É Extremamente Importante nas suas 'Explicações' e 'Guias Passo a Passo', todas as etapas e cliques sem pular nenhuma parte, tudo deve ser mencionado para que não ocorre erros, um exemplo pratico, foram os passos que expliquei como estava realizando o procedimento para ver a coluna e o nome do relacionamento.
+## [MEMORIA] É Extremamente Importante nas suas 'Explicações' e 'Guias Passo a Passo', todas as etapas e cliques sem pular nenhuma parte, tudo deve ser mencionado para que não ocorre erros, um exemplo pratico, foram os passos que expliquei como estava realizando o procedimento para ver a Campo e o nome do relacionamento.
 
 ## [MEMORIA] Veja o que foi feito no exemplo (sua etapas, sua descrição, como alterna as partes, seu formato, sua estrutura, seu caminhar) e analise / entenda / aprenda / desenvolva / corrija, e assim você irá conseguir melhorar mais ainda seu 'passo a passo' de qualquer solicitação minha como também evoluir mais ainda quando  for criar novos 'TEMPLATE DE SOLICITAÇÃO DE GUIA PASSO A PASSO'.
 
@@ -12407,8 +12407,8 @@ Se quiser, no próximo passo posso montar um `[EXEC]` bem curto só com:
 
 ## [OBS] Itens Realizados e seu Status:
 ```
-## 1. Confirmar a coluna em **DB Pedidos - v3** -> OK com Pendencia - Mas falta Manual Corrigido / Atualizado
-## 2. Verificar a coluna reversa em **DB Produtos - v3** -> OK com Pendencia - Mas falta Manual Corrigido / Atualizado
+## 1. Confirmar a Campo em **DB Pedidos - v3** -> OK com Pendencia - Mas falta Manual Corrigido / Atualizado
+## 2. Verificar a Campo reversa em **DB Produtos - v3** -> OK com Pendencia - Mas falta Manual Corrigido / Atualizado
 ## 3. Mini‑teste rápido da relação (ainda antes do [AG] completo) -> PARADO NESTE ITEM
 ```
 
@@ -12453,10 +12453,10 @@ Você tem razão: para você funcionar bem, o guia precisa ser ultra‑detalhado
 
 1. Abrir **Produtos - v3** a partir do **Sistema de Compras – Painel Geral - v3**.  
 2. Ver a base **DB Produtos - v3**.  
-3. Confirmar a coluna **Tabela Pedido Origem**.  
+3. Confirmar a Campo **Tabela Pedido Origem**.  
 4. Fazer o mini‑teste rápido da relação (1 pedido ↔ 1 produto).
 
-As imagens que você mandou confirmam que as colunas **Tabela Produtos Destino** e **Tabela Pedido Origem** já existem e estão visíveis nas extremidades da direita das duas tabelas. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/8ec82cb3-f0a3-4e81-b942-b0dfcd87901b/image.jpg?AWSAccessKeyId=ASIA2F3EMEYEQNDXAOK2&Signature=oT8NfG9aCGBail30weENR9Z9U6A%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEB8aCXVzLWVhc3QtMSJIMEYCIQC1oQPngSRwdDgzt1w8GACEvfTp%2BdBgEYK7K3CvTdcZaQIhAIbI%2B001L8m9FTuOT6hIHrmrj%2FlAPEiwgMhyvlh8I1gJKvwECOj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQARoMNjk5NzUzMzA5NzA1IgzLpKwNw6S21%2FDIYFAq0AQgVW7KjW46iSSfdUSMKGhUSK8g6ZrYgGTsYhGkn7vZv97%2Bhtg7BkNmBwhzJ9LNSIW2kwgbjBWp9QgFcULYWi9nn8Qj%2B%2Bo6kbgnpvxIdJ5ba%2BpgAyStIr%2FvyMCgDSpVZipjBa329MDkbDj0FZNIElXnTPv5deee3ITKFl5xp7zhNF1pSWkWNFLxSYC1L%2BHqBOjRxwaM7CfWo6mXcVCwkKwCSZJ9JflOyTXVT3S81Z8IzmDgmZ%2BXVro49rKdmq0wPi4sihUduzwgcRuThes%2FN6ktv%2F%2BJTKXQ0n0fdTUtZjMmkE8nzOnirodFN8A91lXsv%2B1GRTRPOXVEqTVNxEHPZH5d%2FCg%2FfbaXscHJxgs0Y1ZzM952xTrure%2BmxQCEz%2FqIcKZ19ztmy3SmJyE%2BI7TMlcN%2BCuB3S68p1Dai53jED3uR1qk8RF4vrI0H1JMgAfcWLLQbNqGqhuqbr%2BpprlxqRUD7B5bwg9h%2F%2BWV4TbmKIp%2Ba1iJYUpaCnJTjj0tDYlDgGLy2FittlM%2FXwhoexenzfR7S6wrRmBPhKzWoqjI%2FC9MlR6JV77%2Bl4JZolcFRzmJ5M7NSqGwWVXNLyMAldaDEEQv2YDd74EThWmIUvhFwS687MiLpk1ykJcbfyKLtRCYKcA6%2FGF1cBscAqLGcofs3b6%2F5uc1t%2BIXRhWZonmsMnNpLrj4Vt6vSQv2EJzW0UsMU6swPZGiW4vEtNyZpR5APjjuhXweiYzNNN03PhlveQ1lcyiEQALisFALsW6giop0CQhCDMIMiWW4%2BwAIc6vbbecoiMPnUyssGOpcBykrQGeSL7gofKzpePUAV9Ki80BvVUdQdc5u4ikzKgbp%2F1Yn%2Bq%2BV%2BhE9X2njLcaX1XRj5wuGcv7oxwJ3KbEzu%2FpTLRj1Yl8%2FSUki9sX%2FOMfxVuH3s0NeStYRMbKltyyN1L1BCMmFCy1DG3OLkqIQHB54SreTTqURhpdMU%2BXJiLDdpup9smR%2FNLPGGMWsuIfFiOY5ikUujdA%3D%3D&Expires=1769124924)
+As imagens que você mandou confirmam que as Campos **Tabela Produtos Destino** e **Tabela Pedido Origem** já existem e estão visíveis nas extremidades da direita das duas tabelas. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/8ec82cb3-f0a3-4e81-b942-b0dfcd87901b/image.jpg?AWSAccessKeyId=ASIA2F3EMEYEQNDXAOK2&Signature=oT8NfG9aCGBail30weENR9Z9U6A%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEB8aCXVzLWVhc3QtMSJIMEYCIQC1oQPngSRwdDgzt1w8GACEvfTp%2BdBgEYK7K3CvTdcZaQIhAIbI%2B001L8m9FTuOT6hIHrmrj%2FlAPEiwgMhyvlh8I1gJKvwECOj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQARoMNjk5NzUzMzA5NzA1IgzLpKwNw6S21%2FDIYFAq0AQgVW7KjW46iSSfdUSMKGhUSK8g6ZrYgGTsYhGkn7vZv97%2Bhtg7BkNmBwhzJ9LNSIW2kwgbjBWp9QgFcULYWi9nn8Qj%2B%2Bo6kbgnpvxIdJ5ba%2BpgAyStIr%2FvyMCgDSpVZipjBa329MDkbDj0FZNIElXnTPv5deee3ITKFl5xp7zhNF1pSWkWNFLxSYC1L%2BHqBOjRxwaM7CfWo6mXcVCwkKwCSZJ9JflOyTXVT3S81Z8IzmDgmZ%2BXVro49rKdmq0wPi4sihUduzwgcRuThes%2FN6ktv%2F%2BJTKXQ0n0fdTUtZjMmkE8nzOnirodFN8A91lXsv%2B1GRTRPOXVEqTVNxEHPZH5d%2FCg%2FfbaXscHJxgs0Y1ZzM952xTrure%2BmxQCEz%2FqIcKZ19ztmy3SmJyE%2BI7TMlcN%2BCuB3S68p1Dai53jED3uR1qk8RF4vrI0H1JMgAfcWLLQbNqGqhuqbr%2BpprlxqRUD7B5bwg9h%2F%2BWV4TbmKIp%2Ba1iJYUpaCnJTjj0tDYlDgGLy2FittlM%2FXwhoexenzfR7S6wrRmBPhKzWoqjI%2FC9MlR6JV77%2Bl4JZolcFRzmJ5M7NSqGwWVXNLyMAldaDEEQv2YDd74EThWmIUvhFwS687MiLpk1ykJcbfyKLtRCYKcA6%2FGF1cBscAqLGcofs3b6%2F5uc1t%2BIXRhWZonmsMnNpLrj4Vt6vSQv2EJzW0UsMU6swPZGiW4vEtNyZpR5APjjuhXweiYzNNN03PhlveQ1lcyiEQALisFALsW6giop0CQhCDMIMiWW4%2BwAIc6vbbecoiMPnUyssGOpcBykrQGeSL7gofKzpePUAV9Ki80BvVUdQdc5u4ikzKgbp%2F1Yn%2Bq%2BV%2BhE9X2njLcaX1XRj5wuGcv7oxwJ3KbEzu%2FpTLRj1Yl8%2FSUki9sX%2FOMfxVuH3s0NeStYRMbKltyyN1L1BCMmFCy1DG3OLkqIQHB54SreTTqURhpdMU%2BXJiLDdpup9smR%2FNLPGGMWsuIfFiOY5ikUujdA%3D%3D&Expires=1769124924)
 
 ***
 
@@ -12495,22 +12495,22 @@ As imagens que você mandou confirmam que as colunas **Tabela Produtos Destino**
 
 ***
 
-## [EXEC] 3. Localizar e confirmar a coluna **Tabela Pedido Origem**
+## [EXEC] 3. Localizar e confirmar a Campo **Tabela Pedido Origem**
 
 > Objetivo: verificar se a relation reversa foi criada corretamente.
 
-1. Dentro de **DB Produtos - v3**, olhe a linha de cabeçalhos das colunas (Variação, Categoria, Valor Unitário, Quantidade, Valor Total, Imagem, Link do Produto, Observações, etc.). [notion](https://www.notion.com/help/relations-and-rollups)
+1. Dentro de **DB Produtos - v3**, olhe a linha de cabeçalhos das Campos (Variação, Categoria, Valor Unitário, Quantidade, Valor Total, Imagem, Link do Produto, Observações, etc.). [notion](https://www.notion.com/help/relations-and-rollups)
 2. Use a barra de rolagem horizontal (se houver) para ir até a **extremidade direita da tabela**.  
-   - Continue rolando para a direita até não aparecer mais nenhuma coluna nova.  
-3. Verifique o nome da **última coluna à direita**:  
+   - Continue rolando para a direita até não aparecer mais nenhuma Campo nova.  
+3. Verifique o nome da **última Campo à direita**:  
    - Ela deve se chamar **“Tabela Pedido Origem”** (exatamente este texto).  
    - O ícone dela deve ser o de **relation** (seta/ícone com quadradinho, como aparece no seu print). [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/108742584/d24e7426-1709-492b-8857-186b4301cae6/estrutura-menu-utilizando-frase-destaque-titulo-3-alternante-guia-passo-a-passo.md)
 4. Se o nome estiver diferente (por exemplo, “DB Pedidos - v3”):  
-   - Clique uma vez no nome da coluna.  
+   - Clique uma vez no nome da Campo.  
    - Digite **`Tabela Pedido Origem`**.  
    - Pressione **Enter** para confirmar o novo nome.  
 
-Se essa coluna existe e é do tipo relation, a parte **“2. Verificar a coluna reversa em DB Produtos - v3”** está **OK** e atualizada com o fluxo correto. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/108742584/d24e7426-1709-492b-8857-186b4301cae6/estrutura-menu-utilizando-frase-destaque-titulo-3-alternante-guia-passo-a-passo.md)
+Se essa Campo existe e é do tipo relation, a parte **“2. Verificar a Campo reversa em DB Produtos - v3”** está **OK** e atualizada com o fluxo correto. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/108742584/d24e7426-1709-492b-8857-186b4301cae6/estrutura-menu-utilizando-frase-destaque-titulo-3-alternante-guia-passo-a-passo.md)
 
 ***
 
@@ -12532,17 +12532,17 @@ Se essa coluna existe e é do tipo relation, a parte **“2. Verificar a coluna 
    - Clique em **“Ver base de dados”**.  
    - Agora a página deve mostrar **“DB Pedidos - v3”** como título de página, com a tabela logo abaixo. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/8ec82cb3-f0a3-4e81-b942-b0dfcd87901b/image.jpg?AWSAccessKeyId=ASIA2F3EMEYEQNDXAOK2&Signature=oT8NfG9aCGBail30weENR9Z9U6A%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEB8aCXVzLWVhc3QtMSJIMEYCIQC1oQPngSRwdDgzt1w8GACEvfTp%2BdBgEYK7K3CvTdcZaQIhAIbI%2B001L8m9FTuOT6hIHrmrj%2FlAPEiwgMhyvlh8I1gJKvwECOj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQARoMNjk5NzUzMzA5NzA1IgzLpKwNw6S21%2FDIYFAq0AQgVW7KjW46iSSfdUSMKGhUSK8g6ZrYgGTsYhGkn7vZv97%2Bhtg7BkNmBwhzJ9LNSIW2kwgbjBWp9QgFcULYWi9nn8Qj%2B%2Bo6kbgnpvxIdJ5ba%2BpgAyStIr%2FvyMCgDSpVZipjBa329MDkbDj0FZNIElXnTPv5deee3ITKFl5xp7zhNF1pSWkWNFLxSYC1L%2BHqBOjRxwaM7CfWo6mXcVCwkKwCSZJ9JflOyTXVT3S81Z8IzmDgmZ%2BXVro49rKdmq0wPi4sihUduzwgcRuThes%2FN6ktv%2F%2BJTKXQ0n0fdTUtZjMmkE8nzOnirodFN8A91lXsv%2B1GRTRPOXVEqTVNxEHPZH5d%2FCg%2FfbaXscHJxgs0Y1ZzM952xTrure%2BmxQCEz%2FqIcKZ19ztmy3SmJyE%2BI7TMlcN%2BCuB3S68p1Dai53jED3uR1qk8RF4vrI0H1JMgAfcWLLQbNqGqhuqbr%2BpprlxqRUD7B5bwg9h%2F%2BWV4TbmKIp%2Ba1iJYUpaCnJTjj0tDYlDgGLy2FittlM%2FXwhoexenzfR7S6wrRmBPhKzWoqjI%2FC9MlR6JV77%2Bl4JZolcFRzmJ5M7NSqGwWVXNLyMAldaDEEQv2YDd74EThWmIUvhFwS687MiLpk1ykJcbfyKLtRCYKcA6%2FGF1cBscAqLGcofs3b6%2F5uc1t%2BIXRhWZonmsMnNpLrj4Vt6vSQv2EJzW0UsMU6swPZGiW4vEtNyZpR5APjjuhXweiYzNNN03PhlveQ1lcyiEQALisFALsW6giop0CQhCDMIMiWW4%2BwAIc6vbbecoiMPnUyssGOpcBykrQGeSL7gofKzpePUAV9Ki80BvVUdQdc5u4ikzKgbp%2F1Yn%2Bq%2BV%2BhE9X2njLcaX1XRj5wuGcv7oxwJ3KbEzu%2FpTLRj1Yl8%2FSUki9sX%2FOMfxVuH3s0NeStYRMbKltyyN1L1BCMmFCy1DG3OLkqIQHB54SreTTqURhpdMU%2BXJiLDdpup9smR%2FNLPGGMWsuIfFiOY5ikUujdA%3D%3D&Expires=1769124924)
 4. Na linha superior da tabela, clique no botão **“Nova”** (o botão azul no canto superior direito da base).  
-5. Será criada uma nova linha de pedido. No campo **ID Tabela Pedidos** (coluna de título), digite algo como:  
+5. Será criada uma nova linha de pedido. No  **ID Tabela Pedidos** (Campo de título), digite algo como:  
    - `PEDIDO TESTE RELATION 001`  
 6. Preencha apenas o essencial por enquanto (se quiser):  
-   - **Loja**: escolha qualquer loja da coluna `Loja`.  
+   - **Loja**: escolha qualquer loja da Campo `Loja`.  
    - **Status**: selecione `01.Aberto` para ficar coerente.  
-   - Você pode deixar os outros campos em branco neste teste inicial. [notion](https://www.notion.com/help/relations-and-rollups)
+   - Você pode deixar os outros s em branco neste teste inicial. [notion](https://www.notion.com/help/relations-and-rollups)
 
-### 4.2 Vincular um produto a esse pedido pela coluna **Tabela Produtos Destino**
+### 4.2 Vincular um produto a esse pedido pela Campo **Tabela Produtos Destino**
 
-1. Ainda na linha do **PEDIDO TESTE RELATION 001**, vá até a coluna **Tabela Produtos Destino** (ela está mais à direita; use a barra de rolagem horizontal se necessário). [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/8ec82cb3-f0a3-4e81-b942-b0dfcd87901b/image.jpg?AWSAccessKeyId=ASIA2F3EMEYEQNDXAOK2&Signature=oT8NfG9aCGBail30weENR9Z9U6A%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEB8aCXVzLWVhc3QtMSJIMEYCIQC1oQPngSRwdDgzt1w8GACEvfTp%2BdBgEYK7K3CvTdcZaQIhAIbI%2B001L8m9FTuOT6hIHrmrj%2FlAPEiwgMhyvlh8I1gJKvwECOj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQARoMNjk5NzUzMzA5NzA1IgzLpKwNw6S21%2FDIYFAq0AQgVW7KjW46iSSfdUSMKGhUSK8g6ZrYgGTsYhGkn7vZv97%2Bhtg7BkNmBwhzJ9LNSIW2kwgbjBWp9QgFcULYWi9nn8Qj%2B%2Bo6kbgnpvxIdJ5ba%2BpgAyStIr%2FvyMCgDSpVZipjBa329MDkbDj0FZNIElXnTPv5deee3ITKFl5xp7zhNF1pSWkWNFLxSYC1L%2BHqBOjRxwaM7CfWo6mXcVCwkKwCSZJ9JflOyTXVT3S81Z8IzmDgmZ%2BXVro49rKdmq0wPi4sihUduzwgcRuThes%2FN6ktv%2F%2BJTKXQ0n0fdTUtZjMmkE8nzOnirodFN8A91lXsv%2B1GRTRPOXVEqTVNxEHPZH5d%2FCg%2FfbaXscHJxgs0Y1ZzM952xTrure%2BmxQCEz%2FqIcKZ19ztmy3SmJyE%2BI7TMlcN%2BCuB3S68p1Dai53jED3uR1qk8RF4vrI0H1JMgAfcWLLQbNqGqhuqbr%2BpprlxqRUD7B5bwg9h%2F%2BWV4TbmKIp%2Ba1iJYUpaCnJTjj0tDYlDgGLy2FittlM%2FXwhoexenzfR7S6wrRmBPhKzWoqjI%2FC9MlR6JV77%2Bl4JZolcFRzmJ5M7NSqGwWVXNLyMAldaDEEQv2YDd74EThWmIUvhFwS687MiLpk1ykJcbfyKLtRCYKcA6%2FGF1cBscAqLGcofs3b6%2F5uc1t%2BIXRhWZonmsMnNpLrj4Vt6vSQv2EJzW0UsMU6swPZGiW4vEtNyZpR5APjjuhXweiYzNNN03PhlveQ1lcyiEQALisFALsW6giop0CQhCDMIMiWW4%2BwAIc6vbbecoiMPnUyssGOpcBykrQGeSL7gofKzpePUAV9Ki80BvVUdQdc5u4ikzKgbp%2F1Yn%2Bq%2BV%2BhE9X2njLcaX1XRj5wuGcv7oxwJ3KbEzu%2FpTLRj1Yl8%2FSUki9sX%2FOMfxVuH3s0NeStYRMbKltyyN1L1BCMmFCy1DG3OLkqIQHB54SreTTqURhpdMU%2BXJiLDdpup9smR%2FNLPGGMWsuIfFiOY5ikUujdA%3D%3D&Expires=1769124924)
-2. Clique na célula da coluna **Tabela Produtos Destino** correspondente a este pedido.  
+1. Ainda na linha do **PEDIDO TESTE RELATION 001**, vá até a Campo **Tabela Produtos Destino** (ela está mais à direita; use a barra de rolagem horizontal se necessário). [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/8ec82cb3-f0a3-4e81-b942-b0dfcd87901b/image.jpg?AWSAccessKeyId=ASIA2F3EMEYEQNDXAOK2&Signature=oT8NfG9aCGBail30weENR9Z9U6A%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEB8aCXVzLWVhc3QtMSJIMEYCIQC1oQPngSRwdDgzt1w8GACEvfTp%2BdBgEYK7K3CvTdcZaQIhAIbI%2B001L8m9FTuOT6hIHrmrj%2FlAPEiwgMhyvlh8I1gJKvwECOj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQARoMNjk5NzUzMzA5NzA1IgzLpKwNw6S21%2FDIYFAq0AQgVW7KjW46iSSfdUSMKGhUSK8g6ZrYgGTsYhGkn7vZv97%2Bhtg7BkNmBwhzJ9LNSIW2kwgbjBWp9QgFcULYWi9nn8Qj%2B%2Bo6kbgnpvxIdJ5ba%2BpgAyStIr%2FvyMCgDSpVZipjBa329MDkbDj0FZNIElXnTPv5deee3ITKFl5xp7zhNF1pSWkWNFLxSYC1L%2BHqBOjRxwaM7CfWo6mXcVCwkKwCSZJ9JflOyTXVT3S81Z8IzmDgmZ%2BXVro49rKdmq0wPi4sihUduzwgcRuThes%2FN6ktv%2F%2BJTKXQ0n0fdTUtZjMmkE8nzOnirodFN8A91lXsv%2B1GRTRPOXVEqTVNxEHPZH5d%2FCg%2FfbaXscHJxgs0Y1ZzM952xTrure%2BmxQCEz%2FqIcKZ19ztmy3SmJyE%2BI7TMlcN%2BCuB3S68p1Dai53jED3uR1qk8RF4vrI0H1JMgAfcWLLQbNqGqhuqbr%2BpprlxqRUD7B5bwg9h%2F%2BWV4TbmKIp%2Ba1iJYUpaCnJTjj0tDYlDgGLy2FittlM%2FXwhoexenzfR7S6wrRmBPhKzWoqjI%2FC9MlR6JV77%2Bl4JZolcFRzmJ5M7NSqGwWVXNLyMAldaDEEQv2YDd74EThWmIUvhFwS687MiLpk1ykJcbfyKLtRCYKcA6%2FGF1cBscAqLGcofs3b6%2F5uc1t%2BIXRhWZonmsMnNpLrj4Vt6vSQv2EJzW0UsMU6swPZGiW4vEtNyZpR5APjjuhXweiYzNNN03PhlveQ1lcyiEQALisFALsW6giop0CQhCDMIMiWW4%2BwAIc6vbbecoiMPnUyssGOpcBykrQGeSL7gofKzpePUAV9Ki80BvVUdQdc5u4ikzKgbp%2F1Yn%2Bq%2BV%2BhE9X2njLcaX1XRj5wuGcv7oxwJ3KbEzu%2FpTLRj1Yl8%2FSUki9sX%2FOMfxVuH3s0NeStYRMbKltyyN1L1BCMmFCy1DG3OLkqIQHB54SreTTqURhpdMU%2BXJiLDdpup9smR%2FNLPGGMWsuIfFiOY5ikUujdA%3D%3D&Expires=1769124924)
+2. Clique na célula da Campo **Tabela Produtos Destino** correspondente a este pedido.  
 3. Na caixinha que abrir:  
    - Se você **já tiver produtos cadastrados** em DB Produtos, pode selecionar um deles clicando no nome.  
    - Se quiser criar um produto de teste novo diretamente:  
@@ -12556,22 +12556,22 @@ Se essa coluna existe e é do tipo relation, a parte **“2. Verificar a coluna 
 1. Volte novamente à página **Produtos - v3** e, em seguida, à base **DB Produtos - v3**, seguindo **exatamente** o mesmo caminho do bloco “[EXEC] 1” e “[EXEC] 2” acima:  
    - Barra lateral → **Produtos - v3** → bloco **DB Produtos - v3** → `…` → **Ver base de dados**. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/15c6e03b-24b3-490a-abbf-3dcf94654b7f/image.jpg?AWSAccessKeyId=ASIA2F3EMEYEQNDXAOK2&Signature=Pu9K0t9f%2F3V2uWzZE5cMAF8uK%2Bw%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEB8aCXVzLWVhc3QtMSJIMEYCIQC1oQPngSRwdDgzt1w8GACEvfTp%2BdBgEYK7K3CvTdcZaQIhAIbI%2B001L8m9FTuOT6hIHrmrj%2FlAPEiwgMhyvlh8I1gJKvwECOj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQARoMNjk5NzUzMzA5NzA1IgzLpKwNw6S21%2FDIYFAq0AQgVW7KjW46iSSfdUSMKGhUSK8g6ZrYgGTsYhGkn7vZv97%2Bhtg7BkNmBwhzJ9LNSIW2kwgbjBWp9QgFcULYWi9nn8Qj%2B%2Bo6kbgnpvxIdJ5ba%2BpgAyStIr%2FvyMCgDSpVZipjBa329MDkbDj0FZNIElXnTPv5deee3ITKFl5xp7zhNF1pSWkWNFLxSYC1L%2BHqBOjRxwaM7CfWo6mXcVCwkKwCSZJ9JflOyTXVT3S81Z8IzmDgmZ%2BXVro49rKdmq0wPi4sihUduzwgcRuThes%2FN6ktv%2F%2BJTKXQ0n0fdTUtZjMmkE8nzOnirodFN8A91lXsv%2B1GRTRPOXVEqTVNxEHPZH5d%2FCg%2FfbaXscHJxgs0Y1ZzM952xTrure%2BmxQCEz%2FqIcKZ19ztmy3SmJyE%2BI7TMlcN%2BCuB3S68p1Dai53jED3uR1qk8RF4vrI0H1JMgAfcWLLQbNqGqhuqbr%2BpprlxqRUD7B5bwg9h%2F%2BWV4TbmKIp%2Ba1iJYUpaCnJTjj0tDYlDgGLy2FittlM%2FXwhoexenzfR7S6wrRmBPhKzWoqjI%2FC9MlR6JV77%2Bl4JZolcFRzmJ5M7NSqGwWVXNLyMAldaDEEQv2YDd74EThWmIUvhFwS687MiLpk1ykJcbfyKLtRCYKcA6%2FGF1cBscAqLGcofs3b6%2F5uc1t%2BIXRhWZonmsMnNpLrj4Vt6vSQv2EJzW0UsMU6swPZGiW4vEtNyZpR5APjjuhXweiYzNNN03PhlveQ1lcyiEQALisFALsW6giop0CQhCDMIMiWW4%2BwAIc6vbbecoiMPnUyssGOpcBykrQGeSL7gofKzpePUAV9Ki80BvVUdQdc5u4ikzKgbp%2F1Yn%2Bq%2BV%2BhE9X2njLcaX1XRj5wuGcv7oxwJ3KbEzu%2FpTLRj1Yl8%2FSUki9sX%2FOMfxVuH3s0NeStYRMbKltyyN1L1BCMmFCy1DG3OLkqIQHB54SreTTqURhpdMU%2BXJiLDdpup9smR%2FNLPGGMWsuIfFiOY5ikUujdA%3D%3D&Expires=1769124924)
 2. Na base **DB Produtos - v3**, use a busca ou role até encontrar o produto que você usou no teste:  
-   - Se criou o produto novo, procure por `PRODUTO TESTE RELATION 001` na coluna `ID Tabela Produtos` (ou outra coluna de título que esteja usando).  
-3. Na linha desse produto, vá até a **última coluna à direita**, que é **Tabela Pedido Origem**. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/15c6e03b-24b3-490a-abbf-3dcf94654b7f/image.jpg?AWSAccessKeyId=ASIA2F3EMEYEQNDXAOK2&Signature=Pu9K0t9f%2F3V2uWzZE5cMAF8uK%2Bw%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEB8aCXVzLWVhc3QtMSJIMEYCIQC1oQPngSRwdDgzt1w8GACEvfTp%2BdBgEYK7K3CvTdcZaQIhAIbI%2B001L8m9FTuOT6hIHrmrj%2FlAPEiwgMhyvlh8I1gJKvwECOj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQARoMNjk5NzUzMzA5NzA1IgzLpKwNw6S21%2FDIYFAq0AQgVW7KjW46iSSfdUSMKGhUSK8g6ZrYgGTsYhGkn7vZv97%2Bhtg7BkNmBwhzJ9LNSIW2kwgbjBWp9QgFcULYWi9nn8Qj%2B%2Bo6kbgnpvxIdJ5ba%2BpgAyStIr%2FvyMCgDSpVZipjBa329MDkbDj0FZNIElXnTPv5deee3ITKFl5xp7zhNF1pSWkWNFLxSYC1L%2BHqBOjRxwaM7CfWo6mXcVCwkKwCSZJ9JflOyTXVT3S81Z8IzmDgmZ%2BXVro49rKdmq0wPi4sihUduzwgcRuThes%2FN6ktv%2F%2BJTKXQ0n0fdTUtZjMmkE8nzOnirodFN8A91lXsv%2B1GRTRPOXVEqTVNxEHPZH5d%2FCg%2FfbaXscHJxgs0Y1ZzM952xTrure%2BmxQCEz%2FqIcKZ19ztmy3SmJyE%2BI7TMlcN%2BCuB3S68p1Dai53jED3uR1qk8RF4vrI0H1JMgAfcWLLQbNqGqhuqbr%2BpprlxqRUD7B5bwg9h%2F%2BWV4TbmKIp%2Ba1iJYUpaCnJTjj0tDYlDgGLy2FittlM%2FXwhoexenzfR7S6wrRmBPhKzWoqjI%2FC9MlR6JV77%2Bl4JZolcFRzmJ5M7NSqGwWVXNLyMAldaDEEQv2YDd74EThWmIUvhFwS687MiLpk1ykJcbfyKLtRCYKcA6%2FGF1cBscAqLGcofs3b6%2F5uc1t%2BIXRhWZonmsMnNpLrj4Vt6vSQv2EJzW0UsMU6swPZGiW4vEtNyZpR5APjjuhXweiYzNNN03PhlveQ1lcyiEQALisFALsW6giop0CQhCDMIMiWW4%2BwAIc6vbbecoiMPnUyssGOpcBykrQGeSL7gofKzpePUAV9Ki80BvVUdQdc5u4ikzKgbp%2F1Yn%2Bq%2BV%2BhE9X2njLcaX1XRj5wuGcv7oxwJ3KbEzu%2FpTLRj1Yl8%2FSUki9sX%2FOMfxVuH3s0NeStYRMbKltyyN1L1BCMmFCy1DG3OLkqIQHB54SreTTqURhpdMU%2BXJiLDdpup9smR%2FNLPGGMWsuIfFiOY5ikUujdA%3D%3D&Expires=1769124924)
+   - Se criou o produto novo, procure por `PRODUTO TESTE RELATION 001` na Campo `ID Tabela Produtos` (ou outra Campo de título que esteja usando).  
+3. Na linha desse produto, vá até a **última Campo à direita**, que é **Tabela Pedido Origem**. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/15c6e03b-24b3-490a-abbf-3dcf94654b7f/image.jpg?AWSAccessKeyId=ASIA2F3EMEYEQNDXAOK2&Signature=Pu9K0t9f%2F3V2uWzZE5cMAF8uK%2Bw%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEB8aCXVzLWVhc3QtMSJIMEYCIQC1oQPngSRwdDgzt1w8GACEvfTp%2BdBgEYK7K3CvTdcZaQIhAIbI%2B001L8m9FTuOT6hIHrmrj%2FlAPEiwgMhyvlh8I1gJKvwECOj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQARoMNjk5NzUzMzA5NzA1IgzLpKwNw6S21%2FDIYFAq0AQgVW7KjW46iSSfdUSMKGhUSK8g6ZrYgGTsYhGkn7vZv97%2Bhtg7BkNmBwhzJ9LNSIW2kwgbjBWp9QgFcULYWi9nn8Qj%2B%2Bo6kbgnpvxIdJ5ba%2BpgAyStIr%2FvyMCgDSpVZipjBa329MDkbDj0FZNIElXnTPv5deee3ITKFl5xp7zhNF1pSWkWNFLxSYC1L%2BHqBOjRxwaM7CfWo6mXcVCwkKwCSZJ9JflOyTXVT3S81Z8IzmDgmZ%2BXVro49rKdmq0wPi4sihUduzwgcRuThes%2FN6ktv%2F%2BJTKXQ0n0fdTUtZjMmkE8nzOnirodFN8A91lXsv%2B1GRTRPOXVEqTVNxEHPZH5d%2FCg%2FfbaXscHJxgs0Y1ZzM952xTrure%2BmxQCEz%2FqIcKZ19ztmy3SmJyE%2BI7TMlcN%2BCuB3S68p1Dai53jED3uR1qk8RF4vrI0H1JMgAfcWLLQbNqGqhuqbr%2BpprlxqRUD7B5bwg9h%2F%2BWV4TbmKIp%2Ba1iJYUpaCnJTjj0tDYlDgGLy2FittlM%2FXwhoexenzfR7S6wrRmBPhKzWoqjI%2FC9MlR6JV77%2Bl4JZolcFRzmJ5M7NSqGwWVXNLyMAldaDEEQv2YDd74EThWmIUvhFwS687MiLpk1ykJcbfyKLtRCYKcA6%2FGF1cBscAqLGcofs3b6%2F5uc1t%2BIXRhWZonmsMnNpLrj4Vt6vSQv2EJzW0UsMU6swPZGiW4vEtNyZpR5APjjuhXweiYzNNN03PhlveQ1lcyiEQALisFALsW6giop0CQhCDMIMiWW4%2BwAIc6vbbecoiMPnUyssGOpcBykrQGeSL7gofKzpePUAV9Ki80BvVUdQdc5u4ikzKgbp%2F1Yn%2Bq%2BV%2BhE9X2njLcaX1XRj5wuGcv7oxwJ3KbEzu%2FpTLRj1Yl8%2FSUki9sX%2FOMfxVuH3s0NeStYRMbKltyyN1L1BCMmFCy1DG3OLkqIQHB54SreTTqURhpdMU%2BXJiLDdpup9smR%2FNLPGGMWsuIfFiOY5ikUujdA%3D%3D&Expires=1769124924)
 4. Verifique se nessa célula aparece o pedido `PEDIDO TESTE RELATION 001`.  
    - Se aparece: a relação está **bidirecional** e funcional (ligou em Pedidos, apareceu em Produtos).  
 5. Faça o teste inverso (opcional, mas recomendado):  
    - Clique na célula **Tabela Pedido Origem** desse produto.  
    - Remova o pedido da lista (clique no X ao lado do nome do pedido).  
-   - Volte para a base **DB Pedidos - v3** e verifique se, na coluna **Tabela Produtos Destino**, o produto sumiu da linha do `PEDIDO TESTE RELATION 001`.  
+   - Volte para a base **DB Pedidos - v3** e verifique se, na Campo **Tabela Produtos Destino**, o produto sumiu da linha do `PEDIDO TESTE RELATION 001`.  
    - Se sumiu, a sincronização está correta nos dois sentidos. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/108742584/d24e7426-1709-492b-8857-186b4301cae6/estrutura-menu-utilizando-frase-destaque-titulo-3-alternante-guia-passo-a-passo.md)
 
 ***
 
 ## Situação dos seus itens
 
-- **1. Confirmar a coluna em DB Pedidos - v3** → **OK**, agora com caminho descrito (Sistema → Pedidos - v3 → DB Pedidos - v3).  
-- **2. Verificar a coluna reversa em DB Produtos - v3** → **OK**, com caminho completo (Sistema → Produtos - v3 → DB Produtos - v3 → coluna final Tabela Pedido Origem). [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/15c6e03b-24b3-490a-abbf-3dcf94654b7f/image.jpg?AWSAccessKeyId=ASIA2F3EMEYEQNDXAOK2&Signature=Pu9K0t9f%2F3V2uWzZE5cMAF8uK%2Bw%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEB8aCXVzLWVhc3QtMSJIMEYCIQC1oQPngSRwdDgzt1w8GACEvfTp%2BdBgEYK7K3CvTdcZaQIhAIbI%2B001L8m9FTuOT6hIHrmrj%2FlAPEiwgMhyvlh8I1gJKvwECOj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQARoMNjk5NzUzMzA5NzA1IgzLpKwNw6S21%2FDIYFAq0AQgVW7KjW46iSSfdUSMKGhUSK8g6ZrYgGTsYhGkn7vZv97%2Bhtg7BkNmBwhzJ9LNSIW2kwgbjBWp9QgFcULYWi9nn8Qj%2B%2Bo6kbgnpvxIdJ5ba%2BpgAyStIr%2FvyMCgDSpVZipjBa329MDkbDj0FZNIElXnTPv5deee3ITKFl5xp7zhNF1pSWkWNFLxSYC1L%2BHqBOjRxwaM7CfWo6mXcVCwkKwCSZJ9JflOyTXVT3S81Z8IzmDgmZ%2BXVro49rKdmq0wPi4sihUduzwgcRuThes%2FN6ktv%2F%2BJTKXQ0n0fdTUtZjMmkE8nzOnirodFN8A91lXsv%2B1GRTRPOXVEqTVNxEHPZH5d%2FCg%2FfbaXscHJxgs0Y1ZzM952xTrure%2BmxQCEz%2FqIcKZ19ztmy3SmJyE%2BI7TMlcN%2BCuB3S68p1Dai53jED3uR1qk8RF4vrI0H1JMgAfcWLLQbNqGqhuqbr%2BpprlxqRUD7B5bwg9h%2F%2BWV4TbmKIp%2Ba1iJYUpaCnJTjj0tDYlDgGLy2FittlM%2FXwhoexenzfR7S6wrRmBPhKzWoqjI%2FC9MlR6JV77%2Bl4JZolcFRzmJ5M7NSqGwWVXNLyMAldaDEEQv2YDd74EThWmIUvhFwS687MiLpk1ykJcbfyKLtRCYKcA6%2FGF1cBscAqLGcofs3b6%2F5uc1t%2BIXRhWZonmsMnNpLrj4Vt6vSQv2EJzW0UsMU6swPZGiW4vEtNyZpR5APjjuhXweiYzNNN03PhlveQ1lcyiEQALisFALsW6giop0CQhCDMIMiWW4%2BwAIc6vbbecoiMPnUyssGOpcBykrQGeSL7gofKzpePUAV9Ki80BvVUdQdc5u4ikzKgbp%2F1Yn%2Bq%2BV%2BhE9X2njLcaX1XRj5wuGcv7oxwJ3KbEzu%2FpTLRj1Yl8%2FSUki9sX%2FOMfxVuH3s0NeStYRMbKltyyN1L1BCMmFCy1DG3OLkqIQHB54SreTTqURhpdMU%2BXJiLDdpup9smR%2FNLPGGMWsuIfFiOY5ikUujdA%3D%3D&Expires=1769124924)
+- **1. Confirmar a Campo em DB Pedidos - v3** → **OK**, agora com caminho descrito (Sistema → Pedidos - v3 → DB Pedidos - v3).  
+- **2. Verificar a Campo reversa em DB Produtos - v3** → **OK**, com caminho completo (Sistema → Produtos - v3 → DB Produtos - v3 → Campo final Tabela Pedido Origem). [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/15c6e03b-24b3-490a-abbf-3dcf94654b7f/image.jpg?AWSAccessKeyId=ASIA2F3EMEYEQNDXAOK2&Signature=Pu9K0t9f%2F3V2uWzZE5cMAF8uK%2Bw%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEB8aCXVzLWVhc3QtMSJIMEYCIQC1oQPngSRwdDgzt1w8GACEvfTp%2BdBgEYK7K3CvTdcZaQIhAIbI%2B001L8m9FTuOT6hIHrmrj%2FlAPEiwgMhyvlh8I1gJKvwECOj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQARoMNjk5NzUzMzA5NzA1IgzLpKwNw6S21%2FDIYFAq0AQgVW7KjW46iSSfdUSMKGhUSK8g6ZrYgGTsYhGkn7vZv97%2Bhtg7BkNmBwhzJ9LNSIW2kwgbjBWp9QgFcULYWi9nn8Qj%2B%2Bo6kbgnpvxIdJ5ba%2BpgAyStIr%2FvyMCgDSpVZipjBa329MDkbDj0FZNIElXnTPv5deee3ITKFl5xp7zhNF1pSWkWNFLxSYC1L%2BHqBOjRxwaM7CfWo6mXcVCwkKwCSZJ9JflOyTXVT3S81Z8IzmDgmZ%2BXVro49rKdmq0wPi4sihUduzwgcRuThes%2FN6ktv%2F%2BJTKXQ0n0fdTUtZjMmkE8nzOnirodFN8A91lXsv%2B1GRTRPOXVEqTVNxEHPZH5d%2FCg%2FfbaXscHJxgs0Y1ZzM952xTrure%2BmxQCEz%2FqIcKZ19ztmy3SmJyE%2BI7TMlcN%2BCuB3S68p1Dai53jED3uR1qk8RF4vrI0H1JMgAfcWLLQbNqGqhuqbr%2BpprlxqRUD7B5bwg9h%2F%2BWV4TbmKIp%2Ba1iJYUpaCnJTjj0tDYlDgGLy2FittlM%2FXwhoexenzfR7S6wrRmBPhKzWoqjI%2FC9MlR6JV77%2Bl4JZolcFRzmJ5M7NSqGwWVXNLyMAldaDEEQv2YDd74EThWmIUvhFwS687MiLpk1ykJcbfyKLtRCYKcA6%2FGF1cBscAqLGcofs3b6%2F5uc1t%2BIXRhWZonmsMnNpLrj4Vt6vSQv2EJzW0UsMU6swPZGiW4vEtNyZpR5APjjuhXweiYzNNN03PhlveQ1lcyiEQALisFALsW6giop0CQhCDMIMiWW4%2BwAIc6vbbecoiMPnUyssGOpcBykrQGeSL7gofKzpePUAV9Ki80BvVUdQdc5u4ikzKgbp%2F1Yn%2Bq%2BV%2BhE9X2njLcaX1XRj5wuGcv7oxwJ3KbEzu%2FpTLRj1Yl8%2FSUki9sX%2FOMfxVuH3s0NeStYRMbKltyyN1L1BCMmFCy1DG3OLkqIQHB54SreTTqURhpdMU%2BXJiLDdpup9smR%2FNLPGGMWsuIfFiOY5ikUujdA%3D%3D&Expires=1769124924)
 - **3. Mini‑teste rápido da relação** → o bloco “[EXEC] 4” acima é exatamente esse item, com todos os cliques detalhados para você conseguir seguir sem lacunas.
 
 Quando você terminar esse mini‑teste e me disser o resultado (apareceu ou não o pedido em Tabela Pedido Origem), montamos na sequência o **[EXEC] do [AG] Teste Prático** e depois o **[EXEC] de criação dos 3 rollups**, no mesmo formato ultra‑descritivo.
@@ -12595,10 +12595,10 @@ Quando você terminar esse mini‑teste e me disser o resultado (apareceu ou nã
 ```
 OK - ## [EXEC] 1. Abrir a página Produtos - v3 a partir da página principal
 OK - ## [EXEC] 2. Abrir a base de dados DB Produtos - v3
-OK - ## [EXEC] 3. Localizar e confirmar a coluna Tabela Pedido Origem
+OK - ## [EXEC] 3. Localizar e confirmar a Campo Tabela Pedido Origem
 OK - ## [EXEC] 4. Mini‑teste rápido da relação (1 pedido ↔ 1 produto)
 OK com Correções - ### 4.1 Criar um pedido de teste em **DB Pedidos - v3**
-OK - ### 4.2 Vincular um produto a esse pedido pela coluna **Tabela Produtos Destino**
+OK - ### 4.2 Vincular um produto a esse pedido pela Campo **Tabela Produtos Destino**
 OK com Correções - ### 4.3 Verificar o reflexo em **DB Produtos - v3** (Tabela Pedido Origem)
 ```
 
@@ -12607,10 +12607,10 @@ OK com Correções - ### 4.3 Verificar o reflexo em **DB Produtos - v3** (Tabela
 ```
 4.1 Criar um pedido de teste em **DB Pedidos - v3**
 ...
-Você - 5. Será criada uma nova linha de pedido. No campo **ID Tabela Pedidos** (coluna de título), digite algo como:  
-CORREÇÃO - 5. Será criada uma nova linha de pedido. No campo **Nova página** (coluna de título), digite algo como:  
+Você - 5. Será criada uma nova linha de pedido. No  **ID Tabela Pedidos** (Campo de título), digite algo como:  
+CORREÇÃO - 5. Será criada uma nova linha de pedido. No  **Nova página** (Campo de título), digite algo como:  
 ```
-- o Campo 'ID Tabela Pedidos' tem seu preenchimento automático.
+- o  'ID Tabela Pedidos' tem seu preenchimento automático.
 
 ## [CORRECAO] Você deve sempre colocar os passos mesmo se eles já foram feitos anteriormente, para facilitar e evitar o sobe e desce de tela para achar o que foi pedido.
 ```
@@ -12655,8 +12655,8 @@ CORRETO -
 
 ## [OBS] Itens Realizados e seu Status:
 ```
-## 1. Confirmar a coluna em **DB Pedidos - v3** -> OK com Pendencia - Mas falta Manual Corrigido / Atualizado
-## 2. Verificar a coluna reversa em **DB Produtos - v3** -> OK com Pendencia - Mas falta Manual Corrigido / Atualizado
+## 1. Confirmar a Campo em **DB Pedidos - v3** -> OK com Pendencia - Mas falta Manual Corrigido / Atualizado
+## 2. Verificar a Campo reversa em **DB Produtos - v3** -> OK com Pendencia - Mas falta Manual Corrigido / Atualizado
 ## 3. Mini‑teste rápido da relação (ainda antes do [AG] completo) -> EM ANDAMENTO
 ```
 
@@ -12737,15 +12737,15 @@ Assim fica claro sem precisar lembrar o termo.
 
 Você tem razão:
 
-- A coluna **ID Tabela Pedidos** está configurada para preenchimento automático (com fórmula ou comportamento que você definiu), então você **não deve digitar nela**.  
-- No momento de criar o pedido, o Notion mostra inicialmente o texto **“Nova página”** na coluna de título; é ali que você escreve algo como “PEDIDO TESTE RELATION 001”. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/108742584/7655f411-1b3a-4199-bbba-bb208a78f93c/Gravacao-de-Tela-2026-01-22-205228.mp4)
+- A Campo **ID Tabela Pedidos** está configurada para preenchimento automático (com fórmula ou comportamento que você definiu), então você **não deve digitar nela**.  
+- No momento de criar o pedido, o Notion mostra inicialmente o texto **“Nova página”** na Campo de título; é ali que você escreve algo como “PEDIDO TESTE RELATION 001”. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/108742584/7655f411-1b3a-4199-bbba-bb208a78f93c/Gravacao-de-Tela-2026-01-22-205228.mp4)
 
 Correção do passo:
 
 - **Antes (errado para seu caso):**  
-  - “No campo **ID Tabela Pedidos** (coluna de título), digite algo como…”  
+  - “No  **ID Tabela Pedidos** (Campo de título), digite algo como…”  
 - **Agora (correto):**  
-  - “No campo **Nova página** (coluna de título), digite algo como `PEDIDO TESTE RELATION 001`. Depois que salvar, a coluna **ID Tabela Pedidos** será preenchida automaticamente.”
+  - “No  **Nova página** (Campo de título), digite algo como `PEDIDO TESTE RELATION 001`. Depois que salvar, a Campo **ID Tabela Pedidos** será preenchida automaticamente.”
 
 No próximo bloco [EXEC] que escrever para você, essa frase já virá corrigida.
 
@@ -12819,8 +12819,8 @@ A partir dos próximos trechos de manual “definitivos” (por exemplo, quando 
 
 Com o que você informou:
 
-- **1. Confirmar a coluna em DB Pedidos - v3** → OK (falta só refletir as correções de texto, que já foram anotadas).  
-- **2. Verificar a coluna reversa em DB Produtos - v3** → OK (caminho e estilo serão reescritos no formato 4.3.1 / 4.3.2, como você mostrou).  
+- **1. Confirmar a Campo em DB Pedidos - v3** → OK (falta só refletir as correções de texto, que já foram anotadas).  
+- **2. Verificar a Campo reversa em DB Produtos - v3** → OK (caminho e estilo serão reescritos no formato 4.3.1 / 4.3.2, como você mostrou).  
 - **3. Mini‑teste rápido da relação (antes do [AG])** → Você já validou que o pedido aparece em ambos os bancos, então funcionalmente está **OK**; só falta consolidar isso no manual definitivo. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/15c6e03b-24b3-490a-abbf-3dcf94654b7f/image.jpg)
 
 ***
@@ -12842,7 +12842,7 @@ Quando quiser, diga:
 
 e monto isso já considerando:
 
-- Campo de título como “Nova página”.  
+-  de título como “Nova página”.  
 - ID Tabela Pedidos preenchida automaticamente.  
 - Repetição completa dos caminhos “Sistema → Pedidos - v3 → DB Pedidos - v3” e “Sistema → Produtos - v3 → DB Produtos - v3”.
 
@@ -12867,7 +12867,7 @@ https://thomasfrank.notion.site/Notion-Formula-Syntax-and-Rules-13a549a349744407
 ===---+++---===
 ===---+++---===
 
-## [EXEC] o 'ID Tabela Pedidos' é o identificador da Tabela para o Norton, não tem como colocar fórmula, podemos relacionar as duas tabelas por outra coluna, e nessa coluna colocar a fórmula, Verifique o que é possivel ser feito.
+## [EXEC] o 'ID Tabela Pedidos' é o identificador da Tabela para o Norton, não tem como colocar fórmula, podemos relacionar as duas tabelas por outra Campo, e nessa Campo colocar a fórmula, Verifique o que é possivel ser feito.
 
 ***
 
@@ -12904,9 +12904,9 @@ Adicionar em **DB Pedidos - v3**:
 
 ===---+++---===
 
-No Notion, a coluna **title** (no seu caso, “ID Tabela Pedidos”) realmente não aceita fórmula; ela precisa ser digitada/manual ou preenchida via API/integração. Então a ideia de gerar o valor dela com fórmula não é possível diretamente. [notion](https://www.notion.com/help/database-properties)
+No Notion, a Campo **title** (no seu caso, “ID Tabela Pedidos”) realmente não aceita fórmula; ela precisa ser digitada/manual ou preenchida via API/integração. Então a ideia de gerar o valor dela com fórmula não é possível diretamente. [notion](https://www.notion.com/help/database-properties)
 
-Dá para resolver mantendo “ID Tabela Pedidos” como identificador visual padrão do Notion e usando outra coluna para o identificador calculado.
+Dá para resolver mantendo “ID Tabela Pedidos” como identificador visual padrão do Notion e usando outra Campo para o identificador calculado.
 
 ***
 
@@ -12914,13 +12914,13 @@ Dá para resolver mantendo “ID Tabela Pedidos” como identificador visual pad
 
 ### 1. Manter “ID Tabela Pedidos” como está
 
-- Tipo: **Title** (coluna obrigatória do Notion).  
+- Tipo: **Title** (Campo obrigatória do Notion).  
 - Preenchimento:  
   - Você pode digitar manualmente algo simples (ex.: “Pedido 1”, “Pedido 2”) ou até deixar genérico, se não for crítico.  
 - Uso:  
   - Serve para o Notion identificar a página e para você clicar/abrir o registro. [notion](https://www.notion.com/help/intro-to-databases)
 
-### 2. Criar uma nova coluna para o ID calculado
+### 2. Criar uma nova Campo para o ID calculado
 
 Em **DB Pedidos - v3**:
 
@@ -12938,30 +12938,30 @@ Em **DB Pedidos - v3**:
      concat("PED-", format(prop("ID dos Pedidos")))
      ```  
 
-5. Resultado: para cada pedido, essa coluna mostra um ID único derivado do **ID dos Pedidos** (auto‑incremento). [thomasfrank.notion](https://thomasfrank.notion.site/Notion-Formula-Syntax-and-Rules-13a549a349744407a7386595e54ed389)
+5. Resultado: para cada pedido, essa Campo mostra um ID único derivado do **ID dos Pedidos** (auto‑incremento). [thomasfrank.notion](https://thomasfrank.notion.site/Notion-Formula-Syntax-and-Rules-13a549a349744407a7386595e54ed389)
 
-Você passa a usar **ID Pedido (Calc)** como o identificador “oficial” em manuais, prints, relatórios, etc., enquanto a coluna title continua servindo ao Notion.
+Você passa a usar **ID Pedido (Calc)** como o identificador “oficial” em manuais, prints, relatórios, etc., enquanto a Campo title continua servindo ao Notion.
 
 ### 3. Em DB Produtos - v3
 
 Se quiser algo equivalente:
 
-1. Criar coluna **ID Produto (Calc)** (formula).  
+1. Criar Campo **ID Produto (Calc)** (formula).  
 2. Fórmula similar, usando **ID dos Produtos**:  
    ```text
    concat("PROD-", format(prop("ID dos Produtos")))
    ```  
 
-Isso não afeta a relation Pedidos ↔ Produtos (que já está feita sobre a coluna de relation), mas ajuda muito na leitura humana.
+Isso não afeta a relation Pedidos ↔ Produtos (que já está feita sobre a Campo de relation), mas ajuda muito na leitura humana.
 
 ***
 
 ## Relações e Rollups não precisam usar “ID Tabela Pedidos”
 
-- A **relation** entre Pedidos ↔ Produtos já está baseada na propriedade **Tabela Produtos Destino / Tabela Pedido Origem**, e isso é totalmente independente de qual coluna é title ou qual ID você usa. [notion](https://www.notion.com/help/relations-and-rollups)
+- A **relation** entre Pedidos ↔ Produtos já está baseada na propriedade **Tabela Produtos Destino / Tabela Pedido Origem**, e isso é totalmente independente de qual Campo é title ou qual ID você usa. [notion](https://www.notion.com/help/relations-and-rollups)
 - Os **Rollups** que você quer criar em **DB Pedidos - v3** usam apenas:  
   - A relation `Tabela Produtos Destino`.  
-  - As colunas numéricas de **DB Produtos - v3** (`Valor Total`, `Quantidade`). [theorganizednotebook](https://theorganizednotebook.com/blogs/blog/notion-relations-rollups)
+  - As Campos numéricas de **DB Produtos - v3** (`Valor Total`, `Quantidade`). [theorganizednotebook](https://theorganizednotebook.com/blogs/blog/notion-relations-rollups)
 
 Portanto:
 
@@ -12972,7 +12972,7 @@ Portanto:
 
 ## Próximo passo recomendado
 
-1. Criar as colunas de ID calculado (se você quiser esse conforto).  
+1. Criar as Campos de ID calculado (se você quiser esse conforto).  
 2. Em seguida, partir para o seu **[AG] Criar Rollups** em **DB Pedidos - v3**, que pode ser feito assim:
 
 - **Valor Total do Pedido**  
@@ -12990,10 +12990,10 @@ Portanto:
 - **Produtos Diferentes**  
   - Tipo: Rollup  
   - Relation: `Tabela Produtos Destino`  
-  - Property: qualquer campo estável de produto (por exemplo, `ID Tabela Produtos` ou `ID Produto (Calc)`)  
+  - Property: qualquer  estável de produto (por exemplo, `ID Tabela Produtos` ou `ID Produto (Calc)`)  
   - Calculate: `Count all`. [notion](https://www.notion.com/help/relations-and-rollups)
 
-Se quiser, o próximo passo pode ser um `[EXEC]` ultra‑detalhado só para “Criar coluna ID Pedido (Calc)” e depois outro `[EXEC]` para “Criar cada um dos 3 Rollups” com todos os cliques.
+Se quiser, o próximo passo pode ser um `[EXEC]` ultra‑detalhado só para “Criar Campo ID Pedido (Calc)” e depois outro `[EXEC]` para “Criar cada um dos 3 Rollups” com todos os cliques.
 
 
 
@@ -13019,7 +13019,7 @@ A partir de agora:
 
 Se quiser, no próximo turno você pode pedir algo como:
 
-- `[EXEC] Criar coluna ID Pedido (Calc)`,  
+- `[EXEC] Criar Campo ID Pedido (Calc)`,  
 e a resposta virá só focada nesse item, sem tocar em nada que esteja sob [AG].
 
 
@@ -13040,7 +13040,7 @@ e a resposta virá só focada nesse item, sem tocar em nada que esteja sob [AG].
 
 ***
 
-## [EXEC] Utilizar do '# 📝 TEMPLATE DE SOLICITAÇÃO DE GUIA PASSO A PASSO', para criar a coluna "Valor Total do Pedido".
+## [EXEC] Utilizar do '# 📝 TEMPLATE DE SOLICITAÇÃO DE GUIA PASSO A PASSO', para criar a Campo "Valor Total do Pedido".
 
 ***
 
@@ -13062,13 +13062,13 @@ e a resposta virá só focada nesse item, sem tocar em nada que esteja sob [AG].
 
 ===---+++---===
 
-A coluna **“Valor Total do Pedido”** será um **Rollup** em **DB Pedidos - v3**, somando o campo **“Valor Total”** dos produtos vinculados via relation. Isso não muda nada do que já está pronto; só acrescenta a propriedade de cálculo. [notion](https://www.notion.com/help/relations-and-rollups)
+A Campo **“Valor Total do Pedido”** será um **Rollup** em **DB Pedidos - v3**, somando o  **“Valor Total”** dos produtos vinculados via relation. Isso não muda nada do que já está pronto; só acrescenta a propriedade de cálculo. [notion](https://www.notion.com/help/relations-and-rollups)
 
 ***
 
-# [EXEC] Criar coluna **Valor Total do Pedido** em DB Pedidos - v3
+# [EXEC] Criar Campo **Valor Total do Pedido** em DB Pedidos - v3
 
-> Objetivo: somar automaticamente o valor total de todos os produtos vinculados a cada pedido, usando a relação **Tabela Produtos Destino** com o campo **Valor Total** de **DB Produtos - v3**.
+> Objetivo: somar automaticamente o valor total de todos os produtos vinculados a cada pedido, usando a relação **Tabela Produtos Destino** com o  **Valor Total** de **DB Produtos - v3**.
 
 ***
 
@@ -13104,45 +13104,45 @@ A coluna **“Valor Total do Pedido”** será um **Rollup** em **DB Pedidos - v
 4. No menu que abrir, clique em **“Ver base de dados”**.  
 5. Confirme que agora você está vendo **DB Pedidos - v3** em página inteira:  
    - Título grande no topo: **“DB Pedidos - v3”**.  
-   - Logo abaixo, uma view em formato **Tabela**, com colunas como: `ID Tabela Pedidos`, `ID dos Pedidos`, `Status`, `Loja`, `Tabela Produtos Destino`, etc. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/8ec82cb3-f0a3-4e81-b942-b0dfcd87901b/image.jpg)
+   - Logo abaixo, uma view em formato **Tabela**, com Campos como: `ID Tabela Pedidos`, `ID dos Pedidos`, `Status`, `Loja`, `Tabela Produtos Destino`, etc. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/8ec82cb3-f0a3-4e81-b942-b0dfcd87901b/image.jpg)
 
 ***
 
 ## 4. Criar a nova propriedade **Valor Total do Pedido**
 
-1. Na base **DB Pedidos - v3**, vá para a **linha de cabeçalhos** das colunas (onde aparecem os nomes das propriedades).  
+1. Na base **DB Pedidos - v3**, vá para a **linha de cabeçalhos** das Campos (onde aparecem os nomes das propriedades).  
 2. Role horizontalmente para a direita, até o final da tabela, se necessário.  
 3. No final da linha de cabeçalhos, clique no botão **“+”** (Adicionar propriedade).  
 4. Vai abrir uma pequena janela para configurar a nova propriedade.  
-5. No campo de nome da propriedade, digite exatamente:  
+5. No  de nome da propriedade, digite exatamente:  
    - `Valor Total do Pedido`  
-6. No campo de tipo da propriedade (logo abaixo do nome):  
+6. No  de tipo da propriedade (logo abaixo do nome):  
    - Clique no tipo atual (por padrão, costuma vir “Texto” ou similar).  
    - Na lista de tipos, desça até a seção **“Relacionamento e Rollup”** (ou equivalente).  
    - Clique em **“Rollup”**. [theorganizednotebook](https://theorganizednotebook.com/blogs/blog/notion-relations-rollups)
 
 ***
 
-## 5. Configurar o Rollup para usar a relation e o campo corretos
+## 5. Configurar o Rollup para usar a relation e o  corretos
 
 Quando você escolher **Rollup**, aparecerão 3 configurações principais: **Relacionamento**, **Propriedade** e **Cálculo** (os nomes podem variar um pouco, mas a estrutura é essa). [notion](https://www.notion.com/help/relations-and-rollups)
 
 ### 5.1 Escolher o relacionamento (Relation)
 
-1. No campo **Relacionamento** (ou “Relation”), clique na lista suspensa.  
+1. No  **Relacionamento** (ou “Relation”), clique na lista suspensa.  
 2. Selecione a relation que aponta para produtos.  
    - O nome deve ser exatamente **`Tabela Produtos Destino`**.  
    - Se aparecer mais de uma opção, escolha aquela que claramente aponta para **DB Produtos - v3**. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/15c6e03b-24b3-490a-abbf-3dcf94654b7f/image.jpg)
 
 ### 5.2 Escolher a propriedade em **DB Produtos - v3**
 
-1. Depois de escolher a relation, vá para o campo **Propriedade** (ou “Property”).  
+1. Depois de escolher a relation, vá para o  **Propriedade** (ou “Property”).  
 2. Clique na lista de propriedades.  
 3. Selecione a propriedade **`Valor Total`** (que é a fórmula em **DB Produtos - v3** que já calcula `Valor Unitário * Quantidade`). [notion](https://www.notion.vip/insights/notion-formula-cheat-sheet)
 
 ### 5.3 Escolher o tipo de cálculo (Calculate)
 
-1. Em seguida, vá para o campo **Cálculo** (ou “Calculate”).  
+1. Em seguida, vá para o  **Cálculo** (ou “Calculate”).  
 2. Clique na lista de opções.  
 3. Selecione **`Sum`** (Soma).  
    - Isso diz ao Notion: “Some todos os valores da propriedade `Valor Total` dos produtos relacionados a este pedido”. [theorganizednotebook](https://theorganizednotebook.com/blogs/blog/notion-relations-rollups)
@@ -13157,21 +13157,21 @@ Quando você escolher **Rollup**, aparecerão 3 configurações principais: **Re
 
 ***
 
-## 6. Confirmar que a coluna está funcionando
+## 6. Confirmar que a Campo está funcionando
 
-1. Role a tabela, se necessário, até ver a nova coluna **“Valor Total do Pedido”** (ela estará na posição onde você a criou, geralmente no final).  
-2. Para cada pedido que já tem produtos vinculados pela coluna **Tabela Produtos Destino**:  
+1. Role a tabela, se necessário, até ver a nova Campo **“Valor Total do Pedido”** (ela estará na posição onde você a criou, geralmente no final).  
+2. Para cada pedido que já tem produtos vinculados pela Campo **Tabela Produtos Destino**:  
    - Verifique se **“Valor Total do Pedido”** mostra um valor numérico (ex.: `58,40`).  
    - Esse valor deve ser a soma de `Valor Total` de todos os produtos relacionados àquele pedido em **DB Produtos - v3**. [notion](https://www.notion.com/help/relations-and-rollups)
 
 3. Para pedidos que ainda **não têm produtos vinculados**:  
-   - A coluna **“Valor Total do Pedido”** provavelmente vai aparecer como `0`, vazia, ou com outro valor padrão (dependendo de como o Notion trata ausência de dados no momento).
+   - A Campo **“Valor Total do Pedido”** provavelmente vai aparecer como `0`, vazia, ou com outro valor padrão (dependendo de como o Notion trata ausência de dados no momento).
 
 ***
 
 ## 7. Atualizar mentalmente o checklist (sem mexer no seu bloco)
 
-Com a criação dessa coluna:
+Com a criação dessa Campo:
 
 - O item **“Criar fórmulas de cálculo ⏳ Em andamento”** ganhou mais um passo concluído (agora você tem:  
   - Fórmula `Valor Total` em **DB Produtos - v3**.  
@@ -13190,9 +13190,9 @@ Se quiser, o próximo `[EXEC]` pode ser, no mesmo formato, para:
 ===---+++---===
 ===---+++---===
 
-## [CORRECAO] Os Itens da '5. Configurar o Rollup para usar a relation e o campo corretos', não existem, verifique o [ANEXO].
+## [CORRECAO] Os Itens da '5. Configurar o Rollup para usar a relation e o  corretos', não existem, verifique o [ANEXO].
 
-## [OBS] Neste momento informe apenas as instruções do '5. Configurar o Rollup para usar a relation e o campo corretos', em diante, não é necessário os itens anteriores.
+## [OBS] Neste momento informe apenas as instruções do '5. Configurar o Rollup para usar a relation e o  corretos', em diante, não é necessário os itens anteriores.
 
 ***
 
@@ -13213,17 +13213,17 @@ Se quiser, o próximo `[EXEC]` pode ser, no mesmo formato, para:
 
 ===---+++---===
 
-Você tem razão: o Notion mudou a interface de Rollup, então o passo 5 precisa ser refeito para bater com o que você vê. Abaixo está **somente** a parte de configuração do Rollup, a partir do momento em que você já escolheu o tipo “Rollup” para a coluna **Valor Total do Pedido**. [notion](https://www.notion.com/help/relations-and-rollups)
+Você tem razão: o Notion mudou a interface de Rollup, então o passo 5 precisa ser refeito para bater com o que você vê. Abaixo está **somente** a parte de configuração do Rollup, a partir do momento em que você já escolheu o tipo “Rollup” para a Campo **Valor Total do Pedido**. [notion](https://www.notion.com/help/relations-and-rollups)
 
 ***
 
-## 5. Configurar o Rollup para usar a relation e o campo corretos
+## 5. Configurar o Rollup para usar a relation e o  corretos
 
-> Ponto de partida: a coluna **Valor Total do Pedido** já foi criada e o tipo dela já está definido como **Rollup**. Agora você precisa ajustar as 3 configurações internas do Rollup: **Relacionamento**, **Propriedade** e **Cálculo**.
+> Ponto de partida: a Campo **Valor Total do Pedido** já foi criada e o tipo dela já está definido como **Rollup**. Agora você precisa ajustar as 3 configurações internas do Rollup: **Relacionamento**, **Propriedade** e **Cálculo**.
 
-### 5.1 Abrir a configuração da coluna **Valor Total do Pedido**
+### 5.1 Abrir a configuração da Campo **Valor Total do Pedido**
 
-1. Na base **DB Pedidos - v3**, localize o cabeçalho da coluna **Valor Total do Pedido** (onde aparece o nome da coluna).  
+1. Na base **DB Pedidos - v3**, localize o cabeçalho da Campo **Valor Total do Pedido** (onde aparece o nome da Campo).  
 2. Clique **uma vez** sobre o nome **Valor Total do Pedido**.  
 3. Vai abrir um painel de configuração dessa propriedade, com o tipo “Rollup” já selecionado.  
    - Esse painel mostra algo como:  
@@ -13236,8 +13236,8 @@ Você tem razão: o Notion mudou a interface de Rollup, então o passo 5 precisa
 
 ### 5.2 Escolher a **Propriedade de relação** (Relation)
 
-1. No painel, encontre o campo chamado **“Propriedade de relação”** (em algumas versões pode aparecer como “Relacionamento” ou “Relational property”).  
-2. Clique no menu desse campo (normalmente é um botão com o nome da propriedade atual ou “Selecione uma propriedade”).  
+1. No painel, encontre o  chamado **“Propriedade de relação”** (em algumas versões pode aparecer como “Relacionamento” ou “Relational property”).  
+2. Clique no menu desse  (normalmente é um botão com o nome da propriedade atual ou “Selecione uma propriedade”).  
 3. Na lista que abrir, selecione a relation que aponta para os produtos:  
    - O nome correto é **`Tabela Produtos Destino`**.  
    - Confirme que é a relation que liga **DB Pedidos - v3** → **DB Produtos - v3**. [ppl-ai-file-upload.s3.amazonaws](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/108742584/15c6e03b-24b3-490a-abbf-3dcf94654b7f/image.jpg)
@@ -13246,18 +13246,18 @@ Você tem razão: o Notion mudou a interface de Rollup, então o passo 5 precisa
 
 ### 5.3 Escolher a **Propriedade** em DB Produtos - v3
 
-1. Logo abaixo do campo de relação, haverá um segundo campo chamado **“Propriedade”** (pode aparecer como “Propriedade agregada”, “Property” ou similar).  
-2. Clique nesse campo para abrir a lista de propriedades do banco relacionado (**DB Produtos - v3**).  
+1. Logo abaixo do  de relação, haverá um segundo  chamado **“Propriedade”** (pode aparecer como “Propriedade agregada”, “Property” ou similar).  
+2. Clique nesse  para abrir a lista de propriedades do banco relacionado (**DB Produtos - v3**).  
 3. Na lista, procure e selecione **`Valor Total`**:  
-   - Essa é a coluna de fórmula em **DB Produtos - v3** que já calcula `Valor Unitário * Quantidade`.  
+   - Essa é a Campo de fórmula em **DB Produtos - v3** que já calcula `Valor Unitário * Quantidade`.  
    - Ela deve aparecer na lista com o ícone de fórmula ou número, dependendo da interface. [notion](https://www.notion.vip/insights/notion-formula-cheat-sheet)
 
 ***
 
 ### 5.4 Escolher o tipo de **Cálculo**
 
-1. Ainda no mesmo painel, procure o campo chamado **“Cálculo”** (ou “Calculate”).  
-2. Clique nesse campo para abrir as opções.  
+1. Ainda no mesmo painel, procure o  chamado **“Cálculo”** (ou “Calculate”).  
+2. Clique nesse  para abrir as opções.  
 3. Escolha a opção **`Soma` / `Sum`**.  
    - Isso indica ao Notion que ele deve somar todos os valores da propriedade `Valor Total` de todos os produtos relacionados a cada pedido. [theorganizednotebook](https://theorganizednotebook.com/blogs/blog/notion-relations-rollups)
 
@@ -13273,7 +13273,7 @@ Você tem razão: o Notion mudou a interface de Rollup, então o passo 5 precisa
 
 2. Feche o painel de configuração (clicando fora ou em “Concluído”, dependendo da interface).  
 3. Volte à tabela e confira alguns pedidos que já têm produtos vinculados:  
-   - A coluna **Valor Total do Pedido** deve mostrar a **soma** dos campos `Valor Total` dos produtos daquele pedido. [notion](https://www.notion.com/help/relations-and-rollups)
+   - A Campo **Valor Total do Pedido** deve mostrar a **soma** dos s `Valor Total` dos produtos daquele pedido. [notion](https://www.notion.com/help/relations-and-rollups)
 
 Se ao abrir a configuração do Rollup você vir rótulos um pouco diferentes dos nomes que usei (por atualização de idioma/interface), descreva exatamente o que aparece na tela que ajusto os nomes um a um para ficar idêntico ao seu Notion.
 
@@ -13286,7 +13286,7 @@ Se ao abrir a configuração do Rollup você vir rótulos um pouco diferentes do
 
 ***
 
-## [ANEXO] É um vídeo aonde mostro todos os itens que estão sendo mostrados na coluna 'Valor Total do Pedido'
+## [ANEXO] É um vídeo aonde mostro todos os itens que estão sendo mostrados na Campo 'Valor Total do Pedido'
 
 ***
 
@@ -13311,13 +13311,13 @@ Se ao abrir a configuração do Rollup você vir rótulos um pouco diferentes do
 
 ===---+++---===
 
-Pelo vídeo, a interface de Rollup que você está vendo mostra **três campos em linha** dentro da própria coluna, algo como:
+Pelo vídeo, a interface de Rollup que você está vendo mostra **três s em linha** dentro da própria Campo, algo como:
 
 - **Relacionamento** (já está “Tabela Produtos Destino”)  
 - **Propriedade** (lista que hoje está em “ID Tabela Produtos” ou outra opção)  
 - **Cálculo** (lista com opções como “Contagem”, “Soma”, etc.)
 
-O problema em 5.3 é só o nome que usei; o campo existe, mas aparece como uma **segunda lista suspensa ao lado da relation**, não com o rótulo “Propriedade” destacado.
+O problema em 5.3 é só o nome que usei; o  existe, mas aparece como uma **segunda lista suspensa ao lado da relation**, não com o rótulo “Propriedade” destacado.
 
 A partir daqui, vou considerar essa interface.
 
@@ -13326,16 +13326,16 @@ A partir daqui, vou considerar essa interface.
 ## 5.3 Escolher a **Propriedade** em DB Produtos - v3 (na interface que você vê)
 
 > Ponto de partida:  
-> - Coluna **Valor Total do Pedido** já criada.  
-> - Tipo da coluna: **Rollup**.  
+> - Campo **Valor Total do Pedido** já criada.  
+> - Tipo da Campo: **Rollup**.  
 > - Primeiro menu (Relation) já em **Tabela Produtos Destino**.  
 > - Você está vendo três “caixinhas” ou menus em linha dentro da configuração do Rollup.
 
 1. Clique no **segundo menu em linha**, aquele que fica logo ao lado de **Tabela Produtos Destino**.  
    - Esse menu é a lista de **Propriedades** do banco relacionado (**DB Produtos - v3**).  
-   - Hoje ele deve estar mostrando algum outro campo (por exemplo `ID Tabela Produtos`, `Nome do Produto` ou similar).  
+   - Hoje ele deve estar mostrando algum outro  (por exemplo `ID Tabela Produtos`, `Nome do Produto` ou similar).  
 
-2. Ao clicar nesse segundo menu, vai abrir uma lista com todas as colunas de **DB Produtos - v3**, incluindo:  
+2. Ao clicar nesse segundo menu, vai abrir uma lista com todas as Campos de **DB Produtos - v3**, incluindo:  
    - `ID Tabela Produtos`  
    - `ID dos Produtos`  
    - `Nome do Produto`  
@@ -13351,7 +13351,7 @@ A partir daqui, vou considerar essa interface.
 
 3. Nessa lista, role se necessário e **clique em `Valor Total`**.  
    - Depois de clicar, esse segundo menu deve passar a mostrar **`Valor Total`** como seleção atual.  
-   - Isso significa que o Rollup agora está configurado para olhar para a coluna de fórmula `Valor Total` em **DB Produtos - v3**.
+   - Isso significa que o Rollup agora está configurado para olhar para a Campo de fórmula `Valor Total` em **DB Produtos - v3**.
 
 ***
 
@@ -13373,9 +13373,9 @@ A partir daqui, vou considerar essa interface.
 
 ## 5.5 Verificar o resultado na tabela
 
-1. Feche a configuração da coluna (clicando fora da janelinha).  
-2. Olhe a coluna **Valor Total do Pedido** na tabela de **DB Pedidos - v3**:  
-   - Para cada pedido que tem produtos vinculados em **Tabela Produtos Destino**, o valor exibido deve ser a **soma** dos campos `Valor Total` de todos os produtos daquele pedido.  
+1. Feche a configuração da Campo (clicando fora da janelinha).  
+2. Olhe a Campo **Valor Total do Pedido** na tabela de **DB Pedidos - v3**:  
+   - Para cada pedido que tem produtos vinculados em **Tabela Produtos Destino**, o valor exibido deve ser a **soma** dos s `Valor Total` de todos os produtos daquele pedido.  
    - Para pedidos sem produtos vinculados, o valor deve ficar em `0`, vazio ou algum padrão, dependendo da forma como o Notion exibe Rollups vazios.
 
 Se, após selecionar `Valor Total` no segundo menu, essa opção não aparecer na lista, me diga exatamente quais nomes aparecem nesse segundo menu que ajusto o passo a passo com base nesses nomes.
@@ -13395,18 +13395,18 @@ Se, após selecionar `Valor Total` no segundo menu, essa opção não aparecer n
 > - Você está vendo três “caixinhas” ou menus em linha dentro da configuração do Rollup.
 1. Clique no **segundo menu em linha**, aquele que fica logo ao lado de **Tabela Produtos Destino**.  
    - Esse menu é a lista de **Propriedades** do banco relacionado (**DB Produtos - v3**).  
-   - Hoje ele deve estar mostrando algum outro campo (por exemplo `ID Tabela Produtos`, `Nome do Produto` ou similar).  
+   - Hoje ele deve estar mostrando algum outro  (por exemplo `ID Tabela Produtos`, `Nome do Produto` ou similar).  
 ```
 
 - [OBS] Textos com 'três “caixinhas” ou menus em linha' deixam muita margem, informe o que deve aparecer corretamente.
 
-- [OBS] Textos com 'Hoje ele deve estar mostrando algum outro campo (por exemplo `ID Tabela Produtos`, `Nome do Produto` ou similar).' deixam muita margem para erro, informe o que deve aparecer corretamente com o texto que está aparecendo que é Relação 'Selecionar', pois a relação do campo ainda não havia sido estabelecida com nada.
+- [OBS] Textos com 'Hoje ele deve estar mostrando algum outro  (por exemplo `ID Tabela Produtos`, `Nome do Produto` ou similar).' deixam muita margem para erro, informe o que deve aparecer corretamente com o texto que está aparecendo que é Relação 'Selecionar', pois a relação do  ainda não havia sido estabelecida com nada.
 
 ### [CORRECAO-1]
 ```
->- Abrir a Propriedade da Coluna **Valor Total do Pedido**.
->- Clicar sobre o nome da Coluna **Valor Total do Pedido**.
->- Alterar a Propriedade da Coluna **Valor Total do Pedido**.
+>- Abrir a Propriedade da Campo **Valor Total do Pedido**.
+>- Clicar sobre o nome da Campo **Valor Total do Pedido**.
+>- Alterar a Propriedade da Campo **Valor Total do Pedido**.
 >- Clicar no Item 'Editar propriedade'.
 
 1. Ativar a Relação para o Calculo:
@@ -13433,9 +13433,9 @@ Se, após selecionar `Valor Total` no segundo menu, essa opção não aparecer n
 
 ### [CORRECAO-2]
 ```
-2. Selecionar campo a ser calculado:
+2. Selecionar  a ser calculado:
 	- clicar no Item **Propriedade de destino**, o segundo item da lista.
-	- É apresentado uma Lista com as Colunas da Tabela Produtos:
+	- É apresentado uma Lista com as Campos da Tabela Produtos:
 		. `ID Tabela Produtos`  
 		. `ID dos Produtos`  
 		. `Nome do Produto`  
@@ -13454,14 +13454,14 @@ Se, após selecionar `Valor Total` no segundo menu, essa opção não aparecer n
 ```
 3. Nessa lista, role se necessário e **clique em `Valor Total`**.  
    - Depois de clicar, esse segundo menu deve passar a mostrar **`Valor Total`** como seleção atual.  
-   - Isso significa que o Rollup agora está configurado para olhar para a coluna de fórmula `Valor Total` em **DB Produtos - v3**.
+   - Isso significa que o Rollup agora está configurado para olhar para a Campo de fórmula `Valor Total` em **DB Produtos - v3**.
 ```
 ### [CORRECAO-3]
 ```
 
-3. Ativar a Coluna para o Calculo:
+3. Ativar a Campo para o Calculo:
 	- Selecionar o item 'Valor Total'.
-   - Isso significa que o Rollup agora está configurado para olhar para a coluna de fórmula `Valor Total` em **DB Produtos - v3**.
+   - Isso significa que o Rollup agora está configurado para olhar para a Campo de fórmula `Valor Total` em **DB Produtos - v3**.
 ```
 
 ## [CORRECAO] Os Itens da '## 5.4 Ajustar o **Cálculo** para “Soma”', as orientações devem ser precisar com os nomes corretos das coisas, veja nas linhas a seguir e o que você coloca e o que deveria ser colocado:
@@ -13505,7 +13505,7 @@ Se, após selecionar `Valor Total` no segundo menu, essa opção não aparecer n
 		
 3. Clicar no Item **`Soma`**
 
-4. Fechar Coluna, clicar fora da Coluna até a Propriedade ser fechada por completo e só aparecer o nome da coluna 'Valor Total do Pedido'
+4. Fechar Campo, clicar fora da Campo até a Propriedade ser fechada por completo e só aparecer o nome da Campo 'Valor Total do Pedido'
 ```
 
 ## [CORRECAO] Os Itens da '## 5.5 Verificar o resultado na tabela', as orientações devem ser precisar com os nomes corretos das coisas, veja nas linhas a seguir e o que você coloca e o que deveria ser colocado:
@@ -13514,9 +13514,9 @@ Se, após selecionar `Valor Total` no segundo menu, essa opção não aparecer n
 ```
 ## 5.5 Verificar o resultado na tabela
 
-1. Feche a configuração da coluna (clicando fora da janelinha).  
-2. Olhe a coluna **Valor Total do Pedido** na tabela de **DB Pedidos - v3**:  
-   - Para cada pedido que tem produtos vinculados em **Tabela Produtos Destino**, o valor exibido deve ser a **soma** dos campos `Valor Total` de todos os produtos daquele pedido.  
+1. Feche a configuração da Campo (clicando fora da janelinha).  
+2. Olhe a Campo **Valor Total do Pedido** na tabela de **DB Pedidos - v3**:  
+   - Para cada pedido que tem produtos vinculados em **Tabela Produtos Destino**, o valor exibido deve ser a **soma** dos s `Valor Total` de todos os produtos daquele pedido.  
    - Para pedidos sem produtos vinculados, o valor deve ficar em `0`, vazio ou algum padrão, dependendo da forma como o Notion exibe Rollups vazios.
 
 Se, após selecionar `Valor Total` no segundo menu, essa opção não aparecer na lista, me diga exatamente quais nomes aparecem nesse segundo menu que ajusto o passo a passo com base nesses nomes.
@@ -13526,9 +13526,9 @@ Se, após selecionar `Valor Total` no segundo menu, essa opção não aparecer n
 ```
 ## 5.5 Verificar o resultado na tabela
 
-- Abrir a Propriedade da Coluna **Valor Total do Pedido**.
-- Clicar sobre o nome da Coluna **Valor Total do Pedido**.
-- Alterar a Propriedade da Coluna **Valor Total do Pedido**.
+- Abrir a Propriedade da Campo **Valor Total do Pedido**.
+- Clicar sobre o nome da Campo **Valor Total do Pedido**.
+- Alterar a Propriedade da Campo **Valor Total do Pedido**.
 - Clicar no Item 'Editar propriedade'.
 - Verifique que os Itens estão com as seguintes informações:
 	. Relação = 'Nome do Produto'
@@ -13540,7 +13540,7 @@ Se, após selecionar `Valor Total` no segundo menu, essa opção não aparecer n
 
 ***
 
-## [PERG] Existem outras colunas de calculo a serem feitas?
+## [PERG] Existem outras Campos de calculo a serem feitas?
 
 
 ***
@@ -13564,9 +13564,9 @@ Se, após selecionar `Valor Total` no segundo menu, essa opção não aparecer n
 
 ===---+++---===
 
-Sim, existem outras colunas de cálculo que valem a pena criar para completar a parte de valores e quantidades do sistema, mas nenhuma delas é obrigatória para o funcionamento básico; todas são melhorias. [notion](https://www.notion.com/help/database-properties)
+Sim, existem outras Campos de cálculo que valem a pena criar para completar a parte de valores e quantidades do sistema, mas nenhuma delas é obrigatória para o funcionamento básico; todas são melhorias. [notion](https://www.notion.com/help/database-properties)
 
-## Colunas de cálculo recomendadas em DB Pedidos - v3
+## Campos de cálculo recomendadas em DB Pedidos - v3
 
 Estas usam **Rollup**, como o “Valor Total do Pedido”:
 
@@ -13586,7 +13586,7 @@ Estas usam **Rollup**, como o “Valor Total do Pedido”:
 
 Essas duas completam o “pacote” de resumo por pedido: **valor total**, **quantidade de itens** e **número de produtos diferentes**.
 
-## Colunas de cálculo possíveis em DB Produtos - v3
+## Campos de cálculo possíveis em DB Produtos - v3
 
 Aqui você já tem a principal:
 
@@ -13634,7 +13634,7 @@ você já tem o conjunto essencial de cálculos para acompanhar seus pedidos de 
 
 ===---+++---===
 
-Perfeito, então mantemos **somente** o cálculo de **Valor Total do Pedido** como fórmula principal, sem criar novas colunas de cálculo adicionais. [notion](https://www.notion.com/help/relations-and-rollups)
+Perfeito, então mantemos **somente** o cálculo de **Valor Total do Pedido** como fórmula principal, sem criar novas Campos de cálculo adicionais. [notion](https://www.notion.com/help/relations-and-rollups)
 
 Como seu checklist já marca:
 
@@ -13717,7 +13717,7 @@ Segue uma lista de **30 ideias** (todas opcionais) para evoluir o sistema usando
 4. **View “Pedidos por Loja” (Board)**  
    - Layout: **Quadro** (Board).  
    - Agrupar por `Loja` (AliExpress, Shopee, Amazon, etc.).  
-   - Dentro de cada coluna, ordenar por data de compra decrescente.
+   - Dentro de cada Campo, ordenar por data de compra decrescente.
 
 5. **View “Calendário de Entregas”**  
    - Layout: **Calendário**.  
@@ -13732,7 +13732,7 @@ Segue uma lista de **30 ideias** (todas opcionais) para evoluir o sistema usando
 7. **View “Pedidos por Status” (Board)**  
    - Layout: Board.  
    - Agrupar pela propriedade `Status`.  
-   - Permite arrastar cards entre colunas para atualizar status manualmente.
+   - Permite arrastar cards entre Campos para atualizar status manualmente.
 
 8. **View “Pedidos deste Mês”**  
    - Filtro: `Compra Feita em` está dentro do mês atual.  
@@ -13769,7 +13769,7 @@ Segue uma lista de **30 ideias** (todas opcionais) para evoluir o sistema usando
     - Ajuda a ver quais tipos de produto vêm de cada loja.
 
 15. **View “Produtos Comprados Recentemente”**  
-    - Ordenar pela data de compra do pedido relacionado (via coluna exibida de `Compra Feita em` do pedido).  
+    - Ordenar pela data de compra do pedido relacionado (via Campo exibida de `Compra Feita em` do pedido).  
     - Filtro para últimos X dias (manual).
 
 16. **View “Produtos com Observações”**  
@@ -13812,7 +13812,7 @@ Segue uma lista de **30 ideias** (todas opcionais) para evoluir o sistema usando
     - Útil para quando você quer ver só o que tem em uma plataforma.
 
 25. **Propriedade “Prioridade do Pedido”**  
-    - Nova coluna Select em Pedidos: Alta / Média / Baixa.  
+    - Nova Campo Select em Pedidos: Alta / Média / Baixa.  
     - Views específicas: “Pedidos Prioritários” filtrando Prioridade = Alta.
 
 26. **Propriedade “Tipo de Compra”**  
@@ -13844,7 +13844,7 @@ Se você quiser, na próxima mensagem posso pegar 1 ou 2 dessas ideias (por exem
 
 ## [EXEC] Criar um Botão para "Abrir modo Lado a Lado" - "Produtos - v3"
 
-## [OBS] Todos os Os Botões serão colocados na Coluna da Esquerda na ABA "AÇÃO RÁPIDA"
+## [OBS] Todos os Os Botões serão colocados na Campo da Esquerda na ABA "AÇÃO RÁPIDA"
 
 ***
 
@@ -13907,7 +13907,7 @@ Se você quiser seguir por esse caminho viável, posso montar um `[EXEC]` ultra�
 ===---+++---===
 ===---+++---===
 
-## [EXEC] Criar uma View para o "Produtos - v3" usando de inspiração o 'STOCK' na Coluna da Direita da Tela.
+## [EXEC] Criar uma View para o "Produtos - v3" usando de inspiração o 'STOCK' na Campo da Direita da Tela.
 
 ***
 
@@ -13978,17 +13978,17 @@ Vou propor uma view de **estoque visual** para o **DB Produtos - v3**, inspirada
 
 ***
 
-### 3. Ajustar quais colunas aparecem na view “STOCK”
+### 3. Ajustar quais Campos aparecem na view “STOCK”
 
 1. Com a view **“STOCK”** ativa, clique no menu de **“Propriedades”** (geralmente um botão com texto tipo “Propriedades” ou ícone de olho).  
-2. Na lista de propriedades, deixe **ligadas (visíveis)** pelo menos estas colunas:  
+2. Na lista de propriedades, deixe **ligadas (visíveis)** pelo menos estas Campos:  
    - `ID Tabela Produtos` (ou o título que você usa como identificação do produto).  
    - `Nome do Produto`.  
    - `Categoria`.  
    - `Quantidade`.  
    - `Valor Unitário`.  
    - `Valor Total`.  
-3. Desligue (oculte) colunas que não forem importantes para visão de estoque (por exemplo, `Imagem`, `Link do Produto`, `Observações`), se quiser que o quadro fique mais compacto.  
+3. Desligue (oculte) Campos que não forem importantes para visão de estoque (por exemplo, `Imagem`, `Link do Produto`, `Observações`), se quiser que o quadro fique mais compacto.  
 4. Feche o painel de propriedades.
 
 ***
@@ -14070,7 +14070,7 @@ Abaixo vai só o passo a passo para criar essa view visual.
 
 1. Na view **“STOCK”**, clique em **“Propriedades”** (ícone de olho ou texto “Propriedades”). [notion](https://www.notion.com/help/views-groups-filters-and-properties)
 2. Ative (ligue) as seguintes propriedades para aparecerem no card:  
-   - **Título do Produto** (a coluna de título que você usa; pode ser `ID Tabela Produtos` ou outro).  
+   - **Título do Produto** (a Campo de título que você usa; pode ser `ID Tabela Produtos` ou outro).  
    - `Nome do Produto`.  
    - `Categoria`.  
    - `Quantidade`.  
@@ -14087,7 +14087,7 @@ Abaixo vai só o passo a passo para criar essa view visual.
 2. Procure a configuração **“Imagem da capa”** ou **“Cover”** (fica perto do topo do painel de propriedades).  
 3. Selecione a propriedade **`Imagem`** para ser usada como capa do card. [notion](https://www.notion.com/help/views-filters-and-sorts)
 4. Feche o painel.  
-5. Agora, cada card deve mostrar a foto do produto (se o campo `Imagem` estiver preenchido).
+5. Agora, cada card deve mostrar a foto do produto (se o  `Imagem` estiver preenchido).
 
 ***
 
@@ -14130,10 +14130,10 @@ Se quiser que a view STOCK mostre só o que “existe em estoque”:
 
 Depois disso, a view **STOCK** em **DB Produtos - v3** terá:
 
-- Cards com **imagem grande** (campo `Imagem`),  
+- Cards com **imagem grande** ( `Imagem`),  
 - Título do produto em destaque,  
 - “Badges” de texto para `Categoria`, `Quantidade`, `Valor Unitário` e `Valor Total`,  
-bem no estilo do exemplo do anexo, só que adaptado aos campos do seu sistema.
+bem no estilo do exemplo do anexo, só que adaptado aos s do seu sistema.
 
 
 ===---+++---===
@@ -14191,7 +14191,7 @@ Assim, ao clicar nesse item, o Notion abre o **DB Produtos - v3** e a view **GAL
 
 ***
 
-## [OBS] Vou criar um Item na Coluna da Direita, que tem o mesmo aspecto do ITEM 'P&L ', mas com outra tabela a 'Links - Todos - VALIDADO' usando o  como Filtro 'Rastreios', para que abra nessa opção diretamente. Consegue entender e criar um passo a passo de como fazer isso.
+## [OBS] Vou criar um Item na Campo da Direita, que tem o mesmo aspecto do ITEM 'P&L ', mas com outra tabela a 'Links - Todos - VALIDADO' usando o  como Filtro 'Rastreios', para que abra nessa opção diretamente. Consegue entender e criar um passo a passo de como fazer isso.
 
 ***
 
@@ -14199,13 +14199,13 @@ Assim, ao clicar nesse item, o Notion abre o **DB Produtos - v3** e a view **GAL
 
 ===---+++---===
 
-Você quer criar, na coluna da direita da página **Sistema de Compras – Painel Geral**, um item semelhante ao bloco **“P&L”**, mas apontando para a base **“Links - Todos - VALIDADO”** já filtrada para **Rastreios**. A forma prática de fazer isso é criar uma **linked database** dessa tabela com filtro, e posicioná‑la onde hoje está o P&L. [notion](https://www.notion.com/help/views-filters-and-sorts)
+Você quer criar, na Campo da direita da página **Sistema de Compras – Painel Geral**, um item semelhante ao bloco **“P&L”**, mas apontando para a base **“Links - Todos - VALIDADO”** já filtrada para **Rastreios**. A forma prática de fazer isso é criar uma **linked database** dessa tabela com filtro, e posicioná‑la onde hoje está o P&L. [notion](https://www.notion.com/help/views-filters-and-sorts)
 
 Abaixo vai o passo a passo pensando nessa estrutura.
 
 ***
 
-## [EXEC] Criar item “Links – Rastreios” na coluna da direita
+## [EXEC] Criar item “Links – Rastreios” na Campo da direita
 
 ### 1. Confirmar que você está na página principal
 
@@ -14215,9 +14215,9 @@ Abaixo vai o passo a passo pensando nessa estrutura.
 
 ***
 
-### 2. Localizar a coluna da direita onde está o “P&L”
+### 2. Localizar a Campo da direita onde está o “P&L”
 
-1. Role a página para baixo até encontrar a **seção em colunas** onde, na coluna da direita, existe o item **“P&L”** (provavelmente um bloco de banco de dados vinculado ou uma view).  
+1. Role a página para baixo até encontrar a **seção em Campos** onde, na Campo da direita, existe o item **“P&L”** (provavelmente um bloco de banco de dados vinculado ou uma view).  
 2. Identifique exatamente **em que bloco** o P&L está:  
    - Ele costuma ser um **Linked Database** (um bloco de “Tabela vinculada” ou “Tabela – linked view”). 
 
@@ -14225,7 +14225,7 @@ Abaixo vai o passo a passo pensando nessa estrutura.
 
 ### 3. Inserir uma nova linked database para “Links - Todos - VALIDADO”
 
-1. Clique dentro da **coluna da direita**, logo **abaixo** (ou acima, se preferir) do bloco “P&L”.  
+1. Clique dentro da **Campo da direita**, logo **abaixo** (ou acima, se preferir) do bloco “P&L”.  
 2. Digite `/` para abrir o menu de comandos.  
 3. Comece a digitar `vinculação em tabela`
 `Vinculação vinculada da fonte de dados`
@@ -14239,9 +14239,9 @@ Seleciona a Visualização existente ou cria uma nova (Nova Visualização)
 
 4. Escolha a opção **“Criar visualização vinculada de banco de dados”** (em português) ou “Create linked view of database”. [notion](https://www.notion.com/help/views-filters-and-sorts)
 5. Vai abrir uma caixa para você escolher qual base quer vincular.  
-6. No campo de busca dessa caixa, digite **`Links - Todos - VALIDADO`**.  
+6. No  de busca dessa caixa, digite **`Links - Todos - VALIDADO`**.  
 7. Clique na base **“Links - Todos - VALIDADO”** quando ela aparecer.  
-8. O Notion criará um novo bloco de database vinculado na coluna da direita, mostrando os dados da tabela original.
+8. O Notion criará um novo bloco de database vinculado na Campo da direita, mostrando os dados da tabela original.
 
 ***
 
@@ -14260,15 +14260,15 @@ Agora você vai filtrar essa linked view para já abrir na opção “Rastreios�
 
 1. Com o cursor dentro da nova view **“Links – Rastreios”**, clique no botão **“Filtrar”** (ou “Filter”) na barra superior da tabela. [notion](https://www.notion.com/help/views-filters-and-sorts)
 2. Clique em **“Adicionar filtro”**.  
-3. Configure o filtro de acordo com a coluna que você usa para distinguir rastreios. Exemplos, dependendo da sua base:  
+3. Configure o filtro de acordo com a Campo que você usa para distinguir rastreios. Exemplos, dependendo da sua base:  
 
-   - Se existir uma coluna `Tipos` (select) como em “Lojas - v3”:  
+   - Se existir uma Campo `Tipos` (select) como em “Lojas - v3”:  
      - Propriedade: **`Tipos`**  
      - Condição: **“é”**  
      - Valor: **`Rastreio`**  
 
-   - Se for uma coluna de texto `Categoria` ou `Tag`:  
-     - Propriedade: essa coluna.  
+   - Se for uma Campo de texto `Categoria` ou `Tag`:  
+     - Propriedade: essa Campo.  
      - Condição: **“contém”**.  
      - Valor: digite **`Rastreios`** (ou o valor exato que você está usando).  
 
@@ -14279,22 +14279,22 @@ Agora você vai filtrar essa linked view para já abrir na opção “Rastreios�
 ### 6. Ajustar propriedades visíveis (opcional, mas recomendado)
 
 1. Clique em **“Propriedades”** na barra superior da view.  
-2. Ative (ligue) apenas as colunas que façam sentido para rastreios, por exemplo:  
+2. Ative (ligue) apenas as Campos que façam sentido para rastreios, por exemplo:  
    - `Site` ou `Nome`  
    - `Link`  
    - `Tipos` (se existir)  
-3. Desative colunas que não ajudam nessa visão rápida.  
+3. Desative Campos que não ajudam nessa visão rápida.  
 4. Feche o painel de propriedades.
 
 ***
 
-Depois disso, você terá na **coluna da direita** um item que visualmente segue o padrão do **“P&L”**, mas carregando uma **view filtrada da tabela “Links - Todos - VALIDADO” apenas para “Rastreios”**, abrindo diretamente nesse filtro sempre que usar esse bloco. [notion](https://www.notion.com/help/views-filters-and-sorts)
+Depois disso, você terá na **Campo da direita** um item que visualmente segue o padrão do **“P&L”**, mas carregando uma **view filtrada da tabela “Links - Todos - VALIDADO” apenas para “Rastreios”**, abrindo diretamente nesse filtro sempre que usar esse bloco. [notion](https://www.notion.com/help/views-filters-and-sorts)
 
 
 ===---+++---===
 ===---+++---===
 
-[EXEC] Crie a formula para a coluna 'TOTAL COMPRA', ela é igual a 'Total do Produto' + 'FRETE' - 'DESCONTO' - 'CUPOM LOJA' - 'MOEDA' - 'OFERTA' + 'IMPORTACAO' + 'ICMS'
+[EXEC] Crie a formula para a Campo 'TOTAL COMPRA', ela é igual a 'Total do Produto' + 'FRETE' - 'DESCONTO' - 'CUPOM LOJA' - 'MOEDA' - 'OFERTA' + 'IMPORTACAO' + 'ICMS'
 
 
 
@@ -14313,7 +14313,7 @@ prop("Total do Produto")
 + prop("ICMS")
 ```
 
-- Cada `prop("Nome da Coluna")` deve bater exatamente com o nome da propriedade numérica no seu DB (maiúsculas, espaços, acentos).  
+- Cada `prop("Nome da Campo")` deve bater exatamente com o nome da propriedade numérica no seu DB (maiúsculas, espaços, acentos).  
 - A ordem é a que você pediu: **Total do Produto + FRETE - DESCONTO - CUPOM LOJA - MOEDA - OFERTA + IMPORTACAO + ICMS**. [notion](https://www.notion.vip/insights/notion-formula-cheat-sheet)
 
 
@@ -14570,7 +14570,7 @@ Não, eu **não consigo clicar** fisicamente na aba ao lado; eu só recebo a inf
 
 #### **Uso:**
 ```md
-## [EXEC] Crie a fórmula para a coluna 'TOTAL COMPRA'
+## [EXEC] Crie a fórmula para a Campo 'TOTAL COMPRA'
 ```
 
 #### **Quando usar:**
@@ -14646,7 +14646,7 @@ Não, eu **não consigo clicar** fisicamente na aba ao lado; eu só recebo a inf
 
 #### **Uso:**
 ```md
-## [OBS] Vou criar um Item na Coluna da Direita...
+## [OBS] Vou criar um Item na Campo da Direita...
 ```
 
 #### **Quando usar:**
@@ -14781,7 +14781,7 @@ Não, eu **não consigo clicar** fisicamente na aba ao lado; eu só recebo a inf
 ===---+++---===
 ===---+++---===
 
-## [PASSO A PASSO] Quero Acompanhar as Entrega das compras, utilizando a visão de calendário, se for possível, mas se tiver mais alguma forma, pode passar a informação, para que eu avalie, o que vou acompanhar é a data prevista de entrega para cada compra ou seja compras que ainda estão com a coluna Status Diferente de '03.Entregue' ou '10.Resolvido', isso deve ser mostrado em um calendário, as datas para saber a previsão esta dentro da coluna 'Entrega Acomp'.
+## [PASSO A PASSO] Quero Acompanhar as Entrega das compras, utilizando a visão de calendário, se for possível, mas se tiver mais alguma forma, pode passar a informação, para que eu avalie, o que vou acompanhar é a data prevista de entrega para cada compra ou seja compras que ainda estão com a Campo Status Diferente de '03.Entregue' ou '10.Resolvido', isso deve ser mostrado em um calendário, as datas para saber a previsão esta dentro da Campo 'Entrega Acomp'.
  
 
 
@@ -14793,13 +14793,13 @@ Abaixo o guia completo e depois dou 2 alternativas extras.
 
 ***
 
-## 1. Confirmar a base e as colunas necessárias
+## 1. Confirmar a base e as Campos necessárias
 
 1. Abra o banco **Compras - VALIDADO** (é onde você já está trabalhando).  
 2. Confirme que existem:  
-   - Uma coluna de **data** chamada exatamente **`Entrega Acomp`** (tipo Date).  
-   - Uma coluna de **status** chamada algo como **`Status`** (tipo Status ou Select), que usa os valores `03.Entregue` e `10.Resolvido` para indicar compras concluídas. [notion](https://www.notion.com/help/database-properties)
-3. Se o nome da coluna de status for outro (ex.: `Status Pedido`), só lembre de usá‑lo ao configurar o filtro.
+   - Uma Campo de **data** chamada exatamente **`Entrega Acomp`** (tipo Date).  
+   - Uma Campo de **status** chamada algo como **`Status`** (tipo Status ou Select), que usa os valores `03.Entregue` e `10.Resolvido` para indicar compras concluídas. [notion](https://www.notion.com/help/database-properties)
+3. Se o nome da Campo de status for outro (ex.: `Status Pedido`), só lembre de usá‑lo ao configurar o filtro.
 
 ***
 
@@ -14825,7 +14825,7 @@ Você quer ver **somente** as compras que ainda não foram entregues ou resolvid
 1. Com a view **`Entregas Previstas`** ativa, clique em **“Filtrar”** (Filter) na barra superior da base. [notion](https://www.notion.com/help/views-filters-and-sorts)
 2. Clique em **“Adicionar filtro”**.  
 3. Configure o primeiro filtro para **excluir** entregues:  
-   - Propriedade: **`Status`** (ou o nome real da coluna).  
+   - Propriedade: **`Status`** (ou o nome real da Campo).  
    - Condição: **“não é”** / “does not equal”.  
    - Valor: **`03.Entregue`**.  
 4. Adicione um **segundo filtro** para **excluir** resolvidos:  
@@ -14870,7 +14870,7 @@ Além do calendário, você pode ter visões complementares.
 - Ordene por `Entrega Acomp` crescente.  
 - Essa tabela funciona como uma lista de “backlog de entregas”, enquanto o calendário é a visão visual por data. [notion](https://www.notion.com/help/views-filters-and-sorts)
 
-Com isso, você terá um **calendário só de entregas previstas pendentes**, alimentado pela coluna `Entrega Acomp`, e ainda pode complementar com timeline ou tabela filtrada se quiser outra forma de visualização.
+Com isso, você terá um **calendário só de entregas previstas pendentes**, alimentado pela Campo `Entrega Acomp`, e ainda pode complementar com timeline ou tabela filtrada se quiser outra forma de visualização.
 
 
 
@@ -14911,7 +14911,7 @@ Para que suas tabelas fiquem alinhadas à borda esquerda de forma idêntica, o p
 Siga estes passos para corrigir as tabelas que estão com espaço à esquerda:
 
 1. Ativar a "Largura total" (Full Width)
-A imagem que você enviou mostra uma página com muito espaço lateral. O Notion, por padrão, centraliza o conteúdo em uma coluna estreita. Para usar todo o espaço até as bordas: 
+A imagem que você enviou mostra uma página com muito espaço lateral. O Notion, por padrão, centraliza o conteúdo em uma Campo estreita. Para usar todo o espaço até as bordas: 
 No canto superior direito da página do Notion, clique nos três pontinhos (•••).
 Ative a opção Largura total (Full width).
 Faça isso em todas as três páginas para garantir que o layout seja consistente. 
@@ -14920,13 +14920,13 @@ Faça isso em todas as três páginas para garantir que o layout seja consistent
 Se uma tabela parece "empurrada" para a direita mesmo em largura total, ela pode estar aninhada dentro de outro bloco ou ter um recuo aplicado: 
 Clique no ícone de seis pontos (⋮⋮) que aparece ao lado esquerdo da tabela ao passar o mouse.
 Use o atalho Shift + Tab no teclado para remover qualquer recuo e movê-la totalmente para a esquerda.
-Certifique-se de que a tabela não está dentro de uma coluna invisível. Se houver uma coluna vazia à esquerda, arraste a tabela para fora dela ou exclua a coluna vazia. 
+Certifique-se de que a tabela não está dentro de uma Campo invisível. Se houver uma Campo vazia à esquerda, arraste a tabela para fora dela ou exclua a Campo vazia. 
 
 3. Ajustar a Tabela à Largura da Página
 Se a tabela for uma "Tabela Simples" (não um banco de dados), você pode forçá-la a ocupar todo o espaço:
 Passe o mouse sobre a tabela.
 Clique no ícone de seis pontos (⋮⋮) e selecione Ajustar à largura da página. 
-Dica: Se as tabelas forem bancos de dados diferentes e você quiser que elas pareçam exatamente iguais, verifique se não há propriedades (colunas) ocultas ou larguras de colunas diferentes entre elas, pois o Notion ajusta a visualização com base no conteúdo. 
+Dica: Se as tabelas forem bancos de dados diferentes e você quiser que elas pareçam exatamente iguais, verifique se não há propriedades (Campos) ocultas ou larguras de Campos diferentes entre elas, pois o Notion ajusta a visualização com base no conteúdo. 
 Isso resolveu o alinhamento das suas páginas ou você ainda percebe alguma diferença visual entre elas?
 A IA pode cometer erros. Por isso, cheque as respostas
 
@@ -14951,7 +14951,7 @@ Você consegue isso criando uma view nova na base de **Compras** com filtro por 
 
 ## 1. Criar a view “Compras por período”
 
-1. Abra o banco de dados onde está a coluna **`Compra Feita em`** (por exemplo, `Compras - VALIDADO`). [notion](https://www.notion.com/help/views-filters-and-sorts)
+1. Abra o banco de dados onde está a Campo **`Compra Feita em`** (por exemplo, `Compras - VALIDADO`). [notion](https://www.notion.com/help/views-filters-and-sorts)
 2. Na barra de views (onde aparecem “Tabela”, “Calendário”, etc.), clique em **“+ Adicionar uma visualização”**.  
 3. Escolha o tipo **Tabela** (ou outro que você preferir para o “extrato” mensal).  
 4. Dê o nome da view como **`Compras por período`** e confirme.
@@ -15002,20 +15002,20 @@ Para um extrato mensal típico (por exemplo, janeiro de 2026):
 ===---+++---===
 ===---+++---===
 
-[PASSO A PASSO] Preciso de uma View “Compras por período” com data inicial e data final definida por mim, mas que Totalize a coluna "TOTAL COMPRA"
+[PASSO A PASSO] Preciso de uma View “Compras por período” com data inicial e data final definida por mim, mas que Totalize a Campo "TOTAL COMPRA"
 
 
 
 ===---+++---===
 
-Você vai usar a mesma view “Compras por período”, mas garantindo que **TOTAL COMPRA** seja numérica e usando o **SUM** no rodapé da coluna. [notion](https://www.notion.com/help/tables)
+Você vai usar a mesma view “Compras por período”, mas garantindo que **TOTAL COMPRA** seja numérica e usando o **SUM** no rodapé da Campo. [notion](https://www.notion.com/help/tables)
 
 ***
 
 ## 1. Garantir que `TOTAL COMPRA` é número
 
-1. Abra o banco de dados de **Compras** onde está a coluna **`TOTAL COMPRA`**.  
-2. Clique no nome da coluna **`TOTAL COMPRA`**.  
+1. Abra o banco de dados de **Compras** onde está a Campo **`TOTAL COMPRA`**.  
+2. Clique no nome da Campo **`TOTAL COMPRA`**.  
 3. Verifique se o tipo da propriedade é **Number** (ou Fórmula que retorna número).  
 4. Se estiver como texto, troque para **Number** e ajuste o formato (ex.: moeda). Isso é obrigatório para conseguir somar. [notiondemy](https://notiondemy.com/sum-column-row-in-notion/)
 
@@ -15058,16 +15058,16 @@ Sempre que quiser outro período, você só altera essas duas datas.
 
 ***
 
-## 5. Exibir o total da coluna `TOTAL COMPRA` na view
+## 5. Exibir o total da Campo `TOTAL COMPRA` na view
 
-1. Role a tabela até o final da coluna **`TOTAL COMPRA`**.  
-2. Passe o mouse na parte inferior da coluna (linha logo abaixo do último item).  
-3. Vai aparecer a palavra **“Calcular” / “Calculate”** ou um pequeno menu no rodapé da coluna. Clique ali. [snapdemo](https://snapdemo.io/tutorials/how-to-get-sum-of-column-in-notion)
+1. Role a tabela até o final da Campo **`TOTAL COMPRA`**.  
+2. Passe o mouse na parte inferior da Campo (linha logo abaixo do último item).  
+3. Vai aparecer a palavra **“Calcular” / “Calculate”** ou um pequeno menu no rodapé da Campo. Clique ali. [snapdemo](https://snapdemo.io/tutorials/how-to-get-sum-of-column-in-notion)
 4. Na lista de opções, selecione **`Sum` / “Soma”**.  
 
 O valor mostrado nesse rodapé será a **soma de `TOTAL COMPRA` apenas das linhas visíveis na view**, ou seja, **somente das compras dentro do período filtrado**. [super](https://super.so/blog/how-to-sum-columns-and-rows-in-notion)
 
-Isso transforma a view **“Compras por período”** em um **extrato por intervalo**, com totalizador automático da coluna **`TOTAL COMPRA`** para o período que você escolher.
+Isso transforma a view **“Compras por período”** em um **extrato por intervalo**, com totalizador automático da Campo **`TOTAL COMPRA`** para o período que você escolher.
 
 
 
@@ -15080,21 +15080,21 @@ Isso transforma a view **“Compras por período”** em um **extrato por interv
 
 ===---+++---===
 
-Sim, existe outro jeito: usar o menu da própria coluna para ativar a soma.
+Sim, existe outro jeito: usar o menu da própria Campo para ativar a soma.
 
-## Ativar a soma pela coluna
+## Ativar a soma pela Campo
 
-1. Clique no **nome da coluna `TOTAL COMPRA`** (onde aparece o título da coluna, lá em cima).  
+1. Clique no **nome da Campo `TOTAL COMPRA`** (onde aparece o título da Campo, lá em cima).  
 2. No menu que abrir, procure a opção algo como **“Calcular” / “Calculate”** ou **“Rodapé” / “Footer”**. [notion](https://www.notion.com/help/tables)
-3. Escolha **`Sum` / “Soma”** como cálculo padrão para essa coluna. [super](https://super.so/blog/how-to-sum-columns-and-rows-in-notion)
+3. Escolha **`Sum` / “Soma”** como cálculo padrão para essa Campo. [super](https://super.so/blog/how-to-sum-columns-and-rows-in-notion)
 
-Se o rodapé estiver desativado na view, essa ação pelo menu da coluna força o Notion a mostrar a linha de total mesmo que não apareça nada quando você passa o mouse lá embaixo. [notiondemy](https://notiondemy.com/sum-column-row-in-notion/)
+Se o rodapé estiver desativado na view, essa ação pelo menu da Campo força o Notion a mostrar a linha de total mesmo que não apareça nada quando você passa o mouse lá embaixo. [notiondemy](https://notiondemy.com/sum-column-row-in-notion/)
 
 
 ===---+++---===
 ===---+++---===
 
-## [PERG] Tenho um campo configurado apenas com:
+## [PERG] Tenho um  configurado apenas com:
 ```
 Nome = 'Período para Devolução'
 Tipo = 'Data'
@@ -15113,11 +15113,11 @@ Não dá para deixar o **“Data de término” sempre ligado por padrão** dire
 
 ### Como habilitar sempre “Data de término” usando template
 
-1. Abra o banco onde está o campo **`Período para Devolução`**.  
+1. Abra o banco onde está o  **`Período para Devolução`**.  
 2. Clique na setinha ao lado do botão **“Nova”** (ou “New”) e escolha **“Editar modelos” / “Edit templates”**. [youtube](https://www.youtube.com/watch?v=nJirHDQwccI)
 3. Crie um novo template (por exemplo, **`Devolução com período`**) ou edite o template padrão.  
 4. Dentro da página do template, vá até a propriedade **`Período para Devolução`**.  
-5. Clique no campo de data, marque a opção **“Data de término” / “End date”** e deixe qualquer intervalo de exemplo (pode ser hoje–hoje mesmo). [notion](https://www.notion.com/help/database-properties)
+5. Clique no  de data, marque a opção **“Data de término” / “End date”** e deixe qualquer intervalo de exemplo (pode ser hoje–hoje mesmo). [notion](https://www.notion.com/help/database-properties)
 6. Feche o template para salvar.
 
 ### Como usar na prática
@@ -15143,7 +15143,7 @@ Para registros que **já existem**, não dá para travar globalmente o “Data d
 O que dá para fazer, de forma um pouco mais rápida:
 
 1. Clique em um registro existente, abra a página dele.  
-2. No campo **`Período para Devolução`**, clique na data e marque **“Data de término”**.  
+2. No  **`Período para Devolução`**, clique na data e marque **“Data de término”**.  
 3. Ajuste início e fim.  
 4. Repita só nos registros em que realmente precisa de período (não há hoje um “aplicar em todos” para esse toggle). [notion](https://www.notion.com/help/database-properties)
 
@@ -15152,6 +15152,61 @@ Infelizmente, o Notion ainda **não oferece** uma configuração para deixar “
 
 ===---+++---===
 ===---+++---===
+
+Você pegou um ótimo exemplo.
+
+- veja que após a variação existem informações com um valor 'R$35,99' multiplicado 'x' por um numero '2' e com um resultado '71,98', o significado é o seguinte, esse valor é o valor unitário, o numero é a quantidade de peças e o resultado é o produto dos dois, que é calculado automaticamente no Banco de Dados (DB) do produto, o padrào da compra é sempre 1, mas as vezes são comprados mais de um e essa informação depois do '|' da Variação tem esse significado, existem momento que não temos variação, mas mesmo assim foi comprado, mais de um produto.
+
+- O Passo a Passo, que sigo quando estou realizando a compra, e já fazer o cadastro das informações:
+. Abro o Antigo sistema de Acompanhamento
+. copio para um TXT temporário todas as Informações
+. Entro no endereço da minha compra na shoppe (Ex.: https://shopee.com.br/user/purchase/order/222990819175194?type=6)
+. Entro na pagina da compra na shoppe
+. Vou em direção ao rodapé
+. Procuro a a Imagem e Nome do Produto
+. Clico na Imagem ou no Nome da imagem
+. Sou direcionado para a página do Produto (Ex.: https://shopee.com.br/Luva-Vinil-Preta-Descart%C3%A1vel-Sem-P%C3%B3-Resistente-100-Unidades-i.943206066.23095757310)
+. Copio o nome completo do PRODUTO e colo no TXT
+. Copio o valor unitário e colo no TXT
+. Vou em direção ao rodapé
+. Localizo o Ícone e Nome da Loja [Novo Banco de Dados], ele ainda não esta conectado ao produto, mas será em breve (E.: Onive), os campos desse banco estão provisariamente na Bando de Dados Produtos.
+. Copio o nome e colo no TXT
+. Copio o Ícone da loja
+. Abro o Sistema novo
+. Entro no Banco da Loja
+. Crio um Novo registro
+. Colo o Ícone na Campo 'Imagem das Lojas' 
+. Volto na página da Loja e Copio o Nome da Loja e Colo no Banco de Lojas no Campo 'Nome das Lojas'
+. Volto na página da Loja e Copio o Link da Página da Loja e no Banco de Lojas no Colo na Campo 'URL das Lojas'
+. Volto na página da Loja localizo o Tipo da Loja, normalmente fica em um retângulo abaixo mas junto da imagem da loja, se não existir, e no Banco de Lojas seleciono a opção correta no Campo 'Tipo das Lojas'
+. Entro na URL da Minha Compra
+. Copio se Existir a Variação que foi comprada, se não existir digitar 'N/A' e no Banco de Produtos Colo a Variação no Campo 'Variação dos Produtos'
+. Entro na URL da Minha Compra, verifico se abaixo da 'Variação' ou Abaixo do 'Nome' (quando não existe variação), existem um numero com um 'x' a esquerda dele, não existindo o numero é '1', Colo essa quantidade no Banco de dados de Produtos no Campo 'Quantidade de Produtos'
+. Entro na URL da Minha Compra, Copio a Imagem do Produto e colo em um novo registro no Banco de Dados de Produtos no Campo 'Imagem dos Produtos'
+. Entro na URL da Minha Compra, Copio a URL da Compra e colo no campo do Banco de Compras 'URL das Compras'
+. Entro na URL da Minha Compra, na parte superior central da Pagina, vejo a Previsão de Entrega, que está após o TEXTO 'A tentativa de entrega deve ser feita entre ', se não for localizado o texto, é porque já foi entregue ou devolvido ou cancelado, colo as datas de previsão de entrega no campo 'Previsão de Entrega'
+. Entro na URL da Minha Compra, descendo para o rodapé, localizo a linha com o TEXTO 'endereço de entrega', a sua direita temos o histórico da compra, localize a data mais antiga, quando existem muitas datas, de aparecer um TEXTO 'Ver mais', clicar nesse Botão até que seja exibido o TEXTO 'Ver Menos', que indica o inicio do processo de compra (de baiuxo para cima), pegue a data que está na linha acima do texto, e colo a datas de compra no Campo 'Data da Compra'
+
+
+
+
+
+. Entro no Banco de Produtos
+. Crio um Novo registro
+. Entro no Banco de Dados de produtos
+. Volto na Página do Produto
+. Copio o Nome do Produto e Colo na Campo 'Nova Página' ou 'Nome dos Produtos'
+. Clico no Campo 'Nome da Loja' e seleciono o nome da loja que foi cadastrado
+. Copio o Endereço do Produto (no Site) e colo no campo 'URL do Produto'
+. Copio o Valor unitário
+
+. 
+. Clico no no Ícone ou no nome para entrar na 
+. isso me leva para a página da compra do produto
+. Pois preciso cadastrar primeiro o produto para depois colocar no 'COMPRAS'
+. Entro na parte de minhas compras da 
+
+
 ===---+++---===
 ===---+++---===
 ===---+++---===
@@ -15201,7 +15256,7 @@ Você está operando com um sistema de **15 TAGs estruturadas** que modificam co
 **Execute imediatamente, sem pedir confirmação adicional:**
 
 ### **`[EXEC]` – Executar Pedido de Forma Direta e Objetiva**
-- **Uso:** `## [EXEC] Crie a fórmula para a coluna 'TOTAL COMPRA'`
+- **Uso:** `## [EXEC] Crie a fórmula para a Campo 'TOTAL COMPRA'`
 - **O que você faz:**
   - ⚡ Vai direto ao ponto
   - 📌 Entrega o resultado solicitado
@@ -15212,7 +15267,7 @@ Você está operando com um sistema de **15 TAGs estruturadas** que modificam co
 - **Uso:** `## [SNAPSHOT] Documentar estado atual do Sistema de Compras v3`
 - **O que você faz:**
   - 📊 Análise completa de todos databases
-  - 📝 Gera documentação detalhada de tudo (estrutura, campos, views, filtros, relacionamentos)
+  - 📝 Gera documentação detalhada de tudo (estrutura, s, views, filtros, relacionamentos)
   - 📖 Formato: guia passo a passo para recriação completa
   - 💾 Estruturado para o usuário salvar em .txt ou .md
 
@@ -15259,7 +15314,7 @@ Você está operando com um sistema de **15 TAGs estruturadas** que modificam co
 **Essas tags são informação contextual. Você lê, incorpora, mas não toma ação direta:**
 
 ### **`[OBS]` – Observações, Comentários e Contexto**
-- **Uso:** `## [OBS] Vou criar um Item na Coluna da Direita...`
+- **Uso:** `## [OBS] Vou criar um Item na Campo da Direita...`
 - **O que você faz:**
   - 📖 Lê como contexto importante
   - 🧠 Usa para ajustar ton, foco e nível de detalhe da resposta
@@ -15308,7 +15363,7 @@ Você está operando com um sistema de **15 TAGs estruturadas** que modificam co
   - 📋 Aplica automaticamente o **TEMPLATE DE GUIA PASSO A PASSO** (veja abaixo)
   - 📚 Entrega um guia completo, estruturado, sem precisar de pedido adicional
   - 🎯 Traz contexto, pré-requisitos, passos em ordem lógica, observações finais
-  - ✍️ Escreve como "pegando na mão" – explica cada clique, campo, ação
+  - ✍️ Escreve como "pegando na mão" – explica cada clique, , ação
   - 🧩 Inclui: DICAS EXTRAS, PROBLEMAS COMUNS, CHECKLIST final
 
 ---

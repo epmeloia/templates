@@ -1,6 +1,6 @@
-# Estrutura de Menu Utilizando - Frase de Destaque e Título 3 Alternante - Guia Passo a Passo:
+# Menu com Expansão em Colapso - Para Abrir Tabelas e Banco de Dados - Modo 1 - v1:
 
-Nome: "estrutura-menu-utilizando-frase-destaque-titulo-3-alternante-guia-passo-a-passo.md"
+# Nome: "menu-com-expansao-colapso-para abrir-tabela-banco-de-dados-modo-1-v1.md"
 
 
 ***

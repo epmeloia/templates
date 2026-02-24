@@ -1,6 +1,6 @@
-# Estrutura de Menu Utilizando - Título 3 Alternante e Itens com Título 3 Alternante abrindo Tabelas:
+# Menu com Expansão em Colapso - Para Abrir Tabelas e Banco de Dados - Modo 2 - v1:
 
-# Nome: "estrutura-menu-utilizando-titulo-3-alternante-itens-titulo-3-alternante-abrindo-tabelas.md"
+# Nome: "menu-com-expansao-colapso-para abrir-tabela-banco-de-dados-modo-2-v1.md"
 
 
 ***
