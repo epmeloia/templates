@@ -22,9 +22,9 @@ Este checklist fornece um guia confiável para configurar contas Yahoo no Thunde
 11. [Escolha "Outros" ou "Thunderbird"](#54-escolha--outros--ou--thunderbird-)
 12. [Utilizar a senha gerada](#55-utilizar-a-senha-gerada)
 13. [Finalização](#56-finalizacao)
-14. [✅ Verificação Final - Envio de E-mail](#-verificacao-final---envio-de-e-mail)
-15. [🧭 Princípio da Navalha de Occam Aplicado](#-principio-da-navalha-de-occam-aplicado)
-16. [⚠️ Dica](#%EF%B8%8F-dica)
+14. [Verificação Final - Envio de E-mail](#-verificacao-final---envio-de-e-mail)
+15. [Princípio da Navalha de Occam Aplicado](#-principio-da-navalha-de-occam-aplicado)
+16. [Dica](#%EF%B8%8F-dica)
 
 
 ---
@@ -42,10 +42,17 @@ Você deseja configurar manualmente uma conta de e-mail do Yahoo Brasil (`@yahoo
 
 ### 1. **Requisitos Iniciais**
 
-1. Certifique-se de que a [**verificação em duas etapas**](#-como-gerar-senha-de-aplicativo-no-yahoo) está **desativada** ou você tenha gerado uma **senha de aplicativo** no Yahoo.
+1. Certifique-se de que a [**verificação em duas etapas**](#52-fa%C3%A7a-login-na-sua-conta-yahoo) está **desativada** ou você tenha gerado uma **senha de aplicativo** no Yahoo.
 2. Sua conta Yahoo deve estar com o **IMAP habilitado**.
 
-### [Retorna ao "🔧 Índice"](#-%C3%ADndice)
+# [Retorna ao Índice](#-%C3%ADndice)
+
+## [Retorna ao Índice](#-%C3%ADndice)
+
+### [Retorna ao Índice](#-%C3%ADndice)
+
+#### [Retorna ao Índice](#-%C3%ADndice)
+
 
 ---
 
