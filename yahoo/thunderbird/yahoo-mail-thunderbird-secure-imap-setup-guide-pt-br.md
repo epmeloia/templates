@@ -26,8 +26,6 @@ Este checklist fornece um guia confiável para configurar contas Yahoo no Thunde
 15. [🧭 Princípio da Navalha de Occam Aplicado](#-principio-da-navalha-de-occam-aplicado)
 16. [⚠️ Dica](#-dica)
 
-
-
 ---
 
 # Configuração Manual do Yahoo Mail no Thunderbird:
