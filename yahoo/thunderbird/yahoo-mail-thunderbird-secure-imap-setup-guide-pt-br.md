@@ -9,34 +9,8 @@ Este checklist fornece um guia confiável para configurar contas Yahoo no Thunde
 
 # 🔧 Índice:
 
-
-01. [Configuração Manual do Yahoo Mail no Thunderbird](# Configuração Manual do Yahoo Mail no Thunderbird:)
-02. [Solução Passo a Passo](## 🛠️ Solução Passo a Passo:)
-03. [Requisitos Iniciais](### 1. **Requisitos Iniciais**)
-03. [Requisitos Iniciais](#-1-requisitos-iniciais)
-
-04. [Abrindo o Thunderbird](### 2. **Abrindo o Thunderbird**)
-
-05. [Dados da Conta Yahoo](### 3. **Dados da Conta Yahoo**)
-06. [Configuração Manual dos Servidores](### 4. **Configuração Manual dos Servidores**)
-07. [Como Gerar Senha de Aplicativo no Yahoo](### 5. 🔐 Como Gerar Senha de Aplicativo no Yahoo)
-08. [Acesse a página de segurança do Yahoo](#### 5.1. **Acesse a página de segurança do Yahoo**)
-09. [Faça login na sua conta Yahoo](#### 5.2. **Faça login na sua conta Yahoo**)
-10. [Vá até a opção "Senhas de app"](#### 5.3. **Vá até a opção "Senhas de app"**)
-11. [Escolha "Outros" ou "Thunderbird"](#### 5.4. **Escolha "Outros" ou "Thunderbird"**)
-12. [Utilizar a senha gerada](#### 5.5. **Utilizar a senha gerada**)
-13. [Finalização](#### 5.6. **Finalização**)
-14. [✅ Verificação Final - Envio de E-mail](### ✅ Verificação Final - Envio de E-mail)
-15. [🧭 Princípio da Navalha de Occam Aplicado](### 🧭 Princípio da Navalha de Occam Aplicado)
-16. [⚠️ Dica](### ⚠️ Dica)
-
----
-
-04
-
----
-01. [Configuração Manual do Yahoo Mail no Thunderbird](#-configuracao-manual-do-yahoo-mail-no-thunderbird)
-02. [Solução Passo a Passo](#--solucao-passo-a-passo:)
+01. [Configuração Manual do Yahoo Mail no Thunderbird](#configura%C3%A7%C3%A3o-manual-do-yahoo-mail-no-thunderbird)
+02. [Solução Passo a Passo](#--solucao-passo-a-passo)
 03. [Requisitos Iniciais](#1-requisitos-iniciais)
 04. [Abrindo o Thunderbird](#2-abrindo-o-thunderbird)
 05. [Dados da Conta Yahoo](#3-dados-da-conta-yahoo)
@@ -51,7 +25,6 @@ Este checklist fornece um guia confiável para configurar contas Yahoo no Thunde
 14. [✅ Verificação Final - Envio de E-mail](#-verificacao-final---envio-de-e-mail)
 15. [🧭 Princípio da Navalha de Occam Aplicado](#-principio-da-navalha-de-occam-aplicado)
 16. [⚠️ Dica](#-dica)
-
 
 
 ---
