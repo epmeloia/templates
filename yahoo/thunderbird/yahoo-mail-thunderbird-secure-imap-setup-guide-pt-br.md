@@ -14,15 +14,15 @@ Este checklist fornece um guia confiável para configurar contas Yahoo no Thunde
 - [2. Abrindo o Thunderbird](#2-abrindo-o-thunderbird)
 - [3. Dados da Conta Yahoo](#3-dados-da-conta-yahoo)
 - [4. Configuração Manual dos Servidores](#4-configura%C3%A7%C3%A3o-manual-dos-servidores)
-- [5. Como Gerar Senha de Aplicativo no Yahoo](#5--como-gerar-senha-de-aplicativo-no-yahoo)
+- [5. 🔐 Como Gerar Senha de Aplicativo no Yahoo](#5--como-gerar-senha-de-aplicativo-no-yahoo)
 - [5.1. Acesse a página de segurança do Yahoo](#51-acesse-a-p%C3%A1gina-de-seguran%C3%A7a-do-yahoo)
 - [5.2. Faça login na sua conta Yahoo](#52-fa%C3%A7a-login-na-sua-conta-yahoo)
 - [5.3. Vá até a opção "Senhas de app"](#53-v%C3%A1-at%C3%A9-a-op%C3%A7%C3%A3o-senhas-de-app)
 - [5.4. Escolha "Outros" ou "Thunderbird"](#54-escolha-outros-ou-thunderbird)
 - [5.5. Utilizar a senha gerada](#55-utilizar-a-senha-gerada)
 - [5.6. Finalização](#56-finaliza%C3%A7%C3%A3o)
-- [Verificação Final - Envio de E-mail](#-verifica%C3%A7%C3%A3o-final---envio-de-e-mail)
-- [Princípio da Navalha de Occam Aplicado](#-princ%C3%ADpio-da-navalha-de-occam-aplicado)
+- [✅ Verificação Final - Envio de E-mail](#-verifica%C3%A7%C3%A3o-final---envio-de-e-mail)
+- [🧭 Princípio da Navalha de Occam Aplicado](#-princ%C3%ADpio-da-navalha-de-occam-aplicado)
 - [⚠️ Dica](#%EF%B8%8F-dica)
 
 
