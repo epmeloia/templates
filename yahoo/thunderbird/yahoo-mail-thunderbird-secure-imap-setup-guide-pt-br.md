@@ -36,6 +36,9 @@ Este checklist fornece um guia confiável para configurar contas Yahoo no Thunde
 Você deseja configurar manualmente uma conta de e-mail do Yahoo Brasil (`@yahoo.com.br`) no cliente de e-mails "Mozilla Thunderbird".
 
 
+#### [Retorna ao Índice](#-%C3%ADndice)
+
+
 ---
 
 ## 🛠️ Solução Passo a Passo:
@@ -45,11 +48,6 @@ Você deseja configurar manualmente uma conta de e-mail do Yahoo Brasil (`@yahoo
 1. Certifique-se de que a [**verificação em duas etapas**](#52-fa%C3%A7a-login-na-sua-conta-yahoo) está **desativada** ou você tenha gerado uma **senha de aplicativo** no Yahoo.
 2. Sua conta Yahoo deve estar com o **IMAP habilitado**.
 
-# [Retorna ao Índice](#-%C3%ADndice)
-
-## [Retorna ao Índice](#-%C3%ADndice)
-
-### [Retorna ao Índice](#-%C3%ADndice)
 
 #### [Retorna ao Índice](#-%C3%ADndice)
 
