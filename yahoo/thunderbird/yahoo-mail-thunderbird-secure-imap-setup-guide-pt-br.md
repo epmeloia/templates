@@ -8,22 +8,22 @@ Este checklist fornece um guia confiável para configurar contas Yahoo no Thunde
 ---
 # 🔧 Índice:
 
-01. [Configuração Manual do Yahoo Mail no Thunderbird](#configura%C3%A7%C3%A3o-manual-do-yahoo-mail-no-thunderbird)
-02. [Solução Passo a Passo](#%EF%B8%8F-solu%C3%A7%C3%A3o-passo-a-passo)
-03. [1. Requisitos Iniciais](#1-requisitos-iniciais)
-04. [2. Abrindo o Thunderbird](#2-abrindo-o-thunderbird)
-05. [3. Dados da Conta Yahoo](#3-dados-da-conta-yahoo)
-06. [Configuração Manual dos Servidores](#4-configuracao-manual-dos-servidores)
-07. [Como Gerar Senha de Aplicativo no Yahoo](#5--como-gerar-senha-de-aplicativo-no-yahoo)
-08. [Acesse a página de segurança do Yahoo](#51-acesse-a-pagina-de-seguranca-do-yahoo)
-09. [Faça login na sua conta Yahoo](#52-faca-login-na-sua-conta-yahoo)
-10. [Vá até a opção "Senhas de app"](#53-va-ate-a-opcao--senhas-de-app-)
-11. [Escolha "Outros" ou "Thunderbird"](#54-escolha--outros--ou--thunderbird-)
-12. [Utilizar a senha gerada](#55-utilizar-a-senha-gerada)
-13. [Finalização](#56-finalizacao)
-14. [Verificação Final - Envio de E-mail](#-verificacao-final---envio-de-e-mail)
-15. [Princípio da Navalha de Occam Aplicado](#-principio-da-navalha-de-occam-aplicado)
-16. [Dica](#%EF%B8%8F-dica)
+. [Configuração Manual do Yahoo Mail no Thunderbird](#configura%C3%A7%C3%A3o-manual-do-yahoo-mail-no-thunderbird)
+. [Solução Passo a Passo](#%EF%B8%8F-solu%C3%A7%C3%A3o-passo-a-passo)
+. [1. Requisitos Iniciais](#1-requisitos-iniciais)
+. [2. Abrindo o Thunderbird](#2-abrindo-o-thunderbird)
+. [3. Dados da Conta Yahoo](#3-dados-da-conta-yahoo)
+. [Configuração Manual dos Servidores](#4-configuracao-manual-dos-servidores)
+. [Como Gerar Senha de Aplicativo no Yahoo](#5--como-gerar-senha-de-aplicativo-no-yahoo)
+. [Acesse a página de segurança do Yahoo](#51-acesse-a-pagina-de-seguranca-do-yahoo)
+. [Faça login na sua conta Yahoo](#52-faca-login-na-sua-conta-yahoo)
+. [Vá até a opção "Senhas de app"](#53-va-ate-a-opcao--senhas-de-app-)
+. [Escolha "Outros" ou "Thunderbird"](#54-escolha--outros--ou--thunderbird-)
+. [Utilizar a senha gerada](#55-utilizar-a-senha-gerada)
+. [Finalização](#56-finalizacao)
+. [Verificação Final - Envio de E-mail](#-verificacao-final---envio-de-e-mail)
+. [Princípio da Navalha de Occam Aplicado](#-principio-da-navalha-de-occam-aplicado)
+. [Dica](#%EF%B8%8F-dica)
 
 
 
