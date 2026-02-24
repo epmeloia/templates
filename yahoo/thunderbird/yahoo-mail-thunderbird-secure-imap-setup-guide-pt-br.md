@@ -7,24 +7,22 @@ Este checklist fornece um guia confiável para configurar contas Yahoo no Thunde
 
 ---
 # 🔧 Índice:
-
 - [Configuração Manual do Yahoo Mail no Thunderbird](#configura%C3%A7%C3%A3o-manual-do-yahoo-mail-no-thunderbird)
 - [Solução Passo a Passo](#%EF%B8%8F-solu%C3%A7%C3%A3o-passo-a-passo)
 - [1. Requisitos Iniciais](#1-requisitos-iniciais)
 - [2. Abrindo o Thunderbird](#2-abrindo-o-thunderbird)
 - [3. Dados da Conta Yahoo](#3-dados-da-conta-yahoo)
-- [Configuração Manual dos Servidores](#4-configuracao-manual-dos-servidores)
-- [Como Gerar Senha de Aplicativo no Yahoo](#5--como-gerar-senha-de-aplicativo-no-yahoo)
-- [Acesse a página de segurança do Yahoo](#51-acesse-a-pagina-de-seguranca-do-yahoo)
-- [Faça login na sua conta Yahoo](#52-faca-login-na-sua-conta-yahoo)
-- [Vá até a opção "Senhas de app"](#53-va-ate-a-opcao--senhas-de-app-)
-- [Escolha "Outros" ou "Thunderbird"](#54-escolha--outros--ou--thunderbird-)
-- [Utilizar a senha gerada](#55-utilizar-a-senha-gerada)
-- [Finalização](#56-finalizacao)
+- [4. Configuração Manual dos Servidores](#4-configuracao-manual-dos-servidores)
+- [5. Como Gerar Senha de Aplicativo no Yahoo](#5--como-gerar-senha-de-aplicativo-no-yahoo)
+- [5.1. Acesse a página de segurança do Yahoo](#51-acesse-a-pagina-de-seguranca-do-yahoo)
+- [5.2. Faça login na sua conta Yahoo](#52-faca-login-na-sua-conta-yahoo)
+- [5.3. Vá até a opção "Senhas de app"](#53-va-ate-a-opcao--senhas-de-app-)
+- [5.4. Escolha "Outros" ou "Thunderbird"](#54-escolha--outros--ou--thunderbird-)
+- [5.5. Utilizar a senha gerada](#55-utilizar-a-senha-gerada)
+- [5.6. Finalização](#56-finalizacao)
 - [Verificação Final - Envio de E-mail](#-verificacao-final---envio-de-e-mail)
 - [Princípio da Navalha de Occam Aplicado](#-principio-da-navalha-de-occam-aplicado)
 - [Dica](#%EF%B8%8F-dica)
-
 
 
 ---
