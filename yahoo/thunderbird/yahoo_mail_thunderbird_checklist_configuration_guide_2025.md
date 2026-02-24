@@ -12,13 +12,6 @@ Este checklist fornece um guia confiável para configurar contas Yahoo no Thunde
 4. Teste envio e recebimento
 5. Reative o 2FA
 
-
-1. [Desative o 2FA temporariamente](#desative-o-2fa-temporariamente)  
-2. [Gere senha de aplicativo no painel Yahoo](#gere-senha-de-aplicativo-no-yahoo)  
-3. [Configure manualmente os servidores IMAP/SMTP](#configure-manualmente-os-servidores-imap-smtp)  
-4. [Teste o envio e recebimento](#teste-o-envio-e-recebimento)
-
-
 Ver versão em inglês: [yahoo_mail_thunderbird_checklist_configuration_guide_2025_EN.md](yahoo_mail_thunderbird_checklist_configuration_guide_2025_EN.md)
 
 ---
