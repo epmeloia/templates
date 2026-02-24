@@ -34,6 +34,7 @@ Este checklist fornece um guia confiável para configurar contas Yahoo no Thunde
 
 04
 ---
+03. [Requisitos Iniciais](#1-requisitos-iniciais)
 04. [Abrindo o Thunderbird](#2-abrindo-o-thunderbird)
 05. [Dados da Conta Yahoo](#3-dados-da-conta-yahoo)
 06. [Configuração Manual dos Servidores](#4-configuracao-manual-dos-servidores)
