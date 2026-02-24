@@ -30,8 +30,10 @@ Este checklist fornece um guia confiável para configurar contas Yahoo no Thunde
 15. [🧭 Princípio da Navalha de Occam Aplicado](### 🧭 Princípio da Navalha de Occam Aplicado)
 16. [⚠️ Dica](### ⚠️ Dica)
 
+---
 
-03. [Requisitos Iniciais](#-1-requisitos-iniciais)
+04
+---
 04. [Abrindo o Thunderbird](#2-abrindo-o-thunderbird)
 05. [Dados da Conta Yahoo](#3-dados-da-conta-yahoo)
 06. [Configuração Manual dos Servidores](#4-configuracao-manual-dos-servidores)
@@ -45,6 +47,7 @@ Este checklist fornece um guia confiável para configurar contas Yahoo no Thunde
 14. [✅ Verificação Final - Envio de E-mail](#-verificacao-final---envio-de-e-mail)
 15. [🧭 Princípio da Navalha de Occam Aplicado](#-principio-da-navalha-de-occam-aplicado)
 16. [⚠️ Dica](#-dica)
+
 
 
 ---
