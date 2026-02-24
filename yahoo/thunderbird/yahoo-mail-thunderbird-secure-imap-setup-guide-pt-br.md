@@ -13,16 +13,16 @@ Este checklist fornece um guia confiável para configurar contas Yahoo no Thunde
 - [1. Requisitos Iniciais](#1-requisitos-iniciais)
 - [2. Abrindo o Thunderbird](#2-abrindo-o-thunderbird)
 - [3. Dados da Conta Yahoo](#3-dados-da-conta-yahoo)
-- [4. Configuração Manual dos Servidores](#4-configuracao-manual-dos-servidores)
+- [4. Configuração Manual dos Servidores](#4-configura%C3%A7%C3%A3o-manual-dos-servidores)
 - [5. Como Gerar Senha de Aplicativo no Yahoo](#5--como-gerar-senha-de-aplicativo-no-yahoo)
-- [5.1. Acesse a página de segurança do Yahoo](#51-acesse-a-pagina-de-seguranca-do-yahoo)
-- [5.2. Faça login na sua conta Yahoo](#52-faca-login-na-sua-conta-yahoo)
-- [5.3. Vá até a opção "Senhas de app"](#53-va-ate-a-opcao--senhas-de-app-)
-- [5.4. Escolha "Outros" ou "Thunderbird"](#54-escolha--outros--ou--thunderbird-)
+- [5.1. Acesse a página de segurança do Yahoo](#51-acesse-a-p%C3%A1gina-de-seguran%C3%A7a-do-yahoo)
+- [5.2. Faça login na sua conta Yahoo](#52-fa%C3%A7a-login-na-sua-conta-yahoo)
+- [5.3. Vá até a opção "Senhas de app"](#53-v%C3%A1-at%C3%A9-a-op%C3%A7%C3%A3o-senhas-de-app)
+- [5.4. Escolha "Outros" ou "Thunderbird"](#54-escolha-outros-ou-thunderbird)
 - [5.5. Utilizar a senha gerada](#55-utilizar-a-senha-gerada)
-- [5.6. Finalização](#56-finalizacao)
-- [Verificação Final - Envio de E-mail](#-verificacao-final---envio-de-e-mail)
-- [Princípio da Navalha de Occam Aplicado](#-principio-da-navalha-de-occam-aplicado)
+- [5.6. Finalização](#56-finaliza%C3%A7%C3%A3o)
+- [Verificação Final - Envio de E-mail](#-verifica%C3%A7%C3%A3o-final---envio-de-e-mail)
+- [Princípio da Navalha de Occam Aplicado](#-princ%C3%ADpio-da-navalha-de-occam-aplicado)
 - [Dica](#%EF%B8%8F-dica)
 
 
@@ -126,7 +126,7 @@ Usuário: seuemail@yahoo.com.br
 #### 5.2. **Faça login na sua conta Yahoo**
 
 * Use seu e-mail `@yahoo.com.br` e senha normalmente.
-* Se a **verificação em duas etapas** estiver ativa, você receberá um código via SMS ou app.
+* Se a **verificação em *duas etapas* ** estiver ativa, você receberá um código via SMS ou app.
 
 
 #### [Retorna ao Índice](#-%C3%ADndice)
@@ -174,6 +174,9 @@ Usuário: seuemail@yahoo.com.br
 * Volte ao Thunderbird e continue a configuração manual com a senha gerada.
 
 
+#### [Retorna ao Índice](#-%C3%ADndice)
+
+
 ---
 
 ### ✅ Verificação Final - Envio de E-mail
@@ -212,17 +215,16 @@ Após configurar, envie um e-mail de teste para verificar:
 
 ---
 
-```
 ##----------####----------####----------##
 ##                                      ##
 ##   ... 🐝 Assinatura Institucional    ##
 ##                                      ##
 ##----------####----------####----------##
-
+```
          .' '.    .' '.         ,-.
 .        .   .    .   .         \ /
  .         .        .       . -{|||)<
    ' .  . ' ' .  . ' ' . . '    / \
                                 `-^
-##----------####----------####----------##
 ```
+##----------####----------####----------##
