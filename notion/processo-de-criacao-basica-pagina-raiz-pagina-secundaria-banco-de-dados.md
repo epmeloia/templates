@@ -1,6 +1,6 @@
-# Pagina Raiz + Pagina Secundária + Banco de Dados - Criação Básica:
+# Processo de Criação Básica - Pagina Raiz + Pagina Secundária + Banco de Dados:
 
-# Nome: "pagina-raiz-pagina-secundaria-banco-de-dados-criacao.md"
+# Nome: "processo-de-criacao-basica-pagina-raiz-pagina-secundaria-banco-de-dados.md"
 
 
 ---
@@ -31,7 +31,16 @@ Objetivo: ter uma página chamada 'Sistema de Páginas - EXEMPLO', que é a Prin
 01. No menu lateral do Notion, clique em **`Sistema de Páginas - EXEMPLO`** para abrir a página principal do projeto.
 
 
-### 👉 Passo 02 – Adicionar um ícone
+### 👉 Passo 02 – 3 Botões Exibidos
+
+01. Movimente o Mouse Acima do Nome da página **`Sistema de Páginas - EXEMPLO`**.
+02. Serão exibidos 3 Botões:
+	- ☻ Adicionar ícone
+	- 🞏 Adicionar capa
+	- 💬 Adicionar comentário
+
+
+### 👉 Passo 02.1 – 3 Botões Exibidos - ☻ Adicionar ícone
 
 01. Movimente o Mouse Acima do Nome da página **`Sistema de Páginas - EXEMPLO`**.
 02. Serão exibidos 3 Botões:
@@ -42,7 +51,23 @@ Objetivo: ter uma página chamada 'Sistema de Páginas - EXEMPLO', que é a Prin
 04. Na janela que é aberta, Pesquisar e Clicar no Emoji ou Ícone (Ex.: 🧠).
 
 
-### 👉 Passo 03 – Adicionar capa
+### 👉 Passo 02.2 – 3 Botões Exibidos - 🞏 Adicionar capa
+
+01. Movimente o Mouse Acima do Nome da página **`Sistema de Páginas - EXEMPLO`**.
+02. Serão exibidos 3 Botões:
+	- ☻ Adicionar ícone
+	- 🞏 Adicionar capa
+	- 💬 Adicionar comentário
+03. Clicar em '🞏 Adicionar capa'.
+04. É Adicionada automaticamente uma capa aleatória.
+05. Movimente o Mouse sobre a Imagem da Capa Criada.
+06. Serão exibidos 3 Botões:
+	- Alterar
+	- Reposicionar
+	- ⭳ (Baixar)
+
+
+### 👉 Passo 02.2.1 – 3 Botões Exibidos - 🞏 Adicionar capa - Alterar
 
 01. Movimente o Mouse Acima do Nome da página **`Sistema de Páginas - EXEMPLO`**.
 02. Serão exibidos 3 Botões:
@@ -51,17 +76,13 @@ Objetivo: ter uma página chamada 'Sistema de Páginas - EXEMPLO', que é a Prin
 	- 💬 Adicionar comentário
 03. Clicar em '🞏  Adicionar capa'.
 04. É Adicionada automaticamente uma capa aleatória.
-
-
-### 👉 Passo 04 – Adicionar capa - Alterar
-
-01. Movimente o Mouse sobre a Imagem da Capa Criada.
-02. Serão exibidos 3 Botões:
+05. Movimente o Mouse sobre a Imagem da Capa Criada.
+06. Serão exibidos 3 Botões:
 	- Alterar
 	- Reposicionar
 	- ⭳ (Baixar)
-03. Clicar em 'Alterar'.
-04. No Topo da Janela Aberta são exibidos 5 Títulos de Abas:
+07. Clicar em 'Alterar'.
+08. No Topo da Janela Aberta são exibidos 5 Títulos de Abas:
 	- Galeria
 	- Carregar
 	- Link
@@ -69,7 +90,7 @@ Objetivo: ter uma página chamada 'Sistema de Páginas - EXEMPLO', que é a Prin
 	- Remover
 
 
-### 👉 Passo 04.1. – Adicionar capa - Alterar - Galeria
+### 👉 Passo 02.2.1.1 – 3 Botões Exibidos - 🞏 Adicionar capa - Alterar - Galeria
 
 01. Movimente o Mouse sobre a Imagem da Capa Criada.
 02. Serão exibidos 3 Botões:
@@ -97,7 +118,7 @@ Objetivo: ter uma página chamada 'Sistema de Páginas - EXEMPLO', que é a Prin
 ** Obs.: Se clicar no nome da Sub-ABA, ocorre o direcionamento para a página na WEB da Sub-ABA, nestas páginas da WEB podem ser feito download de imagens.
 
 
-### 👉 Passo 04.2. – Adicionar capa - Alterar - Carregar
+### 👉 Passo 02.2.1.2 – 3 Botões Exibidos - 🞏 Adicionar capa - Alterar - Carregar
 
 01. Movimente o Mouse sobre a Imagem da Capa Criada.
 02. Serão exibidos 3 Botões:
@@ -112,13 +133,13 @@ Objetivo: ter uma página chamada 'Sistema de Páginas - EXEMPLO', que é a Prin
 	- Unsplash
 	- Remover
 05. Clicar na ABA 'Carregar'.
-06. Nesta Janela são Exibidas 2 opções para Carregar arquivo e 1 alerta:
+06. Nesta Janela são Exibidas 3 opções para Carregar arquivo e 1 alerta:
 	- Carregar Arquivos
 	- Ctrl + V para colar uma imagem
 	- Imagens com mais de 1500 pixels de largura funcionam melhor
 
 
-### 👉 Passo 04.2.1. – Adicionar capa - Alterar - Carregar - Carregar Arquivos
+### 👉 Passo 02.2.1.2.1 – 3 Botões Exibidos - 🞏 Adicionar capa - Alterar - Carregar - Carregar Arquivos
 
 01. Movimente o Mouse sobre a Imagem da Capa Criada.
 02. Serão exibidos 3 Botões:
@@ -133,10 +154,9 @@ Objetivo: ter uma página chamada 'Sistema de Páginas - EXEMPLO', que é a Prin
 	- Unsplash
 	- Remover
 05. Clicar na ABA 'Carregar'.
-06. Nesta Janela são Exibidas 2 opções para Carregar arquivo e 1 alerta:
+06. Nesta Janela são Exibidas 3 opções para Carregar arquivo e 1 alerta:
 	- Carregar Arquivos
-	- Ctrl + V para colar uma imagem
-	- Imagens com mais de 1500 pixels de largura funcionam melhor
+	- Ctrl + V para colar uma imagem, "Imagens com mais de 1500 pixels de largura funcionam melhor."
 07. Clicar na Opção 'Carregar Arquivo'.
 08. É Aberta a Janela do 'Windows Explorer'.
 09. Navegue Até uma Pasta que contenha a Imagem que irá utilizada.
@@ -147,7 +167,7 @@ Objetivo: ter uma página chamada 'Sistema de Páginas - EXEMPLO', que é a Prin
 ** Obs.: A Imagem será esticada Horizontalmente para preencher toda a área da Imagem, o espaço desse arquivo é subtraído do espaço da conta do Notion.
 
 
-### 👉 Passo 04.2.2. – Adicionar capa - Alterar - Carregar - Ctrl + V para colar uma imagem
+### 👉 Passo 02.2.2.2.2 – 3 Botões Exibidos - 🞏 Adicionar capa - Alterar - Carregar - Ctrl + V para colar uma imagem
 
 01. Movimente o Mouse sobre a Imagem da Capa Criada.
 02. Serão exibidos 3 Botões:
@@ -164,8 +184,7 @@ Objetivo: ter uma página chamada 'Sistema de Páginas - EXEMPLO', que é a Prin
 05. Clicar na ABA 'Carregar'.
 06. Nesta Janela são Exibidas 2 opções para Carregar arquivo e 1 alerta:
 	- Carregar Arquivos
-	- Ctrl + V para colar uma imagem
-	- Imagens com mais de 1500 pixels de largura funcionam melhor
+	- Ctrl + V para colar uma imagem, "Imagens com mais de 1500 pixels de largura funcionam melhor."
 07. Navegue e Localize a Imagem que irá substituir a Atual.
 08. Copie a Imagem.
 09. Entre no Notion.
@@ -175,7 +194,7 @@ Objetivo: ter uma página chamada 'Sistema de Páginas - EXEMPLO', que é a Prin
 ** Obs.: A Imagem será esticada Horizontalmente para preencher toda a área da Imagem, o espaço desse arquivo é subtraído do espaço da conta do Notion.
 
 
-### 👉 Passo 04.3. – Adicionar capa - Alterar - Link
+### 👉 Passo 02.2.1.3 – 3 Botões Exibidos - 🞏 Adicionar capa - Alterar - Link
 
 01. Movimente o Mouse sobre a Imagem da Capa Criada.
 02. Serão exibidos 3 Botões:
@@ -202,7 +221,7 @@ Objetivo: ter uma página chamada 'Sistema de Páginas - EXEMPLO', que é a Prin
 ** Obs.: A Imagem será esticada Horizontalmente para preencher toda a área da Imagem
 
 
-### 👉 Passo 04.4. – Adicionar capa - Alterar - Unsplash
+### 👉 Passo 02.2.1.4 – 3 Botões Exibidos - 🞏 Adicionar capa - Alterar - Unsplash
 
 01. Movimente o Mouse sobre a Imagem da Capa Criada.
 02. Serão exibidos 3 Botões:
@@ -224,8 +243,7 @@ Objetivo: ter uma página chamada 'Sistema de Páginas - EXEMPLO', que é a Prin
 	- Alerta 'Pesquise para encontrar mais resultados'
 
 
-### 👉 Passo 04.4.1. – Adicionar capa - Alterar - Unsplash - Campo
-
+### 👉 Passo 02.2.1.4.1 – 3 Botões Exibidos - 🞏 Adicionar capa - Alterar - Unsplash - Campo
 
 01. Movimente o Mouse sobre a Imagem da Capa Criada.
 02. Serão exibidos 3 Botões:
@@ -254,7 +272,7 @@ Objetivo: ter uma página chamada 'Sistema de Páginas - EXEMPLO', que é a Prin
 ** Obs.: Pode ser editada e redigitada o termo a ser pesquisado, para digitar um novo termo basta clicar no 'X' que esta a direita no final do campo, que novas imagens são exibidas.
 
 
-### 👉 Passo 04.4.2. – Adicionar capa - Alterar - Unsplash - Imagens
+### 👉 Passo 02.2.1.4.2 – 3 Botões Exibidos - 🞏 Adicionar capa - Alterar - Unsplash - Imagens
 
 01. Movimente o Mouse sobre a Imagem da Capa Criada.
 02. Serão exibidos 3 Botões:
@@ -279,7 +297,7 @@ Objetivo: ter uma página chamada 'Sistema de Páginas - EXEMPLO', que é a Prin
 09. A Imagem capa anterior é substituída pela imagem clicada.
 
 
-### 👉 Passo 04.4.3. – Adicionar capa - Alterar - Unsplash - Link
+### 👉 Passo 02.2.1.4.3 – 3 Botões Exibidos - 🞏 Adicionar capa - Alterar - Unsplash - Link
 
 01. Movimente o Mouse sobre a Imagem da Capa Criada.
 02. Serão exibidos 3 Botões:
@@ -298,13 +316,15 @@ Objetivo: ter uma página chamada 'Sistema de Páginas - EXEMPLO', que é a Prin
 	- Campo 'Procurar Imagem...'
 	- Imagens 'Diversas e Aleatórias'
 	- Link 'Posicionado a Esquerda e Abaixo de Cada Imagem Apresentada'
-	- Alerta 'Pesquise para encontrar mais resultados'
+
+** Alerta.: 'Pesquise para encontrar mais resultados'
+
 07. Nesta Janela é Exibido com Conjuntos de Imagens.
 08. Clicar no Link 'Posicionado a Esquerda e Abaixo de Cada Imagem Apresentada'.
 09. Ocorre o direcionamento para a página na WEB aonde está a Imagem.
 
 
-### 👉 Passo 04.5 – Adicionar capa - Alterar - Remover
+### 👉 Passo 02.2.1.5 – 3 Botões Exibidos - 🞏 Adicionar capa - Alterar - Remover
 
 01. Movimente o Mouse sobre a Imagem da Capa Criada.
 02. Serão exibidos 3 Botões:
@@ -323,7 +343,7 @@ Objetivo: ter uma página chamada 'Sistema de Páginas - EXEMPLO', que é a Prin
 07. A Imagem da capa é Retirar.
 
 
-### 👉 Passo 05 – Reposicionar
+### 👉 Passo 02.2.2 – 3 Botões Exibidos - 🞏 Adicionar capa - Reposicionar
 
 01. Movimente o Mouse sobre a Imagem da Capa Criada.
 02. Serão exibidos 3 Botões:
@@ -337,7 +357,7 @@ Objetivo: ter uma página chamada 'Sistema de Páginas - EXEMPLO', que é a Prin
 07. Soltar o Botão do Mouse e Clicar fora da Imagem da Capa para Finalizar o Reposicionamento.
 
 
-### 👉 Passo 06 – ⭳ (Baixar)
+### 👉 Passo 02.2.3 – 3 Botões Exibidos - 🞏 Adicionar capa - ⭳ (Baixar)
 
 01. Movimente o Mouse sobre a Imagem da Capa Criada.
 02. Serão exibidos 3 Botões:
@@ -352,22 +372,7 @@ Objetivo: ter uma página chamada 'Sistema de Páginas - EXEMPLO', que é a Prin
 ** Obs.: Os Arquivos são salvos com a extensão '.JPG'
 
 
-### 👉 Passo 07 – Adicionar comentário
-
-01. Movimente o Mouse Acima do Nome da página **`Sistema de Páginas - EXEMPLO`**.
-02. Serão exibidos 3 Botões:
-	- ☻ Adicionar ícone
-	- 🞏 Adicionar capa
-	- 💬 Adicionar comentário
-03. Clicar em '💬 Adicionar comentário'.
-04. Ocorre o direcionamento para uma Linha com a Mensagem 'Adicionar um comentário...'
-05Não. Serão exibidos 3 Botões a Esquerda da Mensagem:
-	- Anexar Arquivo
-	- Mencionar uma pessoa, página ou data
-	- Confirmar (somente fica disponível em 'Azul' após algo ser digitado)
-
-
-### 👉 Passo 07.1. – Adicionar comentário - Anexar Arquivo
+### 👉 Passo 02.3 – 3 Botões Exibidos - 💬 Adicionar comentário
 
 01. Movimente o Mouse Acima do Nome da página **`Sistema de Páginas - EXEMPLO`**.
 02. Serão exibidos 3 Botões:
@@ -377,27 +382,12 @@ Objetivo: ter uma página chamada 'Sistema de Páginas - EXEMPLO', que é a Prin
 03. Clicar em '💬 Adicionar comentário'.
 04. Ocorre o direcionamento para uma Linha com a Mensagem 'Adicionar um comentário...'
 05. Serão exibidos 3 Botões a Esquerda da Mensagem:
-	- Anexar Arquivo
-	- Mencionar uma pessoa, página ou data
-	- Confirmar (somente fica disponível em 'Azul' após algo ser digitado)
+	- 📎 (Anexar Arquivo)
+	- @ (Mencionar uma pessoa, página ou data)
+	- ⬆️ (Cinza)
 
 
-### 👉 Passo 07 – Adicionar comentário
-
-01. Movimente o Mouse Acima do Nome da página **`Sistema de Páginas - EXEMPLO`**.
-02. Serão exibidos 3 Botões:
-	- ☻ Adicionar ícone
-	- 🞏 Adicionar capa
-	- 💬 Adicionar comentário
-03. Clicar em '💬 Adicionar comentário'.
-05. Ocorre o direcionamento para uma Linha com a Mensagem 'Adicionar um comentário...'
-02. Serão exibidos 3 Botões a Esquerda da Mensagem:
-	- Anexar Arquivo
-	- Mencionar uma pessoa, página ou data
-	- Confirmar (somente fica disponível em 'Azul' após algo ser digitado)
-
-
-### 👉 Passo 07 – Adicionar comentário
+### 👉 Passo 02.3.1 – 3 Botões Exibidos - 💬 Adicionar comentário - 📎 (Anexar Arquivo)
 
 01. Movimente o Mouse Acima do Nome da página **`Sistema de Páginas - EXEMPLO`**.
 02. Serão exibidos 3 Botões:
@@ -405,16 +395,346 @@ Objetivo: ter uma página chamada 'Sistema de Páginas - EXEMPLO', que é a Prin
 	- 🞏 Adicionar capa
 	- 💬 Adicionar comentário
 03. Clicar em '💬 Adicionar comentário'.
-05. Ocorre o direcionamento para uma Linha com a Mensagem 'Adicionar um comentário...'
-02. Serão exibidos 3 Botões a Esquerda da Mensagem:
-	- Anexar Arquivo
-	- Mencionar uma pessoa, página ou data
-	- Confirmar (somente fica disponível em 'Azul' após algo ser digitado)
+04. Ocorre o direcionamento para uma Linha com a Mensagem 'Adicionar um comentário...'
+05. Serão exibidos 3 Botões a Esquerda da Mensagem:
+	- 📎 (Anexar Arquivo)
+	- @ (Mencionar uma pessoa, página ou data)
+	- ⬆️ (Cinza)
+06. Clicar no ícone 📎 (Anexar Arquivo)
+	- Navegue com o Windows Explorer até qualquer arquivo (*.*)
+07. Tipos de Arquivos:
+	- Imagens
+	- Documentos
+
+
+### 👉 Passo 02.3.1.1 – 3 Botões Exibidos - 💬 Adicionar comentário - 📎 (Anexar Arquivo) - Imagens
+
+01. Movimente o Mouse Acima do Nome da página **`Sistema de Páginas - EXEMPLO`**.
+02. Serão exibidos 3 Botões:
+	- ☻ Adicionar ícone
+	- 🞏 Adicionar capa
+	- 💬 Adicionar comentário
+03. Clicar em '💬 Adicionar comentário'.
+04. Ocorre o direcionamento para uma Linha com a Mensagem 'Adicionar um comentário...'
+05. Serão exibidos 3 Botões a Esquerda da Mensagem:
+	- 📎 (Anexar Arquivo)
+	- @ (Mencionar uma pessoa, página ou data)
+	- ⬆️ (Cinza)
+06. Clicar no ícone 📎 (Anexar Arquivo):
+	- Navegue com o Windows Explorer até qualquer arquivo (*.*)
+07. Tipos de Arquivos:
+	- Imagens
+	- Documentos
+08. Seleciona uma Imagem.
+09. Clicar em Abrir.
+10. Clicar no ícone ⬆️ (Azul) para confirmar.
+
+
+Obs.: A Imagem fica aparente na linha aonde foi realizado a anexação.
+
+Obs.: As Imagens, ao se passar com o mouse sobre ela (Recebe Hover), 3 opções
+	- ⌕ (Expandir) = Imagem é Expandida
+	- ⤓ (Baixar) = Baixa a Imagem Anexada
+	- "..." (Mais):
+		.. 🗑 (Excluir = Del) = Retira o Anexo da Linha.
+		.. ⤓ (Baixar) = Salva uma Cópia em uma pasta.
+
+
+### 👉 Passo 02.3.1.2 – 3 Botões Exibidos - 💬 Adicionar comentário - 📎 (Anexar Arquivo) - Documentos
+
+01. Movimente o Mouse Acima do Nome da página **`Sistema de Páginas - EXEMPLO`**.
+02. Serão exibidos 3 Botões:
+	- ☻ Adicionar ícone
+	- 🞏 Adicionar capa
+	- 💬 Adicionar comentário
+03. Clicar em '💬 Adicionar comentário'.
+04. Ocorre o direcionamento para uma Linha com a Mensagem 'Adicionar um comentário...'
+05. Serão exibidos 3 Botões a Esquerda da Mensagem:
+	- 📎 (Anexar Arquivo)
+	- @ (Mencionar uma pessoa, página ou data)
+	- ⬆️ (Cinza)
+06. Clicar no ícone 📎 (Anexar Arquivo)
+	- Navegue com o Windows Explorer até qualquer arquivo (*.*)
+07. Tipos de Arquivos:
+	- Imagens
+	- Documentos
+08. Seleciona um Documento
+09. Clicar em Abrir
+10. Clicar no ícone ⬆️ (Azul) para confirmar
+
+
+Obs.: O Documento fica aparente na linha aonde foi realizado a anexação.
+
+Obs.: O Documento, ao se passar com o mouse sobre ela (Recebe Hover), 1 opções
+	- "X" Retira o Anexo da Linha.
+
+
+### 👉 Passo 02.3.2 – 3 Botões Exibidos - 💬 Adicionar comentário - @ (Mencionar uma pessoa, página ou data)
+
+01. Movimente o Mouse Acima do Nome da página **`Sistema de Páginas - EXEMPLO`**.
+02. Serão exibidos 3 Botões:
+	- ☻ Adicionar ícone
+	- 🞏 Adicionar capa
+	- 💬 Adicionar comentário
+03. Clicar em '💬 Adicionar comentário'.
+04. Ocorre o direcionamento para uma Linha com a Mensagem 'Adicionar um comentário...'
+05. Serão exibidos 3 Botões a Esquerda da Mensagem:
+	- 📎 (Anexar Arquivo)
+	- @ (Mencionar uma pessoa, página ou data)
+	- ⬆️ (Cinza)
+06. Clicar no ícone @ (Mencionar uma pessoa, página ou data)
+07. É Aberta uma Janela com 3 Títulos:
+	- Data
+	- Pessoas
+	- Link para a página
+
+
+### 👉 Passo 02.3.2.1 – 3 Botões Exibidos - 💬 Adicionar comentário - @ (Mencionar uma pessoa, página ou data) - Data
+
+01. Movimente o Mouse Acima do Nome da página **`Sistema de Páginas - EXEMPLO`**.
+02. Serão exibidos 3 Botões:
+	- ☻ Adicionar ícone
+	- 🞏 Adicionar capa
+	- 💬 Adicionar comentário
+03. Clicar em '💬 Adicionar comentário'.
+04. Ocorre o direcionamento para uma Linha com a Mensagem 'Adicionar um comentário...'
+05. Serão exibidos 3 Botões a Esquerda da Mensagem:
+	- 📎 (Anexar Arquivo)
+	- @ (Mencionar uma pessoa, página ou data)
+	- ⬆️ (Cinza)
+06. Clicar no ícone @ (Mencionar uma pessoa, página ou data)
+07. É Aberta uma Janela com 3 Títulos:
+	- Data
+	- Pessoas
+	- Link para a página
+08. 2 Opções são exibidas:
+	- 🕘 Hoje  - É Exibido a Data com o formato (Dia 2 Dígitos) de (Mês Completo) de (Ano com 4 Dígitos)
+	- 🕘 Na próxima "Dia da Semana atual completo" às 15h
+
+
+### 👉 Passo 02.3.2.1.1 – 3 Botões Exibidos - 💬 Adicionar comentário - @ (Mencionar uma pessoa, página ou data) - Data - 🕘 Hoje
+
+01. Movimente o Mouse Acima do Nome da página **`Sistema de Páginas - EXEMPLO`**.
+02. Serão exibidos 3 Botões:
+	- ☻ Adicionar ícone
+	- 🞏 Adicionar capa
+	- 💬 Adicionar comentário
+03. Clicar em '💬 Adicionar comentário'.
+04. Ocorre o direcionamento para uma Linha com a Mensagem 'Adicionar um comentário...'
+05. Serão exibidos 3 Botões a Esquerda da Mensagem:
+	- 📎 (Anexar Arquivo)
+	- @ (Mencionar uma pessoa, página ou data)
+	- ⬆️ (Cinza)
+06. Clicar no ícone @ (Mencionar uma pessoa, página ou data)
+07. É Aberta uma Janela com 3 Títulos:
+	- Data
+	- Pessoas
+	- Link para a página
+08. 2 Opções são exibidas:
+	- 🕘 Hoje  - É Exibido a Data com o formato (Dia 2 Dígitos) de (Mês Completo) de (Ano com 4 Dígitos)
+	- 🕘 Na próxima "Dia da Semana atual completo" às 15h
+09. Clicar no ícone "🕘 Hoje"
+10. Na linha é inserido @hoje
+
+
+Obs.: Se @hoje receber "Hover", é exibida data de Hoje.
+
+Obs.: Se Clicar no @hoje, uma janela como título sendo a Data de Hoje, com 6 opções:
+	- "mês" de "Ano"  Hoje <  >
+		.. Clicar nas Setas "<" ou ">", isso Adiciona ou Subtrai um Mês a Data
+		.. Selecione um Dia
+		.. Para Confirmar Clicar fora da Janela
+		.. o "@hoje" é substituído pela data selecionada
+	- Calendário
+		.. Selecione um Dia
+		.. Para Confirmar Clicar fora da Janela
+		.. o "@hoje" é substituído pela data selecionada
+	- Data de Término = "Off":
+		.. Clicar no Botão para Ativar
+		.. São Exibidos na parte superior 2 Campos com a Data de Hoje:
+			.+ Escolher uma data
+				.+. Se a Data for Inferior a Data de Hoje, a data de Hoje substitui a que está no primeiro campo
+				.+. Se a Data for Superior a Data de Hoje, a data selecionada substitui a que está no segundo campo
+			.+ Para Confirmar a Data, clicar fora da Janela
+	- Formato de data = Relativo >, são exibidas 6 Itens:
+		.. Data Completa
+			.+ Data de Hoje é Exibida no formato @(Dia) de (Mês completo) de (Ano 4 Dígitos)
+		.. Data curta
+			.+ Data de Hoje é Exibida no formato @(Mês Compacto com 3 Letras) "." (dia)
+		.. Mês/Dia/Ano
+			.+ Data de Hoje é Exibida no formato @(Mês 2 Dígitos) "/" (Dia 2 Dígitos) "/" (Ano 4 Dígitos)
+		.. Dia/Mês/Ano
+			.+ Data de Hoje é Exibida no formato @(Ano 4 Dígitos) "/" (Mês 2 Dígitos) "/" (Dia 2 Dígitos)
+		.. Ano/Mês/Dia
+		.. Relativo  ✓ (Ativo como padrão)
+	- Incluir hora = "Off":
+		.. Clicar no Botão para Ativar
+		.. São Exibidas 2 Opções:
+			.+ Formato de hora  12 horas > :
+				.+. Oculto
+					.+.. A Data de Hoje é Exibida sem Hora
+				.+. 12 horas  ✓ (Ativo como padrão)
+				.+. 24 horas
+					.+.. No Topo a Direita da Data é Exibido um campo com uma Hoje, que pode ser alterada
+			.+ Fuso horário  GMT-3 > :
+				.+. Pode ser alterado o fuso horário através de Busca
+	- Limpar
+		.. Quando Clicado limpa o Campo com o @hoje
+
+
+### 👉 Passo 02.3.2.1.2 – 3 Botões Exibidos - 💬 Adicionar comentário - @ (Mencionar uma pessoa, página ou data) - Data - 🕘 Na próxima "Dia da Semana atual completo" às 15h
+
+01. Movimente o Mouse Acima do Nome da página **`Sistema de Páginas - EXEMPLO`**.
+02. Serão exibidos 3 Botões:
+	- ☻ Adicionar ícone
+	- 🞏 Adicionar capa
+	- 💬 Adicionar comentário
+03. Clicar em '💬 Adicionar comentário'.
+04. Ocorre o direcionamento para uma Linha com a Mensagem 'Adicionar um comentário...'
+05. Serão exibidos 3 Botões a Esquerda da Mensagem:
+	- 📎 (Anexar Arquivo)
+	- @ (Mencionar uma pessoa, página ou data)
+	- ⬆️ (Cinza)
+06. Clicar no ícone @ (Mencionar uma pessoa, página ou data)
+07. É Aberta uma Janela com 3 Títulos:
+	- Data
+	- Pessoas
+	- Link para a página
+08. 2 Opções são exibidas:
+	- 🕘 Hoje  - É Exibido a Data com o formato (Dia 2 Dígitos) de (Mês Completo) de (Ano com 4 Dígitos)
+	- 🕘 Na próxima "Dia da Semana atual completo" às 15h
+09. Clicar no ícone "🕘 Hoje  - É Exibido a Data com o formato (Dia 2 Dígitos) de (Mês Completo) de (Ano com 4 Dígitos)"
+10. Na linha é inserido @hoje
+
+
+Obs.: Se @hoje receber "Hover", é exibida data de Hoje.
+
+Obs.: Se Clicar no @hoje, uma janela como título sendo a Data de Hoje, com 6 opções:
+	- "mês" de "Ano"  Hoje <  >
+		.. Clicar nas Setas "<" ou ">", isso Adiciona ou Subtrai um Mês a Data
+		.. Selecione um Dia
+		.. Para Confirmar Clicar fora da Janela
+		.. o "@hoje" é substituído pela data selecionada
+	- Calendário
+		.. Selecione um Dia
+		.. Para Confirmar Clicar fora da Janela
+		.. o "@hoje" é substituído pela data selecionada
+	- Data de Término = "Off":
+		.. Clicar no Botão para Ativar
+		.. São Exibidos na parte superior 2 Campos com a Data de Hoje:
+			.+ Escolher uma data
+				.+. Se a Data for Inferior a Data de Hoje, a data de Hoje substitui a que está no primeiro campo
+				.+. Se a Data for Superior a Data de Hoje, a data selecionada substitui a que está no segundo campo
+			.+ Para Confirmar a Data, clicar fora da Janela
+	- Formato de data = Relativo >, são exibidas 6 Itens:
+		.. Data Completa
+			.+ Data de Hoje é Exibida no formato @(Dia) de (Mês completo) de (Ano 4 Dígitos)
+		.. Data curta
+			.+ Data de Hoje é Exibida no formato @(Mês Compacto com 3 Letras) "." (dia)
+		.. Mês/Dia/Ano
+			.+ Data de Hoje é Exibida no formato @(Mês 2 Dígitos) "/" (Dia 2 Dígitos) "/" (Ano 4 Dígitos)
+		.. Dia/Mês/Ano
+			.+ Data de Hoje é Exibida no formato @(Ano 4 Dígitos) "/" (Mês 2 Dígitos) "/" (Dia 2 Dígitos)
+		.. Ano/Mês/Dia
+		.. Relativo  ✓ (Ativo como padrão)
+	- Incluir hora = "Off":
+		.. Clicar no Botão para Ativar
+		.. São Exibidas 2 Opções:
+			.+ Formato de hora  12 horas > :
+				.+. Oculto
+					.+.. A Data de Hoje é Exibida sem Hora
+				.+. 12 horas  ✓ (Ativo como padrão)
+				.+. 24 horas
+					.+.. No Topo a Direita da Data é Exibido um campo com uma Hoje, que pode ser alterada
+			.+ Fuso horário  GMT-3 > :
+				.+. Pode ser alterado o fuso horário através de Busca
+	- Limpar
+		.. Quando Clicado limpa o Campo com o @hoje para de ser exibido
+
+
+### 👉 Passo 02.3.2.2 – 3 Botões Exibidos - 💬 Adicionar comentário - @ (Mencionar uma pessoa, página ou data) - Pessoas
+
+01. Movimente o Mouse Acima do Nome da página **`Sistema de Páginas - EXEMPLO`**.
+02. Serão exibidos 3 Botões:
+	- ☻ Adicionar ícone
+	- 🞏 Adicionar capa
+	- 💬 Adicionar comentário
+03. Clicar em '💬 Adicionar comentário'.
+04. Ocorre o direcionamento para uma Linha com a Mensagem 'Adicionar um comentário...'
+05. Serão exibidos 3 Botões a Esquerda da Mensagem:
+	- 📎 (Anexar Arquivo)
+	- @ (Mencionar uma pessoa, página ou data)
+	- ⬆️ (Cinza)
+06. Clicar no ícone @ (Mencionar uma pessoa, página ou data)
+07. É Aberta uma Janela com 3 Títulos:
+	- Data
+	- Pessoas
+	- Link para a página
 
 
 
-2. 
-   * Clique em **“Adicionar ícone”** (opcional) e escolha algo como 🤖 ou 🧠.
+
+
+
+
+
+
+
+### 👉 Passo 02.3.2.3 – 3 Botões Exibidos - 💬 Adicionar comentário - @ (Mencionar uma pessoa, página ou data) - Link para a página
+
+01. Movimente o Mouse Acima do Nome da página **`Sistema de Páginas - EXEMPLO`**.
+02. Serão exibidos 3 Botões:
+	- ☻ Adicionar ícone
+	- 🞏 Adicionar capa
+	- 💬 Adicionar comentário
+03. Clicar em '💬 Adicionar comentário'.
+04. Ocorre o direcionamento para uma Linha com a Mensagem 'Adicionar um comentário...'
+05. Serão exibidos 3 Botões a Esquerda da Mensagem:
+	- 📎 (Anexar Arquivo)
+	- @ (Mencionar uma pessoa, página ou data)
+	- ⬆️ (Cinza)
+06. Clicar no ícone @ (Mencionar uma pessoa, página ou data)
+07. É Aberta uma Janela com 3 Títulos:
+	- Data
+	- Pessoas
+	- Link para a página
+
+
+
+
+
+
+
+
+
+
+### 👉 Passo 02.3.3 – 3 Botões Exibidos - 💬 Adicionar comentário - ⬆️ (Cinza)
+
+01. Movimente o Mouse Acima do Nome da página **`Sistema de Páginas - EXEMPLO`**.
+02. Serão exibidos 3 Botões:
+	- ☻ Adicionar ícone
+	- 🞏 Adicionar capa
+	- 💬 Adicionar comentário
+03. Clicar em '💬 Adicionar comentário'.
+04. Ocorre o direcionamento para uma Linha com a Mensagem 'Adicionar um comentário...'
+05. Serão exibidos 3 Botões a Esquerda da Mensagem:
+	- 📎 (Anexar Arquivo)
+	- @ (Mencionar uma pessoa, página ou data)
+	- ⬆️ (Cinza)
+06. Clicar no ícone ⬆️ (Cinza)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -545,7 +865,26 @@ Ele funciona assim:
 
 
 
+[Loja Vitrine]
 
+Selecionar a Loja Vitrine aonde o Produto é Apresentado.
+
+
+[Loja]
+
+- Apresenta a Informação Cadastrada no [BD Lojas] no Campo [Nome da Loja].
+
+
+
+
+
+[Imagem do Produto]
+
+- Colar a Imagem do Produto".
+
+- Selecionar o Nome no "BD Produto".
+
+- Realizar o Cadastro do Produto Completo.
 
 
 
@@ -564,3 +903,5 @@ Ele funciona assim:
                                 `-^
 ```
 ##----------####----------####----------##
+
+

@@ -1,4 +1,5 @@
 # 🧩 Toda a Conversa - Clone de Chats Estruturado – MetaPrompt - v3
+
 "toda-conversa-clone-chats-estruturado-metaprompt-v3.md"
 
 ---
@@ -24,7 +25,7 @@ Sua tarefa é:
    - Mantenha o máximo de contexto possível.
    - Reduza ao mínimo a necessidade de o usuário repetir histórico manualmente.
 
-Você **não deve gerar arquivos para download** nem falar em upload/zip/etc. Gere **apenas texto**, diretamente na resposta, em formato Markdown, pronto para ser copiado e colado.
+Você **não deve gerar arquivos para download** nem falar em upload/zip/etc. Gere **apenas texto**, diretamente na resposta, em formato Markdown, pronto para ser copiado e colado, quando terminar definitivamente o novo prompt coloque a frase "### PROMPT FINALIZADO E PRONTO PARA USO ###".
 
 ---
 
@@ -35,24 +36,24 @@ Quando o usuário pedir para você “clonar” a conversa usando este meta‑pr
 A estrutura recomendada desse PROMPT CLONADO é:
 
 1. **Título principal**  
-   - Um título descritivo do sistema, no formato:  
+   * Um título descritivo do sistema, no formato:  
      `# [NOME DO SISTEMA / ASSISTENTE]`
 
 2. **Mini‑resumo inicial (2–5 linhas)**  
-   - Explique, de forma objetiva, o que o sistema faz, para quem é e qual o contexto principal.
+   * Explique, de forma objetiva, o que o sistema faz, para quem é e qual o contexto principal.
 
 3. **Índice (opcional, mas recomendado)**  
-   - Use links Markdown apontando para seções internas, por exemplo:
-     - `- [Objetivo do Sistema](#objetivo-do-sistema)`
-     - `- [Regras Gerais](#regras-gerais)`
-     - `- [Fluxo de Trabalho](#fluxo-de-trabalho)`
+   * Use links Markdown apontando para seções internas, por exemplo:
+     * ** [Objetivo do Sistema](#objetivo-do-sistema)`
+     * ** [Regras Gerais](#regras-gerais)`
+     * ** [Fluxo de Trabalho](#fluxo-de-trabalho)`
 
 4. **Seção: Objetivo do Sistema**  
-   - Descreva com clareza:
-     - O propósito do assistente.
-     - O problema que resolve.
-     - O tipo de usuário que irá utilizá‑lo.
-     - O tipo de saída que normalmente deve produzir.
+   * Descreva com clareza:
+     * ** O propósito do assistente.
+     * ** O problema que resolve.
+     * ** O tipo de usuário que irá utilizá‑lo.
+     * ** O tipo de saída que normalmente deve produzir.
 
 5. **Seção: Contexto Importante e Premissas**  
    - Liste em tópicos:
@@ -76,6 +77,7 @@ A estrutura recomendada desse PROMPT CLONADO é:
      - Como coletar requisitos do usuário.
      - Como validar entendimento (ex.: fazer perguntas de confirmação).
      - Como estruturar a resposta.
+
    - Use listas numeradas para o fluxo:
      1. Receber o pedido do usuário.
      2. Verificar se precisa fazer perguntas antes.
@@ -91,6 +93,7 @@ A estrutura recomendada desse PROMPT CLONADO é:
      - `### Molduras, Layout e Composição`
      - `### Regras Sazonais e de Feriados`
      - `### Integrações ou Plataformas envolvidas`
+
    - Em cada subtópico, consolide:
      - Regras.
      - Preferências.
@@ -98,9 +101,11 @@ A estrutura recomendada desse PROMPT CLONADO é:
      - Coisas proibidas ou rejeitadas ao longo da conversa.
 
 9. **Seção: Sistema de Verificação de Feriados / Condições Especiais (se aplicável)**  
+
    - Se a conversa tratou de datas, feriados, condições lógicas, etc.:
      - Explique **como** o assistente deve checar essas condições.
      - Dê **exemplos de comportamento** para datas ou eventos importantes.
+
    - Use pseudocódigo simples ou descrições em linguagem natural, sempre em Markdown.
 
 10. **Seção: Tratamento de Erros, Limites e Planos B**  
@@ -251,3 +256,21 @@ Esse é o meta‑prompt completo “Clone de Chats Estruturado – MetaPrompt”
 [21](https://pt.scribd.com/document/951958380/Prompt-Mestre-Chat-GPT)```
 
 ##----------####----------##
+
+
+***
+
+##----------####----------####----------##
+##                                      ##
+##   ... 🐝 Assinatura Institucional    ##
+##                                      ##
+##----------####----------####----------##
+```
+         .' '.    .' '.         ,-.
+.        .   .    .   .         \ /
+ .         .        .       . -{|||)<
+   ' .  . ' ' .  . ' ' . . '    / \
+                                `-^
+```
+##----------####----------####----------##
+

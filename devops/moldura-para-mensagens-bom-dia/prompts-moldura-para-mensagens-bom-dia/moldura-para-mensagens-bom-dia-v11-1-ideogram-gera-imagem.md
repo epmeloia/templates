@@ -1,6 +1,6 @@
 # Moldura para Mensagens de Bom Dia - v11 - Ideogram Gera Imagem.md
 
-# Nome: "moldura-para-mensagens-de-bom-dia-v11-ideogram-gera-imagem.md"
+# Nome: "moldura-para-mensagens-bom-dia-v11-ideogram-gera-imagem"
 
 ---
 

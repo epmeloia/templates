@@ -1,6 +1,6 @@
-# ✅ Entendimento Consolidado da IA - Objetiva - Antes de Qualquer Alteração ou Geração:
+# ✅ Entendimento Consolidado da IA - Objetiva - Antes de Qualquer Alteração ou Geração - v1:
 
-"entendimento-consolidado-ia-objetiva-antes-qualquer-alteracao-geracao.md"
+"entendimento-consolidado-ia-objetiva-antes-qualquer-alteracao-geracao-v1.md"
 
 ---
 
@@ -163,3 +163,20 @@ Se quiser, no próximo passo eu posso:
 * analisar **e apontar riscos silenciosos**, sem sugerir solução
 
 Você decide o ritmo.
+
+***
+
+##----------####----------####----------##
+##                                      ##
+##   ... 🐝 Assinatura Institucional    ##
+##                                      ##
+##----------####----------####----------##
+```
+         .' '.    .' '.         ,-.
+.        .   .    .   .         \ /
+ .         .        .       . -{|||)<
+   ' .  . ' ' .  . ' ' . . '    / \
+                                `-^
+```
+##----------####----------####----------##
+

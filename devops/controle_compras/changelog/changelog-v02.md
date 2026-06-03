@@ -15471,8 +15471,6 @@ SE você vir [AG] / [AGUARDAR] / [NOT OK]
 
 SENÃO SE você vir [EXEC] / [SNAPSHOT] / [CORRECAO]
   → EXECUTE IMEDIATAMENTE
-
-SENÃO SE você vir
 ```
 ````
 

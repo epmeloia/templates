@@ -1,6 +1,6 @@
-# 📅🎨 Moldura + MSG Bom Dia 🎨📅 — VERSAO 11 (V11)
+# 📅🎨 Moldura para Mensagem de Bom Dia - v11.2 - Erros B - (v11-2-erros-b)
 
-Arquivo: "moldura-para-menssagens-bom-dia-v11a.md"
+Arquivo: "moldura-para-mensagens-bom-dia-v11-2-erros-b.md"
 
 ---
 

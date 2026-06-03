@@ -1,6 +1,6 @@
-# 💡 Entendimento - Forma mais Prática, Fácil e Direta para se Comunicar com a IA:
+# 💡 Entendimento - Forma mais Prática, Fácil e Direta para se Comunicar com a IA - v1:
 
-"entendimento-forma-mais-pratica-facil-direta-para-se-comunicar-com-ia.md"
+"entendimento-forma-mais-pratica-facil-direta-para-se-comunicar-com-ia-v1.md"
 
 ---
 
@@ -50,3 +50,20 @@ Aguardo sua resposta detalhada.
 ---
 
 ##----------####----------##
+
+***
+
+##----------####----------####----------##
+##                                      ##
+##   ... 🐝 Assinatura Institucional    ##
+##                                      ##
+##----------####----------####----------##
+```
+         .' '.    .' '.         ,-.
+.        .   .    .   .         \ /
+ .         .        .       . -{|||)<
+   ' .  . ' ' .  . ' ' . . '    / \
+                                `-^
+```
+##----------####----------####----------##
+

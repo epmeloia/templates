@@ -3383,7 +3383,7 @@ Composition:
 
 ### Mini-checklist rápido (para você)
 
-Antes de aceitar a imagem no NightCafe, confira:
+Antes de aceitar a imagem no NIGHTCAFE, confira:
 
 * Data + dia da semana:
   `11 de Fevereiro` e `Quarta-feira` aparecem corretamente no banner superior.
@@ -3398,19 +3398,19 @@ Antes de aceitar a imagem no NightCafe, confira:
 
 **[ANEXO]** —
 
-**[STATUS]** BLOCO 1 de 11/02/2026 adaptado para uso no NightCafe, com versão v11 completa e v11-compacta seguindo as mesmas regras de moldura e foco em entendimento
+**[STATUS]** BLOCO 1 de 11/02/2026 adaptado para uso no NIGHTCAFE, com versão v11 completa e v11-compacta seguindo as mesmas regras de moldura e foco em entendimento
 
-**[AG]** Aguardar você testar o prompt (completo ou compacto) no NightCafe e decidir se esse modelo se mantém ou precisa de ajustes específicos para esse gerador
+**[AG]** Aguardar você testar o prompt (completo ou compacto) no NIGHTCAFE e decidir se esse modelo se mantém ou precisa de ajustes específicos para esse gerador
 
 **[EXEC]** —
 
 **Ultimos 7 [OK]:**
-**[OK]** Motor alvo atualizado explicitamente para NightCafe mantendo o padrão v11
+**[OK]** Motor alvo atualizado explicitamente para NIGHTCAFE mantendo o padrão v11
 **[OK]** Data e dia da semana calculados e aplicados corretamente (11/02/2026 = Quarta-feira)
 **[OK]** Frase do dia aplicada como texto central único e prioritário
 **[OK]** Ambiente “Vila Nebulosa de Pégaso” mantido apenas como cenário visual, não como texto
-**[OK]** Versão COMPLETA v11 adaptada para NightCafe com instruções detalhadas
-**[OK]** Versão COMPACTA v11 criada para uso rápido no NightCafe
+**[OK]** Versão COMPLETA v11 adaptada para NIGHTCAFE com instruções detalhadas
+**[OK]** Versão COMPACTA v11 criada para uso rápido no NIGHTCAFE
 **[OK]** Estilo Disney/Pixar e bloqueio de realismo preservados nas duas variantes de prompt
 
 **[NOT OK]** —
@@ -4320,7 +4320,7 @@ Esses dois templates já seguem o padrão que você mostrou: TAGS intactas no co
 - https://ideogram.ai/t/explore
 - https://sora.chatgpt.com/explore
 - https://gemini.google.com/
-- https://creator.nightcafe.studio
+- https://creator.NIGHTCAFE.studio
 - https://labs.google/fx/tools/image-fx
 - https://www.genspark.ai/
 
@@ -4402,9 +4402,9 @@ O Gemini costuma:
 
 ---
 
-## 4. NightCafe
+## 4. NIGHTCAFE
 
-NightCafe funciona em cima de modelos (SDXL, DALL·E, etc.) e tem:
+NIGHTCAFE funciona em cima de modelos (SDXL, DALL·E, etc.) e tem:
 
 * Campo de prompt principal,
 * Campo de **negative prompt**.
@@ -4420,7 +4420,7 @@ NightCafe funciona em cima de modelos (SDXL, DALL·E, etc.) e tem:
 2. Em **negative prompt**, colocar coisas do tipo:
 
    * “no extra text, no English labels, no logos, no phrase of the day title”.
-3. Ajustar o **aspect ratio 16:9** no painel do NightCafe (não confiar só no texto do prompt).
+3. Ajustar o **aspect ratio 16:9** no painel do NIGHTCAFE (não confiar só no texto do prompt).
 
 👉 Assim você recicla o mesmo compacto, só adicionando o “no extra text” no negative.
 
@@ -4471,7 +4471,7 @@ Genspark é mais genérico (e menos “temperamental” que o ImageFX), normalme
 
   * ImageFX
   * Gemini
-  * NightCafe
+  * NIGHTCAFE
   * Genspark
   * (e até Ideogram, se quiser algo rápido)
 
@@ -4487,7 +4487,7 @@ se você tentar manter 6 IAs ao mesmo tempo, vai gastar energia demais só apaga
 
 1. Eleger **2 IAs principais** (ex: Ideogram + uma de backup: ImageFX ou Gemini).
 2. Travar os prompts v11 nelas.
-3. Só depois explorar NightCafe/Genspark como “laboratório”.
+3. Só depois explorar NIGHTCAFE/Genspark como “laboratório”.
 
 Senão, você fica “refém dos bugs de cada modelo” em vez de ter um pipeline previsível.
 
@@ -4731,18 +4731,13 @@ Substitua:
 
 [DATA_DIA] → “11 de Fevereiro – Quarta-feira”.
 [FRASE_DIA] → frase motivacional do dia em português.
+AMBIENTE
 
 
-
-===---+++---===
-===---+++---===
-
-
-===---+++---===
-===---+++---===
-
-
-
+===---+++---===   ===---+++---===   ===---+++---===   ===---+++---===
+===---+++---===   ===---+++---===   ===---+++---===   ===---+++---===
+===---+++---===   ===---+++---===   ===---+++---===   ===---+++---===
+===---+++---===   ===---+++---===   ===---+++---===   ===---+++---===
 
 
 
@@ -4752,25 +4747,14 @@ Substitua:
 
 
 
+
 ===---+++---===
 ===---+++---===
-
-[EXEC] PROMPT-IA
-IA: SORA - 23/02/2026
-IA: GEMINI - 24/02/2026
-IA: IDEOGRAM - 25/02/2026
-IA: NIGHTCAFE
-IA: NANOBANANA
-IA: GENSPARK
-IA: IMAGEFX - WHISK - 20/02/2026
-
-BLOCO: 1
-Ambiente: "
 
 
 
 ===---+++---===
-
+===---+++---===
 
 
 
@@ -4783,150 +4767,35 @@ Ambiente: "
 
 
 ===---+++---===
-
-
-
-
-
-===---+++---===
 ===---+++---===
 
-
-
-
-
-===---+++---===
-
-
-
-
-
-===---+++---===
-===---+++---===
-
-
-
-
-
-===---+++---===
-
-
-
-
-
-===---+++---===
-===---+++---===
-
-
-
-
-
-===---+++---===
-
-
-
-
-
-===---+++---===
-===---+++---===
-
-
-
-
-
-===---+++---===
-
-
-
-
-
-===---+++---===
-===---+++---===
-
-
-
-
-
-===---+++---===
-
-
-
-
-
-===---+++---===
-===---+++---===
-
-
-
-
-
-===---+++---===
-
-
-
-
-
-===---+++---===
-===---+++---===
-
-
-
-
-
-===---+++---===
-
-
-
-
-
-===---+++---===
-===---+++---===
-
-
-
-
-
-===---+++---===
-
-
-
-
-
-===---+++---===
-===---+++---===
-
-
-
-
-
-===---+++---===
-
-
-
-
-
-===---+++---===
-===---+++---===
-
-
-
-
-
-===---+++---===
-
-
-
-
-
-===---+++---===
-===---+++---===
-
-
-
-
-
-===---+++---===
-
+## [MEMORIA] Nova IA para geração de Imagens, que deve entrar na lista atual de IA em uso, segue informações:
+```
+- Nome: DREAMINA CAPCUT
+- Limite: Sem limite de caracteres no máximo para o Prompt Completo e para o Compacto
+- Site: https://dreamina.capcut.com/ai-tool/home
+- Compatibilidade: Teste realizado com o prompt, das IAs realacionadas, funcionaram perfeitamente:
+	. IA: NANOBANANA
+	. IA: IMAGEFX (WHISK)
+	. IA: IDEOGRAM
+```
+
+## [MEMORIA] Incorporar Regra adicional: daqui em diante, em todos os meta-prompts entregues, a substituição de [DATA_DIA] deve incluir o dia da semana por extenso no formato "DD de Mês – Dia-da-semana", exatamente como no exemplo "09 de Fevereiro – Segunda-feira".
+https://dreamina.capcut.com/pt-br/tools/dreamina-nano-banana
+
+| DATA       - IA
+| 14/04/2026 - IA: IMAGEFX (WHISK)
+| 10/04/2026 - IA: GEMINI
+| 08/04/2026 - IA: SORA
+| 06/04/2026 - IA: DREAMINA CAPCUT
+| 02/04/2026 - IA: IDEOGRAM
+| 01/03/2026 - IA: ARENA
+| 27/03/2026 - IA: IDEOGRAM
+| 26/03/2026 - IA: IDEOGRAM
+| 24/03/2026 - IA: GENSPARK
+| 23/03/2026 - IA: GEMINI
+| 20/03/2026 - IA: NANOBANANA
+| 18/03/2026 - IA: IMAGEFX (WHISK)
 
 
 
@@ -4934,54 +4803,42 @@ Ambiente: "
 ===---+++---===
 ===---+++---===
 ===---+++---===
-===---+++---===
-===---+++---===
-===---+++---===
-===---+++---===
 
-===---+++---===
-===---+++---===
+IA: DREAMINA CAPCUT (NANOBANANA)
+- https://dreamina.capcut.com/ai-tool/home
 
-
-
-
-
-===---+++---===
-
-
-
-
-
-===---+++---===
-===---+++---===
-
-
-
-
-
-===---+++---===
-
-
-
-https://labs.google/fx/tools/image-fx
-
-https://ideogram.ai/t/explore
-
-https://sora.chatgpt.com/explore
-
-https://www.genspark.ai/
-
-https://creator.nightcafe.studio
-
-https://gemini.google.com/
-
-
-
-
-ERROS DE ACENTUAÇÃO:
+IA: GEMINI (COMPACTO)
 - https://gemini.google.com/
-- https://nanobanana.im/pt
-- https://grok.com
+
+IA: GENSPARK
+- https://www.genspark.ai/
+
+IA: IDEOGRAM
+- https://ideogram.ai/t/explore
+
+IA: IMAGEFX (WHISK)
+- https://labs.google/fx/pt/tools/whisk
+- https://labs.google/fx/tools/whisk/project
+
+IA: NANOBANANA
+- https://gemini.google/us/overview/image-generation/?id=NanoBanana2&hl=en-US
+
+IA: NIGHTCAFE
+- https://creator.nightcafe.studio
+
+IA: SORA
+- https://sora.chatgpt.com/explore
+
+
+
+
+IA: IMAGE TO IMAGE AI - [SEM CREDITOS]
+- https://www.imagetoimageai.ai/text-to-image
+
+IA: Image 2 Image - [SEM CREDITOS]
+- https://www.image2image.ai/pt
+
+
 
 
 ===---+++---===

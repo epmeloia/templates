@@ -1,6 +1,6 @@
-# Clonar CHAT - passo a passo - com Arquivos já Criados:
+# 🧩 Clone de Chats Estruturado – MetaPrompt - v0
 
-"clonar-chat-passo-passo-com-arquivos-ja-criados.md"
+"clone-chats-estruturado-metaprompt-v0.md"
 
 ---
 
@@ -159,4 +159,21 @@ Tudo isso **gera desvio cognitivo**.
 
 ---
 
+
+
+***
+
+##----------####----------####----------##
+##                                      ##
+##   ... 🐝 Assinatura Institucional    ##
+##                                      ##
+##----------####----------####----------##
+```
+         .' '.    .' '.         ,-.
+.        .   .    .   .         \ /
+ .         .        .       . -{|||)<
+   ' .  . ' ' .  . ' ' . . '    / \
+                                `-^
+```
+##----------####----------####----------##
 

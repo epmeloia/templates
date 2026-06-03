@@ -117,141 +117,169 @@ Ambiente: Metrópole de Néon de Andrômeda – Uma cidade flutuando em nuvens d
 
 
 
-## [EXEC] BLOCO 1
+## [EXEC] BLOCO 1 - GENSPARK
+- Data: 27/02/2026
+- "O trabalho flui quando você remove o excesso de expectativa."
+- Ambiente: "Passeio da Grande Muralha Orbital – Segmentos de uma “muralha” espacial ao redor de um planeta habitado, de onde se vê o lado diurno e o noturno ao mesmo tempo."
 
-Ambiente: "Passeio da Grande Muralha Orbital – Segmentos de uma “muralha” espacial ao redor de um planeta habitado, de onde se vê o lado diurno e o noturno ao mesmo tempo."
 
 
+## [EXEC] BLOCO 1 - IMAGEFX - WHISK
+- Data: 02/03/2026
+- "O pequeno gesto feito agora economiza energia depois."
+- Ambiente: "Cânion de Thor’s Well Marciano – Fenda em Marte com um buraco semelhante ao Thor’s Well, onde jatos de gelo vermelho são lançados ao nascer do sol."
 
-## [EXEC] BLOCO 1
 
-Ambiente: "Cânion de Thor’s Well Marciano – Fenda em Marte com um buraco semelhante ao Thor’s Well, onde jatos de gelo vermelho são lançados ao nascer do sol."
 
+## [EXEC] BLOCO 1 - IA: SORA
+- Data: 03/02/2026
+- "Simplicidade é o caminho para a produtividade."
+- Ambiente: "Porto Nebuloso de Rivendell Cósmica – Refúgio élfico reconstruído em um vale espacial, com rios de energia correndo entre estrelas como se fossem cachoeiras."
 
 
-## [EXEC] BLOCO 1
 
-Ambiente: "Porto Nebuloso de Rivendell Cósmica – Refúgio élfico reconstruído em um vale espacial, com rios de energia correndo entre estrelas como se fossem cachoeiras."
+## [EXEC] BLOCO 1 - IA: IDEOGRAM
+- Data: 04/02/2026
+- "A boa decisão aparece quando você entende o contexto completo."
+- Ambiente: "Cúpula de Hogsmeade Polar – Vila mágica em uma região polar de um planeta gélido, sempre coberta de neve brilhante e iluminada por duas luas no amanhecer."
 
 
 
-## [EXEC] BLOCO 1
+## [EXEC] BLOCO 1 - IMAGEFX - WHISK
+- Data: 05/02/2026
+- "O cuidado com detalhes simples sustenta dias mais complexos."
+- Ambiente: "Planície das Colinas de Chocolate Siderais – Campo de pequenas colinas arredondadas em um planeta marrom-avermelhado, lembrando as Colinas de Chocolate das Filipinas, cercadas por anéis brilhantes no céu."
 
-Ambiente: "Cúpula de Hogsmeade Polar – Vila mágica em uma região polar de um planeta gélido, sempre coberta de neve brilhante e iluminada por duas luas no amanhecer."
 
 
+## [EXEC] BLOCO 1 - IA: NANO BANANA
+- Data: 06/02/2026
+- "Debuggar sem pressa evita repetir o mesmo erro com outro nome."
+- Ambiente: "Mercado da Rota da Seda em Samarcanda antiga.”
 
-## [EXEC] BLOCO 1
 
-Ambiente: "Planície das Colinas de Chocolate Siderais – Campo de pequenas colinas arredondadas em um planeta marrom-avermelhado, lembrando as Colinas de Chocolate das Filipinas, cercadas por anéis brilhantes no céu."
 
+## [EXEC] BLOCO 1 - IA: NANOBANANA
+- Data: 09/02/2026
+- "O silencio entre uma tarefa e outra também faz parte do processo."
+- Ambiente: "Mirante de vidro em uma megacidade futurista sobre o oceano."
 
 
-## [EXEC] BLOCO 1
+## [EXEC] BLOCO 1 - IA: GEMINI (COMPACTO)
+- Data: 10/02/2026
+- "Código escrito com clareza costuma sobreviver melhor ao tempo."
+- Ambiente: "Biblioteca de Alexandria em sua glória máxima."
 
-Ambiente: "Mercado da Rota da Seda em Samarcanda antiga."
 
+## [EXEC] BLOCO 1 - IA: NIGHTCAFE
+- Data: 11/02/2026
+- "A rotina revela muito sobre o que você esta adiando."
+- Ambiente: "Estação de pesquisa em uma lua gelada de Júpiter."
 
 
-## [EXEC] BLOCO 1
 
-Ambiente: "Mirante de vidro em uma megacidade futurista sobre o oceano."
+## [EXEC] BLOCO 1 - IA: GENSPARK
+- Data: 12/02/2026
+- "O sistema falha menos quando você para de lutar contra ele."
+- Ambiente: "Vila medieval cercada por campos de lavanda ao amanhecer."
 
 
-## [EXEC] BLOCO 1
 
+## [EXEC] BLOCO 1 - IA: SORA
+- Data: 13/02/2026
+- "O dia anda melhor quando você ajusta o básico primeiro."
+- Ambiente: "Cafeteria mínima em um arranha‑céu de neon no ano 2300."
 
-Ambiente: "Biblioteca de Alexandria em sua glória máxima."
 
 
+## [EXEC] BLOCO 1 - IA: IDEOGRAM
+- Data: 16/02/2026
+- "A revisão feita sem pressa corrige mais que bugs — organiza o raciocínio."
+- Ambiente: "Templo perdido na selva, em plena era das grandes explorações."
 
-## [EXEC] BLOCO 1
 
-Ambiente: "Estação de pesquisa em uma lua gelada de Júpiter."
 
+## [EXEC] BLOCO 1 - IA: SORA
+- Data: 17/02/2026
+- "O cursor piscando não pressiona — ele convida você a continuar."
+- Ambiente: "Estufa orbital cheia de plantas tropicais sobre a Terra."
 
 
-## [EXEC] BLOCO 1
 
-Ambiente: "Vila medieval cercada por campos de lavanda ao amanhecer."
+## [EXEC] BLOCO 1 - IMAGEFX (WHISK)
+- Data: 18/02/2026
+- "O arquivo salvo cedo evita retrabalho — finalize enquanto a ideia ainda esta quente."
+- Ambiente: "Pequeno vilarejo costeiro grego na Antiguidade."
 
 
 
-## [EXEC] BLOCO 1
+## [EXEC] BLOCO 1 - IA: NANOBANANA
+- Data: 20/03/2026
+- "O compilador interno também avisa quando falta sono — execute o comando descanso."
+- Ambiente: "Plataforma flutuante em um planeta gasoso com vista para as nuvens coloridas."
 
-Ambiente: "Cafeteria mínima em um arranha‑céu de neon no ano 2300."
 
 
+## [EXEC] BLOCO 1 - IA: GEMINI
+- Data: 23/03/2026
+- "A tela em branco não acusa erro — ela apenas aguarda sua primeira decisão."
+- Ambiente: "Estação de trem a vapor em 1900, em uma manhã fria e enevoada."
 
-## [EXEC] BLOCO 1
 
-Ambiente: "Templo perdido na selva, em plena era das grandes explorações."
 
+## [EXEC] BLOCO 1 - IA: NIGHTCAFE
+- Data: 24/03/2026
+- "A boa construção nasce quando pensar bem antes de executar."
+- Ambiente: "Praça central de uma colônia marciana em fase de construção."
 
 
-## [EXEC] BLOCO 1
 
-Ambiente: "Estufa orbital cheia de plantas tropicais sobre a Terra."
+## [EXEC] BLOCO 1 - IA: IDEOGRAM
+- Data: 26/03/2026
+- "O fluxo funciona melhor quando você remove excessos, não quando adiciona controles."
+- Ambiente: "Café parisiense no início do século XX, com mesas na calçada."
 
 
 
-## [EXEC] BLOCO 1
+## [EXEC] BLOCO 1 - IA: IDEOGRAM
+- Data: 27/03/2026
+- "O ajuste pequeno feito hoje evita explicações longas depois."
+- Ambiente: "Bairro antigo de uma cidade asiática Cyberpunk em 2150."
 
-Ambiente: "Pequeno vilarejo costeiro grego na Antiguidade."
 
 
+## [EXEC] BLOCO 1 - IA: ARENA IA
+- Data: 01/04/2026
+- "O erro recorrente insiste ate você mudar a abordagem."
+- Ambiente: "Bairro antigo de uma cidade asiática Cyberpunk em 2150."
 
-## [EXEC] BLOCO 1
 
-Ambiente: "Plataforma flutuante em um planeta gasoso com vista para as nuvens coloridas."
 
+## [EXEC] BLOCO 1 - IA: IDEOGRAM
+- Data: 02/04/2026
+- "O código claro respeita quem vai ler amanhã inclusive você."
+- Ambiente: "Mosteiro isolado no topo de um penhasco, em tempos medievais."
 
 
-## [EXEC] BLOCO 1
 
-Ambiente: "Estação de trem a vapor em 1900, em uma manhã fria e enevoada."
+## [EXEC] BLOCO 1 - IA: PhotoCat
+- Data: 08/04/2026
+- "O sistema melhora quando você aceita revisar a própria decisão."
+- Ambiente: "Observatório astronômico renascentista numa noite de descobertas."
 
 
 
-## [EXEC] BLOCO 1
+## [EXEC] BLOCO 1 - IA: GOOGLE GEMA
+- Data: 10/04/2026
+- "O tempo gasto entendendo o problema economiza correções depois."
+- Ambiente: "Estação de transporte interplanetário lotada de viajantes espaciais."
 
-Ambiente: "Praça central de uma colônia marciana em fase de construção."
 
 
-
-## [EXEC] BLOCO 1
-
-Ambiente: "Café parisiense no início do século XX, com mesas na calçada."
-
-
-
-## [EXEC] BLOCO 1
-
-Ambiente: "Bairro antigo de uma cidade asiática cyberpunk em 2150."
-
-
-
-## [EXEC] BLOCO 1
-
-Ambiente: "Mosteiro isolado no topo de um penhasco, em tempos medievais."
-
-
-
-## [EXEC] BLOCO 1
-
-Ambiente: "Observatório astronômico renascentista numa noite de descobertas."
-
-
-
-## [EXEC] BLOCO 1
-
-Ambiente: "Estação de transporte interplanetário lotada de viajantes espaciais."
-
-
-
-## [EXEC] BLOCO 1
-
-Ambiente: "Pequena vila ribeirinha amazônica ao amanhecer."
+## [EXEC] BLOCO 1 - IA: IMAGEFX (WHISK)
+- Data: 14/04/2026
+- "A solução simples quase sempre aparece depois da ultima tentativa apressada."
+- Ambiente: "Pequena vila ribeirinha amazônica ao amanhecer."
 
 
 
