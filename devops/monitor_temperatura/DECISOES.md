@@ -154,3 +154,80 @@ Se HWiNFO CSV não funcionar ou não for desejado:
 1. Remover a leitura por CSV do arquivo `monitor-temperatura.py`.
 2. Voltar para a estratégia anterior.
 3. Investigar novamente o Fan Control/LibreHardwareMonitor.
+
+## 2026-06-03 - v01.04 - Ajuste do caminho do CSV do HWiNFO
+
+### Ocorrido
+
+O HWiNFO foi instalado em:
+
+```txt
+D:\_INSTALADOS\HWiNFO64
+```
+
+O log CSV foi configurado na pasta:
+
+```txt
+D:\_DEVOPS\Monitor_Temperatura\LogSensor\
+```
+
+Arquivo criado pelo HWiNFO:
+
+```txt
+D:\_DEVOPS\Monitor_Temperatura\LogSensor\hwinfo-log.csv
+```
+
+### Decisão
+
+Atualizar o app para ler o CSV no novo caminho:
+
+```txt
+D:\_DEVOPS\Monitor_Temperatura\LogSensor\hwinfo-log.csv
+```
+
+Também foi ajustada a detecção da coluna de temperatura para considerar cabeçalhos em português do Brasil.
+
+### Sensor identificado no CSV
+
+A coluna preferencial encontrada foi:
+
+```txt
+Temperaturas centrais (avg) [°C]
+```
+
+### Como reverter
+
+Se for necessário voltar para o caminho anterior, alterar a constante `HWINFO_CSV_PATH` em `monitor-temperatura.py` para:
+
+```txt
+D:\_DEVOPS\Monitor_Temperatura\hwinfo-log.csv
+```
+
+## 2026-06-03 - v01.05 - Monitoramento ampliado da CPU
+
+### Ocorrido
+
+Após validar a leitura principal com o HWiNFO CSV, foi decidido ampliar a tela para mostrar mais informações úteis para evitar travamentos, queda de desempenho ou desligamento por temperatura.
+
+### Decisão
+
+Manter `Temperaturas centrais (avg) [°C]` como leitura principal e adicionar quatro indicadores:
+
+```txt
+Núcleo máximo [°C]
+CPU Inteira [°C]
+Estrangulamento térmico do núcleo (avg) [Yes/No]
+Limite de potência do núcleo excedido (avg) [Yes/No]
+```
+
+### Motivo
+
+A média dos núcleos mostra a visão geral, mas o núcleo máximo e a CPU inteira ajudam a identificar picos. Os alertas de estrangulamento térmico e limite de potência indicam quando a CPU já está reduzindo desempenho ou batendo restrições operacionais.
+
+### Como reverter
+
+Se a tela ficar poluída ou alguma leitura não for útil, remover da interface os campos adicionais e manter apenas:
+
+```txt
+Temperaturas centrais (avg) [°C]
+```

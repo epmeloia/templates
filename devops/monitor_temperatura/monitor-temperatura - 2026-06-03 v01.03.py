@@ -21,14 +21,6 @@
 # - 2026-06-03 v01.03
 # - Adicionada leitura por CSV gerado pelo HWiNFO como fonte principal.
 #
-# - 2026-06-03 v01.04
-# - Atualizado caminho do CSV para a pasta LogSensor.
-# - Ajustada deteccao para cabecalhos do HWiNFO em portugues.
-#
-# - 2026-06-03 v01.05
-# - Adicionadas leituras de nucleo maximo, CPU inteira,
-#   estrangulamento termico e limite de potencia.
-#
 # -----------------------------------
 #
 
@@ -43,7 +35,7 @@ from datetime import datetime
 
 
 UPDATE_INTERVAL_MS = 2000
-HWINFO_CSV_PATH = r"D:\_DEVOPS\Monitor_Temperatura\LogSensor\hwinfo-log.csv"
+HWINFO_CSV_PATH = r"D:\_DEVOPS\Monitor_Temperatura\hwinfo-log.csv"
 FAN_CONTROL_LIBRE_HARDWARE_MONITOR_DLL = (
     r"D:\_INSTALADOS\FanControl\LibreHardwareMonitorLib.dll"
 )
@@ -53,17 +45,6 @@ CPU_SENSOR_IDENTIFIER = "/intelcpu/0/temperature/1"
 @dataclass
 class TemperatureReading:
     value_celsius: float | None
-    source: str
-    message: str = ""
-
-
-@dataclass
-class CpuMonitorReading:
-    average_celsius: float | None
-    max_celsius: float | None
-    package_celsius: float | None
-    thermal_throttling: str | None
-    power_limit: str | None
     source: str
     message: str = ""
 
@@ -115,151 +96,27 @@ class CpuTemperatureProvider:
             self._wmi = None
 
     def read_cpu_temperature(self) -> TemperatureReading:
-        metrics = self.read_cpu_metrics()
-        return TemperatureReading(
-            metrics.average_celsius,
-            metrics.source,
-            metrics.message,
-        )
-
-    def read_cpu_metrics(self) -> CpuMonitorReading:
-        metrics = self._read_hwinfo_csv_metrics()
-        if metrics.average_celsius is not None:
-            return metrics
-
         reading = self._read_hwinfo_csv()
         if reading.value_celsius is not None:
-            return CpuMonitorReading(
-                reading.value_celsius,
-                None,
-                None,
-                None,
-                None,
-                reading.source,
-                reading.message,
-            )
+            return reading
         first_failure = reading
 
         reading = self._read_specific_libre_hardware_monitor_sensor()
         if reading.value_celsius is not None:
-            return CpuMonitorReading(
-                reading.value_celsius,
-                None,
-                None,
-                None,
-                None,
-                reading.source,
-                reading.message,
-            )
+            return reading
 
         reading = self._read_hardware_monitor_wmi()
         if reading.value_celsius is not None:
-            return CpuMonitorReading(
-                reading.value_celsius,
-                None,
-                None,
-                None,
-                None,
-                reading.source,
-                reading.message,
-            )
+            return reading
 
         reading = self._read_acpi_thermal_zone()
         if reading.value_celsius is not None:
-            return CpuMonitorReading(
-                reading.value_celsius,
-                None,
-                None,
-                None,
-                None,
-                reading.source,
-                reading.message,
-            )
+            return reading
 
-        return CpuMonitorReading(
-            None,
-            None,
-            None,
-            None,
+        return TemperatureReading(
             None,
             first_failure.source or "Indisponivel",
             first_failure.message or "Nenhum sensor de CPU foi encontrado.",
-        )
-
-    def _read_hwinfo_csv_metrics(self) -> CpuMonitorReading:
-        if not os.path.exists(HWINFO_CSV_PATH):
-            return CpuMonitorReading(
-                None,
-                None,
-                None,
-                None,
-                None,
-                "HWiNFO CSV",
-                f"Configure o log do HWiNFO em: {HWINFO_CSV_PATH}",
-            )
-
-        try:
-            rows = self._read_csv_rows(HWINFO_CSV_PATH)
-        except Exception as error:
-            return CpuMonitorReading(
-                None,
-                None,
-                None,
-                None,
-                None,
-                "HWiNFO CSV",
-                f"Falha ao ler CSV: {error}",
-            )
-
-        if len(rows) < 2:
-            return CpuMonitorReading(
-                None,
-                None,
-                None,
-                None,
-                None,
-                "HWiNFO CSV",
-                "CSV sem dados suficientes.",
-            )
-
-        header = rows[0]
-        data_row = self._last_data_row(rows[1:])
-        if data_row is None:
-            return CpuMonitorReading(
-                None,
-                None,
-                None,
-                None,
-                None,
-                "HWiNFO CSV",
-                "CSV sem linha de leitura.",
-            )
-
-        average = self._read_named_temperature(header, data_row, ("temperaturas centrais (avg)", "core average"))
-        max_core = self._read_named_temperature(header, data_row, ("nucleo maximo", "nÃºcleo mÃ¡ximo", "core max"))
-        package = self._read_named_temperature(header, data_row, ("cpu inteira", "cpu package"))
-        thermal = self._read_named_text(header, data_row, ("estrangulamento termico do nucleo (avg)", "estrangulamento térmico do núcleo (avg)", "estrangulamento tÃ©rmico do nÃºcleo (avg)", "thermal throttling"))
-        power = self._read_named_text(header, data_row, ("limite de potencia do nucleo excedido (avg)", "limite de potência do núcleo excedido (avg)", "limite de potÃªncia do nÃºcleo excedido (avg)", "power limit"))
-
-        if average is None:
-            return CpuMonitorReading(
-                None,
-                max_core,
-                package,
-                thermal,
-                power,
-                "HWiNFO CSV",
-                "Coluna de temperatura media da CPU nao foi encontrada.",
-            )
-
-        return CpuMonitorReading(
-            average,
-            max_core,
-            package,
-            thermal,
-            power,
-            "HWiNFO CSV",
-            "Atualizado a cada 2 segundos.",
         )
 
     def _read_hwinfo_csv(self) -> TemperatureReading:
@@ -334,12 +191,8 @@ class CpuTemperatureProvider:
 
     def _find_cpu_temperature_column(self, header: list[str]) -> int | None:
         preferred_terms = (
-            "temperaturas centrais (avg)",
             "core average",
-            "cpu inteira",
             "cpu package",
-            "nucleo maximo",
-            "núcleo máximo",
             "core max",
             "cpu temperature",
             "cpu",
@@ -367,56 +220,8 @@ class CpuTemperatureProvider:
         candidates.sort(reverse=True)
         return candidates[0][1]
 
-    def _find_column_by_terms(self, header: list[str], terms: tuple[str, ...]) -> int | None:
-        normalized_terms = tuple(term.lower() for term in terms)
-        for index, column_name in enumerate(header):
-            normalized = column_name.lower()
-            if any(term in normalized for term in normalized_terms):
-                return index
-
-        return None
-
-    def _read_named_temperature(
-        self,
-        header: list[str],
-        data_row: list[str],
-        terms: tuple[str, ...],
-    ) -> float | None:
-        index = self._find_column_by_terms(header, terms)
-        if index is None or index >= len(data_row):
-            return None
-
-        value = self._parse_temperature_value(data_row[index])
-        if value is None:
-            return None
-
-        return round(value, 1)
-
-    def _read_named_text(
-        self,
-        header: list[str],
-        data_row: list[str],
-        terms: tuple[str, ...],
-    ) -> str | None:
-        index = self._find_column_by_terms(header, terms)
-        if index is None or index >= len(data_row):
-            return None
-
-        value = data_row[index].strip()
-        return value or None
-
     def _looks_like_temperature_column(self, column_name: str) -> bool:
-        temperature_terms = (
-            "temperature",
-            "temperatura",
-            "temperaturas",
-            "temp",
-            "core",
-            "nucleo",
-            "núcleo",
-            "package",
-            "cpu",
-        )
+        temperature_terms = ("temperature", "temp", "core", "package", "cpu")
         celsius_terms = ("c", "°c", "degc")
         has_temperature_term = any(term in column_name for term in temperature_terms)
         has_celsius_term = any(term in column_name for term in celsius_terms)
@@ -555,10 +360,6 @@ class TemperatureMonitorApp:
         self.history = TemperatureHistory()
 
         self.temperature_var = tk.StringVar(value="--.- C")
-        self.max_temperature_var = tk.StringVar(value="Nucleo maximo: --")
-        self.package_temperature_var = tk.StringVar(value="CPU Inteira: --")
-        self.thermal_throttling_var = tk.StringVar(value="Estrangulamento termico: --")
-        self.power_limit_var = tk.StringVar(value="Limite de potencia: --")
         self.status_var = tk.StringVar(value="Iniciando leitura...")
         self.source_var = tk.StringVar(value="Fonte: --")
 
@@ -568,8 +369,8 @@ class TemperatureMonitorApp:
 
     def _configure_window(self) -> None:
         self.root.title("Monitor de Temperatura")
-        self.root.geometry("560x360")
-        self.root.minsize(520, 340)
+        self.root.geometry("520x260")
+        self.root.minsize(480, 240)
         self.root.resizable(False, False)
 
     def _build_layout(self) -> None:
@@ -594,87 +395,29 @@ class TemperatureMonitorApp:
             font=("Segoe UI", 9),
         ).pack(anchor="center")
 
-        details = ttk.Frame(main)
-        details.pack(anchor="center", fill="x", pady=(16, 0))
-
-        ttk.Label(
-            details,
-            textvariable=self.max_temperature_var,
-            font=("Segoe UI", 10),
-        ).pack(anchor="center")
-
-        ttk.Label(
-            details,
-            textvariable=self.package_temperature_var,
-            font=("Segoe UI", 10),
-        ).pack(anchor="center", pady=(4, 0))
-
-        ttk.Label(
-            details,
-            textvariable=self.thermal_throttling_var,
-            font=("Segoe UI", 10),
-        ).pack(anchor="center", pady=(4, 0))
-
-        ttk.Label(
-            details,
-            textvariable=self.power_limit_var,
-            font=("Segoe UI", 10),
-        ).pack(anchor="center", pady=(4, 0))
-
         ttk.Label(
             main,
             textvariable=self.status_var,
             font=("Segoe UI", 9),
             wraplength=460,
             justify="center",
-        ).pack(anchor="center", pady=(18, 0))
+        ).pack(anchor="center", pady=(16, 0))
 
     def _schedule_update(self) -> None:
         self._update_temperature()
         self.root.after(UPDATE_INTERVAL_MS, self._schedule_update)
 
     def _update_temperature(self) -> None:
-        reading = self.provider.read_cpu_metrics()
-        self.history.add(reading.average_celsius)
+        reading = self.provider.read_cpu_temperature()
+        self.history.add(reading.value_celsius)
 
-        if reading.average_celsius is None:
+        if reading.value_celsius is None:
             self.temperature_var.set("--.- C")
         else:
-            self.temperature_var.set(f"{reading.average_celsius:.1f} C")
-
-        self.max_temperature_var.set(
-            f"Nucleo maximo: {self._format_temperature(reading.max_celsius)}"
-        )
-        self.package_temperature_var.set(
-            f"CPU Inteira: {self._format_temperature(reading.package_celsius)}"
-        )
-        self.thermal_throttling_var.set(
-            f"Estrangulamento termico: {self._format_status(reading.thermal_throttling)}"
-        )
-        self.power_limit_var.set(
-            f"Limite de potencia: {self._format_status(reading.power_limit)}"
-        )
+            self.temperature_var.set(f"{reading.value_celsius:.1f} C")
 
         self.source_var.set(f"Fonte: {reading.source}")
         self.status_var.set(reading.message or "Atualizado a cada 2 segundos.")
-
-    def _format_temperature(self, value: float | None) -> str:
-        if value is None:
-            return "--"
-
-        return f"{value:.1f} C"
-
-    def _format_status(self, value: str | None) -> str:
-        if value is None:
-            return "--"
-
-        normalized = value.strip().lower()
-        if normalized in ("yes", "sim", "s"):
-            return "SIM"
-        if normalized in ("no", "nao", "não", "nÃ£o", "n"):
-            return "Nao"
-
-        return value
 
     # Ponto de extensao futuro: adicionar provider equivalente para GPU.
     def read_gpu_temperature(self) -> TemperatureReading:
