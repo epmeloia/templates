@@ -2,7 +2,7 @@
 
 Este repositório é um hub central com coleções de manuais, testes, glossários, códigos, prompts e soluções para uso prático.
 
-**Gerado automaticamente em:** 2026-06-03 19:34:11
+**Gerado automaticamente em:** 2026-06-03 19:54:00
 
 ## Seções Disponíveis
 
@@ -54,6 +54,7 @@ Este repositório é um hub central com coleções de manuais, testes, glossári
 - 📂 Mini instrucoes: [mini-instrucoes](../mini-instrucoes/README.md)
 - 📂 Mini primt termica 58mm mpt ii: [mini-primt-termica-58mm-mpt-ii](../mini-primt-termica-58mm-mpt-ii/README.md)
 - 📂 Moldura para mensagens bom dia: [devops/moldura-para-mensagens-bom-dia](../devops/moldura-para-mensagens-bom-dia/README.md)
+- 📂 Monitor_temperatura: [devops/monitor_temperatura](../devops/monitor_temperatura/README.md)
 - 📂 Notepad++: [notepad++](../notepad++/README.md)
 - 📂 Notion: [notion](../notion/README.md)
 - 📂 Otimizar recursos creditos recomendacao dinamica icone: [ias/perplexity/otimizar-recursos-creditos-recomendacao-dinamica-icone](../ias/perplexity/otimizar-recursos-creditos-recomendacao-dinamica-icone/README.md)
