@@ -2,10 +2,11 @@
 
 Este repositório é um hub central com coleções de manuais, testes, glossários, códigos, prompts e soluções para uso prático.
 
-**Gerado automaticamente em:** 2026-06-03 19:32:17
+**Gerado automaticamente em:** 2026-06-03 19:34:11
 
 ## Seções Disponíveis
 
+- 📂  boas praticas: [mini-primt-termica-58mm-mpt-ii/-boas-praticas](../mini-primt-termica-58mm-mpt-ii/-boas-praticas/README.md)
 - 📂  boas praticas: [padrao-pastas/-boas-praticas](../padrao-pastas/-boas-praticas/README.md)
 - 📂 Ambientes locais para temas frases dia: [devops/moldura-para-mensagens-bom-dia/ambientes-locais-para-temas-frases-dia](../devops/moldura-para-mensagens-bom-dia/ambientes-locais-para-temas-frases-dia/README.md)
 - 📂 American truck simulator: [games/american-truck-simulator](../games/american-truck-simulator/README.md)
@@ -15,6 +16,7 @@ Este repositório é um hub central com coleções de manuais, testes, glossári
 - 📂 Assets: [assets](../assets/README.md)
 - 📂 Assets: [devops/controle_compras/assets](../devops/controle_compras/assets/README.md)
 - 📂 Assets: [devops/moldura-para-mensagens-bom-dia/assets](../devops/moldura-para-mensagens-bom-dia/assets/README.md)
+- 📂 Assets: [mini-primt-termica-58mm-mpt-ii/assets](../mini-primt-termica-58mm-mpt-ii/assets/README.md)
 - 📂 Boas praticas: [devops/boas-praticas](../devops/boas-praticas/README.md)
 - 📂 Boas praticas: [ias/boas-praticas](../ias/boas-praticas/README.md)
 - 📂 Boas praticas: [ias/memex/boas-praticas](../ias/memex/boas-praticas/README.md)
@@ -50,6 +52,7 @@ Este repositório é um hub central com coleções de manuais, testes, glossári
 - 📂 Mini glossarios gerais: [mini-glossarios-gerais](../mini-glossarios-gerais/README.md)
 - 📂 Mini glossarios: [mini-glossarios](../mini-glossarios/README.md)
 - 📂 Mini instrucoes: [mini-instrucoes](../mini-instrucoes/README.md)
+- 📂 Mini primt termica 58mm mpt ii: [mini-primt-termica-58mm-mpt-ii](../mini-primt-termica-58mm-mpt-ii/README.md)
 - 📂 Moldura para mensagens bom dia: [devops/moldura-para-mensagens-bom-dia](../devops/moldura-para-mensagens-bom-dia/README.md)
 - 📂 Notepad++: [notepad++](../notepad++/README.md)
 - 📂 Notion: [notion](../notion/README.md)
