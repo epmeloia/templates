@@ -276,6 +276,30 @@ As cópias históricas versionadas de `monitor-temperatura.py` não foram altera
 
 Remover o bloco da assinatura dos arquivos ativos listados acima.
 
+## 2026-06-03 - v01.08 - Painel escuro
+
+### Ocorrido
+
+Foi solicitada uma melhoria visual para deixar o fundo preto e apresentar os números de forma mais profissional e prática.
+
+### Decisão
+
+Atualizar a janela para um painel escuro:
+
+- Fundo preto.
+- Valor principal em destaque com fonte monoespaçada.
+- Métricas secundárias em linhas, com nome à esquerda e valor à direita.
+- Cores de alerta preservadas a partir de `config-temperatura.json`.
+- Pisca vermelho mantido para valores acima do limite vermelho.
+
+### Como reverter
+
+Voltar para a versão:
+
+```txt
+monitor-temperatura - 2026-06-03 v01.07.py
+```
+
 ### Como reverter
 
 Se for necessário voltar para o caminho anterior, alterar a constante `HWINFO_CSV_PATH` em `monitor-temperatura.py` para:
@@ -311,4 +335,175 @@ Se a tela ficar poluída ou alguma leitura não for útil, remover da interface 
 
 ```txt
 Temperaturas centrais (avg) [°C]
+```
+
+## 2026-06-03 - v01.09 - Temperaturas lado a lado
+
+### Ocorrido
+
+Foi solicitado colocar as temperaturas uma ao lado da outra.
+
+### Decisão
+
+Organizar as três leituras de temperatura em cartões horizontais:
+
+```txt
+Média
+Núcleo máximo
+CPU Inteira
+```
+
+Os alertas de estrangulamento térmico e limite de potência foram mantidos abaixo das temperaturas, porque são estados operacionais e não leituras de temperatura.
+
+### Como reverter
+
+Voltar para a versão:
+
+```txt
+monitor-temperatura - 2026-06-03 v01.08.py
+```
+
+## 2026-06-03 - v01.10 - Layout compacto pelo template
+
+### Ocorrido
+
+Foi enviado um anexo como referência visual para reduzir o tamanho da janela e reposicionar as informações.
+
+### Decisão
+
+Compactar a interface mantendo:
+
+```txt
+Título centralizado
+Fonte do sensor abaixo do título
+Três temperaturas lado a lado
+Alertas centralizados abaixo das temperaturas
+Rodapé com status de atualização
+```
+
+### Como reverter
+
+Voltar para a versão:
+
+```txt
+monitor-temperatura - 2026-06-03 v01.09.py
+```
+
+## 2026-06-03 - v01.11 - Espaçamento da unidade Celsius
+
+### Ocorrido
+
+Foi observado que a distância entre o último número da temperatura e a letra `C` estava grande demais.
+
+### Decisão
+
+Remover o espaço entre o valor e a unidade:
+
+```txt
+60.0 C -> 60.0C
+```
+
+### Como reverter
+
+Voltar a formatação de temperatura para:
+
+```txt
+{valor:.1f} C
+```
+
+## 2026-06-03 - v01.12 - Unidade Celsius colada visualmente
+
+### Ocorrido
+
+Mesmo sem espaço no texto, a fonte ainda deixava a letra `C` visualmente afastada do último número.
+
+### Decisão
+
+Desenhar a temperatura em um `Canvas`, posicionando o número e a letra `C` separadamente para deixar a unidade visualmente colada ao valor.
+
+### Como reverter
+
+Voltar para a formatação simples em `tk.Label`:
+
+```txt
+{valor:.1f}C
+```
+
+## 2026-06-03 - v01.13 - Monitoramento da GPU externa
+
+### Ocorrido
+
+Foi solicitado visualizar a temperatura da placa de vídeo externa, duplicando para baixo o padrão visual usado na CPU.
+
+### Decisão
+
+Adicionar uma segunda área compacta para a GPU externa, com seis leituras em duas linhas:
+
+```txt
+Temperatura da GPU
+Hot Spot da GPU
+Temperatura da memória da GPU
+Uso da GPU
+Velocidade da ventoinha da GPU
+Limite térmico / Thermal Throttling da GPU
+```
+
+### Fonte
+
+As leituras continuam usando o mesmo CSV do HWiNFO:
+
+```txt
+D:\_DEVOPS\Monitor_Temperatura\LogSensor\hwinfo-log.csv
+```
+
+### Observação
+
+Se algum sensor não estiver sendo gravado no CSV, o campo aparece como `--`, sem interromper a janela.
+
+### Como reverter
+
+Voltar para a versão:
+
+```txt
+monitor-temperatura - 2026-06-03 v01.12.py
+```
+
+## 2026-06-03 - v01.14 - Janela sempre visível e FAN da GPU
+
+### Ocorrido
+
+Foi observado que o campo `Fan` da GPU não estava sendo atualizado.
+
+### Análise
+
+Foi feita busca no CSV do HWiNFO por colunas relacionadas a:
+
+```txt
+fan
+ventoinha
+rpm
+pwm
+cooler
+```
+
+Nenhuma coluna de ventoinha foi encontrada no log atual.
+
+### Decisão
+
+Manter o campo `Fan`, mas exibir:
+
+```txt
+Sem log
+```
+
+quando o HWiNFO não estiver gravando esse sensor no CSV.
+
+Também foi configurada a janela para ficar sempre visível sobre outras janelas.
+
+### Como reverter
+
+Voltar para a versão:
+
+```txt
+monitor-temperatura - 2026-06-03 v01.13.py
 ```

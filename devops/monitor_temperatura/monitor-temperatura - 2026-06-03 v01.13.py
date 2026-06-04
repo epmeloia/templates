@@ -67,10 +67,6 @@
 # - 2026-06-03 v01.13
 # - Adicionado painel da placa de video em duas linhas com seis leituras.
 #
-# - 2026-06-03 v01.14
-# - Janela configurada para ficar sempre visivel.
-# - Campo Fan passa a informar quando nao ha sensor de ventoinha no CSV.
-#
 # -----------------------------------
 #
 
@@ -130,7 +126,6 @@ class GpuMonitorReading:
     thermal_limit: str | None
     source: str
     message: str = ""
-    fan_available: bool = True
 
 
 class TemperatureLimitConfig:
@@ -397,9 +392,11 @@ class CpuTemperatureProvider:
                 "uso total da gpu",
             ),
         )
-        fan_terms = ("ventoinha gpu", "gpu fan", "gpu fan1", "fan gpu", "rpm gpu")
-        fan_available = self._find_column_by_terms(header, fan_terms) is not None
-        fan = self._read_named_number(header, data_row, fan_terms)
+        fan = self._read_named_number(
+            header,
+            data_row,
+            ("ventoinha gpu", "gpu fan", "gpu fan1", "fan gpu"),
+        )
         thermal_limit = self._read_named_text(
             header,
             data_row,
@@ -421,7 +418,6 @@ class CpuTemperatureProvider:
                 thermal_limit,
                 "HWiNFO CSV",
                 "Colunas de temperatura da GPU nao foram encontradas.",
-                fan_available,
             )
 
         return GpuMonitorReading(
@@ -433,7 +429,6 @@ class CpuTemperatureProvider:
             thermal_limit,
             "HWiNFO CSV",
             "Atualizado a cada 2 segundos.",
-            fan_available,
         )
 
     def _read_hwinfo_csv_metrics(self) -> CpuMonitorReading:
@@ -925,7 +920,6 @@ class TemperatureMonitorApp:
         self.root.geometry("330x390")
         self.root.minsize(330, 390)
         self.root.resizable(False, False)
-        self.root.attributes("-topmost", True)
         self.root.configure(bg=COLOR_BACKGROUND)
 
     def _configure_styles(self) -> None:
@@ -1128,7 +1122,7 @@ class TemperatureMonitorApp:
         self.gpu_hot_spot_var.set(self._format_temperature(gpu_reading.hot_spot_celsius))
         self.gpu_memory_var.set(self._format_temperature(gpu_reading.memory_celsius))
         self.gpu_usage_var.set(self._format_metric(gpu_reading.usage_percent))
-        self.gpu_fan_var.set(self._format_fan(gpu_reading))
+        self.gpu_fan_var.set(self._format_metric(gpu_reading.fan_value))
         self.gpu_thermal_limit_var.set(self._format_status(gpu_reading.thermal_limit))
 
         self.source_var.set(f"Fonte: {reading.source}")
@@ -1149,12 +1143,6 @@ class TemperatureMonitorApp:
             return f"{value:.0f}"
 
         return f"{value:.1f}"
-
-    def _format_fan(self, reading: GpuMonitorReading) -> str:
-        if not reading.fan_available:
-            return "Sem log"
-
-        return self._format_metric(reading.fan_value)
 
     def _format_status(self, value: str | None) -> str:
         if value is None:

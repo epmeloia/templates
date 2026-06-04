@@ -10,5 +10,17 @@
   "cpu_inteira": {
     "amarelo": 85,
     "vermelho": 95
+  },
+  "gpu_temperatura": {
+    "amarelo": 80,
+    "vermelho": 90
+  },
+  "gpu_hot_spot": {
+    "amarelo": 90,
+    "vermelho": 100
+  },
+  "gpu_memoria": {
+    "amarelo": 90,
+    "vermelho": 100
   }
 }

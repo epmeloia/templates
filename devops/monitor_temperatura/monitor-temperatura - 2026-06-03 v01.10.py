@@ -58,19 +58,6 @@
 # - Reduzido tamanho da janela seguindo o template visual anexado.
 # - Compactadas temperaturas, alertas e rodape.
 #
-# - 2026-06-03 v01.11
-# - Reduzido espacamento entre o numero da temperatura e a letra C.
-#
-# - 2026-06-03 v01.12
-# - Desenhada a unidade C separada do numero para ficar visualmente colada.
-#
-# - 2026-06-03 v01.13
-# - Adicionado painel da placa de video em duas linhas com seis leituras.
-#
-# - 2026-06-03 v01.14
-# - Janela configurada para ficar sempre visivel.
-# - Campo Fan passa a informar quando nao ha sensor de ventoinha no CSV.
-#
 # -----------------------------------
 #
 
@@ -120,27 +107,11 @@ class CpuMonitorReading:
     message: str = ""
 
 
-@dataclass
-class GpuMonitorReading:
-    temperature_celsius: float | None
-    hot_spot_celsius: float | None
-    memory_celsius: float | None
-    usage_percent: float | None
-    fan_value: float | None
-    thermal_limit: str | None
-    source: str
-    message: str = ""
-    fan_available: bool = True
-
-
 class TemperatureLimitConfig:
     DEFAULT_LIMITS = {
         "temperaturas_centrais_avg": {"amarelo": 80, "vermelho": 90},
         "nucleo_maximo": {"amarelo": 85, "vermelho": 95},
         "cpu_inteira": {"amarelo": 85, "vermelho": 95},
-        "gpu_temperatura": {"amarelo": 80, "vermelho": 90},
-        "gpu_hot_spot": {"amarelo": 90, "vermelho": 100},
-        "gpu_memoria": {"amarelo": 90, "vermelho": 100},
     }
 
     def __init__(self, path: str = CONFIG_PATH) -> None:
@@ -310,130 +281,6 @@ class CpuTemperatureProvider:
             None,
             first_failure.source or "Indisponivel",
             first_failure.message or "Nenhum sensor de CPU foi encontrado.",
-        )
-
-    def read_gpu_metrics(self) -> GpuMonitorReading:
-        if not os.path.exists(HWINFO_CSV_PATH):
-            return GpuMonitorReading(
-                None,
-                None,
-                None,
-                None,
-                None,
-                None,
-                "HWiNFO CSV",
-                f"Configure o log do HWiNFO em: {HWINFO_CSV_PATH}",
-            )
-
-        try:
-            rows = self._read_csv_rows(HWINFO_CSV_PATH)
-        except Exception as error:
-            return GpuMonitorReading(
-                None,
-                None,
-                None,
-                None,
-                None,
-                None,
-                "HWiNFO CSV",
-                f"Falha ao ler CSV da GPU: {error}",
-            )
-
-        if len(rows) < 2:
-            return GpuMonitorReading(
-                None,
-                None,
-                None,
-                None,
-                None,
-                None,
-                "HWiNFO CSV",
-                "CSV sem dados suficientes para GPU.",
-            )
-
-        header = rows[0]
-        data_row = self._last_data_row(rows[1:])
-        if data_row is None:
-            return GpuMonitorReading(
-                None,
-                None,
-                None,
-                None,
-                None,
-                None,
-                "HWiNFO CSV",
-                "CSV sem linha de leitura da GPU.",
-            )
-
-        temperature = self._read_named_temperature(
-            header,
-            data_row,
-            ("temperatura gpu", "gpu temperature"),
-        )
-        hot_spot = self._read_named_temperature(
-            header,
-            data_row,
-            ("temperatura de ponto quente da gpu", "gpu hot spot", "gpu hotspot"),
-        )
-        memory = self._read_named_temperature(
-            header,
-            data_row,
-            (
-                "temperatura de juncao da memoria gpu",
-                "temperatura de junção da memória gpu",
-                "temperatura de junÃ§Ã£o da memÃ³ria gpu",
-                "gpu memory junction",
-            ),
-        )
-        usage = self._read_named_number(
-            header,
-            data_row,
-            (
-                "carga do nucleo da gpu",
-                "carga do núcleo da gpu",
-                "carga do nÃºcleo da gpu",
-                "gpu core load",
-                "gpu usage",
-                "uso total da gpu",
-            ),
-        )
-        fan_terms = ("ventoinha gpu", "gpu fan", "gpu fan1", "fan gpu", "rpm gpu")
-        fan_available = self._find_column_by_terms(header, fan_terms) is not None
-        fan = self._read_named_number(header, data_row, fan_terms)
-        thermal_limit = self._read_named_text(
-            header,
-            data_row,
-            (
-                "limite de desempenho - termico",
-                "limite de desempenho - térmico",
-                "limite de desempenho - tÃ©rmico",
-                "performance limit - thermal",
-            ),
-        )
-
-        if temperature is None and hot_spot is None and memory is None:
-            return GpuMonitorReading(
-                None,
-                None,
-                None,
-                usage,
-                fan,
-                thermal_limit,
-                "HWiNFO CSV",
-                "Colunas de temperatura da GPU nao foram encontradas.",
-                fan_available,
-            )
-
-        return GpuMonitorReading(
-            temperature,
-            hot_spot,
-            memory,
-            None if usage is None else round(usage, 1),
-            None if fan is None else round(fan, 1),
-            thermal_limit,
-            "HWiNFO CSV",
-            "Atualizado a cada 2 segundos.",
-            fan_available,
         )
 
     def _read_hwinfo_csv_metrics(self) -> CpuMonitorReading:
@@ -642,18 +489,6 @@ class CpuTemperatureProvider:
 
         return round(value, 1)
 
-    def _read_named_number(
-        self,
-        header: list[str],
-        data_row: list[str],
-        terms: tuple[str, ...],
-    ) -> float | None:
-        index = self._find_column_by_terms(header, terms)
-        if index is None or index >= len(data_row):
-            return None
-
-        return self._parse_temperature_value(data_row[index])
-
     def _read_named_text(
         self,
         header: list[str],
@@ -810,79 +645,6 @@ class TemperatureHistory:
         self.items = self.items[-self.limit :]
 
 
-class TemperatureValueCanvas(tk.Canvas):
-    def __init__(
-        self,
-        parent: tk.Widget,
-        width: int = 96,
-        suffix: str = "C",
-        font_size: int = 20,
-    ) -> None:
-        super().__init__(
-            parent,
-            width=width,
-            height=32,
-            bg=COLOR_PANEL,
-            bd=0,
-            highlightthickness=0,
-        )
-        self.canvas_width = width
-        self.suffix = suffix
-        self.font_size = font_size
-        self.value = "--"
-        self.current_fg = COLOR_NORMAL
-        self.alert_level = "normal"
-        self._draw()
-
-    def set_value(self, value: str) -> None:
-        self.value = value
-        self._draw()
-
-    def set_fg(self, color: str) -> None:
-        self.current_fg = color
-        self._draw()
-
-    def _draw(self) -> None:
-        self.delete("all")
-        font = ("Consolas", self.font_size, "bold")
-        unit_font = ("Consolas", self.font_size, "bold")
-        center_x = self.canvas_width // 2 - (4 if self.suffix else 0)
-        y = 17
-
-        if self.value == "--" or not self.suffix:
-            self.create_text(
-                self.canvas_width // 2,
-                y,
-                text=self.value,
-                font=font,
-                fill=self.current_fg,
-                anchor="center",
-            )
-            return
-
-        number_item = self.create_text(
-            center_x,
-            y,
-            text=self.value,
-            font=font,
-            fill=self.current_fg,
-            anchor="center",
-        )
-        self.update_idletasks()
-        bbox = self.bbox(number_item)
-        if bbox is None:
-            return
-
-        self.create_text(
-            bbox[2] - 1,
-            y,
-            text=self.suffix,
-            font=unit_font,
-            fill=self.current_fg,
-            anchor="w",
-        )
-
-
 class TemperatureMonitorApp:
     def __init__(self, root: tk.Tk) -> None:
         self.root = root
@@ -891,28 +653,16 @@ class TemperatureMonitorApp:
         self.history = TemperatureHistory()
         self.blink_visible = True
 
-        self.temperature_var = tk.StringVar(value="--.-")
+        self.temperature_var = tk.StringVar(value="--.- C")
         self.max_temperature_var = tk.StringVar(value="--")
         self.package_temperature_var = tk.StringVar(value="--")
         self.thermal_throttling_var = tk.StringVar(value="--")
         self.power_limit_var = tk.StringVar(value="--")
-        self.gpu_temperature_var = tk.StringVar(value="--")
-        self.gpu_hot_spot_var = tk.StringVar(value="--")
-        self.gpu_memory_var = tk.StringVar(value="--")
-        self.gpu_usage_var = tk.StringVar(value="--")
-        self.gpu_fan_var = tk.StringVar(value="--")
-        self.gpu_thermal_limit_var = tk.StringVar(value="--")
         self.status_var = tk.StringVar(value="Iniciando leitura...")
         self.source_var = tk.StringVar(value="Fonte: --")
-        self.temperature_label: TemperatureValueCanvas | None = None
-        self.max_temperature_label: TemperatureValueCanvas | None = None
-        self.package_temperature_label: TemperatureValueCanvas | None = None
-        self.gpu_temperature_label: TemperatureValueCanvas | None = None
-        self.gpu_hot_spot_label: TemperatureValueCanvas | None = None
-        self.gpu_memory_label: TemperatureValueCanvas | None = None
-        self.gpu_usage_label: TemperatureValueCanvas | None = None
-        self.gpu_fan_label: TemperatureValueCanvas | None = None
-        self.gpu_thermal_limit_label: TemperatureValueCanvas | None = None
+        self.temperature_label: tk.Label | None = None
+        self.max_temperature_label: tk.Label | None = None
+        self.package_temperature_label: tk.Label | None = None
 
         self._configure_window()
         self._configure_styles()
@@ -922,10 +672,9 @@ class TemperatureMonitorApp:
 
     def _configure_window(self) -> None:
         self.root.title("Monitor de Temperatura")
-        self.root.geometry("330x390")
-        self.root.minsize(330, 390)
+        self.root.geometry("330x242")
+        self.root.minsize(330, 242)
         self.root.resizable(False, False)
-        self.root.attributes("-topmost", True)
         self.root.configure(bg=COLOR_BACKGROUND)
 
     def _configure_styles(self) -> None:
@@ -952,14 +701,6 @@ class TemperatureMonitorApp:
             bg=COLOR_BACKGROUND,
         ).pack(anchor="center", pady=(2, 0))
 
-        tk.Label(
-            main,
-            text="CPU",
-            font=("Segoe UI", 8, "bold"),
-            fg=COLOR_MUTED,
-            bg=COLOR_BACKGROUND,
-        ).pack(anchor="center", pady=(7, 0))
-
         temperature_panel = tk.Frame(
             main,
             bg=COLOR_PANEL,
@@ -967,18 +708,18 @@ class TemperatureMonitorApp:
             highlightcolor=COLOR_PANEL_BORDER,
             highlightthickness=1,
             padx=4,
-            pady=4,
+            pady=6,
         )
-        temperature_panel.pack(anchor="center", fill="x", pady=(3, 0))
+        temperature_panel.pack(anchor="center", fill="x", pady=(8, 0))
 
         self.temperature_label = self._add_temperature_card(
-            temperature_panel, "Media", self.temperature_var, 0, 0
+            temperature_panel, "Media", self.temperature_var, 0
         )
         self.max_temperature_label = self._add_temperature_card(
-            temperature_panel, "Nucleo maximo", self.max_temperature_var, 0, 1
+            temperature_panel, "Nucleo maximo", self.max_temperature_var, 1
         )
         self.package_temperature_label = self._add_temperature_card(
-            temperature_panel, "CPU Inteira", self.package_temperature_var, 0, 2
+            temperature_panel, "CPU Inteira", self.package_temperature_var, 2
         )
         for column in range(3):
             temperature_panel.grid_columnconfigure(column, weight=1, uniform="temps")
@@ -991,46 +732,6 @@ class TemperatureMonitorApp:
         self._add_status_row(
             status_panel, "Limite de potencia", self.power_limit_var, 1
         )
-
-        tk.Label(
-            main,
-            text="GPU EXTERNA",
-            font=("Segoe UI", 8, "bold"),
-            fg=COLOR_MUTED,
-            bg=COLOR_BACKGROUND,
-        ).pack(anchor="center", pady=(8, 0))
-
-        gpu_panel = tk.Frame(
-            main,
-            bg=COLOR_PANEL,
-            highlightbackground=COLOR_PANEL_BORDER,
-            highlightcolor=COLOR_PANEL_BORDER,
-            highlightthickness=1,
-            padx=4,
-            pady=4,
-        )
-        gpu_panel.pack(anchor="center", fill="x", pady=(3, 0))
-
-        self.gpu_temperature_label = self._add_temperature_card(
-            gpu_panel, "GPU", self.gpu_temperature_var, 0, 0
-        )
-        self.gpu_hot_spot_label = self._add_temperature_card(
-            gpu_panel, "Hot Spot", self.gpu_hot_spot_var, 0, 1
-        )
-        self.gpu_memory_label = self._add_temperature_card(
-            gpu_panel, "Memoria", self.gpu_memory_var, 0, 2
-        )
-        self.gpu_usage_label = self._add_temperature_card(
-            gpu_panel, "Uso", self.gpu_usage_var, 1, 0, "%"
-        )
-        self.gpu_fan_label = self._add_temperature_card(
-            gpu_panel, "Fan", self.gpu_fan_var, 1, 1, ""
-        )
-        self.gpu_thermal_limit_label = self._add_temperature_card(
-            gpu_panel, "Termico", self.gpu_thermal_limit_var, 1, 2, ""
-        )
-        for column in range(3):
-            gpu_panel.grid_columnconfigure(column, weight=1, uniform="gpu")
 
         tk.Label(
             main,
@@ -1047,12 +748,10 @@ class TemperatureMonitorApp:
         parent: tk.Frame,
         label_text: str,
         value_var: tk.StringVar,
-        row: int,
         column: int,
-        suffix: str = "C",
-    ) -> TemperatureValueCanvas:
+    ) -> tk.Label:
         card = tk.Frame(parent, bg=COLOR_PANEL, padx=2, pady=1)
-        card.grid(row=row, column=column, sticky="nsew", padx=2, pady=1)
+        card.grid(row=0, column=column, sticky="nsew", padx=2)
 
         tk.Label(
             card,
@@ -1062,15 +761,16 @@ class TemperatureMonitorApp:
             bg=COLOR_PANEL,
         ).pack(anchor="center")
 
-        font_size = 15 if row > 0 or suffix == "" else 20
-        value_label = TemperatureValueCanvas(card, suffix=suffix, font_size=font_size)
-        value_label.pack(anchor="center", pady=(2, 0))
-        value_var.trace_add(
-            "write",
-            lambda *_args, target=value_label, source=value_var: target.set_value(
-                source.get()
-            ),
+        value_label = tk.Label(
+            card,
+            textvariable=value_var,
+            font=("Consolas", 20, "bold"),
+            fg=COLOR_NORMAL,
+            bg=COLOR_PANEL,
+            width=6,
+            anchor="center",
         )
+        value_label.pack(anchor="center", pady=(2, 0))
         return value_label
 
     def _add_status_row(
@@ -1112,49 +812,27 @@ class TemperatureMonitorApp:
 
     def _update_temperature(self) -> None:
         reading = self.provider.read_cpu_metrics()
-        gpu_reading = self.provider.read_gpu_metrics()
         self.history.add(reading.average_celsius)
 
         if reading.average_celsius is None:
-            self.temperature_var.set("--.-")
+            self.temperature_var.set("--.- C")
         else:
-            self.temperature_var.set(f"{reading.average_celsius:.1f}")
+            self.temperature_var.set(f"{reading.average_celsius:.1f} C")
 
         self.max_temperature_var.set(self._format_temperature(reading.max_celsius))
         self.package_temperature_var.set(self._format_temperature(reading.package_celsius))
         self.thermal_throttling_var.set(self._format_status(reading.thermal_throttling))
         self.power_limit_var.set(self._format_status(reading.power_limit))
-        self.gpu_temperature_var.set(self._format_temperature(gpu_reading.temperature_celsius))
-        self.gpu_hot_spot_var.set(self._format_temperature(gpu_reading.hot_spot_celsius))
-        self.gpu_memory_var.set(self._format_temperature(gpu_reading.memory_celsius))
-        self.gpu_usage_var.set(self._format_metric(gpu_reading.usage_percent))
-        self.gpu_fan_var.set(self._format_fan(gpu_reading))
-        self.gpu_thermal_limit_var.set(self._format_status(gpu_reading.thermal_limit))
 
         self.source_var.set(f"Fonte: {reading.source}")
         self.status_var.set(reading.message or "Atualizado a cada 2 segundos.")
-        self._apply_temperature_styles(reading, gpu_reading)
+        self._apply_temperature_styles(reading)
 
     def _format_temperature(self, value: float | None) -> str:
         if value is None:
             return "--"
 
-        return f"{value:.1f}"
-
-    def _format_metric(self, value: float | None) -> str:
-        if value is None:
-            return "--"
-
-        if value >= 100:
-            return f"{value:.0f}"
-
-        return f"{value:.1f}"
-
-    def _format_fan(self, reading: GpuMonitorReading) -> str:
-        if not reading.fan_available:
-            return "Sem log"
-
-        return self._format_metric(reading.fan_value)
+        return f"{value:.1f} C"
 
     def _format_status(self, value: str | None) -> str:
         if value is None:
@@ -1168,11 +846,7 @@ class TemperatureMonitorApp:
 
         return value
 
-    def _apply_temperature_styles(
-        self,
-        reading: CpuMonitorReading,
-        gpu_reading: GpuMonitorReading,
-    ) -> None:
+    def _apply_temperature_styles(self, reading: CpuMonitorReading) -> None:
         self._set_temperature_style(
             self.temperature_label,
             self.limit_config.level_for(
@@ -1188,70 +862,37 @@ class TemperatureMonitorApp:
             self.package_temperature_label,
             self.limit_config.level_for("cpu_inteira", reading.package_celsius),
         )
-        self._set_temperature_style(
-            self.gpu_temperature_label,
-            self.limit_config.level_for(
-                "gpu_temperatura",
-                gpu_reading.temperature_celsius,
-            ),
-        )
-        self._set_temperature_style(
-            self.gpu_hot_spot_label,
-            self.limit_config.level_for("gpu_hot_spot", gpu_reading.hot_spot_celsius),
-        )
-        self._set_temperature_style(
-            self.gpu_memory_label,
-            self.limit_config.level_for("gpu_memoria", gpu_reading.memory_celsius),
-        )
-        self._set_temperature_style(self.gpu_usage_label, "ok")
-        self._set_temperature_style(self.gpu_fan_label, "normal")
-        self._set_temperature_style(
-            self.gpu_thermal_limit_label,
-            self._status_level(gpu_reading.thermal_limit),
-        )
 
-    def _status_level(self, value: str | None) -> str:
-        if value is None:
-            return "normal"
-
-        normalized = self._format_status(value).lower()
-        if normalized == "sim":
-            return "danger"
-        if normalized == "nao":
-            return "ok"
-
-        return "normal"
-
-    def _set_temperature_style(
-        self,
-        label: TemperatureValueCanvas | None,
-        level: str,
-    ) -> None:
+    def _set_temperature_style(self, label: tk.Label | None, level: str) -> None:
         if label is None:
             return
 
         label.alert_level = level
         if level == "danger":
-            label.set_fg(COLOR_DANGER if self.blink_visible else COLOR_PANEL)
+            label.configure(
+                fg=COLOR_DANGER if self.blink_visible else label.cget("bg")
+            )
         elif level == "warning":
-            label.set_fg(COLOR_WARNING)
+            label.configure(fg=COLOR_WARNING)
         elif level == "ok":
-            label.set_fg(COLOR_OK)
+            label.configure(fg=COLOR_OK)
         else:
-            label.set_fg(COLOR_NORMAL)
+            label.configure(fg=COLOR_NORMAL)
 
     def _refresh_blinking_labels(self) -> None:
         for label in (
             self.temperature_label,
             self.max_temperature_label,
             self.package_temperature_label,
-            self.gpu_temperature_label,
-            self.gpu_hot_spot_label,
-            self.gpu_memory_label,
-            self.gpu_thermal_limit_label,
         ):
             if label is not None and getattr(label, "alert_level", "") == "danger":
-                label.set_fg(COLOR_DANGER if self.blink_visible else COLOR_PANEL)
+                label.configure(
+                    fg=COLOR_DANGER if self.blink_visible else label.cget("bg")
+                )
+
+    # Ponto de extensao futuro: adicionar provider equivalente para GPU.
+    def read_gpu_temperature(self) -> TemperatureReading:
+        return TemperatureReading(None, "GPU", "Leitura de GPU ainda nao implementada.")
 
 
 def main() -> None:
