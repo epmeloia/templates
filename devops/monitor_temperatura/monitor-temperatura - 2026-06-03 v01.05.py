@@ -1,19 +1,8 @@
 # ------------------------------------------
 # monitor-temperatura.py
 # ------------------------------------------
-#
-# ##----------####----------####----------##
-#          .' '.    .' '.         ,-.
-# .        .   .    .   .         \ /
-#  .         .        .       . -{|||)<
-#    ' .  . ' ' .  . ' ' . . '    / \
-#                                 `-^
-# ##----------####----------####----------##
-#
-# ------------------------------------------
 # Desenvolvimento atraves do CHARTGPT\CODEX
 # ------------------------------------------
-#
 # Alteracao:
 #
 # - 2026-06-03 v01.00
@@ -40,18 +29,10 @@
 # - Adicionadas leituras de nucleo maximo, CPU inteira,
 #   estrangulamento termico e limite de potencia.
 #
-# - 2026-06-03 v01.06
-# - Adicionado arquivo config-temperatura.json com limites amarelo/vermelho.
-# - Adicionadas cores de alerta e pisca para temperaturas acima do limite vermelho.
-#
-# - 2026-06-03 v01.07
-# - Adicionada assinatura institucional nos arquivos ativos .py e .md.
-#
 # -----------------------------------
 #
 
 import csv
-import json
 import os
 import re
 import sys
@@ -63,11 +44,6 @@ from datetime import datetime
 
 UPDATE_INTERVAL_MS = 2000
 HWINFO_CSV_PATH = r"D:\_DEVOPS\Monitor_Temperatura\LogSensor\hwinfo-log.csv"
-CONFIG_PATH = r"D:\_DEVOPS\Monitor_Temperatura\config-temperatura.json"
-COLOR_OK = "#39ff14"
-COLOR_WARNING = "#ffd400"
-COLOR_DANGER = "#ff3333"
-COLOR_NORMAL = "#000000"
 FAN_CONTROL_LIBRE_HARDWARE_MONITOR_DLL = (
     r"D:\_INSTALADOS\FanControl\LibreHardwareMonitorLib.dll"
 )
@@ -90,64 +66,6 @@ class CpuMonitorReading:
     power_limit: str | None
     source: str
     message: str = ""
-
-
-class TemperatureLimitConfig:
-    DEFAULT_LIMITS = {
-        "temperaturas_centrais_avg": {"amarelo": 80, "vermelho": 90},
-        "nucleo_maximo": {"amarelo": 85, "vermelho": 95},
-        "cpu_inteira": {"amarelo": 85, "vermelho": 95},
-    }
-
-    def __init__(self, path: str = CONFIG_PATH) -> None:
-        self.path = path
-        self.limits = self._load_limits()
-
-    def _load_limits(self) -> dict[str, dict[str, float]]:
-        if not os.path.exists(self.path):
-            return self.DEFAULT_LIMITS
-
-        try:
-            with open(self.path, "r", encoding="utf-8") as file:
-                data = json.load(file)
-        except Exception:
-            return self.DEFAULT_LIMITS
-
-        limits = self.DEFAULT_LIMITS.copy()
-        for key, default_value in self.DEFAULT_LIMITS.items():
-            item = data.get(key, {})
-            limits[key] = {
-                "amarelo": self._number_or_default(
-                    item.get("amarelo"),
-                    default_value["amarelo"],
-                ),
-                "vermelho": self._number_or_default(
-                    item.get("vermelho"),
-                    default_value["vermelho"],
-                ),
-            }
-
-        return limits
-
-    def _number_or_default(self, value, default: float) -> float:
-        try:
-            return float(value)
-        except (TypeError, ValueError):
-            return default
-
-    def level_for(self, key: str, value: float | None) -> str:
-        if value is None:
-            return "normal"
-
-        limits = self.limits.get(key, {})
-        yellow = limits.get("amarelo", 80)
-        red = limits.get("vermelho", 90)
-
-        if value >= red:
-            return "danger"
-        if value >= yellow:
-            return "warning"
-        return "ok"
 
 
 class CpuTemperatureProvider:
@@ -634,9 +552,7 @@ class TemperatureMonitorApp:
     def __init__(self, root: tk.Tk) -> None:
         self.root = root
         self.provider = CpuTemperatureProvider()
-        self.limit_config = TemperatureLimitConfig()
         self.history = TemperatureHistory()
-        self.blink_visible = True
 
         self.temperature_var = tk.StringVar(value="--.- C")
         self.max_temperature_var = tk.StringVar(value="Nucleo maximo: --")
@@ -645,29 +561,16 @@ class TemperatureMonitorApp:
         self.power_limit_var = tk.StringVar(value="Limite de potencia: --")
         self.status_var = tk.StringVar(value="Iniciando leitura...")
         self.source_var = tk.StringVar(value="Fonte: --")
-        self.temperature_label: ttk.Label | None = None
-        self.max_temperature_label: ttk.Label | None = None
-        self.package_temperature_label: ttk.Label | None = None
 
         self._configure_window()
-        self._configure_styles()
         self._build_layout()
         self._schedule_update()
-        self._schedule_blink()
 
     def _configure_window(self) -> None:
         self.root.title("Monitor de Temperatura")
         self.root.geometry("560x360")
         self.root.minsize(520, 340)
         self.root.resizable(False, False)
-
-    def _configure_styles(self) -> None:
-        style = ttk.Style()
-        style.configure("Ok.TLabel", foreground=COLOR_OK)
-        style.configure("Warning.TLabel", foreground=COLOR_WARNING)
-        style.configure("Danger.TLabel", foreground=COLOR_DANGER)
-        style.configure("HiddenDanger.TLabel", foreground=COLOR_NORMAL)
-        style.configure("Normal.TLabel", foreground=COLOR_NORMAL)
 
     def _build_layout(self) -> None:
         main = ttk.Frame(self.root, padding=24)
@@ -679,13 +582,11 @@ class TemperatureMonitorApp:
             font=("Segoe UI", 14, "bold"),
         ).pack(anchor="center")
 
-        self.temperature_label = ttk.Label(
+        ttk.Label(
             main,
             textvariable=self.temperature_var,
             font=("Segoe UI", 34, "bold"),
-            style="Normal.TLabel",
-        )
-        self.temperature_label.pack(anchor="center", pady=(18, 8))
+        ).pack(anchor="center", pady=(18, 8))
 
         ttk.Label(
             main,
@@ -696,21 +597,17 @@ class TemperatureMonitorApp:
         details = ttk.Frame(main)
         details.pack(anchor="center", fill="x", pady=(16, 0))
 
-        self.max_temperature_label = ttk.Label(
+        ttk.Label(
             details,
             textvariable=self.max_temperature_var,
             font=("Segoe UI", 10),
-            style="Normal.TLabel",
-        )
-        self.max_temperature_label.pack(anchor="center")
+        ).pack(anchor="center")
 
-        self.package_temperature_label = ttk.Label(
+        ttk.Label(
             details,
             textvariable=self.package_temperature_var,
             font=("Segoe UI", 10),
-            style="Normal.TLabel",
-        )
-        self.package_temperature_label.pack(anchor="center", pady=(4, 0))
+        ).pack(anchor="center", pady=(4, 0))
 
         ttk.Label(
             details,
@@ -736,11 +633,6 @@ class TemperatureMonitorApp:
         self._update_temperature()
         self.root.after(UPDATE_INTERVAL_MS, self._schedule_update)
 
-    def _schedule_blink(self) -> None:
-        self.blink_visible = not self.blink_visible
-        self._refresh_blinking_labels()
-        self.root.after(500, self._schedule_blink)
-
     def _update_temperature(self) -> None:
         reading = self.provider.read_cpu_metrics()
         self.history.add(reading.average_celsius)
@@ -765,7 +657,6 @@ class TemperatureMonitorApp:
 
         self.source_var.set(f"Fonte: {reading.source}")
         self.status_var.set(reading.message or "Atualizado a cada 2 segundos.")
-        self._apply_temperature_styles(reading)
 
     def _format_temperature(self, value: float | None) -> str:
         if value is None:
@@ -784,52 +675,6 @@ class TemperatureMonitorApp:
             return "Nao"
 
         return value
-
-    def _apply_temperature_styles(self, reading: CpuMonitorReading) -> None:
-        self._set_temperature_style(
-            self.temperature_label,
-            self.limit_config.level_for(
-                "temperaturas_centrais_avg",
-                reading.average_celsius,
-            ),
-        )
-        self._set_temperature_style(
-            self.max_temperature_label,
-            self.limit_config.level_for("nucleo_maximo", reading.max_celsius),
-        )
-        self._set_temperature_style(
-            self.package_temperature_label,
-            self.limit_config.level_for("cpu_inteira", reading.package_celsius),
-        )
-
-    def _set_temperature_style(self, label: ttk.Label | None, level: str) -> None:
-        if label is None:
-            return
-
-        label.alert_level = level
-        if level == "danger":
-            label.configure(
-                style="Danger.TLabel" if self.blink_visible else "HiddenDanger.TLabel"
-            )
-        elif level == "warning":
-            label.configure(style="Warning.TLabel")
-        elif level == "ok":
-            label.configure(style="Ok.TLabel")
-        else:
-            label.configure(style="Normal.TLabel")
-
-    def _refresh_blinking_labels(self) -> None:
-        for label in (
-            self.temperature_label,
-            self.max_temperature_label,
-            self.package_temperature_label,
-        ):
-            if label is not None and getattr(label, "alert_level", "") == "danger":
-                label.configure(
-                    style="Danger.TLabel"
-                    if self.blink_visible
-                    else "HiddenDanger.TLabel"
-                )
 
     # Ponto de extensao futuro: adicionar provider equivalente para GPU.
     def read_gpu_temperature(self) -> TemperatureReading:

@@ -1,19 +1,8 @@
 # ------------------------------------------
 # monitor-temperatura.py
 # ------------------------------------------
-#
-# ##----------####----------####----------##
-#          .' '.    .' '.         ,-.
-# .        .   .    .   .         \ /
-#  .         .        .       . -{|||)<
-#    ' .  . ' ' .  . ' ' . . '    / \
-#                                 `-^
-# ##----------####----------####----------##
-#
-# ------------------------------------------
 # Desenvolvimento atraves do CHARTGPT\CODEX
 # ------------------------------------------
-#
 # Alteracao:
 #
 # - 2026-06-03 v01.00
@@ -43,9 +32,6 @@
 # - 2026-06-03 v01.06
 # - Adicionado arquivo config-temperatura.json com limites amarelo/vermelho.
 # - Adicionadas cores de alerta e pisca para temperaturas acima do limite vermelho.
-#
-# - 2026-06-03 v01.07
-# - Adicionada assinatura institucional nos arquivos ativos .py e .md.
 #
 # -----------------------------------
 #

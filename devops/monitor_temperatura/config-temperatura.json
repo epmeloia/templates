@@ -1,0 +1,14 @@
+{
+  "temperaturas_centrais_avg": {
+    "amarelo": 80,
+    "vermelho": 90
+  },
+  "nucleo_maximo": {
+    "amarelo": 85,
+    "vermelho": 95
+  },
+  "cpu_inteira": {
+    "amarelo": 85,
+    "vermelho": 95
+  }
+}

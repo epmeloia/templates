@@ -1,3 +1,13 @@
+#
+# ##----------####----------####----------##
+#          .' '.    .' '.         ,-.
+# .        .   .    .   .         \ /
+#  .         .        .       . -{|||)<
+#    ' .  . ' ' .  . ' ' . . '    / \
+#                                 `-^
+# ##----------####----------####----------##
+#
+
 # Decisões técnicas
 
 Este arquivo registra decisões, tentativas, resultados e caminhos de reversão do projeto.
@@ -194,6 +204,77 @@ A coluna preferencial encontrada foi:
 ```txt
 Temperaturas centrais (avg) [°C]
 ```
+
+## 2026-06-03 - v01.06 - Limites visuais por JSON
+
+### Ocorrido
+
+Foi solicitada uma configuração externa para definir limites aceitáveis de temperatura e mudar a cor dos valores na interface.
+
+### Decisão
+
+Criar o arquivo:
+
+```txt
+config-temperatura.json
+```
+
+Com faixas por temperatura:
+
+```json
+{
+  "temperaturas_centrais_avg": {
+    "amarelo": 80,
+    "vermelho": 90
+  },
+  "nucleo_maximo": {
+    "amarelo": 85,
+    "vermelho": 95
+  },
+  "cpu_inteira": {
+    "amarelo": 85,
+    "vermelho": 95
+  }
+}
+```
+
+### Comportamento
+
+- Verde neon: abaixo do limite amarelo.
+- Amarelo: igual ou acima do limite amarelo.
+- Vermelho piscando: igual ou acima do limite vermelho.
+
+### Como reverter
+
+Remover o carregamento de `config-temperatura.json` e voltar os `ttk.Label` para estilo visual fixo.
+
+## 2026-06-03 - v01.07 - Assinatura institucional
+
+### Ocorrido
+
+Foi solicitada a inclusão da assinatura institucional nos arquivos ativos em que isso não cause problema técnico.
+
+### Decisão
+
+Aplicar a assinatura nos arquivos ativos `.py` e `.md`.
+
+Arquivos incluídos:
+
+```txt
+monitor-temperatura.py
+diagnostico_sensores_cpu.py
+README.md
+DECISOES.md
+app_monitor-temperatura_python_chatgpt.md
+```
+
+### Preservação
+
+As cópias históricas versionadas de `monitor-temperatura.py` não foram alteradas, para manter o conteúdo fiel ao estado original de cada versão.
+
+### Como reverter
+
+Remover o bloco da assinatura dos arquivos ativos listados acima.
 
 ### Como reverter
 

@@ -1,3 +1,13 @@
+#
+# ##----------####----------####----------##
+#          .' '.    .' '.         ,-.
+# .        .   .    .   .         \ /
+#  .         .        .       . -{|||)<
+#    ' .  . ' ' .  . ' ' . . '    / \
+#                                 `-^
+# ##----------####----------####----------##
+#
+
 # Monitor de Temperatura
 
 Projeto Python simples para Windows 11 que abre uma janela `tkinter` e atualiza a temperatura da CPU a cada 2 segundos.
@@ -34,3 +44,5 @@ A estrutura ja inclui pontos simples para adicionar:
 
 - Temperatura da GPU.
 - Grafico de historico usando os dados guardados em `TemperatureHistory`.
+
+
