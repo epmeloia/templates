@@ -14,11 +14,62 @@
 # Desenvolvimento atraves do CHARTGPT\CODEX
 # ------------------------------------------
 #
-# Versao:
+# Alteracao:
 #
-# - 2026-06-04 v02.07
-# - Adicionado limite configuravel para Uso da GPU no JSON.
-# - Uso da GPU passa a usar cores de alerta conforme config-temperatura.json.
+# - 2026-06-03 v01.00
+# - Falta adequar o arquivo requirements.txt
+#
+# - 2026-06-03 v01.01
+# - Atualizado o arquivo requirements.txt
+#   pywin32==311
+# - Executado o comando de Instalacao direta
+#   cd "D:\_DEVOPS\Monitor_Temperatura"; py -3 -m pip install wmi==1.5.1 pywin32==311
+#
+# - 2026-06-03 v01.02
+# - Adicionada leitura direta do sensor especifico do equipamento usando
+#   LibreHardwareMonitorLib.dll do Fan Control.
+#
+# - 2026-06-03 v01.03
+# - Adicionada leitura por CSV gerado pelo HWiNFO como fonte principal.
+#
+# - 2026-06-03 v01.04
+# - Atualizado caminho do CSV para a pasta LogSensor.
+# - Ajustada deteccao para cabecalhos do HWiNFO em portugues.
+#
+# - 2026-06-03 v01.05
+# - Adicionadas leituras de nucleo maximo, CPU inteira,
+#   estrangulamento termico e limite de potencia.
+#
+# - 2026-06-03 v01.06
+# - Adicionado arquivo config-temperatura.json com limites amarelo/vermelho.
+# - Adicionadas cores de alerta e pisca para temperaturas acima do limite vermelho.
+#
+# - 2026-06-03 v01.07
+# - Adicionada assinatura institucional nos arquivos ativos .py e .md.
+#
+# - 2026-06-03 v01.08
+# - Atualizado visual da janela para fundo preto.
+# - Reorganizados os numeros em formato de painel mais legivel.
+#
+# - 2026-06-03 v01.09
+# - Reorganizadas as tres temperaturas lado a lado.
+#
+# - 2026-06-03 v01.10
+# - Reduzido tamanho da janela seguindo o template visual anexado.
+# - Compactadas temperaturas, alertas e rodape.
+#
+# - 2026-06-03 v01.11
+# - Reduzido espacamento entre o numero da temperatura e a letra C.
+#
+# - 2026-06-03 v01.12
+# - Desenhada a unidade C separada do numero para ficar visualmente colada.
+#
+# - 2026-06-03 v01.13
+# - Adicionado painel da placa de video em duas linhas com seis leituras.
+#
+# - 2026-06-03 v01.14
+# - Janela configurada para ficar sempre visivel.
+# - Campo Fan passa a informar quando nao ha sensor de ventoinha no CSV.
 #
 # -----------------------------------
 #
@@ -45,7 +96,6 @@ COLOR_PANEL = "#101316"
 COLOR_PANEL_BORDER = "#2b3138"
 COLOR_NORMAL = "#eef3f8"
 COLOR_MUTED = "#8b98a5"
-COLOR_NEON_BLUE = "#00c8ff"
 FAN_CONTROL_LIBRE_HARDWARE_MONITOR_DLL = (
     r"D:\_INSTALADOS\FanControl\LibreHardwareMonitorLib.dll"
 )
@@ -76,10 +126,11 @@ class GpuMonitorReading:
     hot_spot_celsius: float | None
     memory_celsius: float | None
     usage_percent: float | None
-    clock_mhz: float | None
+    fan_value: float | None
     thermal_limit: str | None
     source: str
     message: str = ""
+    fan_available: bool = True
 
 
 class TemperatureLimitConfig:
@@ -90,11 +141,6 @@ class TemperatureLimitConfig:
         "gpu_temperatura": {"amarelo": 80, "vermelho": 90},
         "gpu_hot_spot": {"amarelo": 90, "vermelho": 100},
         "gpu_memoria": {"amarelo": 90, "vermelho": 100},
-        "gpu_uso": {"amarelo": 80, "vermelho": 95},
-    }
-    DEFAULT_MAX_LIMIT_VALUE = 130
-    MAX_LIMITS = {
-        "gpu_uso": 100,
     }
 
     def __init__(self, path: str = CONFIG_PATH) -> None:
@@ -103,94 +149,35 @@ class TemperatureLimitConfig:
 
     def _load_limits(self) -> dict[str, dict[str, float]]:
         if not os.path.exists(self.path):
-            limits = self._default_limits()
-            self._save_limits(limits)
-            return limits
+            return self.DEFAULT_LIMITS
 
         try:
             with open(self.path, "r", encoding="utf-8") as file:
                 data = json.load(file)
         except Exception:
-            limits = self._default_limits()
-            self._save_limits(limits)
-            return limits
+            return self.DEFAULT_LIMITS
 
-        if not isinstance(data, dict):
-            limits = self._default_limits()
-            self._save_limits(limits)
-            return limits
-
-        limits = self._default_limits()
-        changed = False
+        limits = self.DEFAULT_LIMITS.copy()
         for key, default_value in self.DEFAULT_LIMITS.items():
-            item = data.get(key)
-            if not isinstance(item, dict):
-                changed = True
-                continue
-
-            yellow = self._valid_limit_value(key, item.get("amarelo"))
-            red = self._valid_limit_value(key, item.get("vermelho"))
-            if yellow is None or red is None or yellow >= red:
-                changed = True
-                continue
-
+            item = data.get(key, {})
             limits[key] = {
-                "amarelo": self._clean_number(yellow),
-                "vermelho": self._clean_number(red),
+                "amarelo": self._number_or_default(
+                    item.get("amarelo"),
+                    default_value["amarelo"],
+                ),
+                "vermelho": self._number_or_default(
+                    item.get("vermelho"),
+                    default_value["vermelho"],
+                ),
             }
-
-        if changed or self._has_unknown_or_different_shape(data):
-            self._save_limits(limits)
 
         return limits
 
-    def _default_limits(self) -> dict[str, dict[str, float]]:
-        return {
-            key: value.copy()
-            for key, value in self.DEFAULT_LIMITS.items()
-        }
-
-    def _valid_limit_value(self, key: str, value) -> float | None:
+    def _number_or_default(self, value, default: float) -> float:
         try:
-            number = float(value)
+            return float(value)
         except (TypeError, ValueError):
-            return None
-
-        max_value = self.MAX_LIMITS.get(key, self.DEFAULT_MAX_LIMIT_VALUE)
-        if not 0 <= number <= max_value:
-            return None
-
-        return number
-
-    def _clean_number(self, value: float) -> int | float:
-        if value.is_integer():
-            return int(value)
-
-        return value
-
-    def _has_unknown_or_different_shape(self, data: dict) -> bool:
-        if set(data.keys()) != set(self.DEFAULT_LIMITS.keys()):
-            return True
-
-        for key, item in data.items():
-            if not isinstance(item, dict):
-                return True
-            if set(item.keys()) != {"amarelo", "vermelho"}:
-                return True
-
-        return False
-
-    def _save_limits(self, limits: dict[str, dict[str, float]]) -> None:
-        try:
-            folder = os.path.dirname(self.path)
-            if folder:
-                os.makedirs(folder, exist_ok=True)
-
-            with open(self.path, "w", encoding="utf-8") as file:
-                json.dump(limits, file, indent=2, ensure_ascii=False)
-                file.write("\n")
-        except Exception:
-            pass
+            return default
 
     def level_for(self, key: str, value: float | None) -> str:
         if value is None:
@@ -410,11 +397,9 @@ class CpuTemperatureProvider:
                 "uso total da gpu",
             ),
         )
-        clock = self._read_named_number(
-            header,
-            data_row,
-            ("gpu clock", "relogio da gpu", "relógio da gpu"),
-        )
+        fan_terms = ("ventoinha gpu", "gpu fan", "gpu fan1", "fan gpu", "rpm gpu")
+        fan_available = self._find_column_by_terms(header, fan_terms) is not None
+        fan = self._read_named_number(header, data_row, fan_terms)
         thermal_limit = self._read_named_text(
             header,
             data_row,
@@ -432,10 +417,11 @@ class CpuTemperatureProvider:
                 None,
                 None,
                 usage,
-                clock,
+                fan,
                 thermal_limit,
                 "HWiNFO CSV",
                 "Colunas de temperatura da GPU nao foram encontradas.",
+                fan_available,
             )
 
         return GpuMonitorReading(
@@ -443,10 +429,11 @@ class CpuTemperatureProvider:
             hot_spot,
             memory,
             None if usage is None else round(usage, 1),
-            None if clock is None else round(clock, 1),
+            None if fan is None else round(fan, 1),
             thermal_limit,
             "HWiNFO CSV",
             "Atualizado a cada 2 segundos.",
+            fan_available,
         )
 
     def _read_hwinfo_csv_metrics(self) -> CpuMonitorReading:
@@ -913,7 +900,7 @@ class TemperatureMonitorApp:
         self.gpu_hot_spot_var = tk.StringVar(value="--")
         self.gpu_memory_var = tk.StringVar(value="--")
         self.gpu_usage_var = tk.StringVar(value="--")
-        self.gpu_clock_var = tk.StringVar(value="--")
+        self.gpu_fan_var = tk.StringVar(value="--")
         self.gpu_thermal_limit_var = tk.StringVar(value="--")
         self.status_var = tk.StringVar(value="Iniciando leitura...")
         self.source_var = tk.StringVar(value="Fonte: --")
@@ -924,7 +911,7 @@ class TemperatureMonitorApp:
         self.gpu_hot_spot_label: TemperatureValueCanvas | None = None
         self.gpu_memory_label: TemperatureValueCanvas | None = None
         self.gpu_usage_label: TemperatureValueCanvas | None = None
-        self.gpu_clock_label: TemperatureValueCanvas | None = None
+        self.gpu_fan_label: TemperatureValueCanvas | None = None
         self.gpu_thermal_limit_label: TemperatureValueCanvas | None = None
 
         self._configure_window()
@@ -935,8 +922,8 @@ class TemperatureMonitorApp:
 
     def _configure_window(self) -> None:
         self.root.title("Monitor de Temperatura")
-        self.root.geometry("330x430")
-        self.root.minsize(330, 430)
+        self.root.geometry("330x390")
+        self.root.minsize(330, 390)
         self.root.resizable(False, False)
         self.root.attributes("-topmost", True)
         self.root.configure(bg=COLOR_BACKGROUND)
@@ -968,8 +955,8 @@ class TemperatureMonitorApp:
         tk.Label(
             main,
             text="CPU",
-            font=("Segoe UI", 16, "bold"),
-            fg=COLOR_NEON_BLUE,
+            font=("Segoe UI", 8, "bold"),
+            fg=COLOR_MUTED,
             bg=COLOR_BACKGROUND,
         ).pack(anchor="center", pady=(7, 0))
 
@@ -996,22 +983,20 @@ class TemperatureMonitorApp:
         for column in range(3):
             temperature_panel.grid_columnconfigure(column, weight=1, uniform="temps")
 
-        cpu_status_panel = tk.Frame(temperature_panel, bg=COLOR_PANEL)
-        cpu_status_panel.grid(row=1, column=0, columnspan=3, sticky="nsew", pady=(2, 0))
-        self._add_temperature_card(
-            cpu_status_panel, "Estrangulamento", self.thermal_throttling_var, 0, 0, ""
+        status_panel = tk.Frame(main, bg=COLOR_BACKGROUND)
+        status_panel.pack(anchor="center", fill="x", pady=(8, 0))
+        self._add_status_row(
+            status_panel, "Estrangulamento termico", self.thermal_throttling_var, 0
         )
-        self._add_temperature_card(
-            cpu_status_panel, "Limite potencia", self.power_limit_var, 0, 1, ""
+        self._add_status_row(
+            status_panel, "Limite de potencia", self.power_limit_var, 1
         )
-        for column in range(2):
-            cpu_status_panel.grid_columnconfigure(column, weight=1, uniform="cpu_status")
 
         tk.Label(
             main,
-            text="GPU NVIDEA",
-            font=("Segoe UI", 16, "bold"),
-            fg=COLOR_NEON_BLUE,
+            text="GPU EXTERNA",
+            font=("Segoe UI", 8, "bold"),
+            fg=COLOR_MUTED,
             bg=COLOR_BACKGROUND,
         ).pack(anchor="center", pady=(8, 0))
 
@@ -1038,8 +1023,8 @@ class TemperatureMonitorApp:
         self.gpu_usage_label = self._add_temperature_card(
             gpu_panel, "Uso", self.gpu_usage_var, 1, 0, "%"
         )
-        self.gpu_clock_label = self._add_temperature_card(
-            gpu_panel, "Clock", self.gpu_clock_var, 1, 1, "MHz"
+        self.gpu_fan_label = self._add_temperature_card(
+            gpu_panel, "Fan", self.gpu_fan_var, 1, 1, ""
         )
         self.gpu_thermal_limit_label = self._add_temperature_card(
             gpu_panel, "Termico", self.gpu_thermal_limit_var, 1, 2, ""
@@ -1053,9 +1038,9 @@ class TemperatureMonitorApp:
             font=("Segoe UI", 8),
             wraplength=300,
             justify="center",
-            fg=COLOR_NEON_BLUE,
+            fg=COLOR_MUTED,
             bg=COLOR_BACKGROUND,
-        ).pack(anchor="center", pady=(12, 0))
+        ).pack(anchor="center", pady=(8, 0))
 
     def _add_temperature_card(
         self,
@@ -1077,7 +1062,7 @@ class TemperatureMonitorApp:
             bg=COLOR_PANEL,
         ).pack(anchor="center")
 
-        font_size = 15
+        font_size = 15 if row > 0 or suffix == "" else 20
         value_label = TemperatureValueCanvas(card, suffix=suffix, font_size=font_size)
         value_label.pack(anchor="center", pady=(2, 0))
         value_var.trace_add(
@@ -1143,7 +1128,7 @@ class TemperatureMonitorApp:
         self.gpu_hot_spot_var.set(self._format_temperature(gpu_reading.hot_spot_celsius))
         self.gpu_memory_var.set(self._format_temperature(gpu_reading.memory_celsius))
         self.gpu_usage_var.set(self._format_metric(gpu_reading.usage_percent))
-        self.gpu_clock_var.set(self._format_metric(gpu_reading.clock_mhz))
+        self.gpu_fan_var.set(self._format_fan(gpu_reading))
         self.gpu_thermal_limit_var.set(self._format_status(gpu_reading.thermal_limit))
 
         self.source_var.set(f"Fonte: {reading.source}")
@@ -1164,6 +1149,12 @@ class TemperatureMonitorApp:
             return f"{value:.0f}"
 
         return f"{value:.1f}"
+
+    def _format_fan(self, reading: GpuMonitorReading) -> str:
+        if not reading.fan_available:
+            return "Sem log"
+
+        return self._format_metric(reading.fan_value)
 
     def _format_status(self, value: str | None) -> str:
         if value is None:
@@ -1212,11 +1203,8 @@ class TemperatureMonitorApp:
             self.gpu_memory_label,
             self.limit_config.level_for("gpu_memoria", gpu_reading.memory_celsius),
         )
-        self._set_temperature_style(
-            self.gpu_usage_label,
-            self.limit_config.level_for("gpu_uso", gpu_reading.usage_percent),
-        )
-        self._set_temperature_style(self.gpu_clock_label, "normal")
+        self._set_temperature_style(self.gpu_usage_label, "ok")
+        self._set_temperature_style(self.gpu_fan_label, "normal")
         self._set_temperature_style(
             self.gpu_thermal_limit_label,
             self._status_level(gpu_reading.thermal_limit),
@@ -1260,7 +1248,6 @@ class TemperatureMonitorApp:
             self.gpu_temperature_label,
             self.gpu_hot_spot_label,
             self.gpu_memory_label,
-            self.gpu_usage_label,
             self.gpu_thermal_limit_label,
         ):
             if label is not None and getattr(label, "alert_level", "") == "danger":

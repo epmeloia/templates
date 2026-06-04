@@ -16,9 +16,9 @@
 #
 # Versao:
 #
-# - 2026-06-04 v02.07
-# - Adicionado limite configuravel para Uso da GPU no JSON.
-# - Uso da GPU passa a usar cores de alerta conforme config-temperatura.json.
+# - 2026-06-04 v02.00
+# - Titulos das secoes CPU e GPU alterados para azul neon.
+# - Titulo GPU EXTERNA alterado para GPU NVIDEA.
 #
 # -----------------------------------
 #
@@ -90,11 +90,6 @@ class TemperatureLimitConfig:
         "gpu_temperatura": {"amarelo": 80, "vermelho": 90},
         "gpu_hot_spot": {"amarelo": 90, "vermelho": 100},
         "gpu_memoria": {"amarelo": 90, "vermelho": 100},
-        "gpu_uso": {"amarelo": 80, "vermelho": 95},
-    }
-    DEFAULT_MAX_LIMIT_VALUE = 130
-    MAX_LIMITS = {
-        "gpu_uso": 100,
     }
 
     def __init__(self, path: str = CONFIG_PATH) -> None:
@@ -103,94 +98,35 @@ class TemperatureLimitConfig:
 
     def _load_limits(self) -> dict[str, dict[str, float]]:
         if not os.path.exists(self.path):
-            limits = self._default_limits()
-            self._save_limits(limits)
-            return limits
+            return self.DEFAULT_LIMITS
 
         try:
             with open(self.path, "r", encoding="utf-8") as file:
                 data = json.load(file)
         except Exception:
-            limits = self._default_limits()
-            self._save_limits(limits)
-            return limits
+            return self.DEFAULT_LIMITS
 
-        if not isinstance(data, dict):
-            limits = self._default_limits()
-            self._save_limits(limits)
-            return limits
-
-        limits = self._default_limits()
-        changed = False
+        limits = self.DEFAULT_LIMITS.copy()
         for key, default_value in self.DEFAULT_LIMITS.items():
-            item = data.get(key)
-            if not isinstance(item, dict):
-                changed = True
-                continue
-
-            yellow = self._valid_limit_value(key, item.get("amarelo"))
-            red = self._valid_limit_value(key, item.get("vermelho"))
-            if yellow is None or red is None or yellow >= red:
-                changed = True
-                continue
-
+            item = data.get(key, {})
             limits[key] = {
-                "amarelo": self._clean_number(yellow),
-                "vermelho": self._clean_number(red),
+                "amarelo": self._number_or_default(
+                    item.get("amarelo"),
+                    default_value["amarelo"],
+                ),
+                "vermelho": self._number_or_default(
+                    item.get("vermelho"),
+                    default_value["vermelho"],
+                ),
             }
-
-        if changed or self._has_unknown_or_different_shape(data):
-            self._save_limits(limits)
 
         return limits
 
-    def _default_limits(self) -> dict[str, dict[str, float]]:
-        return {
-            key: value.copy()
-            for key, value in self.DEFAULT_LIMITS.items()
-        }
-
-    def _valid_limit_value(self, key: str, value) -> float | None:
+    def _number_or_default(self, value, default: float) -> float:
         try:
-            number = float(value)
+            return float(value)
         except (TypeError, ValueError):
-            return None
-
-        max_value = self.MAX_LIMITS.get(key, self.DEFAULT_MAX_LIMIT_VALUE)
-        if not 0 <= number <= max_value:
-            return None
-
-        return number
-
-    def _clean_number(self, value: float) -> int | float:
-        if value.is_integer():
-            return int(value)
-
-        return value
-
-    def _has_unknown_or_different_shape(self, data: dict) -> bool:
-        if set(data.keys()) != set(self.DEFAULT_LIMITS.keys()):
-            return True
-
-        for key, item in data.items():
-            if not isinstance(item, dict):
-                return True
-            if set(item.keys()) != {"amarelo", "vermelho"}:
-                return True
-
-        return False
-
-    def _save_limits(self, limits: dict[str, dict[str, float]]) -> None:
-        try:
-            folder = os.path.dirname(self.path)
-            if folder:
-                os.makedirs(folder, exist_ok=True)
-
-            with open(self.path, "w", encoding="utf-8") as file:
-                json.dump(limits, file, indent=2, ensure_ascii=False)
-                file.write("\n")
-        except Exception:
-            pass
+            return default
 
     def level_for(self, key: str, value: float | None) -> str:
         if value is None:
@@ -935,8 +871,8 @@ class TemperatureMonitorApp:
 
     def _configure_window(self) -> None:
         self.root.title("Monitor de Temperatura")
-        self.root.geometry("330x430")
-        self.root.minsize(330, 430)
+        self.root.geometry("330x390")
+        self.root.minsize(330, 390)
         self.root.resizable(False, False)
         self.root.attributes("-topmost", True)
         self.root.configure(bg=COLOR_BACKGROUND)
@@ -968,7 +904,7 @@ class TemperatureMonitorApp:
         tk.Label(
             main,
             text="CPU",
-            font=("Segoe UI", 16, "bold"),
+            font=("Segoe UI", 8, "bold"),
             fg=COLOR_NEON_BLUE,
             bg=COLOR_BACKGROUND,
         ).pack(anchor="center", pady=(7, 0))
@@ -996,21 +932,19 @@ class TemperatureMonitorApp:
         for column in range(3):
             temperature_panel.grid_columnconfigure(column, weight=1, uniform="temps")
 
-        cpu_status_panel = tk.Frame(temperature_panel, bg=COLOR_PANEL)
-        cpu_status_panel.grid(row=1, column=0, columnspan=3, sticky="nsew", pady=(2, 0))
-        self._add_temperature_card(
-            cpu_status_panel, "Estrangulamento", self.thermal_throttling_var, 0, 0, ""
+        status_panel = tk.Frame(main, bg=COLOR_BACKGROUND)
+        status_panel.pack(anchor="center", fill="x", pady=(8, 0))
+        self._add_status_row(
+            status_panel, "Estrangulamento termico", self.thermal_throttling_var, 0
         )
-        self._add_temperature_card(
-            cpu_status_panel, "Limite potencia", self.power_limit_var, 0, 1, ""
+        self._add_status_row(
+            status_panel, "Limite de potencia", self.power_limit_var, 1
         )
-        for column in range(2):
-            cpu_status_panel.grid_columnconfigure(column, weight=1, uniform="cpu_status")
 
         tk.Label(
             main,
             text="GPU NVIDEA",
-            font=("Segoe UI", 16, "bold"),
+            font=("Segoe UI", 8, "bold"),
             fg=COLOR_NEON_BLUE,
             bg=COLOR_BACKGROUND,
         ).pack(anchor="center", pady=(8, 0))
@@ -1053,9 +987,9 @@ class TemperatureMonitorApp:
             font=("Segoe UI", 8),
             wraplength=300,
             justify="center",
-            fg=COLOR_NEON_BLUE,
+            fg=COLOR_MUTED,
             bg=COLOR_BACKGROUND,
-        ).pack(anchor="center", pady=(12, 0))
+        ).pack(anchor="center", pady=(8, 0))
 
     def _add_temperature_card(
         self,
@@ -1077,7 +1011,7 @@ class TemperatureMonitorApp:
             bg=COLOR_PANEL,
         ).pack(anchor="center")
 
-        font_size = 15
+        font_size = 15 if row > 0 or suffix == "" else 20
         value_label = TemperatureValueCanvas(card, suffix=suffix, font_size=font_size)
         value_label.pack(anchor="center", pady=(2, 0))
         value_var.trace_add(
@@ -1212,10 +1146,7 @@ class TemperatureMonitorApp:
             self.gpu_memory_label,
             self.limit_config.level_for("gpu_memoria", gpu_reading.memory_celsius),
         )
-        self._set_temperature_style(
-            self.gpu_usage_label,
-            self.limit_config.level_for("gpu_uso", gpu_reading.usage_percent),
-        )
+        self._set_temperature_style(self.gpu_usage_label, "ok")
         self._set_temperature_style(self.gpu_clock_label, "normal")
         self._set_temperature_style(
             self.gpu_thermal_limit_label,
@@ -1260,7 +1191,6 @@ class TemperatureMonitorApp:
             self.gpu_temperature_label,
             self.gpu_hot_spot_label,
             self.gpu_memory_label,
-            self.gpu_usage_label,
             self.gpu_thermal_limit_label,
         ):
             if label is not None and getattr(label, "alert_level", "") == "danger":

@@ -1,0 +1,26 @@
+{
+  "temperaturas_centrais_avg": {
+    "amarelo": 45, #75
+    "vermelho": 90
+  },
+  "nucleo_maximo": {
+    "amarelo": 75,
+    "vermelho": 90
+  },
+  "cpu_inteira": {
+    "amarelo": 75,
+    "vermelho": 90
+  },
+  "gpu_temperatura": {
+    "amarelo": 75,
+    "vermelho": 90
+  },
+  "gpu_hot_spot": {
+    "amarelo": 75,
+    "vermelho": 90
+  },
+  "gpu_memoria": {
+    "amarelo": 75,
+    "vermelho": 900
+  }
+}

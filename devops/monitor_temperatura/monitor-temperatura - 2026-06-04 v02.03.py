@@ -16,9 +16,9 @@
 #
 # Versao:
 #
-# - 2026-06-04 v02.07
-# - Adicionado limite configuravel para Uso da GPU no JSON.
-# - Uso da GPU passa a usar cores de alerta conforme config-temperatura.json.
+# - 2026-06-04 v02.03
+# - Rodape de atualizacao destacado em azul neon.
+# - Aumentada a altura da janela para melhorar a leitura vertical.
 #
 # -----------------------------------
 #
@@ -90,11 +90,6 @@ class TemperatureLimitConfig:
         "gpu_temperatura": {"amarelo": 80, "vermelho": 90},
         "gpu_hot_spot": {"amarelo": 90, "vermelho": 100},
         "gpu_memoria": {"amarelo": 90, "vermelho": 100},
-        "gpu_uso": {"amarelo": 80, "vermelho": 95},
-    }
-    DEFAULT_MAX_LIMIT_VALUE = 130
-    MAX_LIMITS = {
-        "gpu_uso": 100,
     }
 
     def __init__(self, path: str = CONFIG_PATH) -> None:
@@ -103,94 +98,35 @@ class TemperatureLimitConfig:
 
     def _load_limits(self) -> dict[str, dict[str, float]]:
         if not os.path.exists(self.path):
-            limits = self._default_limits()
-            self._save_limits(limits)
-            return limits
+            return self.DEFAULT_LIMITS
 
         try:
             with open(self.path, "r", encoding="utf-8") as file:
                 data = json.load(file)
         except Exception:
-            limits = self._default_limits()
-            self._save_limits(limits)
-            return limits
+            return self.DEFAULT_LIMITS
 
-        if not isinstance(data, dict):
-            limits = self._default_limits()
-            self._save_limits(limits)
-            return limits
-
-        limits = self._default_limits()
-        changed = False
+        limits = self.DEFAULT_LIMITS.copy()
         for key, default_value in self.DEFAULT_LIMITS.items():
-            item = data.get(key)
-            if not isinstance(item, dict):
-                changed = True
-                continue
-
-            yellow = self._valid_limit_value(key, item.get("amarelo"))
-            red = self._valid_limit_value(key, item.get("vermelho"))
-            if yellow is None or red is None or yellow >= red:
-                changed = True
-                continue
-
+            item = data.get(key, {})
             limits[key] = {
-                "amarelo": self._clean_number(yellow),
-                "vermelho": self._clean_number(red),
+                "amarelo": self._number_or_default(
+                    item.get("amarelo"),
+                    default_value["amarelo"],
+                ),
+                "vermelho": self._number_or_default(
+                    item.get("vermelho"),
+                    default_value["vermelho"],
+                ),
             }
-
-        if changed or self._has_unknown_or_different_shape(data):
-            self._save_limits(limits)
 
         return limits
 
-    def _default_limits(self) -> dict[str, dict[str, float]]:
-        return {
-            key: value.copy()
-            for key, value in self.DEFAULT_LIMITS.items()
-        }
-
-    def _valid_limit_value(self, key: str, value) -> float | None:
+    def _number_or_default(self, value, default: float) -> float:
         try:
-            number = float(value)
+            return float(value)
         except (TypeError, ValueError):
-            return None
-
-        max_value = self.MAX_LIMITS.get(key, self.DEFAULT_MAX_LIMIT_VALUE)
-        if not 0 <= number <= max_value:
-            return None
-
-        return number
-
-    def _clean_number(self, value: float) -> int | float:
-        if value.is_integer():
-            return int(value)
-
-        return value
-
-    def _has_unknown_or_different_shape(self, data: dict) -> bool:
-        if set(data.keys()) != set(self.DEFAULT_LIMITS.keys()):
-            return True
-
-        for key, item in data.items():
-            if not isinstance(item, dict):
-                return True
-            if set(item.keys()) != {"amarelo", "vermelho"}:
-                return True
-
-        return False
-
-    def _save_limits(self, limits: dict[str, dict[str, float]]) -> None:
-        try:
-            folder = os.path.dirname(self.path)
-            if folder:
-                os.makedirs(folder, exist_ok=True)
-
-            with open(self.path, "w", encoding="utf-8") as file:
-                json.dump(limits, file, indent=2, ensure_ascii=False)
-                file.write("\n")
-        except Exception:
-            pass
+            return default
 
     def level_for(self, key: str, value: float | None) -> str:
         if value is None:
@@ -1212,10 +1148,7 @@ class TemperatureMonitorApp:
             self.gpu_memory_label,
             self.limit_config.level_for("gpu_memoria", gpu_reading.memory_celsius),
         )
-        self._set_temperature_style(
-            self.gpu_usage_label,
-            self.limit_config.level_for("gpu_uso", gpu_reading.usage_percent),
-        )
+        self._set_temperature_style(self.gpu_usage_label, "ok")
         self._set_temperature_style(self.gpu_clock_label, "normal")
         self._set_temperature_style(
             self.gpu_thermal_limit_label,
@@ -1260,7 +1193,6 @@ class TemperatureMonitorApp:
             self.gpu_temperature_label,
             self.gpu_hot_spot_label,
             self.gpu_memory_label,
-            self.gpu_usage_label,
             self.gpu_thermal_limit_label,
         ):
             if label is not None and getattr(label, "alert_level", "") == "danger":

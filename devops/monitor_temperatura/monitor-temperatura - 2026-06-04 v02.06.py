@@ -16,9 +16,9 @@
 #
 # Versao:
 #
-# - 2026-06-04 v02.07
-# - Adicionado limite configuravel para Uso da GPU no JSON.
-# - Uso da GPU passa a usar cores de alerta conforme config-temperatura.json.
+# - 2026-06-04 v02.06
+# - Adicionado tratamento automatico do config-temperatura.json.
+# - JSON ausente, invalido ou parcial passa a ser corrigido na abertura.
 #
 # -----------------------------------
 #
@@ -90,11 +90,6 @@ class TemperatureLimitConfig:
         "gpu_temperatura": {"amarelo": 80, "vermelho": 90},
         "gpu_hot_spot": {"amarelo": 90, "vermelho": 100},
         "gpu_memoria": {"amarelo": 90, "vermelho": 100},
-        "gpu_uso": {"amarelo": 80, "vermelho": 95},
-    }
-    DEFAULT_MAX_LIMIT_VALUE = 130
-    MAX_LIMITS = {
-        "gpu_uso": 100,
     }
 
     def __init__(self, path: str = CONFIG_PATH) -> None:
@@ -128,8 +123,8 @@ class TemperatureLimitConfig:
                 changed = True
                 continue
 
-            yellow = self._valid_limit_value(key, item.get("amarelo"))
-            red = self._valid_limit_value(key, item.get("vermelho"))
+            yellow = self._valid_limit_value(item.get("amarelo"))
+            red = self._valid_limit_value(item.get("vermelho"))
             if yellow is None or red is None or yellow >= red:
                 changed = True
                 continue
@@ -150,14 +145,13 @@ class TemperatureLimitConfig:
             for key, value in self.DEFAULT_LIMITS.items()
         }
 
-    def _valid_limit_value(self, key: str, value) -> float | None:
+    def _valid_limit_value(self, value) -> float | None:
         try:
             number = float(value)
         except (TypeError, ValueError):
             return None
 
-        max_value = self.MAX_LIMITS.get(key, self.DEFAULT_MAX_LIMIT_VALUE)
-        if not 0 <= number <= max_value:
+        if not 0 <= number <= 130:
             return None
 
         return number
@@ -1212,10 +1206,7 @@ class TemperatureMonitorApp:
             self.gpu_memory_label,
             self.limit_config.level_for("gpu_memoria", gpu_reading.memory_celsius),
         )
-        self._set_temperature_style(
-            self.gpu_usage_label,
-            self.limit_config.level_for("gpu_uso", gpu_reading.usage_percent),
-        )
+        self._set_temperature_style(self.gpu_usage_label, "ok")
         self._set_temperature_style(self.gpu_clock_label, "normal")
         self._set_temperature_style(
             self.gpu_thermal_limit_label,
@@ -1260,7 +1251,6 @@ class TemperatureMonitorApp:
             self.gpu_temperature_label,
             self.gpu_hot_spot_label,
             self.gpu_memory_label,
-            self.gpu_usage_label,
             self.gpu_thermal_limit_label,
         ):
             if label is not None and getattr(label, "alert_level", "") == "danger":

@@ -507,3 +507,509 @@ Voltar para a versão:
 ```txt
 monitor-temperatura - 2026-06-03 v01.13.py
 ```
+
+## 2026-06-03 - v01.15 - Substituição de FAN por Clock da GPU
+
+### Ocorrido
+
+Como o CSV atual do HWiNFO não possui coluna de ventoinha da GPU, foi escolhida a opção `Clock da GPU` para substituir o campo `Fan`.
+
+### Decisão
+
+Remover o campo visual `Fan` da GPU e exibir:
+
+```txt
+Clock
+```
+
+com leitura em `MHz`, usando a coluna:
+
+```txt
+GPU Clock [MHz]
+```
+
+### Motivo
+
+O clock ajuda a identificar queda de desempenho quando a GPU reduz frequência por temperatura, energia ou limitação térmica.
+
+### Como reverter
+
+Voltar para a versão:
+
+```txt
+monitor-temperatura - 2026-06-03 v01.14.py
+```
+
+## 2026-06-03 - v01.16 - Cabeçalho reduzido no arquivo Python
+
+### Ocorrido
+
+Foi solicitado reduzir a quantidade de informação histórica dentro do arquivo `monitor-temperatura.py`.
+
+### Decisão
+
+O topo do arquivo Python passa a manter apenas:
+
+```txt
+Versão atual
+O que foi feito nessa versão
+Referência ao DECISOES.md para histórico detalhado
+```
+
+### Motivo
+
+O histórico completo já é registrado no arquivo:
+
+```txt
+DECISOES.md
+```
+
+Assim o código principal fica menor e mais fácil de ler.
+
+### Regra daqui em diante
+
+Registrar detalhes, contexto, motivo e reversão no `DECISOES.md`.
+
+No topo do `.py`, manter apenas o versionamento atual e uma descrição curta.
+
+### Como reverter
+
+Voltar para a versão:
+
+```txt
+monitor-temperatura - 2026-06-03 v01.15.py
+```
+
+## 2026-06-04 - v02.00 - Títulos de seção em azul neon
+
+### Ocorrido
+
+Foi solicitado alterar a cor dos títulos `CPU` e `GPU EXTERNA` para azul neon.
+
+Também foi solicitada a troca do texto:
+
+```txt
+GPU EXTERNA
+```
+
+para:
+
+```txt
+GPU NVIDEA
+```
+
+### Decisão
+
+Adicionar a cor:
+
+```txt
+COLOR_NEON_BLUE = "#00c8ff"
+```
+
+e usar essa cor somente nos títulos das seções:
+
+```txt
+CPU
+GPU NVIDEA
+```
+
+### Motivo
+
+Destacar melhor os blocos principais da janela sem alterar as cores funcionais dos sensores e alertas.
+
+### Testes
+
+Validar sintaxe com `py_compile`.
+
+### Como reverter
+
+Voltar para a versão:
+
+```txt
+monitor-temperatura - 2026-06-03 v01.16.py
+```
+
+## 2026-06-04 - v02.01 - Padronização dos tamanhos de fonte
+
+### Ocorrido
+
+Foi solicitado padronizar o tamanho das letras das informações numéricas dentro dos quadrados.
+
+Também foi solicitado aumentar em 100% o tamanho dos títulos:
+
+```txt
+CPU
+GPU NVIDEA
+```
+
+### Decisão
+
+Usar nas informações numéricas dos quadrados o mesmo tamanho da segunda linha da GPU:
+
+```txt
+15
+```
+
+Alterar os títulos de seção de:
+
+```txt
+8
+```
+
+para:
+
+```txt
+16
+```
+
+### Motivo
+
+Deixar as informações numéricas visualmente padronizadas e tornar os títulos das seções mais evidentes.
+
+### Testes
+
+Validar sintaxe com `py_compile` e leitura mínima de CPU/GPU.
+
+### Como reverter
+
+Voltar para a versão:
+
+```txt
+monitor-temperatura - 2026-06-04 v02.00.py
+```
+
+## 2026-06-04 - v02.02 - Estados da CPU dentro do retângulo
+
+### Ocorrido
+
+Foi solicitado alterar o formato das informações da CPU que estavam fora da área de exibição em retângulo.
+
+### Decisão
+
+Mover os estados:
+
+```txt
+Estrangulamento térmico
+Limite de potência
+```
+
+para dentro do retângulo da CPU.
+
+A primeira linha da CPU mantém as três temperaturas.
+
+A segunda linha da CPU passa a exibir duas colunas, cada uma com:
+
+```txt
+Título
+Resultado
+```
+
+### Motivo
+
+Deixar o bloco da CPU com o mesmo padrão visual do bloco `GPU NVIDEA`, mantendo as informações relacionadas dentro da mesma área de exibição.
+
+### Testes
+
+Validar sintaxe com `py_compile` e leitura mínima de CPU/GPU.
+
+### Como reverter
+
+Voltar para a versão:
+
+```txt
+monitor-temperatura - 2026-06-04 v02.01.py
+```
+
+## 2026-06-04 - v02.03 - Rodapé de atualização em azul neon
+
+### Ocorrido
+
+Foi observado que a informação:
+
+```txt
+Atualizado a cada 2 segundos
+```
+
+ficou pouco visível após as mudanças de layout.
+
+### Decisão
+
+Manter a fonte original do rodapé:
+
+```txt
+Segoe UI 8
+```
+
+e alterar sua cor para azul neon.
+
+Também foi aumentada apenas a altura da janela:
+
+```txt
+330x390 -> 330x430
+```
+
+### Motivo
+
+Melhorar a leitura vertical e recuperar a visibilidade da informação de atualização sem alterar o tamanho horizontal da janela.
+
+### Testes
+
+Validar sintaxe com `py_compile` e leitura mínima de CPU/GPU.
+
+### Como reverter
+
+Voltar para a versão:
+
+```txt
+monitor-temperatura - 2026-06-04 v02.02.py
+```
+
+## 2026-06-04 - v02.04 - README atualizado para uso do zero
+
+### Ocorrido
+
+Foi solicitado atualizar o `README.md` para que uma pessoa com pouca ou nenhuma experiência em Python, Windows e instalação de aplicativos consiga preparar o ambiente e executar o monitor.
+
+### Decisão
+
+Reescrever o `README.md` com instruções simples e diretas cobrindo:
+
+```txt
+Instalação do Python
+Instalação do HWiNFO
+Configuração do log CSV
+Execução do monitor pelo PowerShell
+Leituras exibidas de CPU e GPU
+Cores da interface
+Versões usadas no projeto
+Uso de IA, ChatGPT e Codex no desenvolvimento
+```
+
+### Arquivos alterados
+
+```txt
+README.md
+DECISOES.md
+```
+
+O arquivo `monitor-temperatura.py` não foi alterado nesta versão.
+
+### Motivo
+
+O `README.md` anterior ainda descrevia o projeto como monitor apenas de CPU e não explicava o uso atual do HWiNFO CSV para CPU e GPU.
+
+### Testes
+
+Validar por leitura se o `README.md` informa:
+
+```txt
+Caminho do projeto
+Caminho do CSV do HWiNFO
+Comando de execução
+Instalação do Python
+Instalação do HWiNFO
+```
+
+### Como reverter
+
+Voltar para o backup:
+
+```txt
+README - 2026-06-04 v02.03.md
+```
+
+## 2026-06-04 - v02.05 - Correção de acentuação do README
+
+### Ocorrido
+
+Foi observado que algumas palavras do `README.md` estavam sem a grafia correta do português do Brasil.
+
+Exemplos informados:
+
+```txt
+visivel
+maximo
+termico
+```
+
+### Decisão
+
+Corrigir a acentuação apenas no texto normal do `README.md`.
+
+Os blocos de código, comandos, caminhos e nomes técnicos foram preservados.
+
+### Arquivos alterados
+
+```txt
+README.md
+DECISOES.md
+```
+
+### Motivo
+
+Melhorar a qualidade da documentação sem alterar comandos ou trechos que precisam continuar exatamente como devem ser executados.
+
+### Testes
+
+Foi feita busca textual por palavras comuns sem acentuação após a correção.
+
+### Como reverter
+
+Voltar para o backup:
+
+```txt
+README - 2026-06-04 v02.04.md
+```
+
+## 2026-06-04 - v02.06 - Tratamento automático do JSON de limites
+
+### Ocorrido
+
+Foi definido que o arquivo `config-temperatura.json` deve ser o padrão usado pelo usuário para alterar limites de alerta sem mexer no arquivo Python.
+
+### Decisão
+
+Alterar o `monitor-temperatura.py` para ler e validar o JSON sempre que o app for aberto.
+
+### Regras implementadas
+
+Se o JSON não existir:
+
+```txt
+Criar o arquivo completo com os valores padrão.
+```
+
+Se o JSON existir, mas estiver totalmente inválido:
+
+```txt
+Recriar o arquivo completo com os valores padrão.
+```
+
+Se o JSON existir, mas estiver parcialmente inválido:
+
+```txt
+Manter os valores válidos do usuário.
+Corrigir apenas as partes inválidas com os valores padrão.
+Salvar novamente o JSON corrigido.
+```
+
+### Validação aplicada
+
+Cada bloco de limite precisa ter:
+
+```txt
+amarelo
+vermelho
+```
+
+Os valores precisam ser numéricos, entre `0` e `130`, e o limite amarelo precisa ser menor que o limite vermelho.
+
+### Arquivos alterados
+
+```txt
+monitor-temperatura.py
+config-temperatura.json
+README.md
+DECISOES.md
+```
+
+### Motivo
+
+Permitir que o usuário edite limites de temperatura sem alterar o Python, mantendo o arquivo JSON funcional mesmo quando for apagado ou editado incorretamente.
+
+### Testes
+
+Validar:
+
+```txt
+JSON ausente
+JSON totalmente inválido
+JSON parcialmente inválido
+JSON válido com valores personalizados
+py_compile do Python
+Leitura mínima de CPU/GPU
+```
+
+### Como reverter
+
+Voltar para:
+
+```txt
+monitor-temperatura - 2026-06-04 v02.03.py
+README - 2026-06-04 v02.05.md
+config-temperatura - 2026-06-04 v02.05.json
+```
+
+## 2026-06-04 - v02.07 - Limite visual para uso da GPU
+
+### Ocorrido
+
+Foi questionado por que não existia um teste para o campo `Uso da GPU`.
+
+### Decisão
+
+Adicionar ao `config-temperatura.json` o bloco:
+
+```txt
+gpu_uso
+```
+
+com limites:
+
+```txt
+amarelo
+vermelho
+```
+
+O campo `Uso da GPU` passa a usar as mesmas cores de alerta dos demais campos:
+
+```txt
+Verde neon
+Amarelo
+Vermelho piscando
+```
+
+### Validação aplicada
+
+Como `Uso da GPU` é porcentagem, os valores válidos ficam entre:
+
+```txt
+0 e 100
+```
+
+O valor amarelo precisa ser menor que o valor vermelho.
+
+### Arquivos alterados
+
+```txt
+monitor-temperatura.py
+config-temperatura.json
+README.md
+DECISOES.md
+```
+
+### Motivo
+
+Permitir que o usuário também configure alerta visual para uso alto da GPU sem alterar o arquivo Python.
+
+### Testes
+
+Validar:
+
+```txt
+py_compile do Python
+JSON válido
+Preservação dos valores personalizados existentes
+Correção automática quando gpu_uso estiver inválido
+Leitura mínima de CPU/GPU
+```
+
+### Como reverter
+
+Voltar para:
+
+```txt
+monitor-temperatura - 2026-06-04 v02.06.py
+README - 2026-06-04 v02.06.md
+config-temperatura - 2026-06-04 v02.06.json
+```

@@ -22,9 +22,5 @@
   "gpu_memoria": {
     "amarelo": 65,
     "vermelho": 70
-  },
-  "gpu_uso": {
-    "amarelo": 80,
-    "vermelho": 95
   }
 }
